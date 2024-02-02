@@ -16,9 +16,9 @@ function IiliteTrade() {
           <div>
             In the global environment, the sale of counterfeit goods remains a
             significant issue plagues oblivious consumers and brand owners in
-            all industries. In 2022, the total estimated value of counterfeit
+            all industries. In 2022 , the total estimated value of counterfeit
             and pirated goods including digital piracy is projected to reach an
-            astounding $1.90–$2.81 trillion.
+            astounding $1.90 – $2.81 trillion.
           </div>
           <div>
             An exercise to illustrate how the size of domestic production and
@@ -49,12 +49,7 @@ function IiliteTrade() {
             determine if a site is selling counterfeits without making costly
             purchases from the site. Criminal networks are involved with
             counterfeiting which leads to hundreds of sites selling the same
-            products on various servers. Making it an arduous task for the brand
-            owner to stop them without working with authorities to take down the
-            counterfeit rings. While the link between the increased sales of
-            counterfeits on the Internet and the harms caused to businesses and
-            the public is clear, the solution to the issue is complex and
-            challenging.
+            products on various servers.
           </div>
         </div>
       </div>
