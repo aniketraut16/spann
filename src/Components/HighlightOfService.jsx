@@ -1,13 +1,44 @@
-import React from "react";
-import img from "./Images/aerial-view-business-team.jpg";
+import React, { useEffect, useState } from "react";
+import img1 from "./Images/Grey Two Side Person Friday Meme (1) (1).png";
+import img2 from "./Images/Grey Two Side Person Friday Meme (2) (1).png";
+import img3 from "./Images/Grey Two Side Person Friday Meme (3) (1).png";
+import img4 from "./Images/Grey Two Side Person Friday Meme.png";
 function HighlightOfService() {
+  const [counter, setcounter] = useState(0);
+  const nextFunc = () => {
+    if (counter < 3) {
+      setcounter(counter + 1);
+    }
+  };
+
+  const prevFunc = () => {
+    if (counter > 0) {
+      setcounter(counter - 1);
+    }
+  };
+  useEffect(() => {
+    // Increment the counter every 8 seconds
+    const interval = setInterval(() => {
+      if (counter < 3) {
+        setcounter(counter + 1);
+      } else {
+        // Reset counter to 0 when reaching the last slide
+        setcounter(0);
+      }
+    }, 4000);
+
+    // Cleanup the interval when the component is unmounted
+    return () => clearInterval(interval);
+  }, [counter]);
   return (
     <div id="HighlightOfService">
       <h1>Highlights of Service</h1>
-
       <div className="corausol">
-        <div>
-          <img src={img} alt="" />
+        <i className="fa-solid fa-angle-right next" onClick={nextFunc}></i>
+        <i className="fa-solid fa-angle-left prev" onClick={prevFunc}></i>
+
+        <div style={{ transform: `translateX(${-counter * 100}%)` }}>
+          <img src={img1} alt="" />
           <div>
             <h1>Investigation</h1>
             <p>
@@ -33,8 +64,8 @@ function HighlightOfService() {
             </p>
           </div>
         </div>
-        <div>
-          <img src={img} alt="" />
+        <div style={{ transform: `translateX(${-counter * 100}%)` }}>
+          <img src={img2} alt="" />
           <div>
             <h1>Legal </h1>
             <p>
@@ -54,8 +85,8 @@ function HighlightOfService() {
             </p>
           </div>
         </div>
-        <div>
-          <img src={img} alt="" />
+        <div style={{ transform: `translateX(${-counter * 100}%)` }}>
+          <img src={img3} alt="" />
           <div>
             <h1>Consulting</h1>
             <p>
@@ -76,8 +107,8 @@ function HighlightOfService() {
             </p>
           </div>
         </div>
-        <div>
-          <img src={img} alt="" />
+        <div style={{ transform: `translateX(${-counter * 100}%)` }}>
+          <img src={img4} alt="" />
           <div>
             <h1>Trainings</h1>
             <p>

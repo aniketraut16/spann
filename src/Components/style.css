@@ -24,6 +24,7 @@ object-fit: cover;
 
 
 #nav-div {
+  z-index: 100;
   position: fixed;
   top: 0;
   width: 100%;
@@ -34,16 +35,23 @@ object-fit: cover;
   background-color: rgba(0, 0, 0, 0.455);
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.455);
 }
+
+#nav-div div a{
+  text-decoration: none;
+  color: white;
+}
 #dropdown{
-padding: 2em 0px;
-  width: 80%;
+padding: 4em 10%;
+  width: 100%;
   display: flex;
+  background-color: rgba(255, 255, 255, 0.797);
+  color: black;
   flex-wrap: wrap;
   justify-content: space-between;
   transition: display 0.5s ease;
 }
 #dropdown > *{
-  font-size: 0.7em;
+  font-size: 0.9em;
   width: 30%;
 }
 #dropdown  ul , #dropdown li{
@@ -52,33 +60,46 @@ padding: 2em 0px;
     list-style: none;
     margin: 4px 0px;
 }
+#dropdown  ul {
+  display: flex;
+  flex-direction: column;
+}
+#dropdown  ul a{
+  color: black;
+ 
+}
 #dropdown li{
   font-size: 1em;
   font-weight: bold;
+  color: black;
 }
 #dropdown a{
   text-decoration: none;
-color: rgb(82, 82, 82);
+color: rgb(37, 37, 37);
 }
 
 
 
 
 #nav-div.scrolled {
-  background-color: rgba(255, 255, 255, 0.797);
+  background-color: rgba(255, 255, 255, 0.95);
   color: black;
   /* Add any other styles you want for the scrolled state */
 }
-#Landing-Page nav {
-  width: 60%;
+#nav-div nav {
+  color: white;
+  width: 70%;
   height: 20vh;
   display: flex;
   align-items: center;
   font-size: 0.9em;
   justify-content: space-between;
 }
-#nav-div nav img{
+#nav-div nav a{
 width: 35%;
+} 
+#nav-div nav img{
+width: 100%;
 } 
 .div-link-section {
   display: flex;
@@ -145,12 +166,13 @@ width: 35%;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  background: url('./Images/bg2.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  justify-content: space-evenly;
   font-family: "Playfair Display", serif;
-
+color: white;
 }
 
 .info-tab {
@@ -171,7 +193,11 @@ width: 35%;
   font-size: 1.15em;
   border-bottom: 4px solid #be9244;
 }
-
+.searchbox{
+font-size: 1.14em;
+  display: flex;
+  gap: 10px;
+}
 
 /* OVERVIEW OF SPAN STYLING */
 
@@ -215,6 +241,12 @@ width: 35%;
   align-items: center;
   justify-content: center;
 }
+
+#IiliteTrade h1{
+  border-bottom: 4px solid #be9244;
+  width: fit-content;
+  margin-bottom: 10px;
+}
 #IiliteTrade > div{
   width: 75%;
   display: flex;
@@ -257,19 +289,45 @@ align-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #37B5B6;
+  padding-bottom: 4em;
 }
 .corausol{
+  position: relative;
+  background-color: white;
   width: 80%;
+  height: 75vh;
   display: flex;
-  overflow-x: scroll;
+  overflow: hidden;
+
+  
 }
+.prev , .next{
+  position: absolute;
+  z-index: 10;
+  padding: 15px;
+  background-color: rgba(146, 143, 137, 0.403);
+  border-radius: 30px;
+}
+
+.prev{
+  top: 50%;
+  left: 5%;
+}
+.next{
+  top: 50%;
+  right: 5%;
+}
+
 #HighlightOfService > h1{
   margin: 3em 0px;
+  border-bottom: 4px solid #be9244;
+  padding: 5px;
 }
 .corausol>div{
+  transition: all ease 0.5s;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   min-width: 100%;
 }
 .corausol >div img{
@@ -277,10 +335,47 @@ align-self: center;
   width: 49%;
 }
 .corausol >div div{
-  text-align: center;
   width: 49%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#Footer{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 8px solid #637A9F;
+}
+
+#Footer>div{
+  width: 40%;
+}
+
+#footer-div1{
+
+}
+
+#Footer>div ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+#Footer>div ul li{
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+}
+#Footer>div ul li:hover{
+  border-bottom: 2px solid #be9244;
+  padding-bottom: 3px;
+}
+
+#Footer>div ul a{
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.594);
 }

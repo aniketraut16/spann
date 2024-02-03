@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import bg1 from "./Images/bg1.jpg";
-import bg2 from "./Images/bg2.jpg";
-import bg3 from "./Images/bg3.jpg";
-import bg4 from "./Images/bg4.jpg";
+import bg1 from "./Images/bg1.jpeg";
+import bg2 from "./Images/bg2.jpeg";
+import bg3 from "./Images/bg3.jpeg";
+import bg4 from "./Images/bg4.jpeg";
 
 function OurIntroduction() {
   const [title, settitle] = useState("");

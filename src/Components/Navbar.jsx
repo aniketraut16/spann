@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from "./Images/logo .png";
+import { Link } from "react-router-dom";
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [dropdownContent, setDropdownContent] = useState(null);
@@ -26,16 +27,32 @@ function Navbar() {
       <>
         <ul>
           <li>Legal Brand Protection</li>
-          <a href="#">Overview</a>
-          <a href="#">IP Registration and Prosecution</a>
-          <a href="#">IP Audits, SC Audits, EM Audit, Security Audits </a>
-          <a href="#">
-            Intellectual Property (Trademarks, Copyrights, Patents, Designs)
-          </a>
-          <a href="#">Confidential Information and Trade Secrets</a>
-          <a href="#">Healthcare and Regulatory Laws</a>
-          <a href="#">Media, Entertainment & Sports Laws</a>
-          <a href="#">Digital & IT Laws </a>
+          <Link to="/services/overview"> Overview </Link>
+          <Link to="/services/ipregistration">
+            {" "}
+            IP Registration and Prosecution{" "}
+          </Link>
+          <Link to="/services/ipaudits">
+            {" "}
+            IP Audits, SC Audits, EM Audit, Security Audits{" "}
+          </Link>
+          <Link to="/services/intellectualproperties">
+            {" "}
+            Intellectual Property (Trademarks, Copyrights, Patents, Designs){" "}
+          </Link>
+          <Link to="/services/confidentialinformation">
+            {" "}
+            Confidential Information and Trade Secrets{" "}
+          </Link>
+          <Link to="/services/healthcareandregulations">
+            {" "}
+            Healthcare and Regulatory Laws{" "}
+          </Link>
+          <Link to="/services/mediaentertainmentandsportslaws">
+            {" "}
+            Media, Entertainment & Sports Laws{" "}
+          </Link>
+          <Link to="/services/digitalanditlaw"> Digital & IT Laws </Link>
         </ul>
         <ul>
           <li>Strategic Consulting</li>
@@ -199,39 +216,11 @@ function Navbar() {
 
   return (
     <div id="nav-div" className={isScrolled ? "scrolled" : ""}>
-      <nav style={isScrolled ? { height: "13vh" } : {}}>
-        <img src={logo} alt="Logo" />
+      <nav style={isScrolled ? { height: "13vh", color: "black" } : {}}>
+        <Link to="/">
+          <img src={logo} alt="Logo" />
+        </Link>
         <div className="div-link-section">
-          <div className="upper-div">
-            <div>Home</div>
-            <div
-              onMouseEnter={() => {
-                handleNavHover(2);
-                setdropdownDisplay(true);
-              }}
-              onMouseLeave={() => setdropdownDisplay(false)}
-            >
-              About Us
-            </div>
-            <div
-              onMouseEnter={() => {
-                handleNavHover(1);
-                setdropdownDisplay(true);
-              }}
-              onMouseLeave={() => setdropdownDisplay(false)}
-            >
-              Service
-            </div>
-            <div
-              onMouseEnter={() => {
-                handleNavHover(7);
-                setdropdownDisplay(true);
-              }}
-              onMouseLeave={() => setdropdownDisplay(false)}
-            >
-              Contact us
-            </div>
-          </div>
           <div>
             <div
               onMouseEnter={() => {
@@ -270,11 +259,57 @@ function Navbar() {
               Resources & Toolkits
             </div>
           </div>
+          <div className="upper-div">
+            <div>Home</div>
+            <div
+              onMouseEnter={() => {
+                handleNavHover(2);
+                setdropdownDisplay(true);
+              }}
+              onMouseLeave={() => setdropdownDisplay(false)}
+            >
+              About Us
+            </div>
+            <div
+              onMouseEnter={() => {
+                handleNavHover(1);
+                setdropdownDisplay(true);
+              }}
+              onMouseLeave={() => setdropdownDisplay(false)}
+            >
+              Service
+            </div>
+            <div
+              onMouseEnter={() => {
+                handleNavHover(7);
+                setdropdownDisplay(true);
+              }}
+              onMouseLeave={() => setdropdownDisplay(false)}
+            >
+              Contact us
+            </div>
+          </div>
+        </div>
+        <div className="searchbox">
+          <i className="fa-solid fa-user"></i> <span>Login</span>{" "}
+          <i className="fa-solid fa-magnifying-glass"></i>
         </div>
       </nav>
       <div
         id="dropdown"
-        style={dropdownDisplay ? { display: "flex" } : { display: "none" }}
+        style={
+          dropdownDisplay
+            ? isScrolled
+              ? { display: "flex" }
+              : { display: "flex", color: "white" }
+            : { display: "none" }
+        }
+        onMouseEnter={() => {
+          setdropdownDisplay(true);
+        }}
+        onMouseLeave={() => {
+          setdropdownDisplay(false);
+        }}
       >
         {dropdownContent}
       </div>

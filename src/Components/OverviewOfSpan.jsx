@@ -34,15 +34,6 @@ function OverviewOfSpan() {
           toolkits, and modules in-house, be it for brand protection, case
           management, budget management, ROI Calculation, etc.,
         </p>
-        <p>
-          Our specially curated Brand Protection: Total Legal & Business
-          Solutions (TLBS) practice holistically addresses the counterfeiting,
-          product diversion, product tampering, and IPR infringement concerns of
-          our clients. The solutions are designed and executed to meet our
-          client's primary objectives of ensuring patient/ consumer safety,
-          protecting its reputation and trust (which customers have in its
-          products and company), and enhancing its revenue.{" "}
-        </p>
       </div>
       <img src={img} alt="" />
     </div>

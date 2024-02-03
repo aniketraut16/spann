@@ -38,7 +38,7 @@ function LandingPage() {
           <h1>
             {" "}
             <span>S</span>trategic <span>P</span>artner for <span>A</span>
-            dvanced <span>N</span>ative
+            dvanced <span>N</span>avigation
           </h1>
         </div>
       </div>

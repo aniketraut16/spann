@@ -1,0 +1,54 @@
+#ServiceTemplate{
+    width: 100%;
+    background-color: #FFF6E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+#ServiceTemplate > div{
+    font-family: "Playfair Display", serif;
+    padding: 3em;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 2em;
+    background-color: white;
+box-shadow:
+5px 5px 8px rgba(0, 0, 0, 0.1),
+-5px -5px 8px rgba(0, 0, 0, 0.1);
+}
+
+#ServiceTemplate > div img{
+    align-self: center;
+    width: 50vw;
+    height: 50vh;
+    margin: 2em 0em;
+}
+#services-breadcrumb{
+    margin: 0% !important;
+    background: url('../Images/aerial-view-business-team.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 99.1vw !important;
+    border-radius: 0px !important;
+    height: 70vh !important;
+    box-shadow: none !important;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#services-breadcrumb h1{
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+#services-breadcrumb h2{
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}

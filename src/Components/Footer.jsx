@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div id="Footer">
-      <div>
+      <div id="footer-div1">
         <h2>SPAN</h2>
         <p>
           SPAN refers to the global organization, and may refer to one or more,
