@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import OverviewOfSpan from "./OverviewOfSpan";
 import IiliteTrade from "./IiliteTrade";
 import HighlightOfService from "./HighlightOfService";
+import Footer from "./Footer";
 
 function LandingPage() {
   const videoRef = useRef(null);
@@ -52,6 +53,7 @@ function LandingPage() {
       <OverviewOfSpan />
       <IiliteTrade />
       <HighlightOfService />
+      <Footer />
     </>
   );
 }
