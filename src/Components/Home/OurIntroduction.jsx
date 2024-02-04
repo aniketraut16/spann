@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import bg1 from "./Images/bg1.jpeg";
-import bg2 from "./Images/bg2.jpeg";
-import bg3 from "./Images/bg3.jpeg";
-import bg4 from "./Images/bg4.jpeg";
+import bg1 from "../Images/S.jpeg";
+import bg2 from "../Images/P.jpeg";
+import bg3 from "../Images/A.jpeg";
+import bg4 from "../Images/N.jpeg";
 
 function OurIntroduction() {
   const [title, settitle] = useState("");
@@ -16,7 +16,7 @@ function OurIntroduction() {
     <div
       id="OurIntroduction"
       style={{
-        background: `url(${currbg})`,
+        background: `url(${currbg}) no-repeat center center / cover`,
       }}
     >
       <div className="info-tab">

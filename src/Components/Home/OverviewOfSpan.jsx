@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./Images/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-se.jpg";
+import img from "../Images/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-se.jpg";
 
 function OverviewOfSpan() {
   return (

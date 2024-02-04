@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
-import span from "./Images/span.jpeg";
+import span from "../Images/span.jpeg";
 import OurIntroduction from "./OurIntroduction";
-import bg from "./Images/landingpgbackground.mp4";
-import Navbar from "./Navbar";
+import bg from "../Images/landingpgbackground.mp4";
+import Navbar from "../Navbar";
 import OverviewOfSpan from "./OverviewOfSpan";
 import IiliteTrade from "./IiliteTrade";
 import HighlightOfService from "./HighlightOfService";
-import Footer from "./Footer";
+import Footer from "../Footer";
 
 function LandingPage() {
   const videoRef = useRef(null);

@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import "./Services.css";
-import jsonData from "./Data.json";
+import jsonData from "./ServicesData.json";
 import { useParams } from "react-router-dom";
 import Footer from "../Footer";
 
