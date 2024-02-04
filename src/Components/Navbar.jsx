@@ -275,7 +275,14 @@ function Navbar(props) {
         </Link>
         <div className="div-link-section">
           <div className="upper-div">
-            <div>Contact us</div>
+            <div>
+              <Link
+                to="/contactus"
+                style={isScrolled ? { color: "black" } : {}}
+              >
+                Contact us
+              </Link>
+            </div>
             <div className="searchbox">
               <i className="fa-solid fa-user"></i> <span>Login</span>{" "}
               <i className="fa-solid fa-magnifying-glass"></i>

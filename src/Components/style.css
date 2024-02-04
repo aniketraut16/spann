@@ -129,6 +129,9 @@
   align-items: center;
   justify-content: center;
 }
+.upper-div {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
 #landing-text {
   font-size: 5em;
   height: 90vh;
@@ -339,10 +342,10 @@
 }
 .corausol > div img {
   height: 100%;
-  width: 49%;
+  width: 55%;
 }
 .corausol > div div {
-  width: 49%;
+  width: 43%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -381,4 +384,80 @@
   border-radius: 50px;
   color: white;
   background-color: rgba(0, 0, 0, 0.594);
+}
+
+/* CONACTPAGE STYLING */
+
+.Contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.Contact > div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Contact > h1 {
+  color: #e74853;
+}
+.adress h3 {
+  color: #7464d1;
+}
+.adress span {
+  color: #7464d1;
+}
+
+.Contact > div > div {
+  width: 40%;
+}
+.Contact > h1 {
+  height: 30%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 10%;
+  font-size: 3em;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.form > div {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.form > div > input {
+  padding: 7px;
+  height: 3em;
+  border-radius: 3px;
+  outline: none;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+}
+.form button {
+  padding: 12px 24px;
+  background-color: #e11d48;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-top: 3em;
+}
+#message {
+  width: 95%;
+}
+#message textarea {
+  height: 8em;
+  resize: none;
+  padding: 7px;
+  border-radius: 3px;
+  outline: none;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
 }
