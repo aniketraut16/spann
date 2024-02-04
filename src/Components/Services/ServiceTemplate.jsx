@@ -22,9 +22,9 @@ const ServiceTemplate = () => {
     }
   };
 
-  const { id } = useParams();
+  const { section, subsection } = useParams();
 
-  const sectionData = jsonData[id];
+  const sectionData = jsonData[section][subsection];
 
   if (!sectionData || !sectionData.content) {
     // Handle the case where the section data or content is not found or not an array

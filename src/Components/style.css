@@ -18,10 +18,9 @@
   top: 0;
   left: 0;
   z-index: -1;
-height: 100%;
-object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
-
 
 #nav-div {
   z-index: 100;
@@ -36,50 +35,44 @@ object-fit: cover;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.455);
 }
 
-#nav-div div a{
+#nav-div div a {
   text-decoration: none;
   color: white;
 }
-#dropdown{
-padding: 4em 10%;
+#dropdown {
+  padding: 4em 10%;
   width: 100%;
   display: flex;
   background-color: rgba(255, 255, 255, 0.797);
-  color: black;
   flex-wrap: wrap;
   justify-content: space-between;
   transition: display 0.5s ease;
 }
-#dropdown > *{
+#dropdown > * {
   font-size: 0.9em;
   width: 30%;
 }
-#dropdown  ul , #dropdown li{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin: 4px 0px;
+#dropdown * {
+  color: black !important;
 }
-#dropdown  ul {
+#dropdown ul,
+#dropdown li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 4px 0px;
+}
+#dropdown li {
+  font-weight: bold;
+}
+#dropdown ul {
   display: flex;
   flex-direction: column;
 }
-#dropdown  ul a{
-  color: black;
- 
-}
-#dropdown li{
-  font-size: 1em;
-  font-weight: bold;
-  color: black;
-}
-#dropdown a{
+
+#dropdown a {
   text-decoration: none;
-color: rgb(37, 37, 37);
 }
-
-
-
 
 #nav-div.scrolled {
   background-color: rgba(255, 255, 255, 0.95);
@@ -95,12 +88,12 @@ color: rgb(37, 37, 37);
   font-size: 0.9em;
   justify-content: space-between;
 }
-#nav-div nav a{
-width: 35%;
-} 
-#nav-div nav img{
-width: 100%;
-} 
+#nav-div nav a {
+  width: 35%;
+}
+#nav-div nav img {
+  width: 100%;
+}
 .div-link-section {
   display: flex;
   width: 60%;
@@ -118,13 +111,12 @@ width: 100%;
   text-align: center;
   height: 50%;
 }
-.div-link-section > div > div{
+.div-link-section > div > div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #landing-text {
-  
   font-size: 2em;
   height: 90vh;
   width: 60%;
@@ -139,7 +131,7 @@ width: 100%;
   text-shadow: 1px 1px 5px black;
   border-bottom: 4px solid #be9244;
 }
-#landing-text h1 span{
+#landing-text h1 span {
   font-size: 1.5em;
 }
 /* WE CARE STYLING */
@@ -166,13 +158,13 @@ width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
-  background: url('./Images/bg2.jpeg');
+  background: url("./Images/bg2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: space-evenly;
   font-family: "Playfair Display", serif;
-color: white;
+  color: white;
 }
 
 .info-tab {
@@ -183,7 +175,7 @@ color: white;
   list-style: none;
 }
 .intro-nav li {
-    margin: 10px 0px;
+  margin: 10px 0px;
   width: 100%;
   padding: 10px 0px;
   border-bottom: 2px solid white;
@@ -193,15 +185,15 @@ color: white;
   font-size: 1.15em;
   border-bottom: 4px solid #be9244;
 }
-.searchbox{
-font-size: 1.14em;
+.searchbox {
+  font-size: 1.14em;
   display: flex;
   gap: 10px;
 }
 
 /* OVERVIEW OF SPAN STYLING */
 
-#overviewOfSpan{
+#overviewOfSpan {
   font-family: "Playfair Display", serif;
   width: 100%;
   background-color: black;
@@ -211,29 +203,28 @@ font-size: 1.14em;
   justify-content: center;
 }
 
-#overviewOfSpan img{
+#overviewOfSpan img {
   width: 40%;
 }
-#overviewOfSpan > div{
+#overviewOfSpan > div {
   padding: 2em 0px;
   width: 40%;
   margin-right: 1em;
-
 }
-#overviewOfSpan > div h1{
+#overviewOfSpan > div h1 {
   color: #a5c21c;
 }
-#overviewOfSpan > div p{
+#overviewOfSpan > div p {
   text-wrap: balance;
 }
 
 /* Iilite Trade */
 
-#IiliteTrade{
+#IiliteTrade {
   font-family: "Playfair Display", serif;
- background: url('./Images/IMG_2780\ \(1\).JPG');
- background-position: center;
- background-size: cover;
+  background: url("./Images/IMG_2780\ \(1\).JPG");
+  background-position: center;
+  background-size: cover;
   padding: 2em 0px;
   width: 100%;
   display: flex;
@@ -242,67 +233,64 @@ font-size: 1.14em;
   justify-content: center;
 }
 
-#IiliteTrade h1{
+#IiliteTrade h1 {
   border-bottom: 4px solid #be9244;
   width: fit-content;
   margin-bottom: 10px;
 }
-#IiliteTrade > div{
+#IiliteTrade > div {
   width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-#IiliteTrade > div p{
+#IiliteTrade > div p {
   width: 70%;
 }
 
-#IiliteTrade >div>div{
+#IiliteTrade > div > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2em 0px;
 }
-#IiliteTrade >div>div div{
+#IiliteTrade > div > div div {
   color: white;
   width: 30%;
   height: 20em;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.71);
   transition: all 500ms ease;
-  overflow-y: hidden
+  overflow-y: hidden;
 }
-#IiliteTrade >div>div div:hover{
+#IiliteTrade > div > div div:hover {
   height: 30em;
-transform: scale(1.2);
-font-size: 0.8em;
-align-self: center;
-
+  transform: scale(1.2);
+  font-size: 0.8em;
+  align-self: center;
 }
 
 /* #HIGHLIGHTS  Of SERVICE */
 
-#HighlightOfService{
+#HighlightOfService {
   font-family: "Playfair Display", serif;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #37B5B6;
+  background-color: #37b5b6;
   padding-bottom: 4em;
 }
-.corausol{
+.corausol {
   position: relative;
   background-color: white;
   width: 80%;
   height: 75vh;
   display: flex;
   overflow: hidden;
-
-  
 }
-.prev , .next{
+.prev,
+.next {
   position: absolute;
   z-index: 10;
   padding: 15px;
@@ -310,31 +298,31 @@ align-self: center;
   border-radius: 30px;
 }
 
-.prev{
+.prev {
   top: 50%;
   left: 5%;
 }
-.next{
+.next {
   top: 50%;
   right: 5%;
 }
 
-#HighlightOfService > h1{
+#HighlightOfService > h1 {
   margin: 3em 0px;
   border-bottom: 4px solid #be9244;
   padding: 5px;
 }
-.corausol>div{
+.corausol > div {
   transition: all ease 0.5s;
   display: flex;
   justify-content: space-between;
   min-width: 100%;
 }
-.corausol >div img{
+.corausol > div img {
   height: 100%;
   width: 49%;
 }
-.corausol >div div{
+.corausol > div div {
   width: 49%;
   display: flex;
   flex-direction: column;
@@ -342,38 +330,37 @@ align-self: center;
   justify-content: center;
 }
 
-#Footer{
+#Footer {
   width: 100%;
   height: 40vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-top: 8px solid #637A9F;
+  border-top: 8px solid #637a9f;
 }
 
-#Footer>div{
+#Footer > div {
   width: 40%;
 }
 
-#footer-div1{
-
+#footer-div1 {
 }
 
-#Footer>div ul{
+#Footer > div ul {
   list-style: none;
   display: flex;
   gap: 10px;
 }
-#Footer>div ul li{
+#Footer > div ul li {
   border-bottom: 2px solid white;
   padding-bottom: 3px;
 }
-#Footer>div ul li:hover{
+#Footer > div ul li:hover {
   border-bottom: 2px solid #be9244;
   padding-bottom: 3px;
 }
 
-#Footer>div ul a{
+#Footer > div ul a {
   padding: 10px;
   border-radius: 50px;
   color: white;

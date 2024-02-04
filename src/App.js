@@ -8,7 +8,7 @@ function App() {
     <Router>
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      <Route path="/services/:id" element={<ServiceTemplate />} />
+      <Route path="/services/:section/:subsection" element={<ServiceTemplate />} />
     </Routes>
   </Router>
   );

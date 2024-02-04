@@ -27,90 +27,134 @@ function Navbar() {
       <>
         <ul>
           <li>Legal Brand Protection</li>
-          <Link to="/services/overview"> Overview </Link>
-          <Link to="/services/ipregistration">
+          <Link to="/services/leagalbrandprotection/overview"> Overview </Link>
+          <Link to="/services/leagalbrandprotection/ipregistration">
             {" "}
             IP Registration and Prosecution{" "}
           </Link>
-          <Link to="/services/ipaudits">
+          <Link to="/services/leagalbrandprotection/ipaudits">
             {" "}
             IP Audits, SC Audits, EM Audit, Security Audits{" "}
           </Link>
-          <Link to="/services/intellectualproperties">
+          <Link to="/services/leagalbrandprotection/intellectualproperties">
             {" "}
             Intellectual Property (Trademarks, Copyrights, Patents, Designs){" "}
           </Link>
-          <Link to="/services/confidentialinformation">
+          <Link to="/services/leagalbrandprotection/confidentialinformation">
             {" "}
             Confidential Information and Trade Secrets{" "}
           </Link>
-          <Link to="/services/healthcareandregulations">
+          <Link to="/services/leagalbrandprotection/healthcareandregulations">
             {" "}
             Healthcare and Regulatory Laws{" "}
           </Link>
-          <Link to="/services/mediaentertainmentandsportslaws">
+          <Link to="/services/leagalbrandprotection/mediaentertainmentandsportslaws">
             {" "}
             Media, Entertainment & Sports Laws{" "}
           </Link>
-          <Link to="/services/digitalanditlaw"> Digital & IT Laws </Link>
+          <Link to="/services/leagalbrandprotection/digitalanditlaw">
+            {" "}
+            Digital & IT Laws{" "}
+          </Link>
         </ul>
         <ul>
           <li>Strategic Consulting</li>
-          <a href="#">Overview </a>
-          <a href="#">Comprehensive Legal and Business Risk Consulting </a>
-          <a href="#">Risk Assessments and Mitigation Plans </a>
-          <a href="#">Customized Consulting Services </a>
-          <a href="#">Supply Chain Security/Integrity Programs </a>
+          <Link to="/services/stratagicconsulting/overview">Overview </Link>
+          <Link to="/services/stratagicconsulting/comprehensivelegalandbusinessriskconsultancy">
+            Comprehensive Legal and Business Risk Consulting{" "}
+          </Link>
+          <Link to="/services/stratagicconsulting/riskassesmentandmigrationplan">
+            Risk Assessments and Mitigation Plans{" "}
+          </Link>
+          <Link to="/services/stratagicconsulting/customizedconsultingservice">
+            Customized Consulting Services{" "}
+          </Link>
+          <Link to="/services/stratagicconsulting/chainsupplysecurityandintegratityprogram">
+            Supply Chain Security/Integrity Programs{" "}
+          </Link>
         </ul>
         <ul>
           <li>Investigations & Due Diligence </li>
           <ul>
             <li>Product Security Investigations and Enforcement (PSI&E) </li>
-            <a href="#">Counterfeits</a>
-            <a href="#">Diversion</a>
-            <a href="#">Product Tampering </a>
+            <Link to="/services/investigationandduedilligence/counterfeit">
+              Counterfeits
+            </Link>
+            <Link to="/services/investigationandduedilligence/diversion">
+              Diversion
+            </Link>
+            <Link to="/services/investigationandduedilligence/producttampering">
+              Product Tampering{" "}
+            </Link>
           </ul>
+        </ul>
+
+        <ul>
+          <li>Due Diligence</li>
+          <Link to="/services/investigationandduedilligence/counterpartyduediligence">
+            Counter Party Due Diligence{" "}
+          </Link>
+          <Link to="/services/investigationandduedilligence/seniormanagementduediligence">
+            Senior Management Due Diligence{" "}
+          </Link>
+          <Link to="/services/investigationandduedilligence/integrityduediligence">
+            Integrity Due Diligence{" "}
+          </Link>
+        </ul>
+        <ul>
+          <li>Forensic Due Diligence</li>
+          <Link to="/services/investigationandduedilligence/cyberforensics">
+            Cyber Forensics
+          </Link>
+        </ul>
+        <ul>
+          <li>Supply Chain Investigations </li>
           <ul>
-            <li>Due Diligence</li>
-            <a href="#">Counter Party Due Diligence </a>
-            <a href="#">Senior Management Due Diligence </a>
-            <a href="#">Integrity Due Diligence </a>
-          </ul>
-          <ul>
-            <li>Forensic Due Diligence</li>
-            <a href="#">Cyber Forensics</a>
-          </ul>
-          <ul>
-            <li>Supply Chain Investigations </li>
+            <Link to="/services/investigationandduedilligence/sourceinvestigation">
+              Source Investigations{" "}
+            </Link>
             <ul>
-              <a href="#">Source Investigations </a>
-              <ul>
-                <li>Theft Investigations </li>
-                <a href="#">Facility</a>
-                <a href="#"> In-Transit </a>
-                <a href="#"> Digital </a>
-              </ul>
+              <li>Theft Investigations </li>
+              <Link to="/services/investigationandduedilligence/facility">
+                Facility
+              </Link>
+              <Link to="/services/investigationandduedilligence/transit">
+                {" "}
+                In-Transit{" "}
+              </Link>
+              <Link to="/services/investigationandduedilligence/digital">
+                {" "}
+                Digital{" "}
+              </Link>
             </ul>
           </ul>
-          <a href="#">Information Security and Systems </a>
-          <ul>
-            <li>KYC and Background Checks </li>
-            <a href="#">AML</a>
-            <a>KYC</a>
-          </ul>
-          <a href="#">Market Research (Primary and Secondary)</a>
-          <a href="#">Market Intelligence Gathering </a>
+        </ul>
+        <Link to="/services/investigationandduedilligence/informationsecurityandsystem">
+          Information Security and Systems{" "}
+        </Link>
+        <ul>
+          <li>KYC and Background Checks </li>
+          <Link to="/services/investigationandduedilligence/aml">AML</Link>
+          <Link to="/services/investigationandduedilligence/kyc">KYC</Link>
+          <Link to="/services/investigationandduedilligence/marketresearch">
+            Market Research (Primary and Secondary)
+          </Link>
+          <Link to="/services/investigationandduedilligence/marketintelligence">
+            Market Intelligence Gathering{" "}
+          </Link>
         </ul>
         <ul>
           <li>Tranings </li>
-          <a href="#">MLC</a>
-          <a href="#">IPR in Schools</a>
-          <a href="#">Soft Skills </a>
+          <Link to="/services/traning/mlc">MLC</Link>
+          <Link to="/services/traning/iprinschool">IPR in Schools</Link>
+          <Link to="/services/traning/softskills">Soft Skills </Link>
         </ul>
 
         <ul>
           <li>Services for the Legal Industry </li>
-          <a href="#">TM In-Use</a>
+          <Link to="/services/serviceforlegalindustries/tminuse">
+            TM In-Use
+          </Link>
         </ul>
       </>
     );
@@ -297,13 +341,7 @@ function Navbar() {
       </nav>
       <div
         id="dropdown"
-        style={
-          dropdownDisplay
-            ? isScrolled
-              ? { display: "flex" }
-              : { display: "flex", color: "white" }
-            : { display: "none" }
-        }
+        style={dropdownDisplay ? { display: "flex" } : { display: "none" }}
         onMouseEnter={() => {
           setdropdownDisplay(true);
         }}

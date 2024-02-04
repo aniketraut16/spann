@@ -1,743 +1,2224 @@
 {
-
+  "leagalbrandprotection": {
     "overview": {
-        "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> OVERVIEW  ",
-        "content": [
-            {
-                "tag": "p",
-                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              },
-            {
-                "tag": "p",
-                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              },
-            {
-                "tag": "p",
-                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              },
-            {
-                "tag": "p",
-                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              },
-            {
-                "tag": "p",
-                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              }
-        ]},
-  "ipregistration": {
-    "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> IP REGISTRATION & PROSECUTION",
-    "img":"https://i.ibb.co/C8DYxtY/5.png",
-    "content": [
-      {
-        "tag": "p",
-        "content": "A specialized Intellectual Property (IP) registration firm, like SPAN Consulting, is essential for securing legal protection of innovations. Offering expertise in patents, trademarks, copyrights, and trade secrets, the firm streamlines the registration process. From patent searches to international IP protection strategies, we ensure legal compliance and strategic counsel for leveraging IP assets. Choosing the right firm is pivotal for individuals and businesses seeking efficient protection and commercial viability of their intellectual creations.        "
-      },
-      {
-        "tag": "p",
-        "content": "SPAN Consulting boasts a wealth of expertise on intellectual property (IP) valuation and damages. Our team conducts thorough and independent valuations of IP assets, delivering insights across various damages scenarios. Our experts specialize in areas such as reasonable royalties, lost profits, disgorgement, unjust enrichment, as well as international trade matters like domestic industry, injury, public interest, remedies, and bonding. Our economic experts are adept in statistics, econometrics, and surveys.         "
-      },
-      {
-        "tag": "p",
-        "content": "Beyond litigation, we extend our guidance to businesses, aiding them in safeguarding and capitalizing on their assets. This includes strategic IP consulting, IP investigations, and transfer pricing services."
-      },
-      {
-        "tag": "p",
-        "content": "Leveraging our extensive experience and global resources in business intelligence and investigations, SPAN Consulting uniquely positions itself to assist enterprises in combating the illicit economy, preventing encroachment, and recovering losses. Our comprehensive approach begins with a meticulous mapping of the underground manufacturing and distribution network. This involves intelligence-gathering, ranging from scrutinizing bills of sale and inconspicuous industry surveys. Augmenting this intelligence with advanced statistical modelling and sampling methods, we provide an accurate analysis of the infiltration of counterfeit or diverted products into a marketplace—a robust foundation for subsequent damages claims."
-      },
-      {
-        "tag": "p",
-        "content": "Following the completion of mapping, we identify the optimal point in the distribution network for infiltration. With extensive experience in engaging illicit traders, we establish relationships to gather crucial information. Controlled purchases are made from both online and real-world sources, with authenticity verified through verifiable chains of collection and custody. Subsequently, we collaborate with our clients, their legal teams, and local civil and criminal enforcement authorities to effectively recover losses."
-      },
-      {
-        "tag": "p",
-        "content": "Additionally, our capabilities extend to conducting comprehensive audits of operations within the enterprise and across its supply chain. This aims to identify vulnerabilities to illicit trade in areas such as physical security, cyber security, audit and control, and processes and procedures. Our experts then design remediations and collaborate with internal teams on implementation, minimizing the risks posed by the underground economy"
-      }
-    ]
-  },
-  "ipaudits": {
-    "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> IP AUDIT",
-    "img":"https://i.ibb.co/P1sxDXd/1.png",
-    "content": [
-      {
-        "tag": "h2",
-        "content": "What is an IP Audit:"
-      },
-      {
-        "tag": "p",
-        "content": "An IP audit is a systematic, thorough and solution-focused review of the intellectual assets owned, used or acquired by the businesses to ascertain their legal status, value, potential IP related risks and the means for protection and to capitalize on them."
-      },
-      {
-        "tag": "h2",
-        "content": "Our Scope:"
-      },
-      {
-        "tag": "ol",
-        "list-items": [
-          "Identification of IP assets and evaluation of gaps in IP registration process",
-          "Anticipating and managing the risks that could be linked to the IP portfolio of the company.",
-          "IP Evaluation and SWOT Analysis to commercialize IP assets"
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Preparation for an IP Audit:            "
-      },
-      {
-        "tag": "img",
-        "src": "https://i.ibb.co/nwH8rqq/ip1.png"
-      },
-      {
-        "tag": "img",
-        "src": "https://i.ibb.co/nwH8rqq/ip2.png"
-      },
-      {
-        "tag": "h2",
-        "content": "Why We Do IP Audit?            :"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Identify valuable but unregistered IP assets",
-          "Identify strengths, weaknesses, and threats ",
-          "Ensure compliance with IP laws to avoid infringement",
-          "Strategize on commercializing these assets ",
-          "Enhance company valuation through IP management"
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "How We Do IP Audit?            :"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Gather information through interviews and documents from each department",
-          "Map out organization processes to identify IP assets",
-          "In depth analysis and recommendations on litigations",
-          "Understand existing processes, analyze gaps and sensitize each department for IP",
-          "Enhance learning and development opportunities"
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Outcome?"
-      },
-      {
-        "tag": "p",
-        "content": "Overall, the IP audit will provide valuable insights to help the company effectively manage and leverage its intellectual property assets."
-      },
-      {
-        "tag": "img",
-        "src": "https://i.ibb.co/WyNfYR2/outcome1.png"
-      }
-    ]
-  },
-  "intellectualproperties": {
-    "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> INTELLECTUAL PROPERTY ",
-    "img":"https://i.ibb.co/ZNHPSxX/4.png",
-    "content": [
-      {
-        "tag": "h2",
-        "content": "TRADEMARKS"
-      },
-      {
-        "tag": "p",
-        "content": "A trademark is like a fingerprint for your brand. It's a symbol, word, phrase, design, or even a sound that uniquely identifies your product or service and distinguishes it from competitors. Think of it as a badge of origin, letting consumers know who stands behind the things they buy or experience."
-      },
-      {
-        "tag": "h2",
-        "content": "Why are trademarks important?"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Brand protection: Trademarks grant you exclusive rights to use your mark in commerce, preventing others from copying or imitating it. This safeguards your brand reputation and prevents consumer confusion.",
-          "Building trust and goodwill: A strong trademark builds consumer trust and recognition, associating your brand with quality and reliability. This loyalty translates to a competitive edge in the marketplace.                ",
-          "Marketing advantage: Trademarks are valuable marketing tools. They make your brand stand out, drive recall, and facilitate effective advertising campaigns."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "What can be trademarked?"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Words and phrases: Think Apple, Coca-Cola, or Uber.",
-          "Logos and designs: The Nike swoosh, Twitter bird, or Amazon smile are iconic examples.",
-          "Slogans and mottos: 'Just Do It' by Nike or 'Think Different' by Apple.",
-          "Sounds: The NBC chimes or the MGM lion's roar.",
-          "Trade dress: The unique packaging or design elements of a product."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "The process of registration:    "
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "An application is filed with the Trade Marks Registry under specific classes of goods/services.",
-          "What follows is examination, publication, and opposition stages before potential registration.",
-          "The Trademark then granted is valid for 10 years, renewable indefinitely upon fee payment"
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Certain important points to keep in mind:"
-      },
-      {
-        "tag": "ul",
-        "content": [
-          "Common law protection through 'passing off' action exists for unregistered marks demonstrating acquired distinctiveness.",
-          "Generic terms or descriptive words cannot be trademarked.",
-          "Geographic names may be registrable with certain conditions.",
-          "Penalties for infringement include imprisonment and fines"
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "PATENTS"
-      },
-      {
-        "tag": "p",
-        "content": "12 year patents are granted for inventions for a product, its process or a process which is novel, has inventive step and industrial applicability."
-      },
-      {
-        "tag": "p",
-        "content": "One invention – one patent. A patent is valid for 20 years, starting from the date of filing of the patent application and this term cannot be extended."
-      },
-      {
-        "tag": "h2",
-        "content": "Tips to innovators:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "It is recommended that you do not publish/ present/ display your invention before filing a patent application for protection of your invention.",
-          "Always maintain records of your invention.",
-          "Conduct search before filing an application to judge the feasibility of grant of IP (may contact your nearest Patent Facilitation Cell under TIFAC, Department of Science and Technology or a patent lawyer)."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "What cannot be Patented:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Scientific principles, contrary to well-established natural laws,",
-          "Formulation of abstract theory,",
-          "Frivolous inventions,",
-          "Prejudicial to morality or injurious to public health,",
-          "Method of agriculture or horticulture,",
-          "Method of treatment,",
-          "Admixtures,",
-          "Traditional knowledge,",
-          "Incremental inventions without an increase in efficacy; and",
-          "Inventions related to atomic energy are some of the inventions not patentable under sections 3 and 4 of the Patents Act, 1970."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Expedited examination of a Patent:"
-      },
-      {
-        "tag": "p",
-        "content": "A patent application can be expedited if the applicant is either a startup or has selected Indian Patent office as an International Search Authority (ISA) / International Preliminary Examining Authority (IPEA) in international application under PCT."
-      },
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> OVERVIEW  ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ]
+    },
+    "ipregistration": {
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> IP REGISTRATION & PROSECUTION",
+      "img": "../Images/5.png",
+      "content": [
+        {
+          "tag": "p",
+          "content": "A specialized Intellectual Property (IP) registration firm, like SPAN Consulting, is essential for securing legal protection of innovations. Offering expertise in patents, trademarks, copyrights, and trade secrets, the firm streamlines the registration process. From patent searches to international IP protection strategies, we ensure legal compliance and strategic counsel for leveraging IP assets. Choosing the right firm is pivotal for individuals and businesses seeking efficient protection and commercial viability of their intellectual creations.        "
+        },
+        {
+          "tag": "p",
+          "content": "SPAN Consulting boasts a wealth of expertise on intellectual property (IP) valuation and damages. Our team conducts thorough and independent valuations of IP assets, delivering insights across various damages scenarios. Our experts specialize in areas such as reasonable royalties, lost profits, disgorgement, unjust enrichment, as well as international trade matters like domestic industry, injury, public interest, remedies, and bonding. Our economic experts are adept in statistics, econometrics, and surveys.         "
+        },
+        {
+          "tag": "p",
+          "content": "Beyond litigation, we extend our guidance to businesses, aiding them in safeguarding and capitalizing on their assets. This includes strategic IP consulting, IP investigations, and transfer pricing services."
+        },
+        {
+          "tag": "p",
+          "content": "Leveraging our extensive experience and global resources in business intelligence and investigations, SPAN Consulting uniquely positions itself to assist enterprises in combating the illicit economy, preventing encroachment, and recovering losses. Our comprehensive approach begins with a meticulous mapping of the underground manufacturing and distribution network. This involves intelligence-gathering, ranging from scrutinizing bills of sale and inconspicuous industry surveys. Augmenting this intelligence with advanced statistical modelling and sampling methods, we provide an accurate analysis of the infiltration of counterfeit or diverted products into a marketplace—a robust foundation for subsequent damages claims."
+        },
+        {
+          "tag": "p",
+          "content": "Following the completion of mapping, we identify the optimal point in the distribution network for infiltration. With extensive experience in engaging illicit traders, we establish relationships to gather crucial information. Controlled purchases are made from both online and real-world sources, with authenticity verified through verifiable chains of collection and custody. Subsequently, we collaborate with our clients, their legal teams, and local civil and criminal enforcement authorities to effectively recover losses."
+        },
+        {
+          "tag": "p",
+          "content": "Additionally, our capabilities extend to conducting comprehensive audits of operations within the enterprise and across its supply chain. This aims to identify vulnerabilities to illicit trade in areas such as physical security, cyber security, audit and control, and processes and procedures. Our experts then design remediations and collaborate with internal teams on implementation, minimizing the risks posed by the underground economy"
+        }
+      ]
+    },
+    "ipaudits": {
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> IP AUDIT",
+      "img": "../Images/1.png",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "What is an IP Audit:"
+        },
+        {
+          "tag": "p",
+          "content": "An IP audit is a systematic, thorough and solution-focused review of the intellectual assets owned, used or acquired by the businesses to ascertain their legal status, value, potential IP related risks and the means for protection and to capitalize on them."
+        },
+        {
+          "tag": "h2",
+          "content": "Our Scope:"
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "Identification of IP assets and evaluation of gaps in IP registration process",
+            "Anticipating and managing the risks that could be linked to the IP portfolio of the company.",
+            "IP Evaluation and SWOT Analysis to commercialize IP assets"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Preparation for an IP Audit:            "
+        },
+        {
+          "tag": "img",
+          "src": "https://i.ibb.co/nwH8rqq/ip1.png"
+        },
+        {
+          "tag": "img",
+          "src": "https://i.ibb.co/nwH8rqq/ip2.png"
+        },
+        {
+          "tag": "h2",
+          "content": "Why We Do IP Audit?            :"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Identify valuable but unregistered IP assets",
+            "Identify strengths, weaknesses, and threats ",
+            "Ensure compliance with IP laws to avoid infringement",
+            "Strategize on commercializing these assets ",
+            "Enhance company valuation through IP management"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "How We Do IP Audit?            :"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Gather information through interviews and documents from each department",
+            "Map out organization processes to identify IP assets",
+            "In depth analysis and recommendations on litigations",
+            "Understand existing processes, analyze gaps and sensitize each department for IP",
+            "Enhance learning and development opportunities"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Outcome?"
+        },
+        {
+          "tag": "p",
+          "content": "Overall, the IP audit will provide valuable insights to help the company effectively manage and leverage its intellectual property assets."
+        },
+        {
+          "tag": "img",
+          "src": "https://i.ibb.co/WyNfYR2/outcome1.png"
+        }
+      ]
+    },
+    "intellectualproperties": {
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> INTELLECTUAL PROPERTY ",
+      "img": "../Images/4.png",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "TRADEMARKS"
+        },
+        {
+          "tag": "p",
+          "content": "A trademark is like a fingerprint for your brand. It's a symbol, word, phrase, design, or even a sound that uniquely identifies your product or service and distinguishes it from competitors. Think of it as a badge of origin, letting consumers know who stands behind the things they buy or experience."
+        },
+        {
+          "tag": "h2",
+          "content": "Why are trademarks important?"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Brand protection: Trademarks grant you exclusive rights to use your mark in commerce, preventing others from copying or imitating it. This safeguards your brand reputation and prevents consumer confusion.",
+            "Building trust and goodwill: A strong trademark builds consumer trust and recognition, associating your brand with quality and reliability. This loyalty translates to a competitive edge in the marketplace.                ",
+            "Marketing advantage: Trademarks are valuable marketing tools. They make your brand stand out, drive recall, and facilitate effective advertising campaigns."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "What can be trademarked?"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Words and phrases: Think Apple, Coca-Cola, or Uber.",
+            "Logos and designs: The Nike swoosh, Twitter bird, or Amazon smile are iconic examples.",
+            "Slogans and mottos: 'Just Do It' by Nike or 'Think Different' by Apple.",
+            "Sounds: The NBC chimes or the MGM lion's roar.",
+            "Trade dress: The unique packaging or design elements of a product."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "The process of registration:    "
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "An application is filed with the Trade Marks Registry under specific classes of goods/services.",
+            "What follows is examination, publication, and opposition stages before potential registration.",
+            "The Trademark then granted is valid for 10 years, renewable indefinitely upon fee payment"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Certain important points to keep in mind:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Common law protection through 'passing off' action exists for unregistered marks demonstrating acquired distinctiveness.",
+            "Generic terms or descriptive words cannot be trademarked.",
+            "Geographic names may be registrable with certain conditions.",
+            "Penalties for infringement include imprisonment and fines"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "PATENTS"
+        },
+        {
+          "tag": "p",
+          "content": "12 year patents are granted for inventions for a product, its process or a process which is novel, has inventive step and industrial applicability."
+        },
+        {
+          "tag": "p",
+          "content": "One invention – one patent. A patent is valid for 20 years, starting from the date of filing of the patent application and this term cannot be extended."
+        },
+        {
+          "tag": "h2",
+          "content": "Tips to innovators:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "It is recommended that you do not publish/ present/ display your invention before filing a patent application for protection of your invention.",
+            "Always maintain records of your invention.",
+            "Conduct search before filing an application to judge the feasibility of grant of IP (may contact your nearest Patent Facilitation Cell under TIFAC, Department of Science and Technology or a patent lawyer)."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "What cannot be Patented:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Scientific principles, contrary to well-established natural laws,",
+            "Formulation of abstract theory,",
+            "Frivolous inventions,",
+            "Prejudicial to morality or injurious to public health,",
+            "Method of agriculture or horticulture,",
+            "Method of treatment,",
+            "Admixtures,",
+            "Traditional knowledge,",
+            "Incremental inventions without an increase in efficacy; and",
+            "Inventions related to atomic energy are some of the inventions not patentable under sections 3 and 4 of the Patents Act, 1970."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Expedited examination of a Patent:"
+        },
+        {
+          "tag": "p",
+          "content": "A patent application can be expedited if the applicant is either a startup or has selected Indian Patent office as an International Search Authority (ISA) / International Preliminary Examining Authority (IPEA) in international application under PCT."
+        },
 
-      {
-        "tag": "h2",
-        "content": "COPYRIGHTS"
-      },
-      {
-        "tag": "p",
-        "content": "Copyright is an exclusive legal right granted to the creators of intellectual work. A Copyright owner has rights to reproduce, translate, adapt, perform, distribute and publicly display the work, etc. Registration is not mandatory since copyright comes into existence as soon as the intellectual work is created but it is recommended to register a copyright for better enforceability, since registered copyrights have more evidentiary value in court."
-      },
-      {
-        "tag": "h2",
-        "content": "Works covered under Copyrights:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Literary including Software – Books, Essay, Compilations, Computer Programs.",
-          "Artistic – Drawing, Painting, Logo, Map, Chart, Plan, Photographs, Work of Architecture.",
-          "Dramatic – Screenplay, Drama.",
-          "Musical – Musical Notations.",
-          "Sound Recording – Compact Disc.",
-          "Cinematograph Films – Visual Recording which includes sound recording."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "COPYRIGHTS"
-      },
-      {
-        "tag": "p",
-        "content": "Copyright is an exclusive legal right granted to the creators of intellectual work. A Copyright owner has rights to reproduce, translate, adapt, perform, distribute and publicly display the work, etc. Registration is not mandatory since copyright comes into existence as soon as the intellectual work is created but it is recommended to register a copyright for better enforceability, since registered copyrights have more evidentiary value in court."
-      },
-      {
-        "tag": "h2",
-        "content": "Works covered under Copyrights:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Literary including Software – Books, Essay, Compilations, Computer Programs.",
-          "Artistic – Drawing, Painting, Logo, Map, Chart, Plan, Photographs, Work of Architecture.",
-          "Dramatic – Screenplay, Drama.",
-          "Musical – Musical Notations.",
-          "Sound Recording – Compact Disc.",
-          "Cinematograph Films – Visual Recording which includes sound recording."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Duration of Copyright:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Literary, Dramatic, Musical or Artistic Works - Lifetime of the author + 60 years from the death of the author.",
-          "Anonymous & Pseudonymous Works - 60 years from the year the work was first published.",
-          "Works of Public Undertakings & Government Works - 60 years from the year the work was first published.",
-          "Works of International Organizations - 60 years from the year the work was first published.",
-          "Sound Recording - 60 years from the year in which the recording was published.",
-          "Cinematograph Films - 60 years from the year in which the film was published."
-        ]
-      },
+        {
+          "tag": "h2",
+          "content": "COPYRIGHTS"
+        },
+        {
+          "tag": "p",
+          "content": "Copyright is an exclusive legal right granted to the creators of intellectual work. A Copyright owner has rights to reproduce, translate, adapt, perform, distribute and publicly display the work, etc. Registration is not mandatory since copyright comes into existence as soon as the intellectual work is created but it is recommended to register a copyright for better enforceability, since registered copyrights have more evidentiary value in court."
+        },
+        {
+          "tag": "h2",
+          "content": "Works covered under Copyrights:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Literary including Software – Books, Essay, Compilations, Computer Programs.",
+            "Artistic – Drawing, Painting, Logo, Map, Chart, Plan, Photographs, Work of Architecture.",
+            "Dramatic – Screenplay, Drama.",
+            "Musical – Musical Notations.",
+            "Sound Recording – Compact Disc.",
+            "Cinematograph Films – Visual Recording which includes sound recording."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "COPYRIGHTS"
+        },
+        {
+          "tag": "p",
+          "content": "Copyright is an exclusive legal right granted to the creators of intellectual work. A Copyright owner has rights to reproduce, translate, adapt, perform, distribute and publicly display the work, etc. Registration is not mandatory since copyright comes into existence as soon as the intellectual work is created but it is recommended to register a copyright for better enforceability, since registered copyrights have more evidentiary value in court."
+        },
+        {
+          "tag": "h2",
+          "content": "Works covered under Copyrights:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Literary including Software – Books, Essay, Compilations, Computer Programs.",
+            "Artistic – Drawing, Painting, Logo, Map, Chart, Plan, Photographs, Work of Architecture.",
+            "Dramatic – Screenplay, Drama.",
+            "Musical – Musical Notations.",
+            "Sound Recording – Compact Disc.",
+            "Cinematograph Films – Visual Recording which includes sound recording."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Duration of Copyright:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Literary, Dramatic, Musical or Artistic Works - Lifetime of the author + 60 years from the death of the author.",
+            "Anonymous & Pseudonymous Works - 60 years from the year the work was first published.",
+            "Works of Public Undertakings & Government Works - 60 years from the year the work was first published.",
+            "Works of International Organizations - 60 years from the year the work was first published.",
+            "Sound Recording - 60 years from the year in which the recording was published.",
+            "Cinematograph Films - 60 years from the year in which the film was published."
+          ]
+        },
 
-      {
-        "tag": "h2",
-        "content": "DESIGN"
-      },
-      {
-        "tag": "p",
-        "content": "In India, the Designs Act, 2000 lays the legal foundation for design protection. The definition of a Design as per the act provides that a design means only the features of shape, configuration, pattern, ornament or composition of lines or colors applied to any article whether in two-dimensional or three-dimensional or both forms, by any industrial process or means, whether manual, mechanical or chemical, separate or combined, which in the finished article appeal to and are judged solely by the eye, but does not include any mode or principle of construction or anything which is in substance a mere mechanical device, and does not include any trademark or property mark or artistic work."
-      },
-      {
-        "tag": "h2",
-        "content": "Registering your design:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Grants exclusive rights over the unique shape, configuration, pattern, ornament, or composition applied to an article.",
-          "Registration provides stronger protection than copyright.",
-          "Valid for 10 years, renewable for two further periods of 5 years each.",
-          "Application filed with the Controller General of Designs, Patents, Trademarks and Copyrights."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Criteria for registration:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Design must be new and original, meaning not previously disclosed publicly.",
-          "Must possess individual character, distinguishable from known designs.",
-          "Cannot be purely functional or purely aesthetic.",
-          "Excluded elements include scandalous or obscene matter and principles of construction."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Infringement and remedies:"
-      },
-      {
-        "tag": "p",
-        "content": "Copying or imitating a registered design without permission constitutes infringement."
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Registered proprietor can initiate legal action for injunctions, damages, and account of profits.",
-          "Unregistered designs may receive limited protection under copyright in specific situations."
-        ]
-      }
-    ]
+        {
+          "tag": "h2",
+          "content": "DESIGN"
+        },
+        {
+          "tag": "p",
+          "content": "In India, the Designs Act, 2000 lays the legal foundation for design protection. The definition of a Design as per the act provides that a design means only the features of shape, configuration, pattern, ornament or composition of lines or colors applied to any article whether in two-dimensional or three-dimensional or both forms, by any industrial process or means, whether manual, mechanical or chemical, separate or combined, which in the finished article appeal to and are judged solely by the eye, but does not include any mode or principle of construction or anything which is in substance a mere mechanical device, and does not include any trademark or property mark or artistic work."
+        },
+        {
+          "tag": "h2",
+          "content": "Registering your design:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Grants exclusive rights over the unique shape, configuration, pattern, ornament, or composition applied to an article.",
+            "Registration provides stronger protection than copyright.",
+            "Valid for 10 years, renewable for two further periods of 5 years each.",
+            "Application filed with the Controller General of Designs, Patents, Trademarks and Copyrights."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Criteria for registration:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Design must be new and original, meaning not previously disclosed publicly.",
+            "Must possess individual character, distinguishable from known designs.",
+            "Cannot be purely functional or purely aesthetic.",
+            "Excluded elements include scandalous or obscene matter and principles of construction."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Infringement and remedies:"
+        },
+        {
+          "tag": "p",
+          "content": "Copying or imitating a registered design without permission constitutes infringement."
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Registered proprietor can initiate legal action for injunctions, damages, and account of profits.",
+            "Unregistered designs may receive limited protection under copyright in specific situations."
+          ]
+        }
+      ]
+    },
+    "confidentialinformation": {
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> CONFiDENTIAL INFORMATION & TRADE SECRETS     ",
+      "img": "../Images/2.png",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "Confidential Information and trade secrets"
+        },
+        {
+          "tag": "p",
+          "content": "The terms 'confidential information,' 'trade secrets,' and 'know-how' are often used interchangeably, leading to confusion and missed opportunities for businesses to optimize the full value of their intellectual property (IP) assets. It is crucial for organizations to understand the definitions of these terms, their overlaps, and how each is treated in law, especially when aiming to identify, protect, and evaluate intangible assets within a comprehensive IP strategy."
+        },
+        {
+          "tag": "p",
+          "content": "While the exact definitions may vary based on industry or business specifics, the general concepts are as follows:"
+        },
+        {
+          "tag": "h2",
+          "content": "1. Confidential Information:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Information not publicly available.",
+            " May or may not have commercial value.",
+            " Communicated in confidence and reasonably protected."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "2. Trade Secrets:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "A specific type of confidential information.",
+            "Possesses actual or potential economic value and/or provides a competitive advantage due to its secret nature. ",
+            "Owners take reasonable efforts to keep it secret."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "3. Know-How"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "May or may not be confidential.",
+            "Encompasses skills or knowledge acquired through experience.",
+            " Provides an advantage to the user or controlling entity.",
+            " Provides an advantage to the user or controlling entity."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "In terms of protection:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Trade secrets and confidential information are protected against disclosure or unauthorized use.",
+            "Trade secrets also have safeguards against disclosure through improper means.",
+            " Confidential information protection is based on the relationship rather than the information itself."
+          ]
+        },
+        {
+          "tag": "p",
+          "content": "Additionally, publicly known information can be considered confidential, such as customer lists or a unique combination of public information."
+        },
+        {
+          "tag": "p",
+          "content": "Concerning patent applications, their contents can be confidential until published, providing protection against premature disclosure to competitors."
+        },
+        {
+          "tag": "p",
+          "content": "The legal protection of trade secrets in India relies on existing statutes like the Indian Contract Act, 1872, and other intellectual property laws. Best practices for managing trade secrets and confidential information include physical security measures, robust cybersecurity policies, employee training, confidentiality clauses in contracts, promoting a culture of secrecy, and centralized trade secret management."
+        },
+        {
+          "tag": "p",
+          "content": "Remedies for unlawful use of confidential information and trade secrets include injunctions, damages, account of profits, compensation, and publicity orders. Practical steps for protection involve contracts, clear confidentiality policies, maintaining a register of confidential information, limiting disclosure, implementing security measures, and having an action plan for security breaches."
+        },
+        {
+          "tag": "h2",
+          "content": "Best Practices for Managing Trade Secrets and Confidential Information"
+        },
+        {
+          "tag": "p",
+          "content": "To effectively safeguard trade secrets and confidential information, companies should implement a combination of preventive measures and reactive strategies against theft. Here are recommended practices:"
+        },
+
+        {
+          "tag": "h2",
+          "content": "1 Physical Security of Premises:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            " Establish physical access controls, including guards, cameras, fingerprint scanners, and visitor records.",
+            "Ensure server safety by hosting data centers with restricted access.",
+            " Implement secure archival and disposal procedures for old documents."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "2 . Robust Cybersecurity Policies:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Enforce data encryption, safekeeping, authorized access, and continuous monitoring.",
+            " Conduct regular cybersecurity audits, penetration testing, and implement redundancy systems to identify vulnerabilities proactively."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "3 Training Employees on Handling Sensitive Data:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            " Provide frequent training on recognizing and handling sensitive information.",
+            "Educate employees on encryption specifications, access limitations, and consequences for mishandling.",
+            "Emphasize confidentiality requirements during recruitment and post-employment."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "4 Confidentiality Clauses in Employment Contracts:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Include exclusive clauses in employment contracts defining confidential information.",
+            " Enforce confidentiality clauses even after termination."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "5 Institutionalizing a Culture of Secrecy:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Establish a culture of secrecy through incentives, training, and clear rules.",
+            " Periodically evaluate the definition of a trade secret and limit access based on a need-to-know basis."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Centralized Trade Secret Management:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Implement centralized trade secret classification, monitoring, and protection procedures.",
+            "Conduct access assessments before disclosing data externally to mitigate the risk of data leaks.",
+            " Designate custodians to establish responsibility."
+          ]
+        },
+        {
+          "tag": "p",
+          "content": "In building a successful trade secret protection program, robust regulations, access restrictions, and a deeply ingrained culture of secrecy are essential. Prevention is emphasized over remediation."
+        },
+        {
+          "tag": "p",
+          "content": "Remedies for Unlawful Use of Confidential Information and Trade Secrets:"
+        },
+        {
+          "tag": "h2",
+          "content": "Injunctions:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            " Seek interim and final injunctions to prevent unlawful disclosure or use of confidential information, including trade secrets.",
+            " Note that the effectiveness diminishes once disclosure or use has occurred."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Damages:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Award damages to rectify economic loss caused by unlawful disclosure or use.",
+            "Fair compensation should be based on lost profits or licensing income."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Account of Profits:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Claim profits accrued by the unauthorized party through the unlawful disclosure or use of information."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Compensation and Publicity Orders:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Utilize additional remedies under the Trade Secrets Regulation.",
+            " Innocent users of trade secrets may pay compensation instead of facing injunctions or delivering up goods.",
+            " Request the court to disseminate information about the judgment to correct public misperceptions."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Practical Steps to Protect Confidential Information and Trade Secrets:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Enter into contracts, such as NDAs, to protect information and establish a contractual right to an injunction and damages.",
+            "Clearly outline employees' and consultants' duties regarding confidential information and trade secrets in service contracts.",
+            "Implement a comprehensive confidentiality policy, ensuring employee awareness and compliance.            ",
+            "Create and maintain a register of confidential information to clarify what is deemed confidential and warrants trade secret protection.",
+            " Limit the disclosure of confidential information, especially trade secrets, to identified individuals with a need-to-know.",
+            "- Implement security systems to restrict access, including firewalls, secure emails, passwords, and encryption.",
+            "Develop an action plan for unauthorized disclosures or breaches of security systems."
+          ]
+        }
+      ]
+    },
+
+    "healthcareandregulations": {
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> HEALTHCARE & REGULATORY LAWS",
+      "img": "../Images/3.png",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "Introduction:"
+        },
+        {
+          "tag": "p",
+          "content": "India is globally recognized as the pharmacy hub of the world, producing a substantial proportion of the world's pharmaceuticals. The manufacturing of medicines in India not only provides a significant cost advantage but is also supported by world-class best practices to ensure quality. Our firm boasts the best practices and expertise in dealing with the pharmaceutical and medical industry, specializing in and catering to diverse clientele from small companies dealing in specialized drugs to Multinational companies with a range of drugs, medical devises and other areas of business. "
+        },
+        {
+          "tag": "h2",
+          "content": "Key Legislation: "
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "The Drugs and Cosmetics Act, 1940, along with the Rules framed under the Act, governs the quality of medicines imported, manufactured, distributed, and sold in India.",
+            "The Drugs (Prices Control) Order, 2013, regulates the pricing of all medicines sold in India.",
+            "The Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954, and its Rules oversee the advertising and therapeutic claims related to medicines.",
+            "The Competition Act, 2002, regulates anti-competitive behavior among manufacturers, supply chain, and other stakeholders.",
+            "The Consumer Protection Act, 1986/The Consumer Protection Act, 2019, addresses unfair trade practices, restrictive trade practices, and imposes product liability obligations for manufacturing defects causing harm.",
+            "The Patents Act, 1970, provides exclusivity over innovative medicines without allowing ever-greening.",
+            "The Trade Marks Act, 1999, offers protection to the brand names of medicines, along with common law protection for the passing-off of trade dress and packaging.",
+            "Various environmental laws mandate an environmental impact assessment before establishing industries, restricting industry expansion, and imposing strict conditions on waste management, especially for hazardous and solid waste."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Key Considerations: "
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "The Indian pharmaceutical market is predominantly brand-driven, making trademark protection crucial for products launched in India. Retaining ownership of the brand in licensing arrangements is advisable.",
+            " Drugs are deemed essential commodities, with the government strictly controlling their prices and distribution. The government can fix prices for drugs listed in the National List of Essential Medicines, but these powers can be exercised for any drug in the public interest."
+          ]
+        }
+      ]
+    },
+    "mediaentertainmentandsportslaws": {
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> MEDIA, ENTERTAINMENT & SPORTS LAWS",
+      "img": "../Images/6.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Our dedicated team is enthusiastic about the dynamic fields of sports, gaming, and entertainment laws. We serve a diverse clientele, including professional sports entities, athletes, government bodies, media houses, and gaming industry clients internationally. Our firm excels in legal domains such as sports, gaming, anti-doping, contracts, agency, constitutional, employment, trademark, athlete and celebrity management, production, content development, and tax issues. Acknowledging the evolving gaming landscape, we offer comprehensive counsel on legality, new legislation, contracts, disclosures, licensing, and agreements in the convergence of gaming, media, and sports."
+        },
+        {
+          "tag": "p",
+          "content": "In India, the laws governing Media, Entertainment, and Sports fall under various statutes. Here are some key legislations related to these fields:"
+        },
+        {
+          "tag": "h2",
+          "content": "Media and Broadcasting:            "
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "The Cable Television Networks (Regulation) Act, 1995: Regulates the operation of cable television networks in India.            ",
+            "The Press Council Act, 1978: Establishes the Press Council of India to ensure the freedom of the press and maintain high standards of public taste."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Entertainment Industry:"
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "The Cinematograph Act, 1952: Regulates certification of films for public exhibition.",
+            "The Copyright Act, 1957: Governs protection of original literary, artistic, and musical works, including those in the entertainment industry.",
+            "The Performers' Protection Act, 1958: Provides protection to performers' rights in performances."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Sports Laws"
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "National Sports Development Code of India, 2011: Governs the promotion and development of sports in India.",
+            "The Sports Broadcasting Signals (Mandatory Sharing with Prasar Bharati) Act, 2007: Regulates the sharing of sports broadcasting signals with the public broadcaster, Prasar Bharati."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Advertising:"
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "The Advertising Standards Council of India (ASCI): While not a law, ASCI is a self-regulatory organization that formulates and enforces the Code for Self-Regulation in Advertising."
+          ]
+        }
+      ]
+    },
+    "digitalanditlaw": {
+      "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> DIGITAL AND IT LAWS",
+      "img": "../Images/7.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "India has experienced a rapid digital transformation in recent years, with the Information Technology (IT) and digital sectors playing a pivotal role in shaping the country's economic landscape. The legal framework governing these domains is crucial to ensure responsible and secure digital practices, an area in which SPAN Consulting strives to keep itself updated and at the forefront of change. A few of the key legislations governing the digital and IT space in India are:"
+        },
+        {
+          "tag": "h2",
+          "content": "1. Information Technology Act, 2000:"
+        },
+        {
+          "tag": "p",
+          "content": "The Information Technology Act, 2000 (IT Act) is the foundational legislation governing electronic transactions and cybersecurity in India. It provides legal recognition to electronic documents, facilitates e-governance, and establishes guidelines for data protection. The IT Act is instrumental in addressing offenses such as unauthorized access, hacking, and the distribution of malicious code."
+        },
+        {
+          "tag": "h2",
+          "content": "2. Data Protection Laws:"
+        },
+        {
+          "tag": "p",
+          "content": "India is in the process of enacting comprehensive data protection legislation. The Digital Personal Data Protection Act, 2023, which draws inspiration from global data protection norms, aims to safeguard individuals' privacy and establish guidelines for the processing of personal data. The bill emphasizes transparency, consent, and the right to be forgotten."
+        },
+        {
+          "tag": "h2",
+          "content": "3. Cybersecurity Laws:"
+        },
+        {
+          "tag": "p",
+          "content": "Ensuring the security of digital infrastructure is imperative. The IT Act, along with the National Cyber Security Policy, establishes a framework for protecting critical information infrastructure and addressing cyber threats. The laws mandate reporting of cybersecurity incidents and prescribe penalties for unauthorized access and data breaches."
+        },
+        {
+          "tag": "h2",
+          "content": "4. Digital Payments and Financial Technology:"
+        },
+        {
+          "tag": "p",
+          "content": "The digital payment ecosystem is governed by various regulations, including the Payment and Settlement Systems Act, 2007. The Reserve Bank of India (RBI) plays a crucial role in overseeing digital transactions and payment service providers. Additionally, fintech companies are subject to regulations that promote innovation while ensuring consumer protection."
+        },
+        {
+          "tag": "h2",
+          "content": "5. E-commerce Regulations:"
+        },
+        {
+          "tag": "p",
+          "content": "E-commerce activities are regulated by laws such as the Consumer Protection Act, 2019, and the Foreign Exchange Management (Non-debt Instruments) Rules, 2019. These regulations aim to protect consumers' interests, ensure fair trade practices, and manage foreign investments in e-commerce ventures."
+        },
+        {
+          "tag": "h2",
+          "content": "6. Intellectual Property Laws:"
+        },
+        {
+          "tag": "p",
+          "content": "Protection of intellectual property is vital in the digital era. Laws such as the Copyright Act, 1957, and the Patents Act, 1970, govern issues related to software, digital content, and inventions in the IT sector. These laws encourage innovation while safeguarding creators' rights"
+        }
+      ]
+    }
   },
-  "confidentialinformation": {
-    "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> CONFiDENTIAL INFORMATION & TRADE SECRETS     ",
-    "img":"https://i.ibb.co/LrPvkrD/2.png",
-    "content": [
-      {
-        "tag": "h2",
-        "content": "Confidential Information and trade secrets"
-      },
-      {
-        "tag": "p",
-        "content": "The terms 'confidential information,' 'trade secrets,' and 'know-how' are often used interchangeably, leading to confusion and missed opportunities for businesses to optimize the full value of their intellectual property (IP) assets. It is crucial for organizations to understand the definitions of these terms, their overlaps, and how each is treated in law, especially when aiming to identify, protect, and evaluate intangible assets within a comprehensive IP strategy."
-      },
-      {
-        "tag": "p",
-        "content": "While the exact definitions may vary based on industry or business specifics, the general concepts are as follows:"
-      },
-      {
-        "tag": "h2",
-        "content": "1. Confidential Information:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Information not publicly available.",
-          " May or may not have commercial value.",
-          " Communicated in confidence and reasonably protected."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "2. Trade Secrets:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "A specific type of confidential information.",
-          "Possesses actual or potential economic value and/or provides a competitive advantage due to its secret nature. ",
-          "Owners take reasonable efforts to keep it secret."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "3. Know-How"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "May or may not be confidential.",
-          "Encompasses skills or knowledge acquired through experience.",
-          " Provides an advantage to the user or controlling entity.",
-          " Provides an advantage to the user or controlling entity."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "In terms of protection:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Trade secrets and confidential information are protected against disclosure or unauthorized use.",
-          "Trade secrets also have safeguards against disclosure through improper means.",
-          " Confidential information protection is based on the relationship rather than the information itself."
-        ]
-      },
-      {
-        "tag": "p",
-        "content": "Additionally, publicly known information can be considered confidential, such as customer lists or a unique combination of public information."
-      },
-      {
-        "tag": "p",
-        "content": "Concerning patent applications, their contents can be confidential until published, providing protection against premature disclosure to competitors."
-      },
-      {
-        "tag": "p",
-        "content": "The legal protection of trade secrets in India relies on existing statutes like the Indian Contract Act, 1872, and other intellectual property laws. Best practices for managing trade secrets and confidential information include physical security measures, robust cybersecurity policies, employee training, confidentiality clauses in contracts, promoting a culture of secrecy, and centralized trade secret management."
-      },
-      {
-        "tag": "p",
-        "content": "Remedies for unlawful use of confidential information and trade secrets include injunctions, damages, account of profits, compensation, and publicity orders. Practical steps for protection involve contracts, clear confidentiality policies, maintaining a register of confidential information, limiting disclosure, implementing security measures, and having an action plan for security breaches."
-      },
-      {
-        "tag": "h2",
-        "content": "Best Practices for Managing Trade Secrets and Confidential Information"
-      },
-      {
-        "tag": "p",
-        "content": "To effectively safeguard trade secrets and confidential information, companies should implement a combination of preventive measures and reactive strategies against theft. Here are recommended practices:"
-      },
+  "stratagicconsulting": {
+    "overview": {
+      "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > OVERVIEW  ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Strategic consulting is the process of advising organizations on important business decisions by providing in-depth analysis and insightful recommendations. It involves a combination of research, analysis, problem-solving, and presentation skills, aimed at helping companies navigate complex challenges and achieve their long-term goals."
+        },
+        {
+          "tag": "h2",
+          "content": "Benefits"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Engaging in strategic consulting can offer several benefits for businesses, including: ",
+            "Improved decision-making: Accessing objective, data-driven insights to inform strategic choices.",
+            "Enhanced performance: Identifying and addressing growth opportunities to achieve superior results.",
+            "Risk mitigation: Proactively analyzing and addressing potential challenges to minimize negative impact.",
+            "Talent development: Learning from seasoned consultants and implementing best practices for internal teams"
+          ]
+        }
+      ]
+    },
+    "comprehensivelegalandbusinessriskconsultancy": {
+      "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > COMPREHENSIVE LEGAL & BUSINESS RISK CONSULTING ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "In the realm of legal risk consulting, we aim to identify potential legal pitfalls and challenges that our clients may encounter. This involves staying abreast of changes in laws and regulations relevant to their industries. We provide proactive legal assessments to ensure compliance, mitigate legal risks, and prevent potential disputes. By conducting thorough legal audits, we help our clients understand and address any vulnerabilities in their operations, contracts, or policies."
+        },
+        {
+          "tag": "p",
+          "content": "Simultaneously, our business risk consulting services extend beyond the purely legal domain. We analyze broader business environments, market trends, and economic factors to identify risks that could impact our clients' operations. This includes evaluating risks related to market volatility, competitive landscapes, geopolitical factors, and technological advancements. By understanding these business risks, we collaborate with clients to develop strategic plans that enhance resilience and capitalize on opportunities."
+        },
+        {
+          "tag": "p",
+          "content": "Our comprehensive consulting services also involve creating risk management frameworks tailored to the specific needs of each client. This includes implementing effective risk mitigation strategies, crisis management plans, and contingency measures. We work closely with our clients to integrate risk management into their overall business strategy, fostering a culture of proactive risk awareness and responsiveness."
+        },
+        {
+          "tag": "p",
+          "content": "Communication is key in our consulting approach. We ensure that we explain complex legal and business concepts in clear, understandable terms, empowering our clients to make informed decisions. Through ongoing collaboration, we strive to build strong partnerships with our clients, offering not just legal advice but serving as trusted advisors in their overall business strategy."
+        },
+        {
+          "tag": "p",
+          "content": "Technology plays a significant role in our approach, with data analytics and artificial intelligence aiding in risk prediction and trend analysis. This allows us to provide real-time insights and adapt our strategies to evolving circumstances."
+        },
+        {
+          "tag": "p",
+          "content": "In summary, our comprehensive legal and business risk consulting services aim to empower our clients to navigate the complexities of the legal and business landscapes with confidence. By combining legal expertise, business acumen, and cutting-edge technology, we position ourselves as strategic partners committed to minimizing risks and maximizing opportunities for sustainable success."
+        }
+      ]
+    },
+    "riskassesmentandmigrationplan": {
+      "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > RISK ASSESSMENTS AND MITIGATION PLANS ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "Identifying Risks:"
+        },
+        {
+          "tag": "p",
+          "content": "Regularly conduct a comprehensive assessment to identify potential risks within the firm. This includes legal, operational, financial, and reputational risks."
+        },
+        {
+          "tag": "h2",
+          "content": "Legal Landscape Analysis:"
+        },
+        {
+          "tag": "p",
+          "content": "Stay updated on changes in laws and regulations relevant to the legal industry. Assess how these changes might impact the firm's operations, clients, and overall business strategy."
+        },
+        {
+          "tag": "h2",
+          "content": "Client Risk Profiles:"
+        },
+        {
+          "tag": "p",
+          "content": "Understand the specific risks associated with different clients and matters. Tailor risk assessments to the unique characteristics of each case or client relationship."
+        },
+        {
+          "tag": "h2",
+          "content": "Operational Risks:"
+        },
+        {
+          "tag": "p",
+          "content": "Evaluate internal processes and systems to identify any vulnerabilities. This includes assessing the effectiveness of technology, data security measures, and day-to-day operations."
+        },
+        {
+          "tag": "h2",
+          "content": "Market and Industry Trends:"
+        },
+        {
+          "tag": "p",
+          "content": "Monitor market and industry trends to anticipate external factors that could pose risks to the firm's success."
+        },
+        {
+          "tag": "h2",
+          "content": "Risk Mitigation Plans:"
+        },
 
-      {
-        "tag": "h2",
-        "content": "1 Physical Security of Premises:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          " Establish physical access controls, including guards, cameras, fingerprint scanners, and visitor records.",
-          "Ensure server safety by hosting data centers with restricted access.",
-          " Implement secure archival and disposal procedures for old documents."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "2 . Robust Cybersecurity Policies:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Enforce data encryption, safekeeping, authorized access, and continuous monitoring.",
-          " Conduct regular cybersecurity audits, penetration testing, and implement redundancy systems to identify vulnerabilities proactively."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "3 Training Employees on Handling Sensitive Data:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          " Provide frequent training on recognizing and handling sensitive information.",
-          "Educate employees on encryption specifications, access limitations, and consequences for mishandling.",
-          "Emphasize confidentiality requirements during recruitment and post-employment."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "4 Confidentiality Clauses in Employment Contracts:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Include exclusive clauses in employment contracts defining confidential information.",
-          " Enforce confidentiality clauses even after termination."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "5 Institutionalizing a Culture of Secrecy:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Establish a culture of secrecy through incentives, training, and clear rules.",
-          " Periodically evaluate the definition of a trade secret and limit access based on a need-to-know basis."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Centralized Trade Secret Management:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Implement centralized trade secret classification, monitoring, and protection procedures.",
-          "Conduct access assessments before disclosing data externally to mitigate the risk of data leaks.",
-          " Designate custodians to establish responsibility."
-        ]
-      },
-      {
-        "tag": "p",
-        "content": "In building a successful trade secret protection program, robust regulations, access restrictions, and a deeply ingrained culture of secrecy are essential. Prevention is emphasized over remediation."
-      },
-      {
-        "tag": "p",
-        "content": "Remedies for Unlawful Use of Confidential Information and Trade Secrets:"
-      },
-      {
-        "tag": "h2",
-        "content": "Injunctions:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          " Seek interim and final injunctions to prevent unlawful disclosure or use of confidential information, including trade secrets.",
-          " Note that the effectiveness diminishes once disclosure or use has occurred."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Damages:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Award damages to rectify economic loss caused by unlawful disclosure or use.",
-          "Fair compensation should be based on lost profits or licensing income."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Account of Profits:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Claim profits accrued by the unauthorized party through the unlawful disclosure or use of information."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Compensation and Publicity Orders:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Utilize additional remedies under the Trade Secrets Regulation.",
-          " Innocent users of trade secrets may pay compensation instead of facing injunctions or delivering up goods.",
-          " Request the court to disseminate information about the judgment to correct public misperceptions."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Practical Steps to Protect Confidential Information and Trade Secrets:"
-      },
-      {
-        "tag": "ul",
-        "list-items": [
-          "Enter into contracts, such as NDAs, to protect information and establish a contractual right to an injunction and damages.",
-          "Clearly outline employees' and consultants' duties regarding confidential information and trade secrets in service contracts.",
-          "Implement a comprehensive confidentiality policy, ensuring employee awareness and compliance.            ",
-          "Create and maintain a register of confidential information to clarify what is deemed confidential and warrants trade secret protection.",
-          " Limit the disclosure of confidential information, especially trade secrets, to identified individuals with a need-to-know.",
-          "- Implement security systems to restrict access, including firewalls, secure emails, passwords, and encryption.",
-          "Develop an action plan for unauthorized disclosures or breaches of security systems."
-        ]
-      }
-    ]
+        {
+          "tag": "h2",
+          "content": "Proactive Legal Compliance:"
+        },
+        {
+          "tag": "p",
+          "content": "Develop and implement strategies to ensure ongoing legal compliance. This involves creating policies and procedures that align with current laws and regulations."
+        },
+        {
+          "tag": "h2",
+          "content": "Client Communication:"
+        },
+        {
+          "tag": "p",
+          "content": "Maintain transparent and open communication with clients regarding potential risks associated with their legal matters. Work collaboratively to develop mitigation strategies."
+        },
+        {
+          "tag": "h2",
+          "content": "Training and Education:"
+        },
+        {
+          "tag": "p",
+          "content": "Invest in training programs for the legal team to keep them updated on legal developments. This ensures that the firm is well-prepared to address emerging risks."
+        },
+        {
+          "tag": "h2",
+          "content": "Technology Security Measures:"
+        },
+        {
+          "tag": "p",
+          "content": "Implement robust cybersecurity measures to protect sensitive client information and maintain the confidentiality and integrity of data."
+        },
+        {
+          "tag": "h2",
+          "content": "Diversification and Contingency Planning:"
+        },
+        {
+          "tag": "p",
+          "content": "Diversify the client base and practice areas to reduce dependence on specific clients or sectors. Develop contingency plans to address unexpected disruptions, ensuring business continuity."
+        },
+        {
+          "tag": "h2",
+          "content": "Insurance Coverage:"
+        },
+        {
+          "tag": "p",
+          "content": "Review and update the firm's insurance policies to ensure adequate coverage for potential risks. This includes professional liability insurance and cyber insurance."
+        },
+        {
+          "tag": "h2",
+          "content": "Ethics and Professional Standards:"
+        },
+        {
+          "tag": "p",
+          "content": "Reinforce adherence to ethical standards and professional conduct. This helps mitigate risks associated with potential legal malpractice claims."
+        },
+        {
+          "tag": "h2",
+          "content": "Regular Review and Adaptation:"
+        },
+        {
+          "tag": "p",
+          "content": "Establish a system for regular review of risk mitigation plans. As the legal landscape evolves, adapt strategies to address emerging risks promptly."
+        },
+        {
+          "tag": "h2",
+          "content": "Client Relationship Management:"
+        },
+        {
+          "tag": "p",
+          "content": "Foster strong client relationships built on trust and clear communication. In the event of potential issues, a solid client relationship can contribute to effective risk management."
+        },
+        {
+          "tag": "h2",
+          "content": "Collaboration with External Experts:"
+        },
+        {
+          "tag": "p",
+          "content": "Engage with external experts, such as risk management consultants or legal advisors, to gain insights and perspectives that can enhance the firm's risk mitigation strategies."
+        }
+      ]
+    },
+    "customizedconsultingservice": {
+      "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > CUSTOMIZED CONSULTING SERVICES ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ]
+    },
+    "chainsupplysecurityandintegratityprogram": {
+      "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > SUPPLY CHAIN SECURITY/ INTEGRITY PROGRAMS  ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ]
+    }
   },
+  "investigationandduedilligence": {
+    "counterfeit": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT  > COUNTERFEITS",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "What is Counterfeit?"
+        },
+        {
+          "tag": "p",
+          "content": "A product designed, dressed, branded and/or packaged in a manner intended to be distinguishable from that of the genuine original and not manufactured and/or distributed with the authorization of the Brand Owners."
+        },
+        {
+          "tag": "h2",
+          "content": "How to identify Counterfeit"
+        },
+        {
+          "tag": "h2",
+          "content": "Packaging and Labeling:"
+        },
+        {
+          "tag": "p",
+          "content": "Quality of Printing: Examine the packaging for any signs of poor quality printing, such as blurry images, misaligned text, or color discrepancies."
+        },
+        {
+          "tag": "p",
+          "content": "Spelling and Grammar: Counterfeit products often have spelling mistakes, grammatical errors, or awkward phrasing on labels and packaging."
+        },
+        {
+          "tag": "h2",
+          "content": "Authentication Features:"
+        },
+        {
+          "tag": "p",
+          "content": "Familiarize yourself with the authentication features of genuine products. This may include holograms, special seals, unique packaging elements, or embedded security features that are difficult for counterfeiters to replicate."
+        },
+        {
+          "tag": "h2",
+          "content": "Price Discrepancies:"
+        },
+        {
+          "tag": "p",
+          "content": "Be skeptical of products sold at prices significantly below the market average. If a deal seems too good to be true, it probably is. Counterfeiters often lure consumers with unrealistically low prices."
+        },
+        {
+          "tag": "h2",
+          "content": "Product Quality:"
+        },
+        {
+          "tag": "p",
+          "content": "Compare the quality of the product to what is expected from the genuine brand. Counterfeit goods often have lower quality materials, construction, and finishes."
+        },
+        {
+          "tag": "h2",
+          "content": "Authorized Retailers:"
+        },
+        {
+          "tag": "p",
+          "content": "Purchase products from authorized retailers and official channels. Counterfeiters often sell their products through unauthorized outlets, online marketplaces, or street vendors."
+        },
+        {
+          "tag": "h2",
+          "content": "Serial Numbers and Barcodes:"
+        },
+        {
+          "tag": "p",
+          "content": "Verify serial numbers and barcodes with the brand or manufacturer. Counterfeit products may have missing or incorrect codes, or they may reuse the same codes across multiple items."
+        },
+        {
+          "tag": "h2",
+          "content": "Security Features on Currency:"
+        },
+        {
+          "tag": "p",
+          "content": "For high-value items, especially in luxury markets, check for security features similar to those found on banknotes. These might include holographic images, watermarks, or other anti-counterfeiting measures."
+        },
+        {
+          "tag": "h2",
+          "content": "Check Online Reviews:"
+        },
+        {
+          "tag": "p",
+          "content": "Research and read online reviews from reputable sources or verified purchasers. If a product has a high number of negative reviews or if reviews seem suspicious, it could be an indication of counterfeiting."
+        },
+        {
+          "tag": "h2",
+          "content": "Compare with Genuine Products:"
+        },
+        {
+          "tag": "p",
+          "content": "Compare the suspected counterfeit product side-by-side with a known genuine product. Look for any discrepancies in design, color, size, or other physical characteristics."
+        },
+        {
+          "tag": "h2",
+          "content": "Manufacturer Information:"
+        },
+        {
+          "tag": "p",
+          "content": "Verify the manufacturer information, such as addresses and contact details. Counterfeiters may provide inaccurate or incomplete information."
+        },
+        {
+          "tag": "h2",
+          "content": "Buy from Reputable Sellers:"
+        },
+        {
+          "tag": "p",
+          "content": "Stick to reputable sellers and authorized dealers, whether purchasing online or in-store. Reputable retailers have systems in place to ensure the authenticity of their products."
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "diversion": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT  > DIVERSION",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Goods are redirected from the manufacturer’s intended area of sale or destination to a different geography or distribution channel. Also known as the secondary market, parallel trade, grey market and third party import."
+        },
+        {
+          "tag": "h2",
+          "content": "Product Diversion "
+        },
+        {
+          "tag": "p",
+          "content": "Product diversion can undermine a brand's reputation and profitability.Implementing proactive measures, monitoring distribution channels, and collaborating with supply chain partners are crucial steps in identifying and combating product diversion. Legal advice and intervention may be necessary to protect your brand and enforce distribution agreements."
+        },
+        {
+          "tag": "h2",
+          "content": "How to identify product diversion"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Product performance issue or erratic results",
+            "Different languages on the carton than approved ",
+            "Unrealistic Prices",
+            "Erratic/ Unpredictable supply"
+          ]
+        }
+      ]
+    },
+    "producttampering": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT  > PRODUCT TAMPERING",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "The product or packaging of a genuine branded product has been purposefully adulterated to conceal inclusion of foreign matter, or the packaging has been modified in some fashion without the authorization of the Brand Owner."
+        },
+        {
+          "tag": "p",
+          "content": "Unauthorized handling of product is indicative of product tampering and it impacts patients’s safety."
+        },
+        {
+          "tag": "h2",
+          "content": "How to identify product tampering "
+        },
+        {
+          "tag": "h2",
+          "content": "Seals and Packaging:"
+        },
+        {
+          "tag": "p",
+          "content": "Examine the product packaging for any signs of tampering, such as broken seals, unusual glue patterns, or resealed packaging.Look for any irregularities in the packaging material, such as cuts, tears, or mismatched colors."
+        },
+        {
+          "tag": "h2",
+          "content": "Labeling and Branding:"
+        },
+        {
+          "tag": "p",
+          "content": "Inspect the product label for any discrepancies, including changes in font, spelling errors, or alterations to logos and trademarks."
+        },
+        {
+          "tag": "p",
+          "content": "Be cautious of products with faded or poorly printed labels, as these may indicate tampering."
+        },
+        {
+          "tag": "h2",
+          "content": "Physical Inspection:"
+        },
+        {
+          "tag": "p",
+          "content": "Physically inspect the product for unusual odors, discoloration, or changes in texture."
+        },
+        {
+          "tag": "p",
+          "content": "Check for any foreign substances, powders, or liquids that shouldn't be present in the product."
+        },
+        {
+          "tag": "h2",
+          "content": "Expiration Dates:"
+        },
+        {
+          "tag": "p",
+          "content": "Verify that the expiration date on the product matches the information provided by the manufacturer."
+        },
+        {
+          "tag": "p",
+          "content": "Be wary of products with scratched or altered expiration dates."
+        },
+        {
+          "tag": "h2",
+          "content": "Serial Numbers and Batch Codes:"
+        },
+        {
+          "tag": "p",
+          "content": "Ensure that serial numbers and batch codes on the packaging match those provided by the manufacturer."
+        },
+        {
+          "tag": "p",
+          "content": "Be suspicious if the product lacks these identification features or if they appear altered."
+        }
+      ]
+    },
+    "counterpartyduediligence": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > DUE DILIGENCE > COUNTER PARTY DUE DILIGENCE",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "The following are the challenges of managing 3rd Party risk:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Identifying which risks really matter",
+            "Maintaining accurate and complete inventory of third parties",
+            "Selecting which third party to review",
+            "Limited Resources for Program",
+            "Inconsistent reporting on third party issues",
+            "Lack of internal skill set for effective program management.",
+            "Gathering, integrating, analyzing, making use of third-party data ",
+            "Staying ahead of, & effectively complying with, changing regulatory requirements"
+          ]
+        }
+      ]
+    },
+    "seniormanagementduediligence": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > DUE DILIGENCE > SENIOR MANAGEMENT DUE DILIGENCE",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "h2",
+          "content": "As part of the antecedent checksm SPAN carries out the following verification checks:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Personal Background",
+            "Professional Experience Social",
+            "Behavioral and Reputation",
+            "Business acumen and people management skills",
+            "Web and media searches",
+            "Financial, Regulatory and litigatory checks"
+          ]
+        }
+      ]
+    },
+    "integrityduediligence": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > DUE DILIGENCE >  INTEGRITY DUE DILIGENCE",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "In mergers and acquisitions / investments - Regulatory compliance and establishment and preservation of reputation is a primary concern for every organization. In the present era, investors like the PEs and the angel investors prefer to avoid getting embroiled in regulatory inquiries caused by illegal practices followed by a potential joint-venture partner."
+        },
+        {
+          "tag": "p",
+          "content": "IDD examines the target company’s operations to identify issues that might pose major, unquantifiable financial or reputational risks to an acquirer. Examples of major focal points in this phase of the investigation include:"
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "cyberforensics": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > FORENSIC DUE DILIGENCE  > CYBER FORENSICS ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "p",
+          "src": "SPAN can understand and help mold business strategies involving ESI (Electronically Stored Information) supported by state-of-art labs and a global network of responders, allowing us to perform forensic investigations for virtually any matter and in any environment."
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "sourceinvestigation": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE >  SUPPLY CHAIN INVESTIGATION  >  SOURCE INVESTIGATIONS",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "facility": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > SUPPLY CHAIN INVESTIGATION  > THEFT INVESTIGATIONS > FACILITY",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ]
+    },
+    "in-transit": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > SUPPLY CHAIN INVESTIGATION  > THEFT INVESTIGATIONS > IN-TRANSIT",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ]
+    },
+    "digital": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > SUPPLY CHAIN INVESTIGATION  > THEFT INVESTIGATIONS > DIGITAL",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ]
+    },
+    "informationsecurityandsystem": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE >INFORMATION SECURITY AND SYSTEMS ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "aml": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE >  KYC AND BACKGROUND CHECKS   > AML",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "kyc": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > KYC AND BACKGROUND CHECKS   > KYC",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "marketresearch": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > MARKET RESEARCH (PRIMARY & SECONDARY)",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "marketintelligence": {
+      "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > MARKET INTELLIGENCE GATHERING",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "img",
+          "src": ""
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    }
+  },
+  "traning": {
+    "mlc": {
+      "breadCrumb": "SERVICES>  TRAININGS > MLC",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Medico-legal training and awareness are essential for healthcare professionals to navigate the complex intersection of medicine and law. By fostering a culture of legal compliance, ethical practice, and ongoing professional development, medico-legal education contributes to improved patient outcomes, reduced legal risks, and the overall advancement of the healthcare profession."
+        },
+        {
+          "tag": "h2",
+          "content": "NEED FOR MLC TRAINING "
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "The ever-evolving healthcare sector in India.",
+            "Increasing medico-legal challenges.",
+            "Risks: Financial, reputational, legal (criminal)",
+            "Crucial to navigate complexities and mitigate risks.",
+            "Emphasizing the culture of protection and prevention"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "OVERVIEW & IMPORTANCE"
+        },
+        {
+          "tag": "p",
+          "content": "India is a country with a rapidly growing healthcare sector. However, the sector is also plagued by a number of medico legal challenges. Healthcare professionals in India are increasingly facing lawsuits for medical negligence and other medico legal issues."
+        },
+        {
+          "tag": "p",
+          "content": "The medico legal awareness program for healthcare professionals is a must in India because it can help healthcare professionals to:"
+        },
+        {
+          "tag": "p",
+          "content": "Understand the medico legal landscape in India"
+        },
+        {
+          "tag": "p",
+          "content": "Identify and mitigate medico legal risks"
+        },
+        {
+          "tag": "p",
+          "content": "Deal with medico legal cases effectively"
+        },
+        {
+          "tag": "p",
+          "content": "The medico legal awareness program is an important investment for hospitals and nursing homes. By providing this training to their staff, hospitals and nursing homes can:"
+        },
+        {
+          "tag": "p",
+          "content": "Reduce the risk of medico legal lawsuits"
+        },
+        {
+          "tag": "p",
+          "content": "Protect their reputation"
+        },
+        {
+          "tag": "p",
+          "content": "Improve the quality of care they provide to patients"
+        },
+        {
+          "tag": "h2",
+          "content": "What is medico-legal cases?"
+        },
+        {
+          "tag": "p",
+          "content": "Medico-legal cases are the cases where the doctor feels the requirement of an investigation by law-enforcing agencies, essentially to fix the responsibility regarding the cause of injury. In simple words, it can be said that it is a medical case with legal implications or a legal case requiring medical expertise."
+        },
+        {
+          "tag": "h2",
+          "content": "Types of MLC, including but not limited to: "
+        },
+        {
+          "tag": "ol",
+          "list-items": [
+            "Injury and burns ",
+            "Accidents including vehicular, industrial, electrocution etc., ",
+            "Unnatural unconsciousness / Death. Cases brought dead, suicide cases, drowning, criminal abortions, Drug abuse/overdose etc.,",
+            "Death due to snake/animal bite/poison or intoxication ",
+            "Cases referred by the court or police ",
+            "Unnatural death/injury in women including dowry deaths of a woman patient within 7 years of marriage.",
+            "Sexual offenses; Rape, child abuse, unclaimed newly born",
+            "Medical negligence cases",
+            "Death within 24 hours of hospitalization without the establishment of diagnosis",
+            "Any other case not falling under the above categories but has legal implications and the medical practitioner deems it fit to inform the Police."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Checklist for HCPs on Do's and Don'ts"
+        },
+        {
+          "tag": "p",
+          "content": "Here is a checklist for healthcare professionals on the do's and don'ts of medico legal aspects and Consumer Protection Act: "
+        },
+        {
+          "tag": "h2",
+          "content": "Do's:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Obtain informed consent from patients before performing any medical procedure.",
+            "Maintain accurate and up-to-date medical records.",
+            "Be aware of the latest medical standards and practices.",
+            "Refer patients to specialists when necessary.",
+            "Be honest and transparent with patients about their condition and treatment options."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Don'ts:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Do not perform any medical procedure without the patient's consent. ",
+            "Do not provide false or misleading information to patients. ",
+            "Do not abandon a patient's care. ",
+            "Do not engage in unethical or unprofessional conduct."
+          ]
+        },
+        {
+          "tag": "p",
+          "content": "It is important to note that this is just a general checklist and may not be exhaustive. Healthcare professionals should consult with a legal expert to get specific advice on medico legal aspects and Consumer Protection Act. "
+        },
+        {
+          "tag": "p",
+          "content": "By following the above do's and don'ts, healthcare professionals can minimize their risk of legal liability and provide the best possible care to their patients. "
+        },
+        {
+          "tag": "h2",
+          "content": "Here are some examples of worst-case scenarios in medico legal cases in India: "
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "A doctor performs surgery on the wrong patient. ",
+            "A nurse gives a patient the wrong medication. ",
+            "A hospital fails to diagnose a patient's condition, which leads to serious complications. ",
+            "A doctor fails to obtain informed consent from a patient before performing a procedure. ",
+            "A patient dies due to medical negligence."
+          ]
+        },
+        {
+          "tag": "p",
+          "content": "In any of these cases, the HCP or hospital could be found liable and ordered to pay significant compensation to the patient or their family. In some cases, the HCP could also be sentenced to imprisonment."
+        },
+        {
+          "tag": "p",
+          "content": "It is important to note that medico legal cases are complex and the outcome of any case is uncertain. However, it is important for HCPs and hospitals to be aware of the potential risks and to take steps to prevent medico legal cases from happening."
+        },
+        {
+          "tag": "h2",
+          "content": "Impact of non-compliance with medico legal aspects and Consumer Protection Act"
+        },
+        {
+          "tag": "p",
+          "content": "Non-compliance with medico legal aspects and Consumer Protection Act can have serious repercussions for doctors, hospitals, and patients."
+        },
+        {
+          "tag": "h2",
+          "content": "For doctors:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Doctors may be sued for medical negligence, which can result in heavy damages being awarded to the patient.",
+            "Doctors may be suspended or even have their licenses revoked.",
+            "Doctors may face criminal charges in certain cases."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "For hospitals:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Hospitals may be sued for medical negligence, which can result in heavy damages being awarded to the patient.",
+            "Hospitals may be fined or even shut down by the government in certain cases.",
+            "Hospitals may lose their reputation and goodwill."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "For patients:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Patients may not receive the quality of care they deserve.",
+            "Patients may suffer harm due to medical negligence.",
+            "Patients may have to spend a lot of time and money pursuing legal remedies in case of medical negligence."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Facing the Consequences: When Medical Care Goes Wrong"
+        },
+        {
+          "tag": "p",
+          "content": "If a doctor's actions fall short of acceptable standards and cause harm, they face legal repercussions in three main ways: criminal charges, financial compensation, and professional discipline."
+        },
+        {
+          "tag": "h2",
+          "content": "1. Criminal Charges:"
+        },
+        {
+          "tag": "p",
+          "content": "Though India lacks specific laws for 'medical negligence,' the general provisions of the Indian Penal Code (IPC) come into play. Acts like rash driving causing death (Section 304A) or causing injuries (Sections 337 & 338) can apply to severe cases of medical negligence with dire consequences."
+        },
+        {
+          "tag": "h2",
+          "content": "2. Financial Compensation:"
+        },
+        {
+          "tag": "p",
+          "content": "Patients or their families can seek monetary damages through civil courts or consumer forums. They can also approach Lok Adalats, special courts focusing on settling disputes like those arising from medical services. These courts offer quicker and less expensive resolution for claims up to Rs. 1 crore."
+        },
+        {
+          "tag": "h2",
+          "content": "3. Professional Discipline:"
+        },
+        {
+          "tag": "p",
+          "content": "The Indian Medical Council (IMC) has regulations outlining professional conduct for doctors. Breaches of these regulations, including negligence, can lead to disciplinary action. This could range from suspension to permanent removal from practicing medicine."
+        },
+        {
+          "tag": "h2",
+          "content": "Important Points to Remember:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Proving medical negligence involves expert medical testimony and establishing a clear link between the doctor's actions and the harm caused.",
+            "The specific laws and processes may vary depending on the severity of the case and the state in India."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Handling Medico Legal Cases Appropriately  "
+        },
+        {
+          "tag": "p",
+          "content": "If a hospital or clinic in India is facing a medico legal case, it is important to handle it appropriately. This means:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Hiring a qualified lawyer. A lawyer can help you to understand the legal process and protect your rights.",
+            "Cooperating with the investigation. This includes providing the authorities with all relevant information.",
+            "Keeping patients and their families informed of the situation.",
+            "Being transparent and honest with the public.",
+            "The Indian Medical Council (Professional Conduct, Etiquette and Ethics) Regulations, 2002 ",
+            "Telemedicine Practice Guidelines 2020",
+            "Modification in Medicine List in Telemedicine Practice Guidelines",
+            "Frequently Asked Questions [FAQs] on Telemedicine Practice Guidelines",
+            "IRDAI Guidelines on Telemedicine",
+            "The Bio-Medical Waste Management Rules, 2016",
+            "The Human Immunodeficiency Virus and Acquired Immune Deficiency Syndrome (Prevention and Control) Act, 2017",
+            "The Registration of Births and Deaths Act,1969",
+            "The Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954",
+            "The Indian Nursing Council Act, 1947",
+            "The Rehabilitation Council of India Act,1992",
+            "The National Commission for Allied and Healthcare Professions Act, 2021",
+            "The National Commission for Homoeopathy Act, 2020",
+            "The National Commission for Indian System of Medicine Act, 2020",
+            "The Dentists Act, 1948",
+            "Dentists (Code of Ethics) Regulations, 2014",
+            "Continuing Dental Education Regulations, 2018",
+            "The Indian Medical Council Act,1956",
+            "The Consumer Protection Act, 2019"
+          ]
+        },
+        {
+          "tag": "img",
+          "src": ""
+        }
+      ]
+    },
+    "iprinschool": {
+      "breadCrumb": "SERVICES>  TRAININGS >  IPR IN SCHOOLS ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Intellectual Property Rights (IPR) Awareness is critical to shaping an environment that is conducive to fostering creativity, innovation & protection in the country. One of the key focus areas is children in schools, as it is essential to nurture creativity and the ability to innovate from a young age."
+        },
+        {
+          "tag": "p",
+          "content": "Intellectual Property is the product of a person’s intelligence, creativity, hard work and skill. It results from an idea that comes to one’s mind and is given creative expression."
+        },
+        {
+          "tag": "p",
+          "content": "There is no age to create your own Intellectual Property. In fact, every time you compose a poem, write an assignment or make a painting or sketch that is original, you are creating    your own Intellectual Property."
+        },
+        {
+          "tag": "h2",
+          "content": "Why is IP important to Us?"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "New and Exciting Inventions",
+            "Jobs for you and your family",
+            "Stronger Economy",
+            "Helps you find your favorite products",
+            "Helps authors and artists to be rewarded for their work",
+            "Helps household items to be useful and look good"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Our motive behind this session:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "A 90-minute interactive session with a presentation delivered by experts, which includes various games and activities to keep the students engaged and educate them about IPRs in a fun way.",
+            "Along with the presentation, vibrant posters on different IPs are put up and a  colorful brochure on IP designed for kids is given to all students.",
+            "Touch and Feel of the counterfeit product.",
+            "Not only all this but also a surprise memento and a Certificate for each student."
+          ]
+        },
 
-  "healthcareandregulations": {
-    "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> HEALTHCARE & REGULATORY LAWS",
-    "img":"https://i.ibb.co/4SshS2p/3.png",
-    "content": [
-      {
-        "tag": "h2",
-        "content": "Introduction:"
-      },
-      {
-        "tag": "p",
-        "content": "India is globally recognized as the pharmacy hub of the world, producing a substantial proportion of the world's pharmaceuticals. The manufacturing of medicines in India not only provides a significant cost advantage but is also supported by world-class best practices to ensure quality. Our firm boasts the best practices and expertise in dealing with the pharmaceutical and medical industry, specializing in and catering to diverse clientele from small companies dealing in specialized drugs to Multinational companies with a range of drugs, medical devises and other areas of business. "
-      },
-      {
-        "tag": "h2",
-        "content": "Key Legislation: "
-      },
-      {
-        "tag": "ol",
-        "list-items": [
-          "The Drugs and Cosmetics Act, 1940, along with the Rules framed under the Act, governs the quality of medicines imported, manufactured, distributed, and sold in India.",
-          "The Drugs (Prices Control) Order, 2013, regulates the pricing of all medicines sold in India.",
-          "The Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954, and its Rules oversee the advertising and therapeutic claims related to medicines.",
-          "The Competition Act, 2002, regulates anti-competitive behavior among manufacturers, supply chain, and other stakeholders.",
-          "The Consumer Protection Act, 1986/The Consumer Protection Act, 2019, addresses unfair trade practices, restrictive trade practices, and imposes product liability obligations for manufacturing defects causing harm.",
-          "The Patents Act, 1970, provides exclusivity over innovative medicines without allowing ever-greening.",
-          "The Trade Marks Act, 1999, offers protection to the brand names of medicines, along with common law protection for the passing-off of trade dress and packaging.",
-          "Various environmental laws mandate an environmental impact assessment before establishing industries, restricting industry expansion, and imposing strict conditions on waste management, especially for hazardous and solid waste."
-        ]
-      },
-      {
-        "tag": "h2",
-        "content": "Key Considerations: "
-      },
-      {
-        "tag": "ol",
-        "list-items": [
-          "The Indian pharmaceutical market is predominantly brand-driven, making trademark protection crucial for products launched in India. Retaining ownership of the brand in licensing arrangements is advisable.",
-          " Drugs are deemed essential commodities, with the government strictly controlling their prices and distribution. The government can fix prices for drugs listed in the National List of Essential Medicines, but these powers can be exercised for any drug in the public interest."
-        ]
-      }
-    ]
+        {
+          "tag": "p",
+          "content": " The word 'intellect' refers to the creations of the mind.  Intellectual Property is a type of intangible property and includes inventions, literary and artistic works, symbols, names and paintings."
+        },
+        {
+          "tag": "p",
+          "content": "Intellectual Property Rights (IPRs) are the Rights granted to the creators of Intellectual Property (IP) by the Government.  Most IPRs are territorial in nature. For protection of IP in any country, one has to seek protection separately under the relevant laws. There are special mechanisms in place in various territories for providing protection to different types of IPR. "
+        },
+        {
+          "tag": "h2",
+          "content": " Types of Intellectual Property Rights "
+        },
+        {
+          "tag": "p",
+          "content": " Patents, Designs, Trademarks, Copyrights, Geographical Indications, Semiconductor Integrated Circuit Layout Designs, Plant Varieties, Trade Secrets."
+        },
+        {
+          "tag": "h2",
+          "content": " How are IPRs Registered or Granted in India?"
+        },
+        {
+          "tag": "p",
+          "content": " All applications for IPRs need to be filed at the appropriate IPR office in the prescribed format. The application is examined as per the statutes and the IPR is granted/ registered or refused."
+        },
+
+        {
+          "tag": "h2",
+          "content": "Key benefits of IP registration "
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Economic benefits:",
+            "Generate income: Through licensing, franchising, or selling your IP, you can create new revenue streams for your business or yourself.",
+            "Attract investment: Strong IP can make your business more attractive to investors, as it demonstrates the potential for future growth and profitability.",
+            "Competitive advantage: IP rights can give you a leg up over competitors by preventing them from copying your unique products or services.",
+
+            "Benefits for consumers and society:",
+            "Quality and safety: IP registration can help ensure the quality and safety of products and services, as counterfeit goods often don't meet the same standards.",
+            "Innovation: Strong IP protection encourages research and development, leading to new and improved products and services for everyone.",
+            "Cultural enrichment: IP rights protect creative works, promoting a diverse and vibrant cultural landscape.",
+
+            "Other benefits:",
+            "Brand protection: Trademarks and designs help you establish and protect your brand identity.",
+            "Global expansion: IP rights can facilitate entry into new markets and protect your products and services from infringement abroad.",
+            "Knowledge sharing: Some forms of IP, like patents, can help disseminate knowledge and technology, benefiting other researchers and innovators.",
+            "",
+            "It's great that you recognize the importance of IP registration for both creators and the wider society. By protecting intellectual property, we can foster innovation, creativity, and economic growth."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Types of Intellectual Property Rights"
+        },
+        {
+          "tag": "h2",
+          "content": "1 TRADEMARKS"
+        },
+        {
+          "tag": "p",
+          "content": "A trademark is a sign capable of distinguishing the goods or services of one enterprise from those of other enterprises."
+        },
+        {
+          "tag": "p",
+          "content": "Names, Words, Logos, Colours, Packaging, Sounds (audible), Signs (visual) or any combination thereof can be filed as trademarks."
+        },
+        {
+          "tag": "h2",
+          "content": "There are many benefits to trademark registration, which are described below:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Brand Protection: Get exclusive rights to your logo and prevent copycats from stealing your shine!",
+            "Brand Reputation: Boost your brand value and build trust with customers by showing you're a registered and reliable company.",
+            "Legal Recognition: Fight back against trademark infringement with the full force of the law on your side.",
+            "Protection for 10 years (and beyond!): Enjoy peace of mind knowing your logo is safe for a decade, with easy renewals to keep it protected for as long as you need.",
+            "Attract Customers: Stand out from the crowd and attract customers who prefer established, registered brands."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Symbols"
+        },
+        {
+          "tag": "h2",
+          "content": "  ™ for pending/applied marks"
+        },
+        {
+          "tag": "h2",
+          "content": "  ® for registered marks"
+        },
+        {
+          "tag": "h2",
+          "content": "  ℠ for service marks"
+        },
+        {
+          "tag": "p",
+          "content": "These symbols are like little shields for your ideas, but they're not magic force fields. Using the wrong one (like calling your unregistered brand name '®') can be messy, so play it safe. But hey, using them the right way shows you're serious about your business and keeps others from stealing your shine."
+        },
+        {
+          "tag": "p",
+          "content": "The ® on a product means that it’s a registered trademark, meaning the brand name or logo is protected by (officially registered in) the US Patent and Trademark Office, while plain old ™ trademarks have no legal backing. Protections for registered trademarks last for 10 years and can be renewed after that."
+        },
+        {
+          "tag": "h2",
+          "content": "Example:"
+        },
+        {
+          "tag": "h2",
+          "content": "Apple (Half eaten apple symbol with the leaf)"
+        },
+        {
+          "tag": "h2",
+          "content": "Coca Cola (Coca-cola bottle symbol)"
+        },
+        {
+          "tag": "h2",
+          "content": "2 Patent"
+        },
+        {
+          "tag": "p",
+          "content": "A patent is an exclusive right granted for an invention. Generally, a patent gives the patent owner the right to decide how or whether the invention can be used by others."
+        },
+        {
+          "tag": "p",
+          "content": "A patent is valid for 20 years, starting from the date of filing of the patent application and this term cannot be extended."
+        },
+        {
+          "tag": "h2",
+          "content": "Tips to innovators"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "It is recommended that you do not publish/ present/ display your invention before filing a patent application for protection of your invention.",
+            "Always maintain records of your invention. ",
+            "Conduct search before filing an application to judge the feasibility of grant of IP (may contact your nearest Patent Facilitation Cell under TIFAC, Department of Science and Technology or a patent lawyer)."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Example: "
+        },
+        {
+          "tag": "h2",
+          "content": "Electronic device "
+        },
+        {
+          "tag": "p",
+          "content": "iphone    - The iPhone's success and influence extend far beyond hardware. It ushered in a new era of mobile applications, redefined internet access habits, and even influenced cognitive processes related to multitasking and information consumption"
+        },
+        {
+          "tag": "p",
+          "content": "By looking beyond the technical specifics of the patent, we can see how the iPhone was much more than just an 'electronic device.' It was a game-changer that reshaped our expectations for technology and its role in our lives."
+        },
+        {
+          "tag": "h2",
+          "content": "3 COPYRIGHT"
+        },
+        {
+          "tag": "p",
+          "content": "Copyright is an exclusive legal right granted to the creators of intellectual work. Copyright owner has rights to reproduce, translate, adapt, perform, distribute and publicly display the work, etc."
+        },
+        {
+          "tag": "p",
+          "content": " Registration is not mandatory since copyright comes into existence as soon as the intellectual work is created but it is recommended to register a copyright for better enforceability, since registered copyrights have more evidentiary value in court."
+        },
+
+        {
+          "tag": "h2",
+          "content": "Works covered under Copyrights"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Literary including Software – Books, Essay, Compilations, Computer  Programs.",
+            "Artistic – Drawing, Painting, Logo, Map, Chart, Plan, Photographs,   Work of    Architecture.",
+            "Dramatic – Screenplay, Drama.",
+            "Musical – Musical Notations.",
+            "Sound Recording – Compact Disc.",
+            "Cinematograph Films – Visual Recording which includes sound recording."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Example: "
+        },
+        {
+          "tag": "h2",
+          "content": "Apple "
+        },
+        {
+          "tag": "p",
+          "content": "Tech giant Apple has a simple copyright notice on their website, including the most recent year of their copyright and the term ‘all rights reserved.’"
+        },
+        {
+          "tag": "h2",
+          "content": "4 DESIGNS"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Protects the aesthetic/ ornamental features of an object; no protection over functional aspects.",
+            "Can be a 2D or 3D pattern of a handicraft, a product, or even an industrial commodity. ",
+            "Unique Selling Point (USP), protects look and feel of the product, prevents duplication of the product."
+          ]
+        },
+        {
+          "tag": "p",
+          "content": "Section 4 of the Designs Act, 2000 outlines the criteria for which a design cannot be registered in India. These criteria are essentially meant to ensure that registered designs are:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Protects the aesthetic/ ornamental features of an object; no protection over functional aspects.",
+            "Can be a 2D or 3D pattern of a handicraft, a product, or even an industrial commodity. ",
+            "Unique Selling Point (USP), protects look and feel of the product, prevents duplication of the product."
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Example: "
+        },
+        {
+          "tag": "p",
+          "content": "Apple design registrations include claims to the icon layout and black rectangular edge-to-edge glass embodied in its iPhone, as well as the flat, rectangular, rounded corners embodied in its iPhone and iPad."
+        },
+
+        {
+          "tag": "h2",
+          "content": "IP Infringement and Penalties:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "IP infringement is breach or violation of intellectual property rights.",
+            "IPRs are said to be infringed when a work protected by IP laws is used, copied, distributed or otherwise exploited without having the permission from the owners. ",
+            "If an IPR is infringed, the owner has the following remedies available for protecting his right:"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Acts under which Civil remedies are available:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Copyrights Act,1957",
+            "Geographical Indication of Goods (Registration and Protection), Act, 1999",
+            "Trade Marks Act, 1999",
+            "Patents Act, 1970 y Designs Act, 2000"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Civil Remedies:"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "  Interlocutory/Permanent Injunction:",
+            "  An Award of Costs & Damages",
+            "  Delivery Up & Destruction ",
+            " Additional remedies in case of Copyright:",
+            "  Mareva Injunction",
+            "  Anton Pillar Order ",
+            "  John Doe Order"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Acts under which Criminal remedies available:"
+        },
+        {
+          "tag": "h2",
+          "content": "Copyrights Act,1957"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Biological Diversity Act,2002",
+            "Semiconductor Integrated Circuits Layout Design Act, 2000 ",
+            "Trade Marks Act, 1999 ",
+            "Protection of Plants & Varieties and Farmers Rights Act, 2001"
+          ]
+        },
+        {
+          "tag": "h2",
+          "content": "Criminal remedies:"
+        },
+        {
+          "tag": "ul",
+          "list-items": ["Imprisonment", "Fine"]
+        },
+        {
+          "tag": "h2",
+          "content": "How Can You Contribute?"
+        },
+        {
+          "tag": "ul",
+          "list-items": [
+            "Recognize and respect other’s IP. ",
+            "Refrain from unauthorized use of other’s intellectual creations – Don’t buy fake products! ",
+            "Give due credit to the creators always."
+          ]
+        }
+      ]
+    },
+    "softskills": {
+      "breadCrumb": "SERVICES>  TRAININGS > SOFT SKILLS (VJ)",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ]
+    }
+  },
+  "serviceforlegalindustries": {
+    "tminuse": {
+      "breadCrumb": "SERVICES>  SERVICE FOR LEGAL INDUSTIRES  > TRADEMARK IN USE (PM) INVESTIGATION ",
+      "img": "../Images/aerial-view-business-team.jpg",
+      "content": [
+        {
+          "tag": "p",
+          "content": "Welcome to our Trademarks In-Use Investigations service, where we provide comprehensive solutions to protect and validate your brand's identity. As trusted Intellectual Property Rights Attorneys, we understand the vital role trademarks play in establishing and maintaining a distinctive market presence."
+        },
+        {
+          "tag": "h2",
+          "content": "Our Approach:*"
+        },
+        {
+          "tag": "h2",
+          "content": "Marketplace Analysis:"
+        },
+
+        {
+          "tag": "p",
+          "content": " We conduct a meticulous analysis of the marketplace to identify products or services associated with your trademark across various channels."
+        },
+        {
+          "tag": "h2",
+          "content": "*Product Sampling:"
+        },
+
+        {
+          "tag": "p",
+          "content": "   Our experts perform physical or virtual sampling to verify the existence and conformity of products or services related to your trademark."
+        },
+        {
+          "tag": "h2",
+          "content": "Consumer Surveys:"
+        },
+
+        {
+          "tag": "p",
+          "content": "   Implementing surveys helps us gauge consumer awareness and association with your trademark, providing insights into its strength in the market."
+        },
+        {
+          "tag": "h2",
+          "content": "Digital Presence Review:"
+        },
+
+        {
+          "tag": "p",
+          "content": "   We scrutinize your trademark's online presence, including websites, social media, and e-commerce platforms, ensuring genuine and active usage."
+        },
+        {
+          "tag": "h2",
+          "content": "Documentary Evidence Review:*"
+        },
+
+        {
+          "tag": "p",
+          "content": "   Our team examines invoices, packaging, advertising materials, and other documents to confirm the actual use of your trademark in commerce."
+        },
+        {
+          "tag": "h2",
+          "content": "Field Investigations:"
+        },
+
+        {
+          "tag": "p",
+          "content": "When necessary, we conduct on-site visits to physical locations associated with your trademark to verify usage claims."
+        },
+        {
+          "tag": "h2",
+          "content": "Competitor Analysis:"
+        },
+
+        {
+          "tag": "p",
+          "content": "   We assess the competitive landscape to identify potential infringing marks and ensure the uniqueness and integrity of your trademark."
+        },
+        {
+          "tag": "h2",
+          "content": "Legal Compliance Check:"
+        },
+        {
+          "tag": "p",
+          "content": "   Our experts verify that the use of your trademark complies with relevant laws and regulations in the jurisdictions where it is claimed to be in use."
+        },
+        {
+          "tag": "p",
+          "content": "Trust us to safeguard your brand through meticulous Trademarks In-Use Investigations. Contact us to secure and validate your trademark's presence in the market"
+        }
+      ]
+    }
   }
-,
-"mediaentertainmentandsportslaws": {
-    "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> MEDIA, ENTERTAINMENT & SPORTS LAWS",
-    "img":"https://i.ibb.co/Jv51653/6.jpg",
-    "content": [
-        {
-            "tag": "p",
-            "content": "Our dedicated team is enthusiastic about the dynamic fields of sports, gaming, and entertainment laws. We serve a diverse clientele, including professional sports entities, athletes, government bodies, media houses, and gaming industry clients internationally. Our firm excels in legal domains such as sports, gaming, anti-doping, contracts, agency, constitutional, employment, trademark, athlete and celebrity management, production, content development, and tax issues. Acknowledging the evolving gaming landscape, we offer comprehensive counsel on legality, new legislation, contracts, disclosures, licensing, and agreements in the convergence of gaming, media, and sports."
-        },
-        {
-            "tag": "p",
-            "content": "In India, the laws governing Media, Entertainment, and Sports fall under various statutes. Here are some key legislations related to these fields:"
-        }
-        ,
-        {
-            "tag": "h2",
-            "content": "Media and Broadcasting:            "
-        },
-        {
-            "tag": "ol",
-            "list-items": ["The Cable Television Networks (Regulation) Act, 1995: Regulates the operation of cable television networks in India.            ","The Press Council Act, 1978: Establishes the Press Council of India to ensure the freedom of the press and maintain high standards of public taste."]
-        },
-        {
-            "tag": "h2",
-            "content": "Entertainment Industry:"
-        },
-        {
-            "tag": "ol",
-            "list-items": ["The Cinematograph Act, 1952: Regulates certification of films for public exhibition.","The Copyright Act, 1957: Governs protection of original literary, artistic, and musical works, including those in the entertainment industry.","The Performers' Protection Act, 1958: Provides protection to performers' rights in performances."]
-        },
-        {
-            "tag": "h2",
-            "content": "Sports Laws"
-        },
-        {
-            "tag": "ol",
-            "list-items": ["National Sports Development Code of India, 2011: Governs the promotion and development of sports in India.","The Sports Broadcasting Signals (Mandatory Sharing with Prasar Bharati) Act, 2007: Regulates the sharing of sports broadcasting signals with the public broadcaster, Prasar Bharati."]
-        },
-        {
-            "tag": "h2",
-            "content": "Advertising:"
-        },
-        {
-            "tag": "ol",
-            "list-items": ["The Advertising Standards Council of India (ASCI): While not a law, ASCI is a self-regulatory organization that formulates and enforces the Code for Self-Regulation in Advertising."]
-        }
-    ]
-}
-,
-"digitalanditlaw": {
-    "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> DIGITAL AND IT LAWS",
-    "img":"https://i.ibb.co/0QFNF18/7.jpg",
-    "content": [
-        {
-            "tag": "p",
-            "content": "India has experienced a rapid digital transformation in recent years, with the Information Technology (IT) and digital sectors playing a pivotal role in shaping the country's economic landscape. The legal framework governing these domains is crucial to ensure responsible and secure digital practices, an area in which SPAN Consulting strives to keep itself updated and at the forefront of change. A few of the key legislations governing the digital and IT space in India are:"
-        }
-        , {
-            "tag": "h2",
-            "content": "1. Information Technology Act, 2000:"
-        },
-        {
-            "tag": "p",
-            "content": "The Information Technology Act, 2000 (IT Act) is the foundational legislation governing electronic transactions and cybersecurity in India. It provides legal recognition to electronic documents, facilitates e-governance, and establishes guidelines for data protection. The IT Act is instrumental in addressing offenses such as unauthorized access, hacking, and the distribution of malicious code."
-        }
-        , {
-            "tag": "h2",
-            "content": "2. Data Protection Laws:"
-        },
-        {
-            "tag": "p",
-            "content": "India is in the process of enacting comprehensive data protection legislation. The Digital Personal Data Protection Act, 2023, which draws inspiration from global data protection norms, aims to safeguard individuals' privacy and establish guidelines for the processing of personal data. The bill emphasizes transparency, consent, and the right to be forgotten."
-        }
-        , {
-            "tag": "h2",
-            "content": "3. Cybersecurity Laws:"
-        },
-        {
-            "tag": "p",
-            "content": "Ensuring the security of digital infrastructure is imperative. The IT Act, along with the National Cyber Security Policy, establishes a framework for protecting critical information infrastructure and addressing cyber threats. The laws mandate reporting of cybersecurity incidents and prescribe penalties for unauthorized access and data breaches."
-        }
-        , {
-            "tag": "h2",
-            "content": "4. Digital Payments and Financial Technology:"
-        },
-        {
-            "tag": "p",
-            "content": "The digital payment ecosystem is governed by various regulations, including the Payment and Settlement Systems Act, 2007. The Reserve Bank of India (RBI) plays a crucial role in overseeing digital transactions and payment service providers. Additionally, fintech companies are subject to regulations that promote innovation while ensuring consumer protection."
-        }
-        , {
-            "tag": "h2",
-            "content": "5. E-commerce Regulations:"
-        },
-        {
-            "tag": "p",
-            "content": "E-commerce activities are regulated by laws such as the Consumer Protection Act, 2019, and the Foreign Exchange Management (Non-debt Instruments) Rules, 2019. These regulations aim to protect consumers' interests, ensure fair trade practices, and manage foreign investments in e-commerce ventures."
-        }
-        , {
-            "tag": "h2",
-            "content": "6. Intellectual Property Laws:"
-        },
-        {
-            "tag": "p",
-            "content": "Protection of intellectual property is vital in the digital era. Laws such as the Copyright Act, 1957, and the Patents Act, 1970, govern issues related to software, digital content, and inventions in the IT sector. These laws encourage innovation while safeguarding creators' rights"
-        }
-        
-    ]
-}
 }
