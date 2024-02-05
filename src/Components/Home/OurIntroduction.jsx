@@ -5,8 +5,10 @@ import bg3 from "../Images/A.jpeg";
 import bg4 from "../Images/N.jpeg";
 
 function OurIntroduction() {
-  const [title, settitle] = useState("");
-  const [info, setinfo] = useState("");
+  const [title, settitle] = useState("Strategic");
+  const [info, setinfo] = useState(
+    " 'Strategic' represents our core competence in providing strategic guidance and innovative solutions to our clients. We excel in developing comprehensive strategies that align with their long-term objectives and navigating the complexities of their challenges."
+  );
   const [currbg, setcurrbg] = useState(bg1);
   const [nav1active, setnav1active] = useState(true);
   const [nav2active, setnav2active] = useState(false);

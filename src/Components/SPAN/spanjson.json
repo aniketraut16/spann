@@ -1,0 +1,79 @@
+{
+  "breadCrumb": "SPAN SUIT > SYSTEM PROCESSES AND TOOLS",
+  "contents": [
+    {
+      "tag": "h2",
+      "content": "SYSTEM, PROCESSES & TOOLS"
+    },
+    {
+      "tag": "ul",
+      "list-items": [
+        "supply chain risk assessment",
+        "brand protection risk assessment",
+        "brand protection toolkit",
+        "external manufacturer risk assessment",
+        "new business readiness risk assessment",
+        "supplier risk assessment,",
+        "product and packaging risk assessment",
+        "technology selection tool,",
+        "the legal expense optimization tool",
+        "legal procurement tool",
+        "market monitoring activity tool",
+        "customs awareness and enforcement tool",
+        "root cause analysis,",
+        "analytical/ correlation engine design",
+        "ROI calculation algorithm",
+        "communications (internal and external stakeholders) templates",
+        "RACI",
+        "external manufacturing / CMO risk assessment tool etc.",
+        "Process mapping",
+        "Brand Protection in a Box"
+      ]
+    },
+    {
+      "tag": "h2",
+      "content": " MOBILE APP"
+    },
+    {
+      "tag": "p",
+      "content": "SPAN Suit is a software-as-a-service (SaaS) that uses data science and machine learning (ML) to collect data from a global, rapidly-scalable, and dynamically-taskable network of human contributors via a smartphone application (iOS™️ and Android™️) and digital task marketplace. "
+    },
+    {
+      "tag": "p",
+      "content": "SPAN Suit is a platform for matching on-demand human contributors with businesses around the world. contributors can earn money doing simple tasks anytime on their mobile phones. Businesses can easily scale projects globally with on-demand crowdsourcing of diverse workers. tap2verify can help with a variety of business needs from gathering local insights and training machine learning models, to completing fieldwork."
+    },
+    {
+      "tag": "p",
+      "content": "Human contributors can collect data on their local environment, taking photos, finding locations, traveling identified routes, asking questions, filing forms, signups and collecting payments / Cheques, etc , contributors can perform any combination of those tasks, in any sequence, across an identified geographic area."
+    },
+    {
+      "tag": "p",
+      "content": "All aspects of the predesigned form (mandate) are enforced for structured data gatherings, such as required check-in points, structured surveys, and automatic quality control rules. (GPS tracking and geofence enforcement). It enables managing operators and quality control workers in groups to be targeted for discrete activities."
+    },
+    {
+      "tag": "p",
+      "content": " SPAN works with the customer to identify physically-observable phenomena (people, places, things) and perform simple micro tasks that an average citizen can record, perform and report.  SPAN is able to dynamically flex and re-task its contributors as information requirements change. "
+    },
+    {
+      "tag": "p",
+      "content": "If an approach is ineffective, SPAN will adjust our tasks as needed, in real-time, to gather the required information or achieve the desired effects."
+    },
+    {
+      "tag": "p",
+      "content": "At SPAN the tasks are delivered to its clients based on a quantitative model for high-frequency monitoring.  The APP enables the deployment of tasks against specific groups within the overall network based on geography, demographic profile, training completion, and user score. This also governs required task volumes, duration, and frequency."
+    },
+    {
+      "tag": "h2",
+      "content": "Advantage tap2verify: Information on a real-time basis ensures "
+    },
+    {
+      "tag": "ol",
+      "list-items": [
+        "Compliance ",
+        "Quality Check and recommend course correction as needed. ",
+        "Report available to the client in 24 hours. ",
+        "Dashboard as to where are all of our operators and doing what"
+      ]
+    }
+  ]
+}

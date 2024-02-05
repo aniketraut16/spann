@@ -45,8 +45,9 @@ function LandingPage() {
       <div id="wecare">
         <img src={span} alt="" />
         <p>
-          Reliance Industries Limited is a Fortune 500® company and the largest
-          private sector corporation in India.
+          From meticulous audits to strategic tax planning and insightful
+          consulting, we pave the way for your financial success with precision
+          and expertise.
         </p>
       </div>
       <OurIntroduction />

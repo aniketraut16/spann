@@ -1,38 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
-.aboutus {
+.spanus {
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
   align-items: center;
-  background-color: #cdb2ff;
+  background-color: #faf4de;
 }
 
-.aboutusbrd {
+.spanusbrd {
   width: 100%;
   font-family: "Lato", sans-serif;
   height: 70vh;
-  background: url("../Images/aboutusbg.jpg");
+  background: url("../Images/spansuitbg.jpg");
+  background-position: center;
   background-size: cover;
   z-index: 2;
   display: flex;
+  color: #691d1d;
+  text-shadow: 1px 1px 10px #faf4de;
   flex-direction: column;
   justify-content: flex-end;
-  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.414);
-
-  color: white;
   padding: 9em;
   margin-bottom: 5%;
+  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.414);
 }
 
-.aboutusbrd h1 {
+.spanusbrd h1 {
   font-size: 4em;
 }
-.aboutusbrd h2 {
-  font-size: 1.7;
+.spanusbrd h2 {
+  font-size: 1.7em;
 }
-.about-uscountent {
+.span-uscountent {
   display: flex;
   flex-direction: column;
   gap: 7px;
@@ -45,11 +45,11 @@
   background-color: white;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1), -5px -5px 8px rgba(0, 0, 0, 0.1);
 }
-.about-uscountent h2 {
+.span-uscountent h2 {
   font-size: 1.7em;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.about-uscountent p {
+.span-uscountent p {
   font-size: 1.3em;
 }

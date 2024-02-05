@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from "./Images/logo .png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 function Navbar(props) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [dropdownContent, setDropdownContent] = useState(null);
@@ -21,7 +21,8 @@ function Navbar(props) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  const location = useLocation();
+  const currentPath = location.pathname;
   const ServicesDropdown = () => {
     return (
       <>
@@ -214,10 +215,16 @@ function Navbar(props) {
   const TrainingProgramsDropdown = () => {
     return (
       <>
-        <a href="#"> Overview</a>
-        <a href="#"> Law Enforcement Agencies (LEA) Training</a>
-        <a href="#"> Customs Training</a>
-        <a href="#"> External and Internal Stakeholder Training</a>
+        <Link to="/traning/overview"> Overview</Link>
+        <Link to="/traning/lawenforcementagenciestraining">
+          {" "}
+          Law Enforcement Agencies (LEA) Training
+        </Link>
+        <Link to="/traning/customtraning"> Customs Training</Link>
+        <Link to="/traning/externalandinternalstackholdertraning">
+          {" "}
+          External and Internal Stakeholder Training
+        </Link>
       </>
     );
   };
@@ -260,13 +267,14 @@ function Navbar(props) {
   };
 
   return (
-    <div id="nav-div" className={isScrolled ? "scrolled" : ""}>
+    <div
+      id="nav-div"
+      className={isScrolled || currentPath != "/" ? "scrolled" : ""}
+    >
       <nav
         style={
-          isScrolled
-            ? props.white
-              ? { height: "13vh", color: "black", backgroundColor: "white" }
-              : { height: "13vh", color: "black" }
+          isScrolled || currentPath != "/"
+            ? { height: "13vh", color: "black" }
             : {}
         }
       >
@@ -274,18 +282,36 @@ function Navbar(props) {
           <img src={logo} alt="Logo" />
         </Link>
         <div className="div-link-section">
-          <div className="upper-div">
+          <div
+            className="upper-div"
+            style={
+              isScrolled || currentPath != "/"
+                ? { borderBottom: "3px solid #be9244" }
+                : {}
+            }
+          >
             <div>
               <Link
                 to="/contactus"
-                style={isScrolled ? { color: "black" } : {}}
+                style={
+                  isScrolled || currentPath != "/" ? { color: "black" } : {}
+                }
               >
                 Contact us
               </Link>
             </div>
             <div className="searchbox">
+              <div className="group">
+                <svg className="icon" aria-hidden="true" viewBox="0 0 24 24">
+                  <g>
+                    <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                  </g>
+                </svg>
+                <input placeholder="Search" type="search" className="input" />
+              </div>
+            </div>
+            <div>
               <i className="fa-solid fa-user"></i> <span>Login</span>{" "}
-              <i className="fa-solid fa-magnifying-glass"></i>
             </div>
           </div>
           <div className="lower-div">

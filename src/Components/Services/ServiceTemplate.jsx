@@ -37,9 +37,8 @@ const ServiceTemplate = () => {
         <div
           id="services-breadcrumb"
           style={{
-            background: `url(${sectionData.img})`,
+            background: `url(${sectionData.img}) no-repeat center center / cover`,
             backgroundAttachment: "fixed",
-            backgroundSize: "cover",
           }}
         >
           <h2>{sectionData.breadCrumb}</h2>

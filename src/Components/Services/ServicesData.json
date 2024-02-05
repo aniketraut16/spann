@@ -808,7 +808,7 @@
     },
     "riskassesmentandmigrationplan": {
       "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > RISK ASSESSMENTS AND MITIGATION PLANS ",
-      "img": " https://i.ibb.co/XY7zw0Q/Risk-Assessments-and-Mitigation-Plans.jpg",
+      "img": "https://i.ibb.co/XY7zw0Q/Risk-Assessments-and-Mitigation-Plans.jpg",
       "content": [
         {
           "tag": "h2",
@@ -939,7 +939,7 @@
     },
     "customizedconsultingservice": {
       "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > CUSTOMIZED CONSULTING SERVICES ",
-      "img": " https://i.ibb.co/qk59zQj/Customized-Consulting-Services.jpg",
+      "img": "https://i.ibb.co/qk59zQj/Customized-Consulting-Services.jpg",
       "content": [
         {
           "tag": "p",
@@ -969,7 +969,7 @@
     },
     "chainsupplysecurityandintegratityprogram": {
       "breadCrumb": "SERVICES>  STRATEGIC CONSULTING > SUPPLY CHAIN SECURITY/ INTEGRITY PROGRAMS  ",
-      "img": " https://i.ibb.co/Trxck8m/Supply-Chain-Security-Integrity-Programs.jpg-",
+      "img": "https://i.ibb.co/Trxck8m/Supply-Chain-Security-Integrity-Programs.jpg-",
       "content": [
         {
           "tag": "p",
@@ -1001,7 +1001,7 @@
   "investigationandduedilligence": {
     "counterfeit": {
       "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT  > COUNTERFEITS",
-      "img": " https://i.ibb.co/dJqYkv0/Counterfeits.jpg",
+      "img": "https://i.ibb.co/dJqYkv0/Counterfeits.jpg",
       "content": [
         {
           "tag": "h2",
@@ -1115,7 +1115,7 @@
     },
     "diversion": {
       "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT  > DIVERSION",
-      "img": " https://i.ibb.co/hHD1kWd/Diversion.jpg",
+      "img": "https://i.ibb.co/hHD1kWd/Diversion.jpg",
       "content": [
         {
           "tag": "p",
@@ -1146,7 +1146,7 @@
     },
     "producttampering": {
       "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT  > PRODUCT TAMPERING",
-      "img": " https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
+      "img": "https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
       "content": [
         {
           "tag": "p",
@@ -1220,7 +1220,7 @@
     },
     "counterpartyduediligence": {
       "breadCrumb": "SERVICES>  INVESTIGATIONS AND DUE DILIGENCE > DUE DILIGENCE > COUNTER PARTY DUE DILIGENCE",
-      "img": "https://i.ibb.co/hBFG6Zb/Counter-Party-Due-Diligence.jpg ",
+      "img": "https://i.ibb.co/hBFG6Zb/Counter-Party-Due-Diligence.jpg",
       "content": [
         {
           "tag": "h2",
@@ -1276,7 +1276,7 @@
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/rxNDQrm/integrityduedillance.jpg"
         }
       ]
     },
@@ -1286,11 +1286,11 @@
       "content": [
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/G3gdVG6/forensicduedillance3.jpg"
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/TbW6fkR/forensicduedillance2.jpg"
         },
         {
           "tag": "p",
@@ -1298,7 +1298,7 @@
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/hfdpdyq/forensicduedillance2.jpg"
         }
       ]
     },
@@ -1308,11 +1308,7 @@
       "content": [
         {
           "tag": "img",
-          "src": ""
-        },
-        {
-          "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/FBGxLrP/sourceinvestigation.png"
         }
       ]
     },
@@ -1400,11 +1396,11 @@
       "content": [
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/ZWwhsPL/informationsecurity.jpg"
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/WcHgZpd/informationsecurity2.jpg"
         }
       ]
     },
@@ -1414,11 +1410,11 @@
       "content": [
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/cTsHVvr/aml2.png"
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/cTsHVvr/aml2.png"
         }
       ]
     },
@@ -1442,11 +1438,15 @@
       "content": [
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/dKT1gBH/marketingsearch3.png"
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/B3yNvf4/marketingsearch2.png"
+        },
+        {
+          "tag": "img",
+          "src": "https://i.ibb.co/10LQgLj/marketingsearch1.png"
         }
       ]
     },
