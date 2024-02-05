@@ -6,11 +6,15 @@ import "./Components/Services/Services.css";
 import "./Components/AboutUs/Aboutus.css";
 import "./Components/SPAN/Span.css";
 import "./Components/TRANING/Traning.css";
+import "./Components/Industries/Industries.css";
+import "./Components/Resources/Resources.css";
 import ServiceTemplate from "./Components/Services/ServiceTemplate";
 import AboutUsTemplate from "./Components/AboutUs/AboutUsTemplate";
 import Contact from "./Components/Contact";
 import SpanSuit from "./Components/SPAN/SpanTemplate";
 import TraningTemplate from "./Components/TRANING/Traning";
+import Industries from "./Components/Industries/Industries";
+import Resources from "./Components/Resources/Resources";
 
 function App() {
   return (
@@ -21,6 +25,8 @@ function App() {
         <Route path="/contactus" element={<Contact />} />
         <Route path="/aboutus/:section" element={<AboutUsTemplate />} />
         <Route path="/traning/:section" element={<TraningTemplate />} />
+        <Route path="/resources/:section" element={<Resources />} />
+        <Route path="/industries/:section" element={<Industries />} />
         <Route
           path="/services/:section/:subsection"
           element={<ServiceTemplate />}

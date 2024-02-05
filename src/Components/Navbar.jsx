@@ -199,15 +199,21 @@ function Navbar(props) {
   const SpanSuitDropdown = () => {
     return (
       <>
-        <a href="#">Systems, Processes and Tools</a>
+        <Link to="/spansuit">Systems, Processes and Tools</Link>
       </>
     );
   };
   const IndustriesServedDropdown = () => {
     return (
       <>
-        <a href="#"> Overview of Industries</a>
-        <a href="#"> Success Stories/ Case Studies /Testimonials</a>
+        <Link to="/industries/overviewofindustries">
+          {" "}
+          Overview of Industries
+        </Link>
+        <Link to="/industries/successtory">
+          {" "}
+          Success Stories/ Case Studies /Testimonials
+        </Link>
       </>
     );
   };
@@ -232,10 +238,10 @@ function Navbar(props) {
   const ResourcesToolkitsDropdown = () => {
     return (
       <>
-        <a href="#"> Blog/Articles/ Videos</a>
-        <a href="#"> Whitepapers</a>
-        <a href="#"> Case Studies</a>
-        <a href="#"> Brand Protection Toolkits </a>
+        <Link to="/resources/blogs"> Blog/Articles/ Videos</Link>
+        <Link to="/resources/whitepaper"> Whitepapers</Link>
+        <Link to="/resources/casestudy"> Case Studies</Link>
+        <Link to="/resources/brandprotection"> Brand Protection Toolkits </Link>
       </>
     );
   };

@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 .traningus {
   width: 100%;
   min-height: 100vh;
@@ -10,7 +9,7 @@
 
 .traningusbrd {
   width: 100%;
-  font-family: "Lato", sans-serif;
+  font-family: "Playfair Display", serif;
   height: 70vh;
   background: url("../Images/traningbg.jpg");
   background-position: center;
