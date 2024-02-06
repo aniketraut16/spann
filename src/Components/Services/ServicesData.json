@@ -136,7 +136,7 @@
     },
     "intellectualproperties": {
       "breadCrumb": "SERVICES> LEGAL BRAND PROTECTION> INTELLECTUAL PROPERTY ",
-      "img": "https://i.ibb.co/D1YYsB2/4.png",
+      "img": "https://i.ibb.co/Zhw4Kbg/view-3d-gavel-lawyer-s-day-23-2151023423.jpg",
       "content": [
         {
           "tag": "h2",
@@ -1109,7 +1109,7 @@
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/bg7ycHN/Screenshot-from-2024-02-06-20-51-36.png"
         }
       ]
     },
@@ -1455,12 +1455,24 @@
       "img": "https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
       "content": [
         {
-          "tag": "img",
-          "src": ""
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
-          "tag": "img",
-          "src": ""
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "tag": "p",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         }
       ]
     }
@@ -1745,7 +1757,7 @@
         },
         {
           "tag": "img",
-          "src": ""
+          "src": "https://i.ibb.co/SffZy8C/Screenshot-from-2024-02-06-20-48-04.png"
         }
       ]
     },

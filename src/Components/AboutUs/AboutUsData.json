@@ -64,16 +64,17 @@
       }
     ]
   },
+
   "strategy": {
     "breadCrumb": "ABOUT US >  STRATEGY",
     "contents": [
       {
         "tag": "img",
-        "src": ""
+        "src": "https://i.ibb.co/FB1ppSX/strategy2.png"
       },
       {
         "tag": "img",
-        "src": ""
+        "src": "https://i.ibb.co/RzfrDc2/strategy1.png"
       }
     ]
   },
@@ -318,16 +319,33 @@
       }
     ]
   },
+
   "partnerships": {
     "breadCrumb": "ABOUT US >  PARTNERSHIPS",
     "contents": [
       {
         "tag": "img",
-        "src": ""
+        "src": "https://i.ibb.co/rtg1WbN/partnership6.png"
       },
       {
         "tag": "img",
-        "src": ""
+        "src": "https://i.ibb.co/4VD4x5M/partnership5.png"
+      },
+      {
+        "tag": "img",
+        "src": "https://i.ibb.co/WpJjMLr/partnership4.png"
+      },
+      {
+        "tag": "img",
+        "src": "https://i.ibb.co/CzTgQGm/partnership3.png"
+      },
+      {
+        "tag": "img",
+        "src": "https://i.ibb.co/mz11LxK/partnership2.png"
+      },
+      {
+        "tag": "img",
+        "src": "https://i.ibb.co/bbLL1PB/partnership1.png"
       }
     ]
   },
@@ -336,11 +354,7 @@
     "contents": [
       {
         "tag": "img",
-        "src": ""
-      },
-      {
-        "tag": "img",
-        "src": ""
+        "src": "https://i.ibb.co/tcd93V3/organisationstructure.png"
       }
     ]
   }

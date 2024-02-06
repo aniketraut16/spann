@@ -2,10 +2,9 @@
   "blogs": {
     "breadCrumb": " RESOURCES AND TOOLKITS > BLOG/ARTICLES/VIDEOS ",
     "contents": [
-      { "tag": "p", "content": " 1 " },
       {
-        "tag": "p",
-        "content": "Impacts of Counterfeiting: The Need To Protect Your Brand"
+        "tag": "h2",
+        "content": "1 . Impacts of Counterfeiting: The Need To Protect Your Brand"
       },
       {
         "tag": "p",
@@ -27,10 +26,9 @@
         "tag": "p",
         "content": "The increasing trend of online shopping during this specific period especially has given tremendous opportunities to the counterfeiters to attack a reputed brand & make a profit, all under the cloak of anonymity. Since the consumer today is more focused on possessing the products due to its limited availability and not bothered much to check its quality, the e-commerce website grants innumerable opportunities to the fraudsters & grey market profiteers to process illicit sales."
       },
-      { "tag": "p", "content": " 2 " },
       {
-        "tag": "p",
-        "content": "Anti-piracy & Anti-counterfeiting: How to reduce counterfeit acts in a pandemic"
+        "tag": "h2",
+        "content": " 2 . Anti-piracy & Anti-counterfeiting: How to reduce counterfeit acts in a pandemic"
       },
       {
         "tag": "p",
@@ -64,8 +62,7 @@
         "tag": "p",
         "content": "By prioritizing online brand protection within the organizations, businesses position themselves to mitigate risks and financial impact resulting from stolen web traffic, brand impersonation, and fraud. They are also more effective at preventing damages to customer experience, increasing long-term brand health. With the right strategy in place, companies see significant ROI."
       },
-      { "tag": "p", "content": " 3 " },
-      { "tag": "p", "content": "I. Introduction" },
+      { "tag": "h2", "content": " 3) I. Introduction" },
       {
         "tag": "p",
         "content": "A. Definition of Product Diversion: Product diversion refers to the unauthorized sale or distribution of a product that is intended for exclusive distribution in a specific market or channel. This can occur when a manufacturer's product is sold outside of its intended distribution network or when a distributor or retailer sells the product to an unauthorized third party."
@@ -78,7 +75,7 @@
         "tag": "p",
         "content": "C. Impact of Product Diversion on Companies: Product diversion can have a significant impact on companies, damaging their brand and reputation, leading to lost sales and revenue, and creating confusion for consumers."
       },
-      { "tag": "p", "content": "II. Causes of Product Diversion" },
+      { "tag": "h2", "content": "II. Causes of Product Diversion" },
       {
         "tag": "p",
         "content": "A. Unauthorized Distribution Channels: Unauthorized distribution channels can arise when a manufacturer's product is sold outside of its intended distribution network. This can occur when a distributor or retailer sells the product to an unauthorized third party or when the product is sold through an unauthorized online marketplace."
@@ -91,7 +88,7 @@
         "tag": "p",
         "content": "C. Lack of Product Control: Companies may also experience product diversion due to a lack of product control and tracking. Without proper systems in place, it can be difficult for companies to monitor and control the distribution of their products."
       },
-      { "tag": "p", "content": "III. Consequences of Product Diversion" },
+      { "tag": "h2", "content": "III. Consequences of Product Diversion" },
       {
         "tag": "p",
         "content": "A. Damage to Brand and Reputation: Product diversion can harm a company's brand and reputation in several ways. Unauthorized distribution can lead to sub-par products reaching the market, which can damage the company's reputation. Confusion about which products are authentic and authorized can also lead to distrust and skepticism about the brand."
@@ -121,7 +118,7 @@
         "content": "Therefore, it is important for companies to take steps to prevent product diversion and ensure that their products are sold only through authorized channels. By implementing product tracking and monitoring systems and building strong relationships with their distributors and retailers, companies can reduce the risk of counterfeits entering the market and protect the quality and reputation of their brand."
       },
       {
-        "tag": "p",
+        "tag": "h2",
         "content": "IV. Strategies for Preventing Product Diversion"
       },
       {
@@ -136,7 +133,7 @@
         "tag": "p",
         "content": "C. Building Strong Relationships with Distributors and Retailers: Companies can also prevent product diversion by building strong relationships with their distributors and retailers. This can help to ensure that their products are sold through authorized channels and that the company's brand and reputation are protected."
       },
-      { "tag": "p", "content": "V. Case Studies of Product Diversion" },
+      { "tag": "h2", "content": "V. Case Studies of Product Diversion" },
       {
         "tag": "p",
         "content": "A. Successful Prevention Strategies: The ebook can include case studies of companies that have successfully prevented product diversion through the use of clear"
@@ -150,17 +147,20 @@
         "content": "B. Lessons Learned from Product Diversion Incidents: The ebook can also include case studies of companies that have experienced product diversion and the lessons they learned"
       },
       {
+        "tag": "h2",
+        "content": "V. Case Studies of Product Diversion in Pharma and Medical Devices Industry "
+      },
+      {
         "tag": "p",
-        "content": "V. Case Studies of Product Diversion in Pharma and Medical Devices Industry A. Pfizer's Successful Prevention Strategies: Pfizer, a leading pharmaceutical company, has implemented several strategies to prevent product diversion. One of the most successful strategies is the use of unique serialization codes for each product, which allows them to track and monitor the distribution of their products. In addition, Pfizer has established clear distribution channels and built strong relationships with their distributors and retailers to ensure that their products are sold only through authorized channels. B. Medtronic's Lesson Learned from Product Diversion Incident: Medtronic, a medical device company, experienced a product diversion incident when their devices were sold through unauthorized channels. The company learned the importance of implementing product tracking and monitoring systems to prevent similar incidents in the future. They also realized the need to build strong relationships with their distributors and retailers to ensure that their products are sold only through authorized channels."
+        "content": "A. Pfizer's Successful Prevention Strategies: Pfizer, a leading pharmaceutical company, has implemented several strategies to prevent product diversion. One of the most successful strategies is the use of unique serialization codes for each product, which allows them to track and monitor the distribution of their products. In addition, Pfizer has established clear distribution channels and built strong relationships with their distributors and retailers to ensure that their products are sold only through authorized channels. B. Medtronic's Lesson Learned from Product Diversion Incident: Medtronic, a medical device company, experienced a product diversion incident when their devices were sold through unauthorized channels. The company learned the importance of implementing product tracking and monitoring systems to prevent similar incidents in the future. They also realized the need to build strong relationships with their distributors and retailers to ensure that their products are sold only through authorized channels."
       },
       {
         "tag": "p",
         "content": "These case studies demonstrate the importance of implementing strategies to prevent product diversion in the pharma and medical devices industry. By implementing product tracking and monitoring systems, establishing clear distribution channels, and building strong relationships with their distributors and retailers, companies can protect their brand and reputation, prevent lost sales and revenue, and ensure that their products are sold only through authorized channels."
       },
-      { "tag": "p", "content": " 4 " },
       {
-        "tag": "p",
-        "content": "AI in Action: How Artificial Intelligence is Revolutionizing Brand Protection and Anti-Counterfeiting"
+        "tag": "h2",
+        "content": " 4 . AI in Action: How Artificial Intelligence is Revolutionizing Brand Protection and Anti-Counterfeiting"
       },
       {
         "tag": "p",
@@ -251,11 +251,11 @@
     "contents": [
       {
         "tag": "img",
-        "src": ""
+        "src": "https://i.ibb.co/R9Cf75t/Screenshot-from-2024-02-06-21-00-27.png"
       },
       {
         "tag": "img",
-        "src": ""
+        "src": "https://i.ibb.co/GkZQVzT/Screenshot-from-2024-02-06-21-00-05.png"
       }
     ]
   }

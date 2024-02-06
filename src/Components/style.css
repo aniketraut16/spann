@@ -528,6 +528,9 @@ input:hover {
 
 /* CONACTPAGE STYLING */
 
+.Contact * {
+  font-family: "Playfair Display", serif;
+}
 .Contact {
   width: 100%;
   margin-top: 20vh;
