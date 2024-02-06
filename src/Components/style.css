@@ -520,6 +520,9 @@ input:hover {
 #Footer > div ul a :hover {
   background-color: rgba(0, 0, 0, 0.794);
 }
+#Footer h3 {
+  font-size: 1.3em;
+}
 
 /* CONACTPAGE STYLING */
 
