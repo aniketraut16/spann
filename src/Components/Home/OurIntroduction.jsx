@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import bg1 from "../Images/S.jpeg";
 import bg2 from "../Images/P.jpeg";
 import bg3 from "../Images/A.jpeg";
@@ -14,6 +14,44 @@ function OurIntroduction() {
   const [nav2active, setnav2active] = useState(false);
   const [nav3active, setnav3active] = useState(false);
   const [nav4active, setnav4active] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const infoTabRef = useRef(null);
+  const introNavRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      setIsVisible(entries[0].isIntersecting);
+    }, options);
+
+    if (infoTabRef.current && introNavRef.current) {
+      observer.observe(infoTabRef.current);
+      observer.observe(introNavRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    const infoTabElement = infoTabRef.current;
+    const introNavElement = introNavRef.current;
+
+    if (isVisible) {
+      infoTabElement.style.transform = "translateX(0)";
+      introNavElement.style.transform = "translateX(0)";
+    } else {
+      infoTabElement.style.transform = "translateX(-15em)";
+      introNavElement.style.transform = "translateX(15em)";
+    }
+  }, [isVisible]);
   return (
     <div
       id="OurIntroduction"
@@ -21,7 +59,7 @@ function OurIntroduction() {
         background: `url(${currbg}) no-repeat center center / cover`,
       }}
     >
-      <div className="info-tab">
+      <div className="info-tab" ref={infoTabRef}>
         <h2>
           <i className="fa-solid fa-droplet"></i>
           {"  "}OUR INTRODUCTION
@@ -30,7 +68,7 @@ function OurIntroduction() {
         <p>{info}</p>
       </div>
 
-      <ul className="intro-nav">
+      <ul className="intro-nav" ref={introNavRef}>
         <li
           style={
             nav1active

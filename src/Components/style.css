@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 #Landing-Page {
   color: white;
-  width: 99vw;
+  width: 100%;
   height: 110vh;
   display: flex;
   flex-direction: column;
@@ -11,6 +11,19 @@
   position: relative;
   overflow: hidden !important;
   font-family: "Playfair Display", serif;
+}
+
+.cokieecard {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  z-index: 25;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.693);
 }
 
 #background-video {
@@ -23,7 +36,7 @@
 }
 
 #nav-div {
-  z-index: 100;
+  z-index: 20;
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,12 +46,23 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.455);
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.455);
+  animation: navanimation 2s ease;
+}
+
+@keyframes navanimation {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 
 #nav-div div a {
   text-decoration: none;
   color: white;
 }
+
 #dropdown {
   padding: 2em 10%;
   width: 100%;
@@ -92,7 +116,7 @@
 }
 #nav-div nav {
   color: white;
-  width: 75%;
+  width: 80%;
   height: 17vh;
   display: flex;
   align-items: center;
@@ -104,10 +128,11 @@
 }
 #nav-div nav img {
   width: 100%;
+  margin-left: 1em;
 }
 .div-link-section {
   display: flex;
-  width: 60%;
+  width: 55%;
   height: 100%;
   flex-direction: column;
 }
@@ -130,9 +155,11 @@
   justify-content: center;
 }
 .upper-div {
-  grid-template-columns: 1fr 2fr 1fr !important;
   border-bottom: 3px solid white;
-  gap: 5px;
+  display: flex !important;
+  align-items: center;
+  justify-content: end;
+  gap: 30px !important;
 }
 .group {
   display: flex;
@@ -194,6 +221,17 @@ input:hover {
   padding-bottom: 20px;
   text-shadow: 1px 1px 5px black;
   border-bottom: 4px solid #be9244;
+  animation: titleanimation 2s ease;
+}
+@keyframes titleanimation {
+  0% {
+    visibility: hidden;
+    transform: translateY(2em);
+  }
+  100% {
+    visibility: visible;
+    transform: translateY(0em);
+  }
 }
 #landing-text h1 span {
   font-size: 1.5em;
@@ -213,15 +251,15 @@ input:hover {
 }
 #wecare p {
   width: 45%;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: center;
 }
 
 /* OUR INTRO STYLING */
 
 #OurIntroduction {
-  height: 100vh;
   display: flex;
+  min-height: 100vh;
   align-items: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -229,6 +267,7 @@ input:hover {
   justify-content: space-evenly;
   font-family: "Playfair Display", serif;
   color: white;
+  overflow: hidden !important;
 }
 
 .info-tab {
@@ -237,10 +276,12 @@ input:hover {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  transition: all 1s ease;
 }
 .intro-nav {
   width: 20%;
   list-style: none;
+  transition: all 1s ease;
 }
 .intro-nav li {
   font-size: 1.7em;
@@ -265,22 +306,25 @@ input:hover {
 #overviewOfSpan {
   font-family: "Playfair Display", serif;
   width: 100%;
-  height: 90vh;
+  min-height: 100vh;
   background-color: black;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden !important;
 }
 
 #overviewOfSpan img {
   width: 40%;
   margin-left: 3em;
+  transition: all 1s ease;
 }
 #overviewOfSpan > div {
   padding: 2em 0px;
   width: 40%;
   margin-right: 1em;
+  transition: all 1s ease;
 }
 #overviewOfSpan > div h1 {
   color: #a5c21c;
@@ -300,12 +344,17 @@ input:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden !important;
 }
 
 #IiliteTrade h1 {
   border-bottom: 4px solid #be9244;
   width: fit-content;
   margin-bottom: 10px;
+  transition: all 1s ease;
+}
+.lilite-cards {
+  transition: all 1s ease;
 }
 #IiliteTrade > div {
   width: 75%;
@@ -342,6 +391,7 @@ input:hover {
 /* #HIGHLIGHTS  Of SERVICE */
 
 #HighlightOfService {
+  overflow: hidden !important;
   font-family: "Playfair Display", serif;
   width: 100%;
   display: flex;
@@ -377,7 +427,8 @@ input:hover {
 }
 
 #HighlightOfService > h1 {
-  margin: 3em 0px;
+  margin-top: 2em;
+  margin-bottom: 4em;
   border-bottom: 4px solid #be9244;
   padding: 5px;
 }
@@ -389,10 +440,10 @@ input:hover {
 }
 .corausol > div img {
   height: 100%;
-  width: 55%;
+  width: 52%;
 }
 .corausol > div div {
-  width: 43%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -411,11 +462,24 @@ input:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-top: 8px solid #b4b4b8;
+  border-top: 15px solid #b4b4b8;
 }
-
+#footer-div1 p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 #Footer > div {
   width: 40%;
+}
+#footer-div2 p {
+  padding-left: 32px;
+}
+#footer-div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
 }
 
 #Footer > div ul {
@@ -432,11 +496,14 @@ input:hover {
   padding-bottom: 3px;
 }
 
-#Footer > div ul a {
+#Footer > div ul a i {
   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.594);
   border-radius: 50px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.594);
+}
+#Footer > div ul a :hover {
+  background-color: rgba(0, 0, 0, 0.794);
 }
 
 /* CONACTPAGE STYLING */
@@ -520,4 +587,73 @@ input:hover {
   outline: none;
   background-color: #f3f4f6;
   border: 1px solid #d1d5db;
+}
+
+/* TEMPLATE STYLING */
+
+.template {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffbf5;
+}
+
+.aboutusbread {
+  background: url("./Images/aboutusbg.PNG");
+}
+.industry-brd {
+  background: url("./Images/industrybg.jpg");
+}
+.spanbg {
+  background: url("./Images/spansuitbg.PNG");
+}
+.traningbg {
+  background: url("./Images/tranikngbg.PNG");
+}
+
+.templatebrd {
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+  display: flex;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.401);
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 9em;
+  margin-bottom: 5%;
+  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.414);
+}
+
+.templatebrd h1 {
+  font-size: 4em;
+}
+.templatebrd h2 {
+  font-size: 1.7em;
+}
+.templatecontent {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin: 5% 0px;
+  font-family: "Playfair Display", serif;
+  padding: 4em;
+  border-radius: 5px;
+  width: 80%;
+  margin-top: 2em;
+  background-color: white;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1), -5px -5px 8px rgba(0, 0, 0, 0.1);
+}
+.templatecontent h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.templatecontent p {
+  font-size: 1.3em;
 }

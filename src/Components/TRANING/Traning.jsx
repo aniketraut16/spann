@@ -13,8 +13,8 @@ const TraningTemplate = () => {
   return (
     <>
       <Navbar white={true} />
-      <div className="traningus">
-        <div className="traningusbrd">
+      <div className="template">
+        <div className="templatebrd traningbg">
           <h2>{sectionData.breadCrumb}</h2>
           <h1>
             {sectionData.breadCrumb
@@ -23,7 +23,7 @@ const TraningTemplate = () => {
               .pop()}
           </h1>
         </div>
-        <div className="traning-uscountent">
+        <div className="templatecontent">
           {sectionData.contents.map((element, index) => (
             <React.Fragment key={index}>
               {element.tag === "img" ? (

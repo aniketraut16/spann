@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import LandingPage from "./Components/Home/LandingPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./Components/style.css";
@@ -15,10 +15,23 @@ import SpanSuit from "./Components/SPAN/SpanTemplate";
 import TraningTemplate from "./Components/TRANING/Traning";
 import Industries from "./Components/Industries/Industries";
 import Resources from "./Components/Resources/Resources";
+import CookiePolicy from "./Components/CokieePolicy";
 
 function App() {
+  const [showCookiePolicy, setShowCookiePolicy] = useState(false);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowCookiePolicy(true);
+    }, 8000);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
   return (
     <Router>
+      {showCookiePolicy && <CookiePolicy />}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/spansuit" element={<SpanSuit />} />

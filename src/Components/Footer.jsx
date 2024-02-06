@@ -6,13 +6,20 @@ function Footer() {
       <div id="footer-div1">
         <h2>SPAN</h2>
         <p>
-          SPAN refers to the global organization, and may refer to one or more,
-          of the member firms of Ernst & Young Global Limited, each of which is
-          a separate legal entity. Ernst & Young Global Limited, a UK company
-          limited by guarantee, does not provide services to clients.
+          SPAN Focuses on meticulous audits to strategic tax planning and
+          insightful consulting, we pave the way for your financial success with
+          precision and expertise.
+        </p>
+        <p>
+          <h3>India:</h3>Office No. 516, Dwarka City Centre, Sector 12, Dwarka,
+          New Delhi 110075, INDIA
+        </p>
+        <p>
+          <h3>Singapore:</h3>46 Kim Yam Road, #01-06 The Herencia, SINGAPORE -
+          239351
         </p>
       </div>
-      <div>
+      <div id="footer-div2">
         <ul>
           <li>Connect with us</li>
           <li>Articles</li>
@@ -33,6 +40,7 @@ function Footer() {
             <i class="fa-brands fa-youtube"></i>
           </a>
         </ul>
+        <p>&copy; 2024 All rights reserved to Span Consultancy™</p>
       </div>
     </div>
   );

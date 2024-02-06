@@ -1,10 +1,49 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 function IiliteTrade() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const h1Ref = useRef(null);
+  const cardsRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      setIsVisible(entries[0].isIntersecting);
+    }, options);
+
+    if (h1Ref.current && cardsRef.current) {
+      observer.observe(h1Ref.current);
+      observer.observe(cardsRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    const h1Element = h1Ref.current;
+    const cardsElement = cardsRef.current;
+
+    if (isVisible) {
+      h1Element.style.transform = "translateY(0px)";
+      cardsElement.style.transform = "translateY(0px)";
+    } else {
+      h1Element.style.transform = "translateY(5em)";
+      cardsElement.style.transform = "translateY(5em)";
+    }
+  }, [isVisible]);
+
   return (
     <div id="IiliteTrade">
       <div>
-        <h1>Illicit Trade Overview </h1>
+        <h1 ref={h1Ref}>Illicit Trade Overview </h1>
         <h3>What is Counterfeit? </h3>
         <p>
           A product designed, dressed, branded and/or packaged in a manner
@@ -12,7 +51,7 @@ function IiliteTrade() {
           not manufactured and/or distributed with the authorization of the
           Brand Owners.
         </p>
-        <div>
+        <div className="lilite-cards" ref={cardsRef}>
           <div>
             In the global environment, the sale of counterfeit goods remains a
             significant issue plagues oblivious consumers and brand owners in

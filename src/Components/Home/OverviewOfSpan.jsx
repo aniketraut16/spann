@@ -1,10 +1,48 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import img from "../Images/oveview.png";
 
 function OverviewOfSpan() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const overviewRef = useRef(null);
+  const imgRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      setIsVisible(entries[0].isIntersecting);
+    }, options);
+
+    if (overviewRef.current && imgRef.current) {
+      observer.observe(overviewRef.current);
+      observer.observe(imgRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    const overviewElement = overviewRef.current;
+    const imgElement = imgRef.current;
+
+    if (isVisible) {
+      overviewElement.style.transform = "translateX(0px)";
+      imgElement.style.transform = "translateX(0px)";
+    } else {
+      overviewElement.style.transform = "translateX(-15em)";
+      imgElement.style.transform = "translateX(15em)";
+    }
+  }, [isVisible]);
   return (
     <div id="overviewOfSpan">
-      <div>
+      <div ref={overviewRef}>
         <h1> OVERVIEW OF SPAN CONSULTING</h1>
         <p>
           SPAN Consulting is a premier professional services firm providing
@@ -35,7 +73,7 @@ function OverviewOfSpan() {
           management, budget management, ROI Calculation, etc.,
         </p>
       </div>
-      <img src={img} alt="" />
+      <img src={img} alt="" ref={imgRef} />
     </div>
   );
 }

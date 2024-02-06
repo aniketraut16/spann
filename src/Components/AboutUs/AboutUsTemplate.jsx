@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import jsonData from "./AboutUsData.json";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
@@ -7,6 +7,35 @@ import { useParams } from "react-router-dom";
 const TemplateComponent = () => {
   const { section } = useParams();
   const sectionData = jsonData[section];
+  const contentRef = useRef([]);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.style.transition = "transform 1s ease";
+          entry.target.style.transform = "translateX(0)";
+        } else {
+          entry.target.style.transition = "transform 0s";
+          entry.target.style.transform = "translateX(8em)";
+        }
+      });
+    }, options);
+
+    contentRef.current.forEach((ref) => {
+      observer.observe(ref);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   if (!sectionData || !sectionData.contents) {
     return <div>Data not found or invalid format</div>;
@@ -15,9 +44,8 @@ const TemplateComponent = () => {
   return (
     <>
       <Navbar white={true} />
-      <div className="aboutus">
-        <div className="navcover"></div>
-        <div className="aboutusbrd">
+      <div className="template">
+        <div className="templatebrd aboutusbread">
           <h2>{sectionData.breadCrumb}</h2>
           <h1>
             {sectionData.breadCrumb
@@ -26,12 +54,24 @@ const TemplateComponent = () => {
               .pop()}
           </h1>
         </div>
-        <div className="about-uscountent">
+        <div className="templatecontent">
           {sectionData.contents.map((element, index) =>
             element.tag === "img" ? (
-              <img key={index} src={element.src} alt={element.alt || ""} />
+              <img
+                key={index}
+                ref={(el) => (contentRef.current[index] = el)}
+                src={element.src}
+                alt={element.alt || ""}
+              />
             ) : (
-              React.createElement(element.tag, { key: index }, element.content)
+              React.createElement(
+                element.tag,
+                {
+                  key: index,
+                  ref: (el) => (contentRef.current[index] = el),
+                },
+                element.content
+              )
             )
           )}
         </div>
