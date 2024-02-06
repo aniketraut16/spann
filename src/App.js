@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowCookiePolicy(true);
-    }, 8000);
+    }, 4000);
 
     return () => {
       clearTimeout(timeoutId);

@@ -54,10 +54,7 @@ function LandingPage() {
       <OverviewOfSpan />
       <IiliteTrade />
       <HighlightOfService />
-      <i
-        className="fa-brands fa-square-whatsapp"
-        style={{ color: "#63E6BE" }}
-      ></i>
+      <i className="fa-brands fa-whatsapp"></i>
       <Footer />
     </>
   );

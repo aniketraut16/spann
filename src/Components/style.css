@@ -13,11 +13,15 @@
   font-family: "Playfair Display", serif;
 }
 
-.fa-square-whatsapp {
+.fa-whatsapp {
   position: fixed;
   z-index: 100;
-  font-size: 3em;
-  bottom: 2em;
+  font-size: 2.5em;
+  padding: 15px;
+  border-radius: 100px;
+  background-color: white;
+  color: green;
+  bottom: 1.7em;
   right: 2em;
 }
 .cokieecard {
@@ -164,9 +168,12 @@
 .upper-div {
   border-bottom: 3px solid white;
   display: flex !important;
-  align-items: center;
-  justify-content: end;
-  gap: 30px !important;
+  align-items: center !important;
+  justify-content: end !important;
+  gap: 50px !important;
+}
+.upper-div a {
+  width: fit-content !important;
 }
 
 .group {
@@ -212,7 +219,7 @@ input:hover {
 }
 
 .upper-div div i {
-  margin-right: 2em;
+  margin-right: 0.7em;
 }
 #landing-text {
   font-size: 5em;
