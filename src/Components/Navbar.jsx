@@ -166,6 +166,7 @@ function Navbar(props) {
     return (
       <>
         <Link to="/aboutus/history"> History</Link>
+        <Link to="/about/directorsmessage"> Directors message</Link>
         <Link to="/aboutus/missionvisionvalues">
           {" "}
           Mission, Vision and Values
@@ -300,9 +301,9 @@ function Navbar(props) {
               to="/contactus"
               style={isScrolled || currentPath != "/" ? { color: "black" } : {}}
             >
-              Contact us
+              Contact Us
             </Link>
-
+            <i className="fa-solid fa-magnifying-glass"></i>
             <div>
               <i className="fa-solid fa-user"></i> <span>Login</span>{" "}
             </div>

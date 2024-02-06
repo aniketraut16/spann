@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from "react";
+import Footer from "../Footer";
 import Navbar from "../Navbar";
 import jsonData from "./ServicesData.json";
 import { useParams } from "react-router-dom";
-import Footer from "../Footer";
 
 const ServiceTemplate = () => {
   const { section, subsection } = useParams();

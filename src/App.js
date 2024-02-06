@@ -16,6 +16,7 @@ import TraningTemplate from "./Components/TRANING/Traning";
 import Industries from "./Components/Industries/Industries";
 import Resources from "./Components/Resources/Resources";
 import CookiePolicy from "./Components/CokieePolicy";
+import Message from "./Components/AboutUs/Message";
 
 function App() {
   const [showCookiePolicy, setShowCookiePolicy] = useState(false);
@@ -34,6 +35,7 @@ function App() {
       {showCookiePolicy && <CookiePolicy />}
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/about/directorsmessage" element={<Message />} />
         <Route path="/spansuit" element={<SpanSuit />} />
         <Route path="/contactus" element={<Contact />} />
         <Route path="/aboutus/:section" element={<AboutUsTemplate />} />

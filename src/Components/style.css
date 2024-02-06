@@ -13,6 +13,13 @@
   font-family: "Playfair Display", serif;
 }
 
+.fa-square-whatsapp {
+  position: fixed;
+  z-index: 100;
+  font-size: 3em;
+  bottom: 2em;
+  right: 2em;
+}
 .cokieecard {
   height: 100vh;
   width: 100%;
@@ -161,6 +168,7 @@
   justify-content: end;
   gap: 30px !important;
 }
+
 .group {
   display: flex;
   width: 80%;
@@ -656,4 +664,80 @@ input:hover {
 }
 .templatecontent p {
   font-size: 1.3em;
+}
+.message-breadcrumb {
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+  display: flex;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.401);
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 9em;
+  margin-bottom: 5%;
+  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.414);
+}
+
+.message-breadcrumb {
+  background: url("./Images/dmessagebg.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.message-breadcrumb h1 {
+  font-size: 4em;
+}
+.message-breadcrumb h2 {
+  font-size: 1.7em;
+}
+
+.Message {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffbf5;
+}
+
+.messagecontent {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin: 5% 0px;
+  font-family: "Playfair Display", serif;
+  padding: 4em;
+  border-radius: 5px;
+  width: 80%;
+  margin-top: 2em;
+  background-color: white;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1), -5px -5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.messagecontent > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.messagecontent > div img {
+  width: 45%;
+}
+
+.messagecontent > div p {
+  width: 45%;
+}
+
+.animate-left,
+.animate-right {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide-in {
+  opacity: 1;
+  transform: translateX(0);
 }
