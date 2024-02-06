@@ -86,21 +86,121 @@
   "brandprotection": {
     "breadCrumb": "SPAN SUIT >  BRAND PROTECTION",
     "contents": [
+      { "tag": "h2", "content": " 1 . Activity: Intelligence Gathering:" },
       {
-        "tag": "img",
-        "src": "https://i.ibb.co/SJy5wf7/spansuit1.png"
+        "tag": "p",
+        "content": " Targeted Market Survey and Buy Program (Online and Offline) (in each market ~ 35-50 outlets) covering different channels"
+      },
+      { "tag": "h2", "content": " Scope: " },
+      {
+        "tag": "p",
+        "content": " Baselining, Measurement, Lead Generation, and Target Identification"
+      },
+      { "tag": "h2", "content": " Methodology: " },
+      {
+        "tag": "p",
+        "content": " Targeted market survey (leads from the field teams and customer complaints will become the starting point) and review of the online pharmacies, especially those servicing these states "
+      },
+      { "tag": "h2", "content": " Deliverable: " },
+      {
+        "tag": "p",
+        "content": " Collect, collate, and analyze all data & intelligence on targeted geography and a regional basis. Detailed report of offline and online availability of Company's Product counterfeits and analytics, identification of targets for enforcement action(s), and further investigations"
+      },
+      { "tag": "h2", "content": " Timeline: " },
+      { "tag": "p", "content": " 10 days onwards" },
+      { "tag": "h2", "content": " Expected outcome: Intelligence Picture: " },
+      {
+        "tag": "p",
+        "content": " 3 . SPAN will present a report listing the selected/suspected leads, and a summary of the Under Cover engagements that can be escalated into Targeted Investigation Projects (PSI&E) or may recommend an enforcement action. "
       },
       {
-        "tag": "img",
-        "src": "https://i.ibb.co/dchyKrD/spansuit2.png"
+        "tag": "p",
+        "content": " 4 . Provide a clear intelligence picture of risk areas, brands, products, and geographies. "
+      },
+      { "tag": "h2", "content": " 2 . Activity: Detailed Investigation" },
+      { "tag": "h2", "content": " Scope: " },
+      {
+        "tag": "p",
+        "content": " Exposing the complete counterfeit supply chain (distributor/wholesaler/retailer/printer/manufacturer/importer)"
+      },
+      { "tag": "h2", "content": " Methodology: " },
+      {
+        "tag": "p",
+        "content": " Surveillance, online and offline investigation, profiling, up-stream and down-stream investigation"
+      },
+      { "tag": "h2", "content": " Deliverable: " },
+      {
+        "tag": "p",
+        "content": " Counterfeit landscape analysis, evidence packages for enforcement actions, and the damages claim "
+      },
+      { "tag": "h2", "content": " Timeline: " },
+      { "tag": "p", "content": " 2-3 weeks " },
+      {
+        "tag": "h2",
+        "content": " Expected Outcome: Understanding of the Counterfeit SC "
+      },
+      { "tag": "p", "content": " 5 . A pipeline of investigative leads " },
+      {
+        "tag": "p",
+        "content": " 6 . Identify (ID) key actors in counterfeit products' manufacture, supply and distribution, importers, and printers."
       },
       {
-        "tag": "img",
-        "src": "https://i.ibb.co/4sRhHv6/spansuit3.png"
+        "tag": "p",
+        "content": " 7 . Identify key choke points in any established supply chain to allow for the right holders/law enforcement agency's interdiction. It may be the POS, trans-shipment, supply of RM/PM etc."
       },
       {
-        "tag": "img",
-        "src": "https://i.ibb.co/xjj7CvZ/spansuit4.png"
+        "tag": "p",
+        "content": " 8 . Evidence packages for potential enforcement action(s)"
+      },
+      { "tag": "h2", "content": " 3 . Activity: Enforcement Action(s) " },
+      { "tag": "h2", "content": " Scope: " },
+      {
+        "tag": "p",
+        "content": " Market Actions and Source (manufacturing and or printing) Actions "
+      },
+      { "tag": "h2", "content": " Methodology: " },
+      {
+        "tag": "p",
+        "content": " Verification of the leads, Police / Court Complaints, Civil Action, Administrative action"
+      },
+      { "tag": "h2", "content": " Deliverable: " },
+      {
+        "tag": "p",
+        "content": " Criminal / Civil and or administrative actions, seizure of counterfeit products and arrest of the counterfeiters "
+      },
+      { "tag": "h2", "content": " Timeline: " },
+      { "tag": "p", "content": " 14 days onwards " },
+      { "tag": "h2", "content": " Expected Outcome: Enforcement Actions" },
+      { "tag": "p", "content": " 9 . High-impact enforcement actions " },
+      { "tag": "p", "content": " 10 . Seizure of counterfeit material" },
+      { "tag": "p", "content": " 11 . The potential arrest of the accused " },
+      {
+        "tag": "p",
+        "content": " 12 . Leads from the police interviews and interrogation of the accused "
+      },
+      {
+        "tag": "p",
+        "content": " 13 . Documents from police seizures may help identify national and global players. "
+      },
+      {
+        "tag": "h2",
+        "content": " 4 . Activity: Communication Plan: To increase/amplify the impact of the enforcement actions"
+      },
+      { "tag": "h2", "content": " Scope: " },
+      { "tag": "p", "content": " Internal and External Stakeholders" },
+      { "tag": "h2", "content": " Methodology: " },
+      { "tag": "p", "content": " Legal/ Professional Drafting" },
+      { "tag": "h2", "content": " Deliverable: " },
+      {
+        "tag": "p",
+        "content": " Media standby statement, templates, customer care scripts, government communication, regulatory notifications (as required), complaints"
+      },
+      { "tag": "h2", "content": " Timeline: " },
+      { "tag": "p", "content": " 7 days" },
+      { "tag": "h2", "content": " Expected Outcome:" },
+      {
+        "tag": "p",
+        "content": " The lasting impact of the enforcement actions"
       }
     ]
   }
