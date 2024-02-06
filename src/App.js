@@ -3,7 +3,6 @@ import LandingPage from "./Components/Home/LandingPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./Components/style.css";
 import "./Components/Services/Services.css";
-import "./Components/AboutUs/Aboutus.css";
 import "./Components/SPAN/Span.css";
 import "./Components/TRANING/Traning.css";
 import "./Components/Industries/Industries.css";
@@ -22,17 +21,31 @@ function App() {
   const [showCookiePolicy, setShowCookiePolicy] = useState(false);
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setShowCookiePolicy(true);
-    }, 4000);
+    const hasAcceptedCookiePolicy = localStorage.getItem(
+      "cookiePolicyAccepted"
+    );
 
-    return () => {
-      clearTimeout(timeoutId);
-    };
+    // If the user has not accepted the cookie policy yet, show the popup
+    if (!hasAcceptedCookiePolicy) {
+      const timeoutId = setTimeout(() => {
+        setShowCookiePolicy(true);
+      }, 4000);
+
+      return () => {
+        clearTimeout(timeoutId);
+      };
+    }
   }, []);
+
+  const acceptCookiePolicy = () => {
+    // Set the flag in local storage to indicate that the user has accepted the cookie policy
+    localStorage.setItem("cookiePolicyAccepted", "true");
+    setShowCookiePolicy(false);
+  };
+
   return (
     <Router>
-      {showCookiePolicy && <CookiePolicy />}
+      {showCookiePolicy && <CookiePolicy onAccept={acceptCookiePolicy} />}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about/directorsmessage" element={<Message />} />

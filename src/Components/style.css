@@ -616,7 +616,8 @@ input:hover {
 }
 
 .aboutusbread {
-  background: url("./Images/aboutusbg.PNG");
+  background: url("./Images/aboutus.JPG");
+  background-attachment: fixed;
 }
 .industry-brd {
   background: url("./Images/industrybg.jpg");
