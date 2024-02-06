@@ -7,35 +7,35 @@ import { useParams } from "react-router-dom";
 function Industries() {
   const { section } = useParams();
   const sectionData = jsonData[section];
-  const contentRef = useRef([]);
+  // const contentRef = useRef([]);
 
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.5,
-    };
+  // useEffect(() => {
+  //   const options = {
+  //     root: null,
+  //     rootMargin: "0px",
+  //     threshold: 0.5,
+  //   };
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.style.transition = "transform 1s ease";
-          entry.target.style.transform = "translateX(0)";
-        } else {
-          entry.target.style.transition = "transform 0s";
-          entry.target.style.transform = "translateX(8em)";
-        }
-      });
-    }, options);
+  //   const observer = new IntersectionObserver((entries) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         entry.target.style.transition = "transform 1s ease";
+  //         entry.target.style.transform = "translateX(0)";
+  //       } else {
+  //         entry.target.style.transition = "transform 0s";
+  //         entry.target.style.transform = "translateX(8em)";
+  //       }
+  //     });
+  //   }, options);
 
-    contentRef.current.forEach((ref) => {
-      observer.observe(ref);
-    });
+  //   contentRef.current.forEach((ref) => {
+  //     observer.observe(ref);
+  //   });
 
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, []);
 
   if (!sectionData || !sectionData.contents) {
     return <div>Data not found or invalid format</div>;
@@ -59,18 +59,22 @@ function Industries() {
             <React.Fragment key={index}>
               {element.tag === "img" ? (
                 <img
-                  ref={(el) => (contentRef.current[index] = el)}
+                  // ref={(el) => (contentRef.current[index] = el)}
                   src={element.src}
                   alt={element.alt || ""}
                 />
               ) : element.tag === "ul" ? (
-                <ul ref={(el) => (contentRef.current[index] = el)}>
+                <ul
+                // ref={(el) => (contentRef.current[index] = el)}
+                >
                   {element["list-items"].map((item, i) => (
                     <li key={i}>{item}</li>
                   ))}
                 </ul>
               ) : element.tag === "ol" ? (
-                <ol ref={(el) => (contentRef.current[index] = el)}>
+                <ol
+                // ref={(el) => (contentRef.current[index] = el)}
+                >
                   {element["list-items"].map((item, i) => (
                     <li key={i}>{item}</li>
                   ))}
@@ -80,7 +84,7 @@ function Industries() {
                   element.tag,
                   {
                     key: index,
-                    ref: (el) => (contentRef.current[index] = el),
+                    // ref: (el) => (contentRef.current[index] = el),
                   },
                   element.content
                 )

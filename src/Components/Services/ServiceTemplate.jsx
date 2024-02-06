@@ -7,40 +7,43 @@ import { useParams } from "react-router-dom";
 const ServiceTemplate = () => {
   const { section, subsection } = useParams();
   const sectionData = jsonData[section][subsection];
-  const contentRef = useRef([]);
+  // const contentRef = useRef([]);
 
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.5,
-    };
+  // useEffect(() => {
+  //   const options = {
+  //     root: null,
+  //     rootMargin: "0px",
+  //     threshold: 0.5,
+  //   };
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.style.transition = "transform 1s ease";
-          entry.target.style.transform = "translateX(0)";
-        } else {
-          entry.target.style.transition = "transform 0s";
-          entry.target.style.transform = "translateX(8em)";
-        }
-      });
-    }, options);
+  //   const observer = new IntersectionObserver((entries) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         entry.target.style.transition = "transform 1s ease";
+  //         entry.target.style.transform = "translateX(0)";
+  //       } else {
+  //         entry.target.style.transition = "transform 0s";
+  //         entry.target.style.transform = "translateX(8em)";
+  //       }
+  //     });
+  //   }, options);
 
-    contentRef.current.forEach((ref) => {
-      observer.observe(ref);
-    });
+  //   contentRef.current.forEach((ref) => {
+  //     observer.observe(ref);
+  //   });
 
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, []);
 
   const renderElement = (element, index) => {
     if (element.tag === "ol" || element.tag === "ul") {
       return (
-        <element.tag key={index} ref={(el) => (contentRef.current[index] = el)}>
+        <element.tag
+          key={index}
+          // ref={(el) => (contentRef.current[index] = el)}
+        >
           {element["list-items"].map((item, idx) => (
             <li key={idx}>{item}</li>
           ))}
@@ -50,7 +53,7 @@ const ServiceTemplate = () => {
       return (
         <img
           key={index}
-          ref={(el) => (contentRef.current[index] = el)}
+          // ref={(el) => (contentRef.current[index] = el)}
           src={element.src}
           alt=""
         />
@@ -60,7 +63,7 @@ const ServiceTemplate = () => {
         element.tag,
         {
           key: index,
-          ref: (el) => (contentRef.current[index] = el),
+          // ref: (el) => (contentRef.current[index] = el),
         },
         element.content
       );

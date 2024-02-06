@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-  width: 300px;
+  width: 400px;
   height: 220px;
   background-color: rgb(255, 255, 255);
   display: ${(props) => (props.visible ? "none" : "flex")};
@@ -105,8 +105,9 @@ const CookiePolicy = () => {
         </svg>
         <CookieHeading>We use cookies.</CookieHeading>
         <CookieDescription>
-          This website uses cookies to ensure you get the best experience on our
-          site.
+          By using this website, you consent to the use of cookies in accordance
+          with our Cookie Policy. For more information on how we use cookies and
+          how you can manage them, please review our cookie Policy.
         </CookieDescription>
         <ButtonContainer>
           <AcceptButton onClick={handleAccept}>Allow</AcceptButton>

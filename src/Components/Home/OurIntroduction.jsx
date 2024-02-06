@@ -6,6 +6,7 @@ import bg4 from "../Images/N.jpeg";
 
 function OurIntroduction() {
   const [title, settitle] = useState("Strategic");
+  const [animationcount, setanimationcount] = useState(0);
   const [info, setinfo] = useState(
     " 'Strategic' represents our core competence in providing strategic guidance and innovative solutions to our clients. We excel in developing comprehensive strategies that align with their long-term objectives and navigating the complexities of their challenges."
   );
@@ -23,9 +24,8 @@ function OurIntroduction() {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5,
+      threshold: 0.2,
     };
-
     const observer = new IntersectionObserver((entries) => {
       setIsVisible(entries[0].isIntersecting);
     }, options);
@@ -41,15 +41,18 @@ function OurIntroduction() {
   }, []);
 
   useEffect(() => {
-    const infoTabElement = infoTabRef.current;
-    const introNavElement = introNavRef.current;
+    if (animationcount < 2) {
+      const infoTabElement = infoTabRef.current;
+      const introNavElement = introNavRef.current;
 
-    if (isVisible) {
-      infoTabElement.style.transform = "translateX(0)";
-      introNavElement.style.transform = "translateX(0)";
-    } else {
-      infoTabElement.style.transform = "translateX(-15em)";
-      introNavElement.style.transform = "translateX(15em)";
+      if (isVisible) {
+        infoTabElement.style.transform = "translateX(0)";
+        introNavElement.style.transform = "translateX(0)";
+      } else {
+        infoTabElement.style.transform = "translateX(-5em)";
+        introNavElement.style.transform = "translateX(5em)";
+      }
+      setanimationcount(animationcount + 1);
     }
   }, [isVisible]);
   return (

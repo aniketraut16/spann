@@ -40,7 +40,7 @@ function Footer() {
             <i class="fa-brands fa-youtube"></i>
           </a>
         </ul>
-        <p>&copy; 2024 All rights reserved to Span Consultancy™</p>
+        <p>&copy; 2024 All rights reserved to Span Consultaning™</p>
       </div>
     </div>
   );

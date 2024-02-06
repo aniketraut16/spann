@@ -5,12 +5,13 @@ function IiliteTrade() {
 
   const h1Ref = useRef(null);
   const cardsRef = useRef(null);
+  const [animationcount, setanimationcount] = useState(0);
 
   useEffect(() => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5,
+      threshold: 0.2,
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -28,15 +29,18 @@ function IiliteTrade() {
   }, []);
 
   useEffect(() => {
-    const h1Element = h1Ref.current;
-    const cardsElement = cardsRef.current;
+    if (animationcount < 2) {
+      const h1Element = h1Ref.current;
+      const cardsElement = cardsRef.current;
 
-    if (isVisible) {
-      h1Element.style.transform = "translateY(0px)";
-      cardsElement.style.transform = "translateY(0px)";
-    } else {
-      h1Element.style.transform = "translateY(5em)";
-      cardsElement.style.transform = "translateY(5em)";
+      if (isVisible) {
+        h1Element.style.transform = "translateY(0px)";
+        cardsElement.style.transform = "translateY(0px)";
+      } else {
+        h1Element.style.transform = "translateY(5em)";
+        cardsElement.style.transform = "translateY(5em)";
+      }
+      setanimationcount(animationcount + 1);
     }
   }, [isVisible]);
 

@@ -49,7 +49,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about/directorsmessage" element={<Message />} />
-        <Route path="/spansuit" element={<SpanSuit />} />
+        <Route path="/spansuit/:section" element={<SpanSuit />} />
         <Route path="/contactus" element={<Contact />} />
         <Route path="/aboutus/:section" element={<AboutUsTemplate />} />
         <Route path="/traning/:section" element={<TraningTemplate />} />

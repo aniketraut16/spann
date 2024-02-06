@@ -3,6 +3,7 @@ import img from "../Images/oveview.png";
 
 function OverviewOfSpan() {
   const [isVisible, setIsVisible] = useState(false);
+  const [animationcount, setanimationcount] = useState(0);
 
   const overviewRef = useRef(null);
   const imgRef = useRef(null);
@@ -29,15 +30,18 @@ function OverviewOfSpan() {
   }, []);
 
   useEffect(() => {
-    const overviewElement = overviewRef.current;
-    const imgElement = imgRef.current;
+    if (animationcount < 2) {
+      const overviewElement = overviewRef.current;
+      const imgElement = imgRef.current;
 
-    if (isVisible) {
-      overviewElement.style.transform = "translateX(0px)";
-      imgElement.style.transform = "translateX(0px)";
-    } else {
-      overviewElement.style.transform = "translateX(-15em)";
-      imgElement.style.transform = "translateX(15em)";
+      if (isVisible) {
+        overviewElement.style.transform = "translateX(0px)";
+        imgElement.style.transform = "translateX(0px)";
+      } else {
+        overviewElement.style.transform = "translateX(-5em)";
+        imgElement.style.transform = "translateX(5em)";
+      }
+      setanimationcount(animationcount + 1);
     }
   }, [isVisible]);
   return (

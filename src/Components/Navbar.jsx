@@ -173,10 +173,9 @@ function Navbar(props) {
         </Link>
         <Link to="/aboutus/valuesandexpectations"> Value Creation</Link>
         <Link to="/aboutus/fundingmodels"> Funding Model</Link>
-        <ul>
-          <li> Strategy</li>
-          <Link to="/aboutus/strategy">Ace Methodology</Link>
-        </ul>
+
+        <Link to="/aboutus/strategy">Strategy</Link>
+
         <Link to="/aboutus/capability"> Capability</Link>
         <Link to="/aboutus/bestpractices"> Best Practices </Link>
         <Link to="/aboutus/leadershipteam"> Leadership Team</Link>
@@ -200,7 +199,11 @@ function Navbar(props) {
   const SpanSuitDropdown = () => {
     return (
       <>
-        <Link to="/spansuit">Systems, Processes and Tools</Link>
+        <Link to="/spansuit/systemprocessandtools">
+          Systems, Processes and Tools
+        </Link>
+        <Link to="/spansuit/mobileappview">Mobile APP</Link>
+        <Link to="/spansuit/brandprotection">Brand Protection</Link>
       </>
     );
   };

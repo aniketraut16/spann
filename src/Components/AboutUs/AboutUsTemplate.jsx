@@ -7,35 +7,39 @@ import { useParams } from "react-router-dom";
 const TemplateComponent = () => {
   const { section } = useParams();
   const sectionData = jsonData[section];
-  const contentRef = useRef([]);
+  // const contentRef = useRef([]);
+  // var animationcount = 3;
 
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.5,
-    };
+  // useEffect(() => {
+  //   const options = {
+  //     root: null,
+  //     rootMargin: "0px",
+  //     threshold: 0.5,
+  //   };
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.style.transition = "transform 1s ease";
-          entry.target.style.transform = "translateX(0)";
-        } else {
-          entry.target.style.transition = "transform 0s";
-          entry.target.style.transform = "translateX(8em)";
-        }
-      });
-    }, options);
+  //   const observer = new IntersectionObserver((entries) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         entry.target.style.transition = "transform 1s ease";
+  //         entry.target.style.transform = "translateX(0)";
+  //       } else {
+  //         entry.target.style.transition = "transform 0s";
+  //         entry.target.style.transform = `translateX(${animationcount}em)`;
+  //         if (animationcount !== 0) {
+  //           animationcount--;
+  //         }
+  //       }
+  //     });
+  //   }, options);
 
-    contentRef.current.forEach((ref) => {
-      observer.observe(ref);
-    });
+  //   contentRef.current.forEach((ref) => {
+  //     observer.observe(ref);
+  //   });
 
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, []);
 
   if (!sectionData || !sectionData.contents) {
     return <div>Data not found or invalid format</div>;
@@ -59,7 +63,7 @@ const TemplateComponent = () => {
             element.tag === "img" ? (
               <img
                 key={index}
-                ref={(el) => (contentRef.current[index] = el)}
+                // ref={(el) => (contentRef.current[index] = el)}
                 src={element.src}
                 alt={element.alt || ""}
               />
@@ -68,7 +72,7 @@ const TemplateComponent = () => {
                 element.tag,
                 {
                   key: index,
-                  ref: (el) => (contentRef.current[index] = el),
+                  // ref: (el) => (contentRef.current[index] = el),
                 },
                 element.content
               )
