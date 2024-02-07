@@ -1,7 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import jsonData from "./spanjson.json";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import jsonData from "../JSON Data/spanjson.json";
 import { useParams } from "react-router-dom";
 
 function Industries() {
@@ -43,7 +41,6 @@ function Industries() {
 
   return (
     <>
-      <Navbar white={true} />
       <div className="template ">
         <div className="templatebrd spanbg">
           <h2>{sectionData.breadCrumb}</h2>
@@ -93,7 +90,6 @@ function Industries() {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 }

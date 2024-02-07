@@ -1,7 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-import jsonData from "./ServicesData.json";
+import jsonData from "../JSON Data/ServicesData.json";
 import { useParams } from "react-router-dom";
 
 const ServiceTemplate = () => {
@@ -76,10 +74,9 @@ const ServiceTemplate = () => {
 
   return (
     <>
-      <Navbar />
-      <div id="ServiceTemplate">
+      <div className="template ">
         <div
-          id="services-breadcrumb"
+          className="templatebrd"
           style={{
             background: `url(${sectionData.img}) no-repeat center center / cover`,
             backgroundAttachment: "fixed",
@@ -93,13 +90,12 @@ const ServiceTemplate = () => {
               .pop()}
           </h1>
         </div>
-        <div>
+        <div className="templatecontent">
           {sectionData.content.map((element, index) =>
             renderElement(element, index)
           )}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

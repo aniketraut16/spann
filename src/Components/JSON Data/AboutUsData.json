@@ -264,29 +264,30 @@
   "offices": {
     "breadCrumb": "ABOUT US >  OFFICES ",
     "contents": [
+      { "tag": "h2", "content": "Address" },
+      { "tag": "h2", "content": "INDIA" },
+      { "tag": "p", "content": "M: +91-829-12345-03" },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "A: Office No. 516, Dwarka City Centre, Sector 12, Dwarka, New Delhi 110075, INDIA and"
       },
+      { "tag": "h2", "content": "INDIA" },
+      { "tag": "p", "content": "M: +91-829-12345-02" },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "A: 902, Embassy Centre, Jamnalal Bajaj Road, Nariman Point, Mumbai 400021, INDIA"
       },
+      { "tag": "h2", "content": "SINGAPORE" },
+      { "tag": "p", "content": "M: +65-98635879" },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "A: 46 Kim Yam Road, #01-06 The Herencia, SINGAPORE 239351"
       },
+      { "tag": "h2", "content": "BANGLADESH" },
+      { "tag": "p", "content": "M: +880 1894-697179" },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "A: DARUS SALAM ARCADE (3rd Floor) 14, Purana Paltan, Dhaka -1000, BANGLADESH"
       }
     ]
   },

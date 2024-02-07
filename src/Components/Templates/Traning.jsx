@@ -1,7 +1,5 @@
 import React from "react";
-import jsonData from "./traningjson.json";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import jsonData from "../JSON Data/traningjson.json";
 import { useParams } from "react-router-dom";
 const TraningTemplate = () => {
   const { section } = useParams();
@@ -12,7 +10,6 @@ const TraningTemplate = () => {
 
   return (
     <>
-      <Navbar white={true} />
       <div className="template">
         <div className="templatebrd traningbg">
           <h2>{sectionData.breadCrumb}</h2>
@@ -51,7 +48,6 @@ const TraningTemplate = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

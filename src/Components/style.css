@@ -636,6 +636,9 @@ input:hover {
 .traningbg {
   background: url("./Images/tranikngbg.PNG");
 }
+.resourcebg {
+  background: url("./Images/resourcesbg.jpg");
+}
 
 .templatebrd {
   width: 100%;

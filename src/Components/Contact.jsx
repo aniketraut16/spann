@@ -1,11 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 
 function Contact() {
   return (
     <>
-      <Navbar />
       <div className="Contact">
         <h1>Contact Us</h1>
         <div>
@@ -79,7 +76,6 @@ function Contact() {
           ></iframe>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

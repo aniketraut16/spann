@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
-import jsonData from "./AboutUsData.json";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import jsonData from "../JSON Data/AboutUsData.json";
+
 import { useParams } from "react-router-dom";
 
 const TemplateComponent = () => {
@@ -47,7 +46,6 @@ const TemplateComponent = () => {
 
   return (
     <>
-      <Navbar white={true} />
       <div className="template">
         <div className="templatebrd aboutusbread">
           <h2>{sectionData.breadCrumb}</h2>
@@ -80,7 +78,6 @@ const TemplateComponent = () => {
           )}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

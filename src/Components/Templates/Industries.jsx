@@ -1,10 +1,8 @@
 import React, { useRef, useEffect } from "react";
-import jsonData from "./resources.json";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import jsonData from "../JSON Data/industrydata.json";
 import { useParams } from "react-router-dom";
 
-function Resources() {
+function Industries() {
   const { section } = useParams();
   const sectionData = jsonData[section];
   // const contentRef = useRef([]);
@@ -23,7 +21,7 @@ function Resources() {
   //         entry.target.style.transform = "translateX(0)";
   //       } else {
   //         entry.target.style.transition = "transform 0s";
-  //         entry.target.style.transform = "translateX(10em)";
+  //         entry.target.style.transform = "translateX(8em)";
   //       }
   //     });
   //   }, options);
@@ -43,9 +41,8 @@ function Resources() {
 
   return (
     <>
-      <Navbar white={true} />
-      <div className="resourcesus">
-        <div className="resourcesusbrd">
+      <div className="template ">
+        <div className="templatebrd industry-brd">
           <h2>{sectionData.breadCrumb}</h2>
           <h1>
             {sectionData.breadCrumb
@@ -54,7 +51,7 @@ function Resources() {
               .pop()}
           </h1>
         </div>
-        <div className="resources-uscountent">
+        <div className="templatecontent">
           {sectionData.contents.map((element, index) => (
             <React.Fragment key={index}>
               {element.tag === "img" ? (
@@ -93,9 +90,8 @@ function Resources() {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 }
 
-export default Resources;
+export default Industries;

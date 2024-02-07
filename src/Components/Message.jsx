@@ -1,13 +1,10 @@
 import React from "react";
-import d1 from "../Images/director1.png";
-import d2 from "../Images/director2.png";
-import Footer from "../Footer";
-import Navbar from "../Navbar";
+import d1 from "./Images/director1.png";
+import d2 from "./Images/director2.png";
 
 function Message() {
   return (
     <>
-      <Navbar />
       <div className="Message">
         <div className="message-breadcrumb">
           <h2>{"ABOUTUS > DIRECTORS MESSAGE"}</h2>
@@ -61,7 +58,6 @@ function Message() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

@@ -107,7 +107,7 @@ function Navbar(props) {
           <Link to="/services/investigationandduedilligence/facility">
             Facility
           </Link>
-          <Link to="/services/investigationandduedilligence/transit">
+          <Link to="/services/investigationandduedilligence/intransit">
             {" "}
             In-Transit{" "}
           </Link>

@@ -1,21 +1,20 @@
 import React, { useState, useEffect } from "react";
-import LandingPage from "./Components/Home/LandingPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./Components/style.css";
-import "./Components/Services/Services.css";
-import "./Components/SPAN/Span.css";
-import "./Components/TRANING/Traning.css";
-import "./Components/Industries/Industries.css";
-import "./Components/Resources/Resources.css";
-import ServiceTemplate from "./Components/Services/ServiceTemplate";
-import AboutUsTemplate from "./Components/AboutUs/AboutUsTemplate";
-import Contact from "./Components/Contact";
-import SpanSuit from "./Components/SPAN/SpanTemplate";
-import TraningTemplate from "./Components/TRANING/Traning";
-import Industries from "./Components/Industries/Industries";
-import Resources from "./Components/Resources/Resources";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import CookiePolicy from "./Components/CokieePolicy";
-import Message from "./Components/AboutUs/Message";
+import LandingPage from "./Components/Home/LandingPage";
+import Contact from "./Components/Contact";
+import "./Components/style.css";
+
+import ServiceTemplate from "./Components/Templates/ServiceTemplate";
+import AboutUsTemplate from "./Components/Templates/AboutUsTemplate";
+import SpanSuit from "./Components/Templates/SpanTemplate";
+import Industries from "./Components/Templates/Industries";
+import Resources from "./Components/Templates/Resources";
+import TraningTemplate from "./Components/Templates/Traning";
+
+import Message from "./Components/Message";
 
 function App() {
   const [showCookiePolicy, setShowCookiePolicy] = useState(false);
@@ -46,6 +45,7 @@ function App() {
   return (
     <Router>
       {showCookiePolicy && <CookiePolicy onAccept={acceptCookiePolicy} />}
+      <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about/directorsmessage" element={<Message />} />
@@ -60,6 +60,7 @@ function App() {
           element={<ServiceTemplate />}
         />
       </Routes>
+      <Footer />
     </Router>
   );
 }

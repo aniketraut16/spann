@@ -1,10 +1,8 @@
 import React, { useRef, useEffect } from "react";
-import jsonData from "./industrydata.json";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import jsonData from "../JSON Data/resources.json";
 import { useParams } from "react-router-dom";
 
-function Industries() {
+function Resources() {
   const { section } = useParams();
   const sectionData = jsonData[section];
   // const contentRef = useRef([]);
@@ -23,7 +21,7 @@ function Industries() {
   //         entry.target.style.transform = "translateX(0)";
   //       } else {
   //         entry.target.style.transition = "transform 0s";
-  //         entry.target.style.transform = "translateX(8em)";
+  //         entry.target.style.transform = "translateX(10em)";
   //       }
   //     });
   //   }, options);
@@ -43,9 +41,8 @@ function Industries() {
 
   return (
     <>
-      <Navbar white={true} />
-      <div className="template ">
-        <div className="templatebrd industry-brd">
+      <div className="template">
+        <div className="templatebrd resourcebg">
           <h2>{sectionData.breadCrumb}</h2>
           <h1>
             {sectionData.breadCrumb
@@ -93,9 +90,8 @@ function Industries() {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 }
 
-export default Industries;
+export default Resources;

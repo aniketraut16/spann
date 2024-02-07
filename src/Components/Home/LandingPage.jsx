@@ -2,11 +2,9 @@ import React, { useEffect, useRef } from "react";
 import span from "../Images/span.jpeg";
 import OurIntroduction from "./OurIntroduction";
 import bg from "../Images/landingpgbackground.mp4";
-import Navbar from "../Navbar";
 import OverviewOfSpan from "./OverviewOfSpan";
 import IiliteTrade from "./IiliteTrade";
 import HighlightOfService from "./HighlightOfService";
-import Footer from "../Footer";
 
 function LandingPage() {
   const videoRef = useRef(null);
@@ -33,7 +31,6 @@ function LandingPage() {
           <source src={bg} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <Navbar />
         <div id="landing-text">
           <h1>
             {" "}
@@ -55,7 +52,6 @@ function LandingPage() {
       <IiliteTrade />
       <HighlightOfService />
       <i className="fa-brands fa-whatsapp"></i>
-      <Footer />
     </>
   );
 }
