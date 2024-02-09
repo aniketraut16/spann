@@ -1,6 +1,6 @@
 {
   "overviewofindustries": {
-    "breadCrumb": "INDUSTRIES SERVED > OVERVIEW OF INDUSTRIES ",
+    "breadCrumb": "INDUSTRIES SERVED / OVERVIEW OF INDUSTRIES ",
     "contents": [
       {
         "tag": "p",
@@ -29,7 +29,7 @@
     ]
   },
   "successtory": {
-    "breadCrumb": "INDUSTRIES SERVED >  EXTERNAL AND INTERNAL STAKEHOLDER TRAINING ",
+    "breadCrumb": "INDUSTRIES SERVED /  EXTERNAL AND INTERNAL STAKEHOLDER TRAINING ",
     "contents": [
       {
         "tag": "img",

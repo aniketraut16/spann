@@ -1,6 +1,6 @@
 {
   "missionvisionvalues": {
-    "breadCrumb": "ABOUT US > MISSION VISION AND VALUES",
+    "breadCrumb": "ABOUT US / MISSION VISION AND VALUES",
     "contents": [
       {
         "tag": "h2",
@@ -31,7 +31,7 @@
     ]
   },
   "valuesandexpectations": {
-    "breadCrumb": "ABOUT US > VALUES & EXPECTATIONS",
+    "breadCrumb": "ABOUT US / VALUES & EXPECTATIONS",
     "contents": [
       {
         "tag": "p",
@@ -40,7 +40,7 @@
     ]
   },
   "fundingmodels": {
-    "breadCrumb": "ABOUT US > FUNDING MODEL",
+    "breadCrumb": "ABOUT US / FUNDING MODEL",
     "contents": [
       {
         "tag": "h2",
@@ -66,7 +66,7 @@
   },
 
   "strategy": {
-    "breadCrumb": "ABOUT US >  STRATEGY",
+    "breadCrumb": "ABOUT US /  STRATEGY",
     "contents": [
       {
         "tag": "img",
@@ -79,7 +79,7 @@
     ]
   },
   "capability": {
-    "breadCrumb": "ABOUT US >  CAPABILITY ",
+    "breadCrumb": "ABOUT US /  CAPABILITY ",
     "contents": [
       {
         "tag": "p",
@@ -146,7 +146,7 @@
     ]
   },
   "leadershipteam": {
-    "breadCrumb": "ABOUT US >  LEADERSHIP TEAM  ",
+    "breadCrumb": "ABOUT US /  LEADERSHIP TEAM  ",
     "contents": [
       {
         "tag": "p",
@@ -175,7 +175,7 @@
     ]
   },
   "governance": {
-    "breadCrumb": "ABOUT US >  GOVERNANACE ",
+    "breadCrumb": "ABOUT US /  GOVERNANACE ",
     "contents": [
       {
         "tag": "p",
@@ -204,7 +204,7 @@
     ]
   },
   "rolesandresponsibility": {
-    "breadCrumb": "ABOUT US >  ROLES & RESPONSIBILITIES  ",
+    "breadCrumb": "ABOUT US /  ROLES & RESPONSIBILITIES  ",
     "contents": [
       {
         "tag": "p",
@@ -233,7 +233,7 @@
     ]
   },
   "history": {
-    "breadCrumb": "ABOUT US >  HISTORY ",
+    "breadCrumb": "ABOUT US /  HISTORY ",
     "contents": [
       {
         "tag": "p",
@@ -262,7 +262,7 @@
     ]
   },
   "offices": {
-    "breadCrumb": "ABOUT US >  OFFICES ",
+    "breadCrumb": "ABOUT US /  OFFICES ",
     "contents": [
       { "tag": "h2", "content": "Address" },
       { "tag": "h2", "content": "INDIA" },
@@ -292,7 +292,7 @@
     ]
   },
   "bestpractices": {
-    "breadCrumb": "ABOUT US >  BEST PRACTICES ",
+    "breadCrumb": "ABOUT US /  BEST PRACTICES ",
     "contents": [
       { "tag": "p", "content": "Search Engine Advertising " },
       {
@@ -550,7 +550,7 @@
   },
 
   "partnerships": {
-    "breadCrumb": "ABOUT US >  PARTNERSHIPS",
+    "breadCrumb": "ABOUT US /  PARTNERSHIPS",
     "contents": [
       {
         "tag": "img",
@@ -579,7 +579,7 @@
     ]
   },
   "organisationstructure": {
-    "breadCrumb": "ABOUT US >  ORGANISATION STRUCTURE ",
+    "breadCrumb": "ABOUT US /  ORGANISATION STRUCTURE ",
     "contents": [
       {
         "tag": "img",

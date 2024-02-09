@@ -6,7 +6,7 @@ function Message() {
   return (
     <>
       <div className="Message">
-        <div className="message-breadcrumb">
+        <div className="templatebrd">
           <h2>{"ABOUTUS > DIRECTORS MESSAGE"}</h2>
           <h1>{"DIRECTORS MESSAGE"}</h1>
         </div>

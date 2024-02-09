@@ -7,10 +7,10 @@ const Card = styled.div`
   background-color: rgb(255, 255, 255);
   display: ${(props) => (props.visible ? "none" : "flex")};
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   padding: 20px 30px;
   gap: 13px;
+  font-family: "Nunito Sans", sans-serif;
   z-index: 26;
   position: relative;
   overflow: hidden;
@@ -32,7 +32,6 @@ const CookieHeading = styled.p`
 `;
 
 const CookieDescription = styled.p`
-  text-align: center;
   font-size: 0.7em;
   font-weight: 600;
   color: rgb(99, 99, 99);
@@ -45,15 +44,15 @@ const ButtonContainer = styled.div`
 `;
 
 const AcceptButton = styled.button`
-  width: 80px;
-  height: 30px;
-  background-color: #7b57ff;
+  width: 150px;
+  height: 50px;
+  background-color: #da0e29;
   transition-duration: 0.2s;
-  border: none;
-  color: rgb(241, 241, 241);
+  border: 2px solid #da0e29;
+  color: white;
+  font-family: "Exo 2", sans-serif;
   cursor: pointer;
   font-weight: 600;
-  border-radius: 20px;
 
   &:hover {
     background-color: #9173ff;
@@ -61,15 +60,15 @@ const AcceptButton = styled.button`
 `;
 
 const DeclineButton = styled.button`
-  width: 80px;
-  height: 30px;
-  background-color: rgb(218, 218, 218);
+  width: 150px;
+  height: 50px;
+  background-color: white;
   transition-duration: 0.2s;
-  color: rgb(46, 46, 46);
-  border: none;
+  color: #da0e29;
+  font-family: "Exo 2", sans-serif;
+  border: 2px solid #da0e29;
   cursor: pointer;
   font-weight: 600;
-  border-radius: 20px;
 
   &:hover {
     background-color: #ebebeb;
@@ -105,13 +104,13 @@ const CookiePolicy = () => {
         </svg>
         <CookieHeading>We use cookies.</CookieHeading>
         <CookieDescription>
-          By using this website, you consent to the use of cookies in accordance
-          with our Cookie Policy. For more information on how we use cookies and
-          how you can manage them, please review our cookie Policy.
+          Hi, this website uses essential cookies to ensure its proper operation
+          and tracking cookies to understand how you interact with it. The
+          latter will be set only after consent.
         </CookieDescription>
         <ButtonContainer>
-          <AcceptButton onClick={handleAccept}>Allow</AcceptButton>
-          <DeclineButton onClick={handleDecline}>Decline</DeclineButton>
+          <AcceptButton onClick={handleAccept}>Accept all</AcceptButton>
+          <DeclineButton onClick={handleDecline}>Manage Cookies</DeclineButton>
         </ButtonContainer>
       </Card>
     </div>

@@ -75,17 +75,11 @@ const ServiceTemplate = () => {
   return (
     <>
       <div className="template ">
-        <div
-          className="templatebrd"
-          style={{
-            background: `url(${sectionData.img}) no-repeat center center / cover`,
-            backgroundAttachment: "fixed",
-          }}
-        >
+        <div className="templatebrd">
           <h2>{sectionData.breadCrumb}</h2>
           <h1>
             {sectionData.breadCrumb
-              .split(">")
+              .split("/")
               .map((item) => item.trim())
               .pop()}
           </h1>

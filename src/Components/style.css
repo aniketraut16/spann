@@ -1,5 +1,6 @@
 /* LANDING PAGE STYLING */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&family=Nunito+Sans:opsz@6..12&family=Playfair+Display&display=swap");
 #Landing-Page {
   color: white;
   width: 100%;
@@ -10,7 +11,6 @@
   justify-content: center;
   position: relative;
   overflow: hidden !important;
-  font-family: "Playfair Display", serif;
 }
 
 .fa-whatsapp {
@@ -28,13 +28,13 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  z-index: 25;
+  z-index: 101;
   position: fixed;
   top: 0;
   left: 0;
   align-items: flex-end;
-  justify-content: flex-start;
-  padding: 4em;
+  justify-content: flex-end;
+  padding: 2em;
   background-color: rgba(0, 0, 0, 0.693);
 }
 
@@ -100,6 +100,9 @@
 }
 #dropdown li {
   font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
 }
 #dropdown ul {
   display: flex;
@@ -108,6 +111,7 @@
 
 #dropdown a {
   text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
 }
 #dropdown a:hover {
   transform: scale(1.05);
@@ -119,7 +123,7 @@
 }
 
 .lower-div > div:hover {
-  border-bottom: 5px solid #be9244;
+  border-bottom: 5px solid #da0e29;
 }
 #nav-div.scrolled {
   background-color: rgba(255, 255, 255);
@@ -132,6 +136,10 @@
   height: 17vh;
   display: flex;
   align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  font-family: "Exo 2", sans-serif;
   font-size: 0.9em;
   justify-content: space-between;
 }
@@ -250,6 +258,7 @@ input:hover {
   }
 }
 #landing-text h1 span {
+  font-family: "Playfair Display", serif;
   font-size: 1.5em;
 }
 /* WE CARE STYLING */
@@ -269,6 +278,7 @@ input:hover {
   width: 45%;
   font-size: 1.5em;
   text-align: center;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 /* OUR INTRO STYLING */
@@ -282,11 +292,23 @@ input:hover {
   background-size: cover;
   justify-content: center;
   gap: 35%;
-  font-family: "Playfair Display", serif;
+  transition: all 0.3s ease;
+  font-family: "Nunito Sans", sans-serif;
   color: white;
   overflow: hidden !important;
 }
 
+.info-tab h1 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #da0e29;
+  text-transform: uppercase;
+}
+.info-tab h2 {
+  font-family: "Exo 2", sans-serif;
+  color: #da0e29;
+  text-transform: uppercase;
+}
 .info-tab {
   font-size: 1.5em;
   width: 30%;
@@ -299,33 +321,36 @@ input:hover {
   width: 20%;
   list-style: none;
   transition: all 1s ease;
+  font-family: "Exo 2", sans-serif;
+  text-transform: uppercase;
 }
 .intro-nav li {
-  font-size: 1.7em;
   margin: 10px 0px;
   width: 100%;
+  font-size: 1.5em;
   padding: 10px 0px;
   border-bottom: 2px solid white;
   transition: all 200ms ease-in-out;
 }
 .intro-nav li:hover {
-  font-size: 1.9em;
-  border-bottom: 4px solid #be9244;
+  border-bottom: 4px solid #da0e29;
+  font-size: 1.7em;
 }
-.searchbox {
+/* .searchbox {
   font-size: 1.14em;
   display: flex;
   gap: 10px;
-}
+} */
 
 /* OVERVIEW OF SPAN STYLING */
 
 #overviewOfSpan {
-  font-family: "Playfair Display", serif;
   width: 100%;
+  font-family: "Nunito Sans", sans-serif;
   min-height: 100vh;
   background-color: black;
   color: white;
+  font-size: 1.15em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,13 +369,18 @@ input:hover {
   transition: all 1s ease;
 }
 #overviewOfSpan > div h1 {
-  color: #a5c21c;
+  font-size: 1.7em !important;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #da0e29;
+  margin-bottom: 1em;
 }
 
 /* Iilite Trade */
 
 #IiliteTrade {
-  font-family: "Playfair Display", serif;
+  font-family: "Nunito Sans", sans-serif;
+
   background: url("./Images/IMG_2780\ \(1\).JPG");
   background-position: center;
   background-size: cover;
@@ -365,10 +395,18 @@ input:hover {
 }
 
 #IiliteTrade h1 {
-  border-bottom: 4px solid #be9244;
   width: fit-content;
   margin-bottom: 10px;
   transition: all 1s ease;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #da0e29;
+  margin-bottom: 1em;
+}
+#IiliteTrade h3 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 .lilite-cards {
   transition: all 1s ease;
@@ -409,7 +447,6 @@ input:hover {
 
 #HighlightOfService {
   overflow: hidden !important;
-  font-family: "Playfair Display", serif;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -446,14 +483,26 @@ input:hover {
 #HighlightOfService > h1 {
   margin-top: 2em;
   margin-bottom: 4em;
-  border-bottom: 4px solid #be9244;
   padding: 5px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
 }
 .corausol > div {
   transition: all ease 0.5s;
   display: flex;
   justify-content: space-between;
   min-width: 100%;
+}
+.corausol > div p {
+  font-family: "Nunito Sans", sans-serif;
+}
+.corausol > div h1 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #da0e29;
+  text-transform: uppercase;
 }
 .corausol > div img {
   height: 100%;
@@ -477,6 +526,8 @@ input:hover {
   width: 100%;
   height: 40vh;
   display: flex;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #fff9d7;
   align-items: center;
   justify-content: space-evenly;
   border-top: 15px solid #b4b4b8;
@@ -488,6 +539,12 @@ input:hover {
 }
 #Footer > div {
   width: 40%;
+}
+#Footer h2 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #da0e29;
+  margin-bottom: 1em;
 }
 #footer-div2 p {
   padding-left: 32px;
@@ -505,11 +562,11 @@ input:hover {
   gap: 10px;
 }
 #Footer > div ul li {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff9d7;
   padding-bottom: 3px;
 }
 #Footer > div ul li:hover {
-  border-bottom: 2px solid #be9244;
+  border-bottom: 2px solid #da0e29;
   padding-bottom: 3px;
 }
 
@@ -529,7 +586,7 @@ input:hover {
 /* CONACTPAGE STYLING */
 
 .Contact * {
-  font-family: "Playfair Display", serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 .Contact {
   width: 100%;
@@ -546,9 +603,15 @@ input:hover {
 }
 .Contact > h1 {
   margin: 1em 0px;
-  color: #e74853;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #da0e29;
+}
+.adress p {
+  margin: 0px;
 }
 .adress h3 {
+  margin-top: 1em;
   color: #7464d1;
 }
 .adress span {
@@ -620,61 +683,41 @@ input:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fffbf5;
+  background-color: #f7f8f8;
 }
-
-.aboutusbread {
-  background: url("./Images/aboutus.JPG");
-  background-attachment: fixed;
-}
-.industry-brd {
-  background: url("./Images/industrybg.jpg");
-}
-.spanbg {
-  background: url("./Images/spansuitbg.PNG");
-}
-.traningbg {
-  background: url("./Images/tranikngbg.PNG");
-}
-.resourcebg {
-  background: url("./Images/resourcesbg.jpg");
-}
-
 .templatebrd {
   width: 100%;
-  font-family: "Playfair Display", serif;
-  height: 70vh;
-  background-position: center;
-  background-size: cover;
-  z-index: 2;
+  font-family: "Exo 2", sans-serif;
+  height: 12vh;
   display: flex;
-  color: white;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.401);
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 9em;
-  margin-bottom: 5%;
-  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.414);
+  justify-content: center;
+  justify-content: center;
+  margin-top: 20vh;
+  padding: 0px 15%;
 }
 
 .templatebrd h1 {
-  font-size: 4em;
+  color: #b61032;
+  font-size: 3.5em;
+  font-weight: bold;
 }
 .templatebrd h2 {
-  font-size: 1.7em;
+  font-size: 0.8em;
+  color: #433c48;
 }
 .templatecontent {
   display: flex;
   flex-direction: column;
   gap: 7px;
   margin: 5% 0px;
-  font-family: "Playfair Display", serif;
-  padding: 4em;
+  font-family: "Nunito Sans", sans-serif;
   border-radius: 5px;
-  width: 80%;
+  padding: 3.5em;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
+  width: 70%;
   margin-top: 2em;
   background-color: white;
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1), -5px -5px 8px rgba(0, 0, 0, 0.1);
 }
 .templatecontent h2 {
   font-size: 1.7em;
@@ -728,12 +771,12 @@ input:hover {
   gap: 7px;
   margin: 5% 0px;
   font-family: "Playfair Display", serif;
-  padding: 4em;
   border-radius: 5px;
-  width: 80%;
+  padding: 3.5em;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
+  width: 70%;
   margin-top: 2em;
   background-color: white;
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1), -5px -5px 8px rgba(0, 0, 0, 0.1);
 }
 
 .messagecontent > div {
@@ -746,6 +789,8 @@ input:hover {
 }
 
 .messagecontent > div p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.2em;
   width: 45%;
 }
 

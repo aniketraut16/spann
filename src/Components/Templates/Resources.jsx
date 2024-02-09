@@ -46,7 +46,7 @@ function Resources() {
           <h2>{sectionData.breadCrumb}</h2>
           <h1>
             {sectionData.breadCrumb
-              .split(">")
+              .split("/")
               .map((item) => item.trim())
               .pop()}
           </h1>

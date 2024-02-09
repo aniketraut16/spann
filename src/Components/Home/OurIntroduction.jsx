@@ -63,11 +63,11 @@ function OurIntroduction() {
       }}
     >
       <div className="info-tab" ref={infoTabRef}>
-        <h2>
-          <i className="fa-solid fa-droplet"></i>
+        <h1>
+          <i className="fa-solid fa-industry"></i>
           {"  "}OUR INTRODUCTION
-        </h2>
-        <h1>{title}</h1>
+        </h1>
+        <h2>{title}</h2>
         <p>{info}</p>
       </div>
 
@@ -76,8 +76,8 @@ function OurIntroduction() {
           style={
             nav1active
               ? {
-                  fontSize: "1.15em",
-                  borderBottom: "4px solid #be9244",
+                  fontSize: "1.7em",
+                  borderBottom: "4px solid  #da0e29",
                 }
               : {}
           }
@@ -99,8 +99,8 @@ function OurIntroduction() {
           style={
             nav2active
               ? {
-                  fontSize: "1.15em",
-                  borderBottom: "4px solid #be9244",
+                  fontSize: "1.7em",
+                  borderBottom: "4px solid  #da0e29",
                 }
               : {}
           }
@@ -123,8 +123,8 @@ function OurIntroduction() {
           style={
             nav3active
               ? {
-                  fontSize: "1.15em",
-                  borderBottom: "4px solid #be9244",
+                  fontSize: "1.7em",
+                  borderBottom: "4px solid  #da0e29",
                 }
               : {}
           }
@@ -147,8 +147,8 @@ function OurIntroduction() {
           style={
             nav4active
               ? {
-                  fontSize: "1.15em",
-                  borderBottom: "4px solid #be9244",
+                  fontSize: "1.7em",
+                  borderBottom: "4px solid  #da0e29",
                 }
               : {}
           }

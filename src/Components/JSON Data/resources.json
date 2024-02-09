@@ -1,6 +1,6 @@
 {
   "blogs": {
-    "breadCrumb": " RESOURCES AND TOOLKITS > BLOG/ARTICLES/VIDEOS ",
+    "breadCrumb": " RESOURCES AND TOOLKITS / BLOG , ARTICLES & VIDEOS ",
     "contents": [
       {
         "tag": "h2",
@@ -181,7 +181,7 @@
     ]
   },
   "whitepaper": {
-    "breadCrumb": "RESOURCES AND TOOLKITS >WHITE PAPERS   ",
+    "breadCrumb": "RESOURCES AND TOOLKITS / WHITE PAPERS   ",
     "contents": [
       {
         "tag": "p",
@@ -214,7 +214,7 @@
     ]
   },
   "casestudy": {
-    "breadCrumb": " RESOURCES AND TOOLKITS > CASE STUDIES ",
+    "breadCrumb": " RESOURCES AND TOOLKITS / CASE STUDIES ",
     "contents": [
       {
         "tag": "p",
@@ -247,7 +247,7 @@
     ]
   },
   "brandprotection": {
-    "breadCrumb": "RESOURCES AND TOOLKITS > BRAND PROTECTION TOOLKITS ",
+    "breadCrumb": "RESOURCES AND TOOLKITS / BRAND PROTECTION TOOLKITS ",
     "contents": [
       {
         "tag": "img",

@@ -296,7 +296,7 @@ function Navbar(props) {
             className="upper-div"
             style={
               isScrolled || currentPath != "/"
-                ? { borderBottom: "3px solid #be9244" }
+                ? { borderBottom: "3px solid #da0e29" }
                 : {}
             }
           >
@@ -306,7 +306,10 @@ function Navbar(props) {
             >
               Contact Us
             </Link>
-            <i className="fa-solid fa-magnifying-glass"></i>
+            <div>
+              <i className="fa-solid fa-magnifying-glass"></i>
+              <span>Search</span>{" "}
+            </div>
             <div>
               <i className="fa-solid fa-user"></i> <span>Login</span>{" "}
             </div>
