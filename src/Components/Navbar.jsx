@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "./Images/logo .png";
 import { Link, useLocation } from "react-router-dom";
+import Accordion from "./Accordion";
 function Navbar(props) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [dropdownContent, setDropdownContent] = useState(null);
@@ -275,6 +276,13 @@ function Navbar(props) {
         setDropdownContent(null);
     }
   };
+  const [isBurgerActive, setisBurgerActive] = useState(false);
+
+  // For Side Navbar opening animation
+  let counter = 0;
+
+  //To find whether the device is Phone or not
+  const isPhone = window.innerWidth < 900 ? true : false;
 
   return (
     <div
@@ -288,9 +296,17 @@ function Navbar(props) {
             : {}
         }
       >
-        <Link to="/">
+        <Link to="/" id="span-logo">
           <img src={logo} alt="Logo" />
         </Link>
+
+        <Accordion
+          isBurgerActive={isBurgerActive}
+          isPhone={isPhone}
+          setisBurgerActive={setisBurgerActive}
+          setisPhone={setisBurgerActive}
+        />
+
         <div className="div-link-section">
           <div
             className="upper-div"
@@ -376,6 +392,37 @@ function Navbar(props) {
               <i className="fa-solid fa-angle-down"></i>
             </div>
           </div>
+        </div>
+        <div
+          className="burger"
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+          }}
+        >
+          <div
+            className="top"
+            style={
+              isBurgerActive
+                ? { transform: "rotate(45deg) translateY(8px)" }
+                : { transform: "rotate(0deg) translateY(0%)" }
+            }
+          ></div>
+          <div
+            className="middle"
+            style={
+              isBurgerActive
+                ? { transform: "translateX(500%)" }
+                : { transform: "translateX(0%)" }
+            }
+          ></div>
+          <div
+            className="bottom"
+            style={
+              isBurgerActive
+                ? { transform: "rotate(-45deg) translateY(-8px)" }
+                : { transform: "rotate(0deg) translateY(0%)" }
+            }
+          ></div>
         </div>
       </nav>
       <div

@@ -11,12 +11,7 @@ function Message() {
           <h1>{"DIRECTORS MESSAGE"}</h1>
         </div>
         <div className="messagecontent">
-          <div
-            style={{
-              transition: "transform 1s ease",
-              transform: "translateX(-2em)",
-            }}
-          >
+          <div>
             <img src={d1} alt="" />
             <p>
               <h2>PANKAJ MONGA</h2>
@@ -33,12 +28,7 @@ function Message() {
               Calcutta.
             </p>
           </div>
-          <div
-            style={{
-              transition: "transform 1s ease",
-              transform: "translateX(2em)",
-            }}
-          >
+          <div id="colVineetJaisawal">
             <p>
               <h2>COL VINEET JAISWAL </h2>
               Colonel Vineet Jaiswal is an experienced Indian Army officer with

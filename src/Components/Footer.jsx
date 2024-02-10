@@ -11,12 +11,16 @@ function Footer() {
           precision and expertise.
         </p>
         <p>
-          <h3>India:</h3>Office No. 516, Dwarka City Centre, Sector 12, Dwarka,
-          New Delhi 110075, INDIA
+          <h3>India:</h3>
+          <span>
+            {" "}
+            Office No. 516, Dwarka City Centre, Sector 12, Dwarka,New Delhi
+            110075, INDIA
+          </span>
         </p>
         <p>
-          <h3>Singapore:</h3>46 Kim Yam Road, #01-06 The Herencia, SINGAPORE -
-          239351
+          <h3>Singapore:</h3>
+          <span> 46 Kim Yam Road, #01-06 The Herencia, SINGAPORE - 239351</span>
         </p>
       </div>
       <div id="footer-div2">

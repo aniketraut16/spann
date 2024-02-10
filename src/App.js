@@ -15,6 +15,7 @@ import Resources from "./Components/Templates/Resources";
 import TraningTemplate from "./Components/Templates/Traning";
 
 import Message from "./Components/Message";
+import Accordion from "./Components/Accordion";
 
 function App() {
   const [showCookiePolicy, setShowCookiePolicy] = useState(false);
@@ -48,6 +49,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/add" element={<Accordion />} />
         <Route path="/about/directorsmessage" element={<Message />} />
         <Route path="/spansuit/:section" element={<SpanSuit />} />
         <Route path="/contactus" element={<Contact />} />
