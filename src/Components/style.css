@@ -278,7 +278,7 @@ input:hover {
   width: 45%;
   font-size: 1.5em;
   text-align: center;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 /* OUR INTRO STYLING */
@@ -301,7 +301,7 @@ input:hover {
 .info-tab h1 {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: #da0e29;
+  color: gold;
   text-transform: uppercase;
 }
 .info-tab h2 {
@@ -401,6 +401,8 @@ input:hover {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
   color: #da0e29;
+  border-bottom: 4px solid #3c0753;
+
   margin-bottom: 1em;
 }
 #IiliteTrade h3 {
@@ -488,6 +490,7 @@ input:hover {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+  border-bottom: 4px solid #3c0753;
 }
 .corausol > div {
   transition: all ease 0.5s;
@@ -694,12 +697,12 @@ input:hover {
   justify-content: center;
   justify-content: center;
   margin-top: 20vh;
-  padding: 0px 15%;
+  padding: 0px 5%;
 }
 
 .templatebrd h1 {
   color: #b61032;
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: bold;
 }
 .templatebrd h2 {
@@ -715,7 +718,7 @@ input:hover {
   border-radius: 5px;
   padding: 3.5em;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
-  width: 70%;
+  width: 90%;
   margin-top: 2em;
   background-color: white;
 }
@@ -774,7 +777,7 @@ input:hover {
   border-radius: 5px;
   padding: 3.5em;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
-  width: 70%;
+  width: 90%;
   margin-top: 2em;
   background-color: white;
 }
