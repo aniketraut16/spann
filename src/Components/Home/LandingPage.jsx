@@ -34,8 +34,8 @@ function LandingPage() {
         <div id="landing-text">
           <h1>
             {" "}
-            <span>S</span>trategic <span>P</span>artner for <span>A</span>
-            dvanced <span>N</span>avigation
+            <span>S</span>TRATEGIC <span>P</span>ARTNER FOR <span>A</span>
+            DVANCED <span>N</span>AVIGATION
           </h1>
         </div>
       </div>

@@ -289,7 +289,7 @@ function Navbar(props) {
       <nav
         style={
           isScrolled || currentPath !== "/"
-            ? { height: "15vh", color: "black" }
+            ? { height: "15vh", color: "maroon" }
             : {}
         }
       >
@@ -316,7 +316,7 @@ function Navbar(props) {
             <Link
               to="/contactus"
               style={
-                isScrolled || currentPath !== "/" ? { color: "black" } : {}
+                isScrolled || currentPath !== "/" ? { color: "maroon" } : {}
               }
             >
               Contact Us

@@ -140,7 +140,7 @@
 }
 
 .lower-div > div:hover {
-  border-bottom: 5px solid #da0e29;
+  border-bottom: 5px solid maroon;
 }
 #nav-div.scrolled {
   background-color: rgba(255, 255, 255);
@@ -288,7 +288,7 @@
   }
   .accordion-content p li {
     font-family: "Exo 2", sans-serif;
-    color: #da0e29 !important;
+    color: maroon !important;
     font-size: 1.3em;
     text-transform: uppercase;
     width: 90% !important;
@@ -407,6 +407,9 @@
   align-items: center;
   justify-content: flex-start;
 }
+#landing-text h1 span {
+  text-transform: capitalize;
+}
 #landing-text h1 {
   font-size: 0.6em;
   letter-spacing: 2px;
@@ -438,7 +441,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1e4dc;
+  background-color: #fff8e3;
 }
 #wecare img {
   width: 35%;
@@ -446,6 +449,7 @@
 #wecare p {
   width: 45%;
   font-size: 1.5em;
+  color: black;
   text-align: center;
   font-family: "Exo 2", sans-serif;
 }
@@ -462,20 +466,20 @@
   justify-content: center;
   gap: 35%;
   transition: all 0.3s ease;
+  color: black;
   font-family: "Nunito Sans", sans-serif;
-  color: white;
   overflow: hidden !important;
 }
 
 .info-tab h1 {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: gold;
+  color: maroon;
   text-transform: uppercase;
 }
 .info-tab h2 {
   font-family: "Exo 2", sans-serif;
-  color: #da0e29;
+  color: maroon;
   text-transform: uppercase;
 }
 .info-tab {
@@ -488,6 +492,7 @@
 }
 .intro-nav {
   width: 20%;
+  color: #451952;
   list-style: none;
   transition: all 1s ease;
   font-family: "Exo 2", sans-serif;
@@ -502,7 +507,7 @@
   transition: all 200ms ease-in-out;
 }
 .intro-nav li:hover {
-  border-bottom: 4px solid #da0e29;
+  border-bottom: 4px solid maroon;
   font-size: 1.7em;
 }
 /* .searchbox {
@@ -541,7 +546,7 @@
   font-size: 1.7em !important;
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: #da0e29;
+  color: maroon;
   margin-bottom: 1em;
 }
 
@@ -566,10 +571,11 @@
 #IiliteTrade h1 {
   width: fit-content;
   margin-bottom: 10px;
+  text-transform: uppercase;
   transition: all 1s ease;
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: #da0e29;
+  color: maroon;
   border-bottom: 4px solid #3c0753;
 
   margin-bottom: 1em;
@@ -622,7 +628,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #37b5b6;
+  background: linear-gradient(to right, #c31432, #240b36);
   padding-bottom: 4em;
 }
 .corausol {
@@ -659,7 +665,6 @@
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  border-bottom: 4px solid #3c0753;
 }
 .corausol > div {
   transition: all ease 0.5s;
@@ -669,11 +674,13 @@
 }
 .corausol > div p {
   font-family: "Nunito Sans", sans-serif;
+  color: black;
 }
 .corausol > div h1 {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: #da0e29;
+  color: maroon;
+  border-bottom: 2px solid maroon;
   text-transform: uppercase;
 }
 .corausol > div img {
@@ -699,7 +706,8 @@
   display: flex;
   padding: 2em 0px;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #fff9d7;
+  background: url("./Images/footerbg.jpg");
+  background-size: cover;
   align-items: center;
   justify-content: space-evenly;
   border-top: 15px solid #b4b4b8;
@@ -716,7 +724,7 @@
 #Footer h2 {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: #da0e29;
+  color: maroon;
   margin-bottom: 1em;
 }
 #footer-div2 p {
@@ -739,7 +747,7 @@
   padding-bottom: 3px;
 }
 #Footer > div ul li:hover {
-  border-bottom: 2px solid #da0e29;
+  border-bottom: 2px solid maroon;
   padding-bottom: 3px;
 }
 
@@ -861,7 +869,7 @@
   font-size: 3em;
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: #da0e29;
+  color: maroon;
 }
 .form {
   display: flex;
@@ -914,15 +922,18 @@
   align-items: center;
   background-color: #f7f8f8;
 }
+.templatebrd:hover {
+  background-color: white;
+}
 .templatebrd {
   width: 100%;
   font-family: "Exo 2", sans-serif;
-  height: 12vh;
+  height: 32vh;
   display: flex;
+  background-color: #fff8e3;
   flex-direction: column;
-  justify-content: center;
-  justify-content: center;
-  margin-top: 20vh;
+  justify-content: flex-end;
+  padding-top: 20vh;
   padding: 0px 5%;
 }
 

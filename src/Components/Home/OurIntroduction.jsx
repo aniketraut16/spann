@@ -1,8 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import bg1 from "../Images/S.jpeg";
-import bg2 from "../Images/P.jpeg";
-import bg3 from "../Images/A.jpeg";
-import bg4 from "../Images/N.jpeg";
 
 function OurIntroduction() {
   const [title, settitle] = useState("Strategic");
@@ -10,7 +6,6 @@ function OurIntroduction() {
   const [info, setinfo] = useState(
     " 'Strategic' represents our core competence in providing strategic guidance and innovative solutions to our clients. We excel in developing comprehensive strategies that align with their long-term objectives and navigating the complexities of their challenges."
   );
-  const [currbg, setcurrbg] = useState(bg1);
   const [nav1active, setnav1active] = useState(true);
   const [nav2active, setnav2active] = useState(false);
   const [nav3active, setnav3active] = useState(false);
@@ -56,12 +51,7 @@ function OurIntroduction() {
     }
   }, [isVisible]);
   return (
-    <div
-      id="OurIntroduction"
-      style={{
-        background: `url(${currbg}) no-repeat center center / cover`,
-      }}
-    >
+    <div id="OurIntroduction">
       <div className="info-tab" ref={infoTabRef}>
         <h1>
           <i className="fa-solid fa-industry"></i>
@@ -82,7 +72,6 @@ function OurIntroduction() {
               : {}
           }
           onMouseEnter={() => {
-            setcurrbg(bg1);
             settitle("Strategic");
             setinfo(
               " 'Strategic' represents our core competence in providing strategic guidance and innovative solutions to our clients. We excel in developing comprehensive strategies that align with their long-term objectives and navigating the complexities of their challenges."
@@ -105,7 +94,6 @@ function OurIntroduction() {
               : {}
           }
           onMouseEnter={() => {
-            setcurrbg(bg2);
             settitle("Partner");
             setinfo(
               "'Partner' signifies our commitment to building strong, collaborative, and enduring relationships with our clients. We don't just advise; we become trusted partners invested in our clients' success."
@@ -129,7 +117,6 @@ function OurIntroduction() {
               : {}
           }
           onMouseEnter={() => {
-            setcurrbg(bg3);
             settitle("Advanced");
             setinfo(
               "'Advanced' embodies our dedication to staying at the forefront of industry advancements and innovation. We continually seek new approaches and technologies to deliver cutting-edge solutions."
@@ -153,7 +140,6 @@ function OurIntroduction() {
               : {}
           }
           onMouseEnter={() => {
-            setcurrbg(bg4);
             settitle("Navigation");
             setinfo(
               " 'Navigation' symbolizes our role in helping clients navigate the intricate landscapes of their industries and markets. We guide them toward their goals with precision and expertise."
