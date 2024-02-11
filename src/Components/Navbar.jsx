@@ -278,20 +278,17 @@ function Navbar(props) {
   };
   const [isBurgerActive, setisBurgerActive] = useState(false);
 
-  // For Side Navbar opening animation
-  let counter = 0;
-
   //To find whether the device is Phone or not
   const isPhone = window.innerWidth < 900 ? true : false;
 
   return (
     <div
       id="nav-div"
-      className={isScrolled || currentPath != "/" ? "scrolled" : ""}
+      className={isScrolled || currentPath !== "/" ? "scrolled" : ""}
     >
       <nav
         style={
-          isScrolled || currentPath != "/"
+          isScrolled || currentPath !== "/"
             ? { height: "15vh", color: "black" }
             : {}
         }
@@ -311,14 +308,16 @@ function Navbar(props) {
           <div
             className="upper-div"
             style={
-              isScrolled || currentPath != "/"
+              isScrolled || currentPath !== "/"
                 ? { borderBottom: "3px solid #da0e29" }
                 : {}
             }
           >
             <Link
               to="/contactus"
-              style={isScrolled || currentPath != "/" ? { color: "black" } : {}}
+              style={
+                isScrolled || currentPath !== "/" ? { color: "black" } : {}
+              }
             >
               Contact Us
             </Link>
