@@ -32,12 +32,143 @@
     "breadCrumb": "INDUSTRIES SERVED / SUCCESS STORIES , CASE STUDIES AND TESTIMONIALS",
     "contents": [
       {
-        "tag": "img",
-        "src": "https://i.ibb.co/MSr285Q/Screenshot-from-2024-02-06-20-56-58.png"
+        "tag": "h2",
+        "content": "Area of Assistance"
       },
       {
-        "tag": "img",
-        "src": "https://i.ibb.co/TLSy62s/Screenshot-from-2024-02-06-20-56-40.png"
+        "tag": "ul",
+        "list-items": [
+          "Market Monitoring",
+          "Lead Generating",
+          "Investigations",
+          "Enforcement Actions",
+          "ROI"
+        ]
+      },
+      {
+        "tag": "h2",
+        "content": "Challenges"
+      },
+      {
+        "tag": "p",
+        "content": "The client's patient safety and business revenues were threatened by counterfeits of one of its key brands in India. A very few counterfeit complaints were coming thru the sales team"
+      },
+      {
+        "tag": "p",
+        "content": "The client wanted to (Start the problem and ID the countered hotspots in the larger Indian state of West Bengal)"
+      },
+      {
+        "tag": "p",
+        "content": "Extract the counterfeit product and create deterrence in the Market"
+      },
+      {
+        "tag": "p",
+        "content": "SPAN Consulting recommended"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Targeted market survey and buy the program to identify concrete and actionable leads and also collate inputs from other sources to build a complete intelligence picture and a counterfeit landscape.",
+          "Identify the hotspots and large entities dealing in counterfeits",
+          "Targeted investigations and high impact enforcement actions to reduce visible counterfeits and ensure ROI"
+        ]
+      },
+      {
+        "tag": "p",
+        "content": "Client's patient safety and business were threatened by counterfeits of one of its key brands in India (~60 MM). Estimated business impact due to counterfeit and other factors (not determined) was in the range of GBP 5 MM"
+      },
+      {
+        "tag": "p",
+        "content": "A very few counterfeit complaints were coming thru sales team"
+      },
+      {
+        "tag": "p",
+        "content": "The client wanted to initiate"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Market Monitoring program (a method of identifying counterfeit, illegally diverted product or other fraud (eg, trademark infringement) in the marketplace), get concrete and actionable leads from employees as also collate inputs from other sources to build a complete intelligence picture and a counterfeit landscape.",
+          "Identify the hotspots and large entities dealing in counterfeits",
+          "Targeted investigations and high impact enforcement actions to reduce visible counterfeits and ensure ROI"
+        ]
+      },
+      {
+        "tag": "h2",
+        "content": "Key Activites"
+      },
+      {
+        "tag": "p",
+        "content": "Build a Market Monitoring Program to analyze information from sales, marketing and supply chain data, and may use product authentication features"
+      },
+      {
+        "tag": "p",
+        "content": "Goals:"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Measure the scope of the problem",
+          "Provide early warning of counterfeit or diversion issues of our products in the marketplace",
+          "Provide insight on industry or geographic trends"
+        ]
+      },
+      {
+        "tag": "p",
+        "content": "Product buy"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Triggered by specific offer of sale (eg, suspect product on a website or offered by non-authorized distributor)",
+          "One buy; source identified"
+        ]
+      },
+      {
+        "tag": "p",
+        "content": "Marketing  Pulse"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Series of buys from number of customers in a specific geography",
+          "Triggered not by one offer, but to verify whether illicit product is generally available"
+        ]
+      },
+      {
+        "tag": "p",
+        "content": "Marketing Survey"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Market Pulse with larger scope",
+          "Many purchases to give statistically valid estimates of volume"
+        ]
+      },
+      {
+        "tag": "p",
+        "content": "Authenticate product"
+      },
+      {
+        "tag": "p",
+        "content": "Investigations and Enforcement Actions"
+      },
+      {
+        "tag": "h2",
+        "content": "Outcome"
+      },
+      {
+        "tag": "p",
+        "content": "Targeted investigations and high impact enforcement actions"
+      },
+      {
+        "tag": "p",
+        "content": "Improved visibility of counterfeit products in market, knowing the extent of the counterfeits and developing a complete intelligence picture"
+      },
+      {
+        "tag": "p",
+        "content": "Reduction in counterfeits by over 50% and ROI"
       }
     ]
   }

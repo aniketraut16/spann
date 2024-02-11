@@ -553,24 +553,56 @@
     "breadCrumb": "ABOUT US /  PARTNERSHIPS",
     "contents": [
       {
+        "tag": "h2",
+        "content": "AACS "
+      },
+      {
         "tag": "img",
         "src": "https://i.ibb.co/rtg1WbN/partnership6.png"
+      },
+      {
+        "tag": "h2",
+        "content": "PSI"
+      },
+      {
+        "tag": "img",
+        "src": "https://i.ibb.co/stJHg28/Screenshot-from-2024-02-11-19-12-16.png"
+      },
+      {
+        "tag": "h2",
+        "content": "REACT"
       },
       {
         "tag": "img",
         "src": "https://i.ibb.co/4VD4x5M/partnership5.png"
       },
       {
+        "tag": "h2",
+        "content": "ACACAP"
+      },
+      {
         "tag": "img",
         "src": "https://i.ibb.co/WpJjMLr/partnership4.png"
+      },
+      {
+        "tag": "h2",
+        "content": "OPPI"
       },
       {
         "tag": "img",
         "src": "https://i.ibb.co/CzTgQGm/partnership3.png"
       },
       {
+        "tag": "h2",
+        "content": "CII"
+      },
+      {
         "tag": "img",
         "src": "https://i.ibb.co/mz11LxK/partnership2.png"
+      },
+      {
+        "tag": "h2",
+        "content": "INTA"
       },
       {
         "tag": "img",

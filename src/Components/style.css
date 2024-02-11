@@ -13,6 +13,23 @@
   overflow: hidden !important;
 }
 
+/* ===== Scrollbar CSS ===== */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #625f5f7b;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #cd0e0e;
+  border-radius: 30px;
+  border: none;
+}
+
 .fa-whatsapp {
   position: fixed;
   z-index: 100;
