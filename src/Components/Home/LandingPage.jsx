@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import span from "../Images/span.jpeg";
+import span from "../Images/span.png";
 import OurIntroduction from "./OurIntroduction";
 import bg from "../Images/landingpgbackground.mp4";
 import OverviewOfSpan from "./OverviewOfSpan";
