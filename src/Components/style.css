@@ -707,16 +707,20 @@
 
 #Footer {
   width: 100%;
-  display: flex;
   padding: 2em 0px;
   font-family: "Nunito Sans", sans-serif;
   background-color: #fff8e3;
-  align-items: center;
-  justify-content: space-evenly;
   border-top: 15px solid #b4b4b8;
 }
-#Footer > div {
-  width: 40%;
+#upper-footer-div > div {
+  width: 49%;
+}
+#upper-footer-div {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #footer-div1 p {
   display: flex;
@@ -768,16 +772,41 @@
   margin: 0%;
 }
 
+#lower-footer-div h4 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #da0e29;
+  padding-top: 1em;
+  border-top: 1px dashed #da0e29;
+}
+#lower-footer-div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0px auto;
+}
+#lower-footer-div div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5px;
+}
+#lower-footer-div div a {
+  color: black;
+}
+
 @media only screen and (max-width: 750px) {
   #Footer {
     width: 100%;
     display: flex;
-    flex-direction: column;
     font-family: "Nunito Sans", sans-serif;
+    flex-direction: column;
     background-color: #fff9d7;
     align-items: center;
     justify-content: space-evenly;
     border-top: 15px solid #b4b4b8;
+  }
+  #upper-footer-div {
+    flex-direction: column;
   }
   #Footer > div ul {
     width: 100% !important;
@@ -789,6 +818,15 @@
   }
   #Footer > div {
     width: 90% !important;
+  }
+
+  #upper-footer-div > div {
+    width: 100% !important;
+  }
+  #lower-footer-div div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
   }
 }
 /* CONACTPAGE STYLING */
@@ -980,8 +1018,8 @@
     flex-direction: column;
     justify-content: center;
     justify-content: center;
-    margin-top: 15vh;
     padding: 0px 5%;
+    padding-top: 17vh;
   }
   .templatebrd h1 {
     font-size: 2.1em;
