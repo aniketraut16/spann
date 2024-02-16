@@ -6,7 +6,11 @@ function Footer() {
     <div id="Footer">
       <div id="upper-footer-div">
         <div id="footer-div1">
-          <h2>SPAN</h2>
+            <span>
+            <span id="footer-span">SPAN</span>
+            {"     "}
+            <span id="footer-consultancy">CONSULTING</span>
+          </span>
           <p>
             SPAN Focuses on meticulous audits to strategic tax planning and
             insightful consulting, we pave the way for your financial success
