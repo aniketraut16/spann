@@ -64,8 +64,8 @@
   object-fit: cover;
 }
 
-#nav-div {
-  z-index: 20;
+/* #nav-div {
+  z-index: 30;
   position: fixed;
   top: 0;
   width: 100%;
@@ -93,47 +93,79 @@
 }
 
 #dropdown {
-  padding: 2em 10%;
+  padding: 4em 10%;
   width: 100%;
+  position: fixed;
+  z-index: 29;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: rgba(255, 255, 255);
   flex-wrap: wrap;
-  justify-content: space-between;
-  transition: display 0.5s ease;
-}
-#dropdown > * {
-  font-size: 0.9em;
-  width: 30%;
-}
-#dropdown * {
-  color: black !important;
-}
-#dropdown ul,
-#dropdown li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin: 4px 0px;
-}
-#dropdown li {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
-  font-weight: bold;
-}
-#dropdown ul {
-  display: flex;
-  flex-direction: column;
+  transition: top 0.5s ease;
 }
 
-#dropdown a {
-  text-decoration: none;
+#dropdown > a {
+  width: 30%;
+  color: black;
+  padding: 10px 15px;
+  border-left: 6px solid white;
   font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  border-bottom: 0.25px solid red;
 }
-#dropdown a:hover {
-  transform: scale(1.05);
-  color: #be9244;
+#dropdown span {
+  width: 30%;
+  color: black;
+  background-color: white;
+  padding: 1px 2em;
+  padding: 20px 15px;
+  border-left: 6px solid white;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  border-bottom: 0.25px solid red;
 }
+#dropdown h2 {
+  width: 30%;
+  color: #da0e29;
+  border-left: 6px solid white;
+  font-size: 1.5em;
+  padding: 10px 15px;
+  font-weight: bold;
+  padding-bottom: 7px;
+  font-family: "Exo 2", sans-serif;
+  border-bottom: 0.25px solid red;
+  margin: 0%;
+}
+#dropdown > a:hover {
+  border-left: 6px solid red;
+  border-top: 0.5px solid white;
+  background-color: #d9d8d3;
+  text-decoration: none;
+}
+#dropdown span:hover {
+  width: 30%;
+  padding: 20px 15px;
+  border-left: 6px solid red;
+  border-top: 0.5px solid white;
+  background-color: #d9d8d3;
+  text-decoration: none;
+}
+#dropdown ul a {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+
+#dropdown > ul {
+  position: absolute;
+  width: 30%;
+  transition: all 1s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .lower-div > div i {
   margin-left: 5px;
   transition: all 0.5s ease;
@@ -145,10 +177,10 @@
 #nav-div.scrolled {
   background-color: rgba(255, 255, 255);
   color: black;
-  /* Add any other styles you want for the scrolled state */
 }
 #nav-div nav {
   width: 80%;
+  z-index: 25;
   height: 17vh;
   display: flex;
   align-items: center;
@@ -208,7 +240,7 @@
 .container {
   display: none;
 }
-@media only screen and (max-width: 901px) {
+
   #nav-div nav {
     width: 90%;
     height: 12vh !important;
@@ -325,7 +357,135 @@
     margin: 2px 0px;
     width: 70%;
     border: 1px solid black;
-  }
+  } */
+
+nav {
+  width: 100%;
+  position: fixed;
+  font-family: "Exo 2", sans-serif;
+  top: 0%;
+  display: flex;
+  align-items: center;
+  background-color: #2e2e38;
+  z-index: 10;
+}
+
+nav #nav-logo {
+  width: 20%;
+  margin: 0px 1em;
+}
+#nav-logo img {
+  width: 100%;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+nav div a {
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  border-bottom: 5px solid #eb7e2400;
+  border-top: 5px solid #eb7e2400;
+}
+nav div a:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 5px solid #eb7c24;
+}
+nav div > span {
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  border-bottom: 5px solid #eb7e2400;
+  border-top: 5px solid #eb7e2400;
+}
+nav div > span:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 5px solid #eb7c24;
+}
+#other-links {
+  margin-left: auto;
+  margin-right: 3em;
+}
+#other-links i {
+  margin-right: 10px;
+  font-size: 1.1em;
+}
+
+#dropdown {
+  z-index: 9;
+  transition: all 500ms ease-in-out;
+  width: 100%;
+  min-height: 50vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0px;
+  background-color: #1a1a24;
+}
+#dropdown .level1dd {
+  display: flex;
+  /* position: relative;
+  left: 32%; */
+  flex-direction: column;
+  width: 33%;
+  background-color: #1a1a24;
+  z-index: 12;
+}
+#dropdown .level2dd {
+  display: flex;
+  position: absolute;
+  transition: all 500ms ease;
+  flex-direction: column;
+  z-index: 11;
+  width: 33%;
+}
+#dropdown .level2dd > * {
+  color: white;
+}
+#dropdown .level2dd i {
+  transform: translateX(-100%);
+  cursor: pointer;
+}
+#dropdown .level1dd > span i {
+  transition: all 0.2s ease-in-out;
+}
+#dropdown .level1dd > span,
+#dropdown .level1dd > a {
+  color: white;
+  width: 100%;
+  border-top: 1px solid #2e2e38;
+  padding: 11px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 7px solid #eb7e2400;
+  border-bottom: 1px solid #2e2e38;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+#dropdown .level1dd > span:hover,
+#dropdown .level1dd > a:hover {
+  background-color: #2e2e38;
+  border-left: 7px solid #eb7c24;
+}
+#dropdown .level1dd > span:hover i {
+  transform: scale(2);
+  transform: translateX(25%);
+}
+
+@media only screen and (max-width: 901px) {
   #background-video {
     left: -50%;
   }
@@ -727,6 +887,18 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+}
+#footer-div1 > span {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+#footer-span {
+  color: #253775;
+}
+#footer-consultancy {
+  color: #ef7d22;
 }
 #Footer h2 {
   font-family: "Exo 2", sans-serif;
