@@ -6,7 +6,7 @@ function Footer() {
     <div id="Footer">
       <div id="upper-footer-div">
         <div id="footer-div1">
-            <span>
+          <span>
             <span id="footer-span">SPAN</span>
             {"     "}
             <span id="footer-consultancy">CONSULTING</span>

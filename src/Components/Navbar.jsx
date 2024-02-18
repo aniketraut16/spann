@@ -1570,25 +1570,30 @@ function Navbar() {
       case 1:
         setDropdownContent(<SpanSuitDropdown />);
         setcurrentDd(1);
+        setserviveddDisplay(false);
         break;
       case 2:
         setDropdownContent(<ServicesDropdown />);
         setcurrentDd(2);
+        setserviveddDisplay(false);
 
         break;
       case 3:
         setDropdownContent(<IndustriesServedDropdown />);
         setcurrentDd(3);
+        setserviveddDisplay(false);
 
         break;
       case 4:
         setDropdownContent(<ResourcesToolkitsDropdown />);
         setcurrentDd(4);
+        setserviveddDisplay(false);
 
         break;
       case 5:
         setDropdownContent(<AboutUsDropdown />);
         setcurrentDd(5);
+        setserviveddDisplay(false);
 
         break;
       default:
