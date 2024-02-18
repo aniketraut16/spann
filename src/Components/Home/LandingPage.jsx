@@ -33,8 +33,11 @@ function LandingPage() {
         </video>
         <div id="landing-text">
           <h1>
-            {" "}
-            <span>S</span>TRATEGIC <span>P</span>ARTNER FOR <span>A</span>
+            <span>S</span>TRATEGIC <span>P</span>ARTNER
+          </h1>
+          <h1 id="landing-page-for">FOR</h1>
+          <h1>
+            <span>A</span>
             DVANCED <span>N</span>AVIGATION
           </h1>
         </div>

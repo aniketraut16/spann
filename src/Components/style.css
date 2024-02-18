@@ -4,7 +4,7 @@
 #Landing-Page {
   color: white;
   width: 100%;
-  height: 110vh;
+  height: 105vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,8 +57,9 @@
 
 #background-video {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: -1;
   height: 100%;
   object-fit: cover;
@@ -366,7 +367,7 @@ nav {
   top: 0%;
   display: flex;
   align-items: center;
-  background-color: #2e2e38;
+  /* background-color: #2e2e38; */
   z-index: 10;
 }
 
@@ -384,11 +385,11 @@ nav div {
   gap: 15px;
 }
 nav a:visited {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 nav div a {
-  color: white;
+  /* color: white; */
   height: 10vh;
   display: flex;
   align-items: center;
@@ -397,12 +398,12 @@ nav div a {
   border-top: 5px solid #eb7e2400;
 }
 nav div a:hover {
-  color: white;
+  /* color: white; */
   text-decoration: none;
   border-bottom: 5px solid #eb7c24;
 }
 nav div > span {
-  color: white;
+  /* color: white; */
   height: 10vh;
   display: flex;
   align-items: center;
@@ -411,7 +412,7 @@ nav div > span {
   border-top: 5px solid #eb7e2400;
 }
 nav div > span:hover {
-  color: white;
+  /* color: white; */
   text-decoration: none;
   border-bottom: 5px solid #eb7c24;
 }
@@ -425,6 +426,7 @@ nav div > span:hover {
 }
 
 #dropdown {
+  font-family: "Exo 2", sans-serif;
   z-index: 9;
   transition: all 500ms ease-in-out;
   width: 100%;
@@ -432,7 +434,7 @@ nav div > span:hover {
   position: fixed;
   display: flex;
   justify-content: center;
-  padding: 2em 0px;
+  padding: 1em 0px;
   background-color: #1a1a24;
 }
 #dropdown .level1dd {
@@ -467,7 +469,7 @@ nav div > span:hover {
   color: white;
   width: 100%;
   border-top: 1px solid #2e2e38;
-  padding: 11px;
+  padding: 8px 11px;
   display: flex;
   justify-content: space-between;
   border-left: 7px solid #eb7e2400;
@@ -483,6 +485,13 @@ nav div > span:hover {
 #dropdown .level1dd > span:hover i {
   transform: scale(2);
   transform: translateX(25%);
+}
+
+#empty-div {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  top: 100%;
 }
 
 @media only screen and (max-width: 901px) {
@@ -563,21 +572,32 @@ nav div > span:hover {
 #landing-text {
   font-size: 5em;
   height: 90vh;
+  font-family: "ForFont", sans-serif;
   width: 75%;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 #landing-text h1 span {
   text-transform: capitalize;
 }
+
+@font-face {
+  font-family: "ForFont";
+  src: url("./Fonts/Bell\ MT\ Bold.otf") format("opentype");
+}
+
+#landing-page-for {
+  text-align: center;
+}
 #landing-text h1 {
+  min-width: 35%;
   font-size: 0.6em;
   letter-spacing: 2px;
   font-weight: normal;
   padding-bottom: 20px;
   text-shadow: 1px 1px 5px black;
-  border-bottom: 4px solid #be9244;
   animation: titleanimation 2s ease;
 }
 @keyframes titleanimation {
@@ -591,7 +611,6 @@ nav div > span:hover {
   }
 }
 #landing-text h1 span {
-  font-family: "Playfair Display", serif;
   font-size: 1.5em;
 }
 /* WE CARE STYLING */
@@ -603,6 +622,7 @@ nav div > span:hover {
   flex-direction: column;
   align-items: center;
   background-color: #fff8e3;
+  box-shadow: 0px 50px 120px #fff6dc;
 }
 #wecare img {
   width: 35%;
@@ -1012,7 +1032,6 @@ nav div > span:hover {
     grid-template-columns: 1fr 1fr;
     row-gap: 5px;
   }
-  
 }
 /* CONACTPAGE STYLING */
 
@@ -1095,7 +1114,7 @@ nav div > span:hover {
   font-size: 3em;
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  color: #451952;
+  color: #da0e29;
 }
 .form {
   display: flex;

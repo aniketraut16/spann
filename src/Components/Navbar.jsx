@@ -3,11 +3,11 @@
 // import { Link, useLocation } from "react-router-dom";
 // import Accordion from "./Accordion";
 // function Navbar() {
-//   const [isScrolled, setIsScrolled] = useState(false);
 //   const [dropdownContent, setDropdownContent] = useState(null);
 //   const [servicedropdownContent, setserviceDropdownContent] = useState(null);
 //   const [isServiceOn, setisServiceOn] = useState(false);
 //   const [dropdownDisplay, setdropdownDisplay] = useState(false);
+//   const [isScrolled, setIsScrolled] = useState(false);
 //   useEffect(() => {
 //     const handleScroll = () => {
 //       const scrollPosition = window.scrollY;
@@ -854,7 +854,7 @@
 
 // export default Navbar;
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./Images/logo .png";
 import { Link } from "react-router-dom";
 function Navbar() {
@@ -864,6 +864,24 @@ function Navbar() {
   const [currentServiceDd, setcurrentServiceDd] = useState(0);
   const [servicedropdownContent, setserviceDropdownContent] = useState(null);
   const [serviveddDisplay, setserviveddDisplay] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   //Dropdown Contents
 
   const SpanSuitDropdown = () => {
@@ -1101,7 +1119,6 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(1);
-            setserviveddDisplay(true);
             currentServiceDd === 1 && serviveddDisplay === true
               ? setserviveddDisplay(false)
               : setserviveddDisplay(true);
@@ -1113,7 +1130,6 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(2);
-            setserviveddDisplay(true);
             currentServiceDd === 2 && serviveddDisplay === true
               ? setserviveddDisplay(false)
               : setserviveddDisplay(true);
@@ -1125,7 +1141,6 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(3);
-            setserviveddDisplay(true);
             currentServiceDd === 3 && serviveddDisplay === true
               ? setserviveddDisplay(false)
               : setserviveddDisplay(true);
@@ -1137,7 +1152,6 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(4);
-            setserviveddDisplay(true);
             currentServiceDd === 4 && serviveddDisplay === true
               ? setserviveddDisplay(false)
               : setserviveddDisplay(true);
@@ -1149,7 +1163,6 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(5);
-            setserviveddDisplay(true);
             currentServiceDd === 5 && serviveddDisplay === true
               ? setserviveddDisplay(false)
               : setserviveddDisplay(true);
@@ -1472,7 +1485,7 @@ function Navbar() {
               setserviveddDisplay(false);
             }}
           ></i>
-          TRANINGS
+          TRAINING
         </h3>
         <Link
           onClick={() => {
@@ -1637,12 +1650,23 @@ function Navbar() {
 
   return (
     <>
-      <nav>
+      <nav
+        style={
+          isScrolled
+            ? { backgroundColor: "white", color: "#da0e29" }
+            : { backgroundColor: "#fff8e3", color: "black" }
+        }
+      >
         <Link to="/" id="nav-logo">
           <img src={logo} alt="" />
         </Link>
         <div id="main-links">
           <span
+            style={
+              currentDd === 1 && dropdownDisplay == true
+                ? { borderBottomColor: "#eb7c24" }
+                : {}
+            }
             onClick={() => {
               handleNavHover(1);
               setdropdownDisplay(true);
@@ -1655,6 +1679,11 @@ function Navbar() {
             Span Suit
           </span>
           <span
+            style={
+              currentDd === 2 && dropdownDisplay == true
+                ? { borderBottomColor: "#eb7c24" }
+                : {}
+            }
             onClick={() => {
               handleNavHover(2);
               setdropdownDisplay(true);
@@ -1667,6 +1696,11 @@ function Navbar() {
             Services
           </span>
           <span
+            style={
+              currentDd === 3 && dropdownDisplay == true
+                ? { borderBottomColor: "#eb7c24" }
+                : {}
+            }
             onClick={() => {
               handleNavHover(3);
               setdropdownDisplay(true);
@@ -1679,6 +1713,11 @@ function Navbar() {
             Industries
           </span>
           <span
+            style={
+              currentDd === 4 && dropdownDisplay == true
+                ? { borderBottomColor: "#eb7c24" }
+                : {}
+            }
             onClick={() => {
               handleNavHover(4);
               setdropdownDisplay(true);
@@ -1691,6 +1730,11 @@ function Navbar() {
             Resources and Toolkits
           </span>
           <span
+            style={
+              currentDd === 5 && dropdownDisplay == true
+                ? { borderBottomColor: "#eb7c24" }
+                : {}
+            }
             onClick={() => {
               handleNavHover(5);
               setdropdownDisplay(true);
@@ -1703,6 +1747,7 @@ function Navbar() {
             About Us
           </span>
           <Link
+            style={isScrolled ? { color: "#da0e29" } : { color: "black" }}
             onClick={() => {
               setdropdownDisplay(false);
             }}
@@ -1712,11 +1757,17 @@ function Navbar() {
           </Link>
         </div>
         <div id="other-links">
-          <Link to="/">
+          <Link
+            style={isScrolled ? { color: "#da0e29" } : { color: "black" }}
+            to="/"
+          >
             <i className="fa-solid fa-magnifying-glass"></i>
             Search
           </Link>
-          <Link to="/">
+          <Link
+            style={isScrolled ? { color: "#da0e29" } : { color: "black" }}
+            to="/"
+          >
             <i className="fa-solid fa-user"></i>Login
           </Link>
         </div>
@@ -1732,6 +1783,12 @@ function Navbar() {
         >
           {servicedropdownContent}
         </ul>
+        <div
+          id="empty-div"
+          onClick={() => {
+            setdropdownDisplay(false);
+          }}
+        ></div>
       </div>
     </>
   );
