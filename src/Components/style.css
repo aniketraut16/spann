@@ -497,10 +497,6 @@ nav div > span:hover {
 }
 
 @media only screen and (max-width: 901px) {
-  #background-video {
-    left: -50%;
-  }
-
   #wecare img {
     width: 80% !important;
   }
