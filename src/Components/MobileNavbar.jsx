@@ -23,6 +23,19 @@ function MobileNavbar() {
     };
   }, []);
 
+  const handleAccordionClick = (event) => {
+    const accordionButton = event.target;
+    const content = accordionButton.nextElementSibling;
+
+    accordionButton.classList.toggle("is-open");
+
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null; // Close the accordion
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px"; // Open the accordion
+    }
+  };
+
   //Dropdown Contents
 
   const SpanSuitDropdown = () => {
@@ -280,41 +293,387 @@ function MobileNavbar() {
   const ServicesDropdown = () => {
     return (
       <>
-        <span
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-          }}
-        >
+        <span className="accordion" onClick={handleAccordionClick}>
           Legal Brand Protection
         </span>
-        <span
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-          }}
-        >
+        <div className="accordion-content">
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/overview"
+          >
+            {" "}
+            Overview{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/ipregistration"
+          >
+            {" "}
+            IP Registration and Prosecution{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/ipaudits"
+          >
+            {" "}
+            IP Audits, SC Audits, EM Audit, Security Audits{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/intellectualproperties"
+          >
+            {" "}
+            Intellectual Property (Trademarks, Copyrights, Patents, Designs){" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/confidentialinformation"
+          >
+            {" "}
+            Confidential Information and Trade Secrets{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/healthcareandregulations"
+          >
+            {" "}
+            Healthcare and Regulatory Laws{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/mediaentertainmentandsportslaws"
+          >
+            {" "}
+            Media, Entertainment & Sports Laws{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/leagalbrandprotection/digitalanditlaw"
+          >
+            {" "}
+            Digital & IT Laws{" "}
+          </Link>
+        </div>
+        <span className="accordion" onClick={handleAccordionClick}>
           Strategic Consulting
         </span>
-        <span
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-          }}
-        >
+        <div className="accordion-content">
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/stratagicconsulting/overview"
+          >
+            Overview{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/stratagicconsulting/comprehensivelegalandbusinessriskconsultancy"
+          >
+            Comprehensive Legal and Business Risk Consulting{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/stratagicconsulting/riskassesmentandmigrationplan"
+          >
+            Risk Assessments and Mitigation Plans{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/stratagicconsulting/customizedconsultingservice"
+          >
+            Customized Consulting Services{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/stratagicconsulting/chainsupplysecurityandintegratityprogram"
+          >
+            Supply Chain Security/Integrity Programs{" "}
+          </Link>
+        </div>
+
+        <span className="accordion" onClick={handleAccordionClick}>
           Investigations & Due Diligence
         </span>
-        <span
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-          }}
-        >
+        <div className="accordion-content">
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/counterfeit"
+          >
+            Counterfeits
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/diversion"
+          >
+            Diversion
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/producttampering"
+          >
+            Product Tampering{" "}
+          </Link>
+          {/* <li>Due Diligence</li> */}
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/counterpartyduediligence"
+          >
+            Counter Party Due Diligence{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/seniormanagementduediligence"
+          >
+            Senior Management Due Diligence{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/integrityduediligence"
+          >
+            Integrity Due Diligence{" "}
+          </Link>
+          {/* <li>Theft Investigations </li> */}
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/facility"
+          >
+            Facility
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/intransit"
+          >
+            {" "}
+            In-Transit{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/digital"
+          >
+            {" "}
+            Digital{" "}
+          </Link>
+          {/* <li>KYC and Background Checks </li> */}
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/aml"
+          >
+            AML
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/kyc"
+          >
+            KYC
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/marketresearch"
+          >
+            Market Research (Primary and Secondary)
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/marketintelligence"
+          >
+            Market Intelligence Gathering{" "}
+          </Link>
+          {/* <li>Forensic Due Diligence</li> */}
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/cyberforensics"
+          >
+            Cyber Forensics
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/informationsecurityandsystem"
+          >
+            Information Security and Systems{" "}
+          </Link>
+          {/* <li>Supply Chain Investigations </li> */}
+
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/sourceinvestigation"
+          >
+            Source Investigations{" "}
+          </Link>
+        </div>
+
+        <span className="accordion" onClick={handleAccordionClick}>
           Training
         </span>
-        <span
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-          }}
-        >
+        <div className="accordion-content">
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/traning/mlc"
+          >
+            MLC
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/traning/iprinschool"
+          >
+            IPR in Schools
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/traning/softskills"
+          >
+            Soft Skills{" "}
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/traning/overview"
+          >
+            {" "}
+            Overview
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/traning/lawenforcementagenciestraining"
+          >
+            {" "}
+            Law Enforcement Agencies (LEA) Training
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/traning/customtraning"
+          >
+            {" "}
+            Customs Training
+          </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/traning/externalandinternalstackholdertraning"
+          >
+            {" "}
+            External and Internal Stakeholder Training
+          </Link>
+        </div>
+
+        <span className="accordion" onClick={handleAccordionClick}>
           Services for the Legal Industry
         </span>
+        <div className="accordion-content">
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+              setisLevel2Active(false);
+            }}
+            to="/services/serviceforlegalindustries/tminuse"
+          >
+            TM In-Use
+          </Link>
+        </div>
       </>
     );
   };

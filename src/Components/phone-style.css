@@ -7,11 +7,11 @@
   }
 
   *::-webkit-scrollbar-track {
-    background: #1a1a24;
+    background-color: #2e2e38;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #2e2e38;
+    background: #747480;
     border-radius: 30px;
     border: none;
   }
@@ -105,7 +105,7 @@
     height: 92vh;
     width: 100%;
     position: fixed;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     top: 8vh;
     right: 0%;
     color: white;
@@ -134,8 +134,39 @@
     width: 90%;
     padding: 15px 10px;
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: white;
     border-bottom: 1.5px solid #747480;
+  }
+  #mobNavL2 > span:hover {
+    background-color: #2e2e38;
+    border-left: 7px solid #eb7c24;
+  }
+
+  .accordion:after {
+    font-family: FontAwesome;
+    content: "\2b";
+    font-family: "fontawesome";
+    font-size: 18px;
+    float: right;
+  }
+
+  .accordion.is-open:after {
+    content: "\f068";
+  }
+
+  .accordion-content a {
+    color: white;
+  }
+  .accordion-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+    font-weight: bold;
+    width: 90%;
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.2s ease-in-out;
   }
 }
