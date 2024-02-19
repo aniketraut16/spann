@@ -1305,7 +1305,8 @@ nav div > span:hover {
   align-items: center;
 }
 .messagecontent > div img {
-  width: 45%;
+  width: 25%;
+  margin: 0% auto;
 }
 
 .messagecontent > div p {
