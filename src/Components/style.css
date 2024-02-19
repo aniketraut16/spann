@@ -11,6 +11,7 @@
   padding-left: 10%;
   justify-content: center;
   position: relative;
+  box-shadow: inset 1px -140px 100px black;
   overflow: hidden !important;
 }
 
@@ -63,6 +64,7 @@
   transform: translate(-50%, -50%);
   z-index: -1;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -616,6 +618,7 @@ nav div > span:hover {
 #wecare {
   width: 100%;
   padding: 3em 0px;
+  padding-top: 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
