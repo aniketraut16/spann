@@ -3,6 +3,10 @@ import jsonData from "../JSON Data/spanjson.json";
 import { useParams } from "react-router-dom";
 
 function Industries() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   const { section } = useParams();
   const sectionData = jsonData[section];
 

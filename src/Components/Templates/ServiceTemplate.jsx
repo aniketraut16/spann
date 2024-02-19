@@ -3,6 +3,10 @@ import jsonData from "../JSON Data/ServicesData.json";
 import { useParams } from "react-router-dom";
 
 const ServiceTemplate = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   const { section, subsection } = useParams();
   const sectionData = jsonData[section][subsection];
 

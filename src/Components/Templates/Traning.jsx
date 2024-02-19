@@ -7,6 +7,10 @@ const TraningTemplate = () => {
   if (!sectionData || !sectionData.contents) {
     return <div>Data not found or invalid format</div>;
   }
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 
   return (
     <>

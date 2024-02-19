@@ -3,6 +3,10 @@ import d1 from "./Images/director1.png";
 import d2 from "./Images/director2.png";
 
 function Message() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <>
       <div className="Message">

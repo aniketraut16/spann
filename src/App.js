@@ -6,6 +6,7 @@ import CookiePolicy from "./Components/CokieePolicy";
 import LandingPage from "./Components/Home/LandingPage";
 import Contact from "./Components/Contact";
 import "./Components/style.css";
+import "./Components/phone-style.css";
 
 import ServiceTemplate from "./Components/Templates/ServiceTemplate";
 import AboutUsTemplate from "./Components/Templates/AboutUsTemplate";
@@ -15,7 +16,7 @@ import Resources from "./Components/Templates/Resources";
 import TraningTemplate from "./Components/Templates/Traning";
 
 import Message from "./Components/Message";
-import Accordion from "./Components/Accordion";
+import MobileNavbar from "./Components/MobileNavbar";
 
 function App() {
   const [showCookiePolicy, setShowCookiePolicy] = useState(false);
@@ -47,9 +48,9 @@ function App() {
     <Router>
       {showCookiePolicy && <CookiePolicy onAccept={acceptCookiePolicy} />}
       <Navbar />
+      <MobileNavbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/add" element={<Accordion />} />
         <Route path="/about/directorsmessage" element={<Message />} />
         <Route path="/spansuit/:section" element={<SpanSuit />} />
         <Route path="/contactus" element={<Contact />} />

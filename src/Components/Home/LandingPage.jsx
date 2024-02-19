@@ -7,6 +7,10 @@ import IiliteTrade from "./IiliteTrade";
 import HighlightOfService from "./HighlightOfService";
 
 function LandingPage() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   const videoRef = useRef(null);
 
   useEffect(() => {

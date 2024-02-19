@@ -68,301 +68,6 @@
   object-fit: cover;
 }
 
-/* #nav-div {
-  z-index: 30;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff8e3;
-  color: black;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.455);
-  animation: navanimation 2s ease;
-}
-
-@keyframes navanimation {
-  0% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
-}
-
-#nav-div div a {
-  text-decoration: none;
-}
-
-#dropdown {
-  padding: 4em 10%;
-  width: 100%;
-  position: fixed;
-  z-index: 29;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255);
-  flex-wrap: wrap;
-  transition: top 0.5s ease;
-}
-
-#dropdown > a {
-  width: 30%;
-  color: black;
-  padding: 10px 15px;
-  border-left: 6px solid white;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: bold;
-  border-bottom: 0.25px solid red;
-}
-#dropdown span {
-  width: 30%;
-  color: black;
-  background-color: white;
-  padding: 1px 2em;
-  padding: 20px 15px;
-  border-left: 6px solid white;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: bold;
-  border-bottom: 0.25px solid red;
-}
-#dropdown h2 {
-  width: 30%;
-  color: #da0e29;
-  border-left: 6px solid white;
-  font-size: 1.5em;
-  padding: 10px 15px;
-  font-weight: bold;
-  padding-bottom: 7px;
-  font-family: "Exo 2", sans-serif;
-  border-bottom: 0.25px solid red;
-  margin: 0%;
-}
-#dropdown > a:hover {
-  border-left: 6px solid red;
-  border-top: 0.5px solid white;
-  background-color: #d9d8d3;
-  text-decoration: none;
-}
-#dropdown span:hover {
-  width: 30%;
-  padding: 20px 15px;
-  border-left: 6px solid red;
-  border-top: 0.5px solid white;
-  background-color: #d9d8d3;
-  text-decoration: none;
-}
-#dropdown ul a {
-  color: black;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: bold;
-}
-
-#dropdown > ul {
-  position: absolute;
-  width: 30%;
-  transition: all 1s ease;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.lower-div > div i {
-  margin-left: 5px;
-  transition: all 0.5s ease;
-}
-
-.lower-div > div:hover {
-  border-bottom: 5px solid #da0e29;
-}
-#nav-div.scrolled {
-  background-color: rgba(255, 255, 255);
-  color: black;
-}
-#nav-div nav {
-  width: 80%;
-  z-index: 25;
-  height: 17vh;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  font-family: "Exo 2", sans-serif;
-  font-size: 0.9em;
-  justify-content: space-between;
-}
-#nav-div nav a {
-  width: 35%;
-  color: #da0e29;
-}
-#nav-div nav img {
-  width: 100%;
-  margin-left: 1em;
-}
-.div-link-section {
-  display: flex;
-  width: 55%;
-  height: 100%;
-  flex-direction: column;
-}
-
-.div-link-section #upper-div {
-  border-bottom: 2px solid #da0e29;
-  padding-bottom: 10px;
-}
-.div-link-section > div {
-  color: #da0e29;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  text-align: center;
-  gap: 5px;
-  height: 50%;
-}
-.div-link-section > div > div,
-.div-link-section > div > a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.upper-div {
-  border-bottom: 3px solid #da0e29;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: flex-end !important;
-  gap: 25px !important;
-}
-.upper-div a {
-  width: fit-content !important;
-}
-.burger {
-  display: none;
-}
-.container {
-  display: none;
-}
-
-  #nav-div nav {
-    width: 90%;
-    height: 12vh !important;
-  }
-  #span-logo {
-    width: 65% !important;
-  }
-  .div-link-section {
-    display: none;
-  }
-  .container * {
-    color: #333 !important;
-  }
-  .container {
-    padding-top: 25% !important;
-    display: inline-block;
-    position: fixed;
-    top: 0;
-    transition: all 1s ease;
-    padding: 0%;
-    width: 80vw;
-    background-color: whitesmoke;
-    height: 100vh;
-    overflow: scroll;
-  }
-  button.accordion {
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    background-color: whitesmoke;
-
-    padding: 15px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.2s linear;
-  }
-  button.accordioni {
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    background-color: whitesmoke;
-
-    padding: 15px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.2s linear;
-  }
-
-  button.accordion:after {
-    font-family: FontAwesome;
-    content: "\f150";
-    font-family: "fontawesome";
-    font-size: 18px;
-    float: right;
-  }
-
-  button.accordion.is-open:after {
-    content: "\f151";
-  }
-
-  .accordion-content {
-    background-color: white;
-    border-left: 1px solid whitesmoke;
-    border-right: 1px solid whitesmoke;
-    padding: 0 20px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-in-out;
-  }
-  .accordion-content p {
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0px;
-    gap: 3px;
-  }
-  .accordion-content p li {
-    font-family: "Exo 2", sans-serif;
-    color: #da0e29 !important;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    width: 90% !important;
-  }
-  .accordion-content p a {
-    font-family: "Nunito Sans", sans-serif !important;
-    text-transform: capitalize;
-    width: 90% !important;
-  }
-  .accordion-content p ul {
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0px;
-    gap: 3px;
-  }
-  .burger {
-    height: 100%;
-    display: inline-block;
-    width: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-    margin-right: 10px;
-  }
-
-  .burger div {
-    transition: all 1s ease-in-out;
-    margin: 2px 0px;
-    width: 70%;
-    border: 1px solid black;
-  } */
-
 nav {
   width: 100%;
   position: fixed;
@@ -425,6 +130,19 @@ nav div > span:hover {
 #other-links i {
   margin-right: 10px;
   font-size: 1.1em;
+}
+#other-links a p {
+  margin: 0%;
+}
+
+#MobileNavbar {
+  display: none;
+}
+
+@media only screen and (max-width: 1075px) {
+  #other-links a p {
+    display: none;
+  }
 }
 
 #dropdown {
@@ -559,7 +277,7 @@ nav div > span:hover {
     font-size: 2em;
   }
   .corausol {
-    height: 25svh !important;
+    height: 25vh !important;
   }
   .corausol > div p {
     font-size: 0.5em !important;
@@ -592,7 +310,6 @@ nav div > span:hover {
   font-size: 0.6em;
   letter-spacing: 2px;
   font-weight: normal;
-  padding-bottom: 20px;
   text-shadow: 1px 1px 5px black;
   animation: titleanimation 2s ease;
 }

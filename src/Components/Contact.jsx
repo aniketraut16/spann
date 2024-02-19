@@ -1,6 +1,10 @@
 import React from "react";
 
 function Contact() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <>
       <div className="Contact">
