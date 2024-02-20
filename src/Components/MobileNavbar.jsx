@@ -27,6 +27,17 @@ function MobileNavbar() {
     const accordionButton = event.target;
     const content = accordionButton.nextElementSibling;
 
+    // Close all accordions
+    const allAccordionContents =
+      document.querySelectorAll(".accordion-content");
+    allAccordionContents.forEach((accordionContent) => {
+      if (accordionContent !== content) {
+        accordionContent.style.maxHeight = null;
+        accordionContent.previousElementSibling.classList.remove("is-open");
+      }
+    });
+
+    // Toggle the clicked accordion
     accordionButton.classList.toggle("is-open");
 
     if (content.style.maxHeight) {
@@ -36,260 +47,6 @@ function MobileNavbar() {
     }
   };
 
-  //Dropdown Contents
-
-  const SpanSuitDropdown = () => {
-    return (
-      <>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/spansuit/systemprocessandtools"
-        >
-          Systems, Processes and Tools
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/spansuit/mobileappview"
-        >
-          Mobile APP
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/spansuit/brandprotection"
-        >
-          Brand Protection
-        </Link>
-      </>
-    );
-  };
-  const IndustriesServedDropdown = () => {
-    return (
-      <>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/industries/overviewofindustries"
-        >
-          {" "}
-          Overview of Industries
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/industries/successtory"
-        >
-          {" "}
-          Success Stories/ Case Studies /Testimonials
-        </Link>
-      </>
-    );
-  };
-  const ResourcesToolkitsDropdown = () => {
-    return (
-      <>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/resources/blogs"
-        >
-          {" "}
-          Blog/Articles/ Videos
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/resources/whitepaper"
-        >
-          {" "}
-          Whitepapers
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/resources/casestudy"
-        >
-          {" "}
-          Case Studies
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/resources/brandprotection"
-        >
-          {" "}
-          Brand Protection Toolkits{" "}
-        </Link>
-      </>
-    );
-  };
-  const AboutUsDropdown = () => {
-    return (
-      <>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/history"
-        >
-          {" "}
-          History
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/about/directorsmessage"
-        >
-          {" "}
-          Directors message
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/missionvisionvalues"
-        >
-          {" "}
-          Mission, Vision and Values
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/valuesandexpectations"
-        >
-          {" "}
-          Value Creation
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/fundingmodels"
-        >
-          {" "}
-          Funding Model
-        </Link>
-
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/strategy"
-        >
-          Strategy
-        </Link>
-
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/capability"
-        >
-          {" "}
-          Capability
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/bestpractices"
-        >
-          {" "}
-          Best Practices{" "}
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/leadershipteam"
-        >
-          {" "}
-          Leadership Team
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/organisationstructure"
-        >
-          {" "}
-          Organisation Structure{" "}
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/rolesandresponsibility"
-        >
-          {" "}
-          Roles and Responsibilities{" "}
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/governance"
-        >
-          {" "}
-          Governance (Advisory Board)
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/partnerships"
-        >
-          {" "}
-          Partnerships{" "}
-        </Link>
-        <Link
-          onClick={() => {
-            setisBurgerActive(!isBurgerActive);
-            setisLevel2Active(false);
-          }}
-          to="/aboutus/offices"
-        >
-          {" "}
-          Offices (Singapore, India, Bangladesh)
-        </Link>
-      </>
-    );
-  };
   const ServicesDropdown = () => {
     return (
       <>
@@ -674,6 +431,261 @@ function MobileNavbar() {
             TM In-Use
           </Link>
         </div>
+      </>
+    );
+  };
+
+  //Dropdown Contents
+
+  const SpanSuitDropdown = () => {
+    return (
+      <>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/spansuit/systemprocessandtools"
+        >
+          Systems, Processes and Tools
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/spansuit/mobileappview"
+        >
+          Mobile APP
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/spansuit/brandprotection"
+        >
+          Brand Protection
+        </Link>
+      </>
+    );
+  };
+  const IndustriesServedDropdown = () => {
+    return (
+      <>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/industries/overviewofindustries"
+        >
+          {" "}
+          Overview of Industries
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/industries/successtory"
+        >
+          {" "}
+          Success Stories/ Case Studies /Testimonials
+        </Link>
+      </>
+    );
+  };
+  const ResourcesToolkitsDropdown = () => {
+    return (
+      <>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/resources/blogs"
+        >
+          {" "}
+          Blog/Articles/ Videos
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/resources/whitepaper"
+        >
+          {" "}
+          Whitepapers
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/resources/casestudy"
+        >
+          {" "}
+          Case Studies
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/resources/brandprotection"
+        >
+          {" "}
+          Brand Protection Toolkits{" "}
+        </Link>
+      </>
+    );
+  };
+  const AboutUsDropdown = () => {
+    return (
+      <>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/history"
+        >
+          {" "}
+          History
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/about/directorsmessage"
+        >
+          {" "}
+          Directors message
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/missionvisionvalues"
+        >
+          {" "}
+          Mission, Vision and Values
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/valuesandexpectations"
+        >
+          {" "}
+          Value Creation
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/fundingmodels"
+        >
+          {" "}
+          Funding Model
+        </Link>
+
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/strategy"
+        >
+          Strategy
+        </Link>
+
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/capability"
+        >
+          {" "}
+          Capability
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/bestpractices"
+        >
+          {" "}
+          Best Practices{" "}
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/leadershipteam"
+        >
+          {" "}
+          Leadership Team
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/organisationstructure"
+        >
+          {" "}
+          Organisation Structure{" "}
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/rolesandresponsibility"
+        >
+          {" "}
+          Roles and Responsibilities{" "}
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/governance"
+        >
+          {" "}
+          Governance (Advisory Board)
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/partnerships"
+        >
+          {" "}
+          Partnerships{" "}
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(false);
+          }}
+          to="/aboutus/offices"
+        >
+          {" "}
+          Offices (Singapore, India, Bangladesh)
+        </Link>
       </>
     );
   };

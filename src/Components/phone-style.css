@@ -134,6 +134,7 @@
     width: 90%;
     padding: 15px 10px;
     font-weight: bold;
+    border-left: 7px solid #a1a1a100;
     font-size: 1.5em;
     color: white;
     border-bottom: 1.5px solid #747480;
@@ -157,12 +158,14 @@
 
   .accordion-content a {
     color: white;
+    font-size: 0.9em;
   }
   .accordion-content {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    gap: 5px;
+    gap: 3px;
+    padding-left: 20px;
     font-weight: bold;
     width: 90%;
     max-height: 0;

@@ -1,7 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import span from "../Images/span.png";
+import LandingBg1 from "../Images/landingpagebg1.jpg";
+import LandingBg2 from "../Images/landingpagebg2.jpg";
 import OurIntroduction from "./OurIntroduction";
-import bg from "../Images/landingpgbackground.mp4";
 import OverviewOfSpan from "./OverviewOfSpan";
 import IiliteTrade from "./IiliteTrade";
 import HighlightOfService from "./HighlightOfService";
@@ -11,30 +12,25 @@ function LandingPage() {
     top: 0,
     behavior: "smooth",
   });
-  const videoRef = useRef(null);
+  const [bgImage, setBgImage] = useState(LandingBg1);
 
   useEffect(() => {
-    const video = videoRef.current;
-    if (video) {
-      video.play().catch((error) => {
-        console.error("Autoplay error:", error);
-      });
-    }
-    return () => {
-      if (video) {
-        video.pause();
-        video.currentTime = 0;
-      }
-    };
-  }, []);
+    const toggleInterval = setInterval(() => {
+      setBgImage((prevBgImage) =>
+        prevBgImage === LandingBg1 ? LandingBg2 : LandingBg1
+      );
+    }, 6000);
 
+    return () => clearInterval(toggleInterval);
+  }, []);
   return (
     <>
-      <div id="Landing-Page">
-        <video id="background-video" loop muted autoPlay playsInline>
-          <source src={bg} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div
+        id="Landing-Page"
+        style={{
+          background: `url(${bgImage}) center/cover`,
+        }}
+      >
         <div id="landing-text">
           <h1>
             <span>S</span>TRATEGIC <span>P</span>ARTNER
