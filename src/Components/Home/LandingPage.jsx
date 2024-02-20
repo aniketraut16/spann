@@ -8,10 +8,12 @@ import IiliteTrade from "./IiliteTrade";
 import HighlightOfService from "./HighlightOfService";
 
 function LandingPage() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const [bgImage, setBgImage] = useState(LandingBg1);
 
   useEffect(() => {
