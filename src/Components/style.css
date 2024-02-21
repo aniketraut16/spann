@@ -12,7 +12,7 @@
   justify-content: center;
   transition: all 1s ease;
   position: relative;
-  box-shadow: inset 1px -140px 90px black, inset 1px 140px 90px black;
+  box-shadow: inset 1px -100px 100px black, inset -1px 100px 100px black;
   overflow: hidden !important;
 }
 
@@ -140,7 +140,7 @@ nav div > span:hover {
   z-index: 9;
   transition: all 500ms ease-in-out;
   width: 100%;
-  min-height: 50vh;
+  min-height: 53vh;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -162,6 +162,8 @@ nav div > span:hover {
   transition: all 500ms ease;
   flex-direction: column;
   z-index: 11;
+  font-size: 1.05em;
+  gap: 2px;
   width: 33%;
 }
 #dropdown .level2dd > * {

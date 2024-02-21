@@ -77,7 +77,7 @@
   #mobNavL1 {
     padding-top: 1em;
     transition: all 200ms ease-in-out;
-    height: 92vh;
+    height: 100%;
     width: 100%;
     position: fixed;
     top: 8vh;
@@ -86,6 +86,7 @@
     background-color: #2e2e38;
     display: flex;
     align-items: center;
+    overflow-y: auto;
     flex-direction: column;
   }
   #mobNavL1 > span {
@@ -100,6 +101,18 @@
     color: white;
   }
 
+  .my-account i {
+    margin-right: 15px;
+  }
+  .my-account {
+    width: 100% !important;
+    padding: 15px 30px !important;
+    border-top: 1px solid black;
+    margin-top: auto;
+    margin-bottom: 19%;
+    font-size: 1.5em !important ;
+  }
+
   #mobNavL2 {
     transition: all 200ms ease-in-out;
     height: 92vh;
@@ -111,7 +124,7 @@
     color: white;
     z-index: 22;
     background-color: #1a1a24;
-    overflow-y: scroll;
+    overflow: scroll !important;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -166,6 +179,7 @@
     margin-top: 10px;
     gap: 3px;
     padding-left: 20px;
+    font-size: 1.2em;
     font-weight: bold;
     width: 90%;
     max-height: 0;
