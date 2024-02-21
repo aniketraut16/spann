@@ -47,14 +47,6 @@ function MobileNavbar() {
     }
   };
 
-  const activeBurger = () => {
-    if (isBurgerActive) {
-      document.body.style.overflow = "auto";
-    } else {
-      document.body.style.overflow = "hidden";
-    }
-  };
-
   const ServicesDropdown = () => {
     return (
       <>
@@ -65,7 +57,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/overview"
@@ -76,7 +68,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/ipregistration"
@@ -87,7 +79,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/ipaudits"
@@ -98,7 +90,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/intellectualproperties"
@@ -109,7 +101,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/confidentialinformation"
@@ -120,7 +112,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/healthcareandregulations"
@@ -131,7 +123,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/mediaentertainmentandsportslaws"
@@ -142,7 +134,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/leagalbrandprotection/digitalanditlaw"
@@ -158,7 +150,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/stratagicconsulting/overview"
@@ -168,7 +160,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/stratagicconsulting/comprehensivelegalandbusinessriskconsultancy"
@@ -178,7 +170,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/stratagicconsulting/riskassesmentandmigrationplan"
@@ -188,7 +180,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/stratagicconsulting/customizedconsultingservice"
@@ -198,7 +190,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/stratagicconsulting/chainsupplysecurityandintegratityprogram"
@@ -214,7 +206,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/counterfeit"
@@ -224,7 +216,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/diversion"
@@ -234,7 +226,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/producttampering"
@@ -245,7 +237,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/counterpartyduediligence"
@@ -255,7 +247,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/seniormanagementduediligence"
@@ -265,7 +257,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/integrityduediligence"
@@ -276,7 +268,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/facility"
@@ -286,7 +278,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/intransit"
@@ -297,7 +289,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/digital"
@@ -309,7 +301,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/aml"
@@ -319,7 +311,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/kyc"
@@ -329,7 +321,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/marketresearch"
@@ -339,7 +331,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/marketintelligence"
@@ -350,7 +342,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/cyberforensics"
@@ -360,7 +352,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/informationsecurityandsystem"
@@ -372,7 +364,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/investigationandduedilligence/sourceinvestigation"
@@ -388,7 +380,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/traning/mlc"
@@ -398,7 +390,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/traning/iprinschool"
@@ -408,7 +400,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/traning/softskills"
@@ -418,7 +410,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/traning/overview"
@@ -429,7 +421,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/traning/lawenforcementagenciestraining"
@@ -440,7 +432,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/traning/customtraning"
@@ -451,7 +443,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/traning/externalandinternalstackholdertraning"
@@ -468,7 +460,7 @@ function MobileNavbar() {
           <Link
             onClick={() => {
               setisBurgerActive(!isBurgerActive);
-              activeBurger();
+
               setisLevel2Active(false);
             }}
             to="/services/serviceforlegalindustries/tminuse"
@@ -488,7 +480,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/spansuit/systemprocessandtools"
@@ -498,7 +490,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/spansuit/mobileappview"
@@ -508,7 +500,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/spansuit/brandprotection"
@@ -524,7 +516,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/industries/overviewofindustries"
@@ -535,7 +527,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/industries/successtory"
@@ -552,7 +544,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/resources/blogs"
@@ -563,7 +555,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/resources/whitepaper"
@@ -574,7 +566,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/resources/casestudy"
@@ -585,7 +577,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/resources/brandprotection"
@@ -602,7 +594,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/history"
@@ -613,7 +605,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/about/directorsmessage"
@@ -624,7 +616,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/missionvisionvalues"
@@ -635,7 +627,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/valuesandexpectations"
@@ -646,7 +638,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/fundingmodels"
@@ -658,7 +650,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/strategy"
@@ -669,7 +661,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/capability"
@@ -680,7 +672,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/bestpractices"
@@ -691,7 +683,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/leadershipteam"
@@ -702,7 +694,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/organisationstructure"
@@ -713,7 +705,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/rolesandresponsibility"
@@ -724,7 +716,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/governance"
@@ -735,7 +727,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/partnerships"
@@ -746,7 +738,7 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
           to="/aboutus/offices"
@@ -811,7 +803,7 @@ function MobileNavbar() {
           className="burger"
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
+
             setisLevel2Active(false);
           }}
         >
@@ -888,7 +880,6 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
           }}
           to="/contactus"
         >
@@ -897,7 +888,6 @@ function MobileNavbar() {
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
-            activeBurger();
           }}
           to="/"
           className="my-account"
