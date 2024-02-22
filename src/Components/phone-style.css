@@ -102,6 +102,7 @@
   }
 
   .my-account i {
+    font-weight: lighter !important;
     margin-right: 15px;
   }
   .my-account {
@@ -109,6 +110,7 @@
     padding: 15px 30px !important;
     border-top: 1px solid black;
     margin-top: auto;
+    font-weight: lighter !important;
     margin-bottom: 19%;
     font-size: 1.5em !important ;
   }

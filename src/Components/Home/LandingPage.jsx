@@ -8,6 +8,7 @@ import IiliteTrade from "./IiliteTrade";
 import HighlightOfService from "./HighlightOfService";
 
 function LandingPage() {
+  const whatsAppLink = "https://wa.me/91xxxxxxxxxx?text= ";
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -56,7 +57,9 @@ function LandingPage() {
       <OverviewOfSpan />
       <IiliteTrade />
       <HighlightOfService />
-      <i className="fa-brands fa-whatsapp"></i>
+      <a href={whatsAppLink} id="whatsapp-logo" target="_blank">
+        <i className="fa-brands fa-whatsapp"></i>
+      </a>
     </>
   );
 }

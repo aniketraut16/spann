@@ -893,7 +893,7 @@ function MobileNavbar() {
           className="my-account"
         >
           <i className="fa-solid fa-user"></i>
-          My Account
+          Login
         </Link>
       </div>
       <div
