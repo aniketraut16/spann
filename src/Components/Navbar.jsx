@@ -234,7 +234,7 @@ function Navbar() {
           to="/aboutus/governance"
         >
           {" "}
-          Governance (Advisory Board)
+          Governance
         </Link>
         <Link
           onClick={() => {
@@ -252,7 +252,7 @@ function Navbar() {
           to="/aboutus/offices"
         >
           {" "}
-          Offices (Singapore, India, Bangladesh)
+          Offices
         </Link>
       </ul>
     );
@@ -367,7 +367,7 @@ function Navbar() {
           to="/services/leagalbrandprotection/intellectualproperties"
         >
           {" "}
-          Intellectual Property (Trademarks, Copyrights, Patents, Designs){" "}
+          Intellectual Property{" "}
         </Link>
         <Link
           onClick={() => {
@@ -575,7 +575,7 @@ function Navbar() {
           }}
           to="/services/investigationandduedilligence/marketresearch"
         >
-          Market Research (Primary and Secondary)
+          Market Research
         </Link>
         <Link
           onClick={() => {

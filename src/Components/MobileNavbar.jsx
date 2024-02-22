@@ -96,7 +96,7 @@ function MobileNavbar() {
             to="/services/leagalbrandprotection/intellectualproperties"
           >
             {" "}
-            Intellectual Property (Trademarks, Copyrights, Patents, Designs){" "}
+            Intellectual Property{" "}
           </Link>
           <Link
             onClick={() => {
@@ -722,7 +722,7 @@ function MobileNavbar() {
           to="/aboutus/governance"
         >
           {" "}
-          Governance (Advisory Board)
+          Governance
         </Link>
         <Link
           onClick={() => {
@@ -744,7 +744,7 @@ function MobileNavbar() {
           to="/aboutus/offices"
         >
           {" "}
-          Offices (Singapore, India, Bangladesh)
+          Offices
         </Link>
       </>
     );

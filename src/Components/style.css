@@ -221,6 +221,7 @@ nav div > span:hover {
   }
   .intro-nav {
     width: 90% !important;
+    padding-left: 0% !important;
   }
   #overviewOfSpan {
     flex-direction: column-reverse;
@@ -235,6 +236,10 @@ nav div > span:hover {
     width: 90% !important;
     margin-right: 0em !important;
     transition: all 1s ease;
+  }
+  #IiliteTrade {
+    width: 100% !important;
+    height: fit-content !important;
   }
   #IiliteTrade > div p {
     width: 100% !important;
@@ -257,9 +262,8 @@ nav div > span:hover {
     overflow-y: hidden;
   }
   #IiliteTrade > div > div div:hover {
-    height: 30em;
-    transform: scale(1.2);
-    font-size: 0.8em;
+    height: fit-content;
+    transform: scale(1) !important;
     align-self: center;
   }
 
@@ -443,17 +447,15 @@ nav div > span:hover {
 
 #IiliteTrade {
   font-family: "Nunito Sans", sans-serif;
-
   background: url("./Images/IMG_2780\ \(1\).JPG");
   background-position: center;
   background-size: cover;
-  padding: 2em 0px;
+  padding-top: 5em;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   overflow: hidden !important;
 }
 
@@ -489,7 +491,6 @@ nav div > span:hover {
 
 #IiliteTrade > div > div {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 2em 0px;
 }
@@ -503,10 +504,8 @@ nav div > span:hover {
   overflow-y: hidden;
 }
 #IiliteTrade > div > div div:hover {
-  height: 30em;
-  transform: scale(1.2);
-  font-size: 0.8em;
-  align-self: center;
+  height: 25em;
+  transform: scale(1.1);
 }
 
 /* #HIGHLIGHTS  Of SERVICE */
