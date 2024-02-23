@@ -448,8 +448,8 @@ nav div > span:hover {
 
 #IiliteTrade {
   font-family: "Nunito Sans", sans-serif;
+  /* box-shadow: inset 0 -100px 50px -50px #cbcfd4, 0px -50px 120px #ebeff4; */
   background: url("./Images/IMG_2780\ \(1\).JPG");
-  background-position: center;
   background-size: cover;
   padding-top: 5em;
   width: 100%;
@@ -468,7 +468,7 @@ nav div > span:hover {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
   color: #da0e29;
-  border-bottom: 4px solid #3c0753;
+  /* border-bottom: 4px solid #3c0753; */
 
   margin-bottom: 1em;
 }
