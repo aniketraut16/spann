@@ -48,7 +48,7 @@ function LandingPage() {
           </h1>
           <h1>
             {" "}
-            <span>P</span>ARTNER FOR
+            <span>P</span>ARTNER <span>F</span>OR
           </h1>
           <h1>
             <span>A</span>
