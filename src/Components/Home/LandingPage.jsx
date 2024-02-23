@@ -40,8 +40,11 @@ function LandingPage() {
       >
         <div id="landing-text">
           <h1>
-            <span>S</span>PAN YOUR
-            <span>S</span>TRATEGIC
+            <span>"SPAN"</span>
+          </h1>
+          <h1>
+            <span>Y</span>OUR
+            <span> S</span>TRATEGIC
           </h1>
           <h1>
             {" "}

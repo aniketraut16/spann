@@ -209,7 +209,7 @@ nav div > span:hover {
 
 @media only screen and (max-width: 901px) {
   #Landing-Page {
-    box-shadow: inset 0 0 700px 100px black;
+    box-shadow: inset 0 0 150px 55px black;
     margin-top: 5vh;
   }
   #wecare img {
@@ -296,16 +296,6 @@ nav div > span:hover {
   align-items: flex-start;
   justify-content: center;
 }
-
-@font-face {
-  font-family: "ForFont";
-  src: url("./Fonts/Bell\ MT\ Bold.otf") format("opentype");
-}
-
-#landing-page-for {
-  text-align: center;
-  font-family: "ForFont", sans-serif;
-}
 #landing-text h1 {
   min-width: 35%;
   font-size: 0.6em;
@@ -326,6 +316,7 @@ nav div > span:hover {
 }
 #landing-text h1 span {
   font-size: 1.5em;
+  font-weight: bold;
 }
 /* WE CARE STYLING */
 
