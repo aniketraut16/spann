@@ -250,6 +250,9 @@ nav div > span:hover {
     width: 100% !important;
     height: fit-content !important;
   }
+  #IiliteTrade > div {
+    width: 90% !important;
+  }
   #IiliteTrade > div p {
     width: 100% !important;
   }
@@ -265,15 +268,10 @@ nav div > span:hover {
     width: 100% !important;
     height: fit-content !important;
     padding: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     background-color: rgba(0, 0, 0, 0.71);
     transition: all 500ms ease;
     overflow-y: hidden;
-  }
-  #IiliteTrade > div > div div:hover {
-    height: fit-content;
-    transform: scale(1) !important;
-    align-self: center;
   }
 
   #HighlightOfService > h1 {
@@ -481,7 +479,7 @@ nav div > span:hover {
   transition: all 1s ease;
 }
 #IiliteTrade > div {
-  width: 75%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: center;
