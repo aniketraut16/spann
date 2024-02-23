@@ -211,15 +211,19 @@ nav div > span:hover {
   #Landing-Page {
     box-shadow: inset 0 0 150px 55px black;
     margin-top: 5vh;
+    padding-left: 7%;
   }
-  #wecare img {
-    width: 80% !important;
+  #landing-text {
+    width: 100% !important;
   }
-  #wecare p {
-    width: 90% !important;
+  #landing-text h1 {
+    font-size: 0.35em !important;
+    letter-spacing: 1px;
   }
   #OurIntroduction {
     flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 5em;
   }
   .info-tab {
     width: 90% !important;
@@ -287,19 +291,19 @@ nav div > span:hover {
 
 /* LANDING PAGE  */
 #landing-text {
+  width: 75%;
   font-size: 5em;
   height: 90vh;
   font-family: "Playfair Display", serif;
-  width: 75%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 #landing-text h1 {
-  min-width: 35%;
   font-size: 0.6em;
   letter-spacing: 2px;
+  min-width: 35%;
   font-weight: normal;
   text-shadow: 1px 1px 5px black;
   animation: titleanimation 2s ease;
