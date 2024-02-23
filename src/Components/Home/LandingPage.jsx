@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import span from "../Images/span.png";
 import LandingBg1 from "../Images/landingpagebg1.jpg";
 import LandingBg2 from "../Images/landingpagebg2.jpg";
+import LandingBg3 from "../Images/landingpagebg3.jpg";
 import OurIntroduction from "./OurIntroduction";
 import OverviewOfSpan from "./OverviewOfSpan";
 import IiliteTrade from "./IiliteTrade";
@@ -18,14 +19,17 @@ function LandingPage() {
   const [bgImage, setBgImage] = useState(LandingBg1);
 
   useEffect(() => {
+    const images = [LandingBg1, LandingBg2, LandingBg3];
+    let currentIndex = 0;
+
     const toggleInterval = setInterval(() => {
-      setBgImage((prevBgImage) =>
-        prevBgImage === LandingBg1 ? LandingBg2 : LandingBg1
-      );
+      setBgImage(images[currentIndex]);
+      currentIndex = (currentIndex + 1) % images.length;
     }, 6000);
 
     return () => clearInterval(toggleInterval);
   }, []);
+
   return (
     <>
       <div
@@ -36,22 +40,18 @@ function LandingPage() {
       >
         <div id="landing-text">
           <h1>
-            <span>S</span>TRATEGIC <span>P</span>ARTNER
+            <span>S</span>PAN YOUR
+            <span>S</span>TRATEGIC
           </h1>
-          <h1 id="landing-page-for">FOR</h1>
+          <h1>
+            {" "}
+            <span>P</span>ARTNER FOR
+          </h1>
           <h1>
             <span>A</span>
             DVANCED <span>N</span>AVIGATION
           </h1>
         </div>
-      </div>
-      <div id="wecare">
-        <img src={span} alt="" />
-        <p>
-          From meticulous audits to strategic tax planning and insightful
-          consulting, we pave the way for your financial success with precision
-          and expertise.
-        </p>
       </div>
       <OurIntroduction />
       <OverviewOfSpan />

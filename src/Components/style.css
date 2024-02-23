@@ -4,15 +4,16 @@
 #Landing-Page {
   color: white;
   width: 100%;
-  height: 105vh;
+  height: 100vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding-left: 10%;
   justify-content: center;
+  box-shadow: inset 0 0 700px 150px black;
   transition: all 1s ease;
   position: relative;
-  box-shadow: inset 1px -100px 100px black, inset -1px 100px 100px black;
   overflow: hidden !important;
 }
 
@@ -145,7 +146,7 @@ nav div > span:hover {
   display: flex;
   justify-content: center;
   padding: 1em 0px;
-  background-color: #1a1a24;
+  background-color: #253775;
 }
 #dropdown .level1dd {
   display: flex;
@@ -153,7 +154,7 @@ nav div > span:hover {
   left: 32%; */
   flex-direction: column;
   width: 33%;
-  background-color: #1a1a24;
+  background-color: #253775;
   z-index: 12;
 }
 #dropdown .level2dd {
@@ -191,7 +192,7 @@ nav div > span:hover {
 }
 #dropdown .level1dd > span:hover,
 #dropdown .level1dd > a:hover {
-  background-color: #2e2e38;
+  background-color: #18234e53;
   border-left: 7px solid #eb7c24;
 }
 #dropdown .level1dd > span:hover i {
@@ -207,6 +208,9 @@ nav div > span:hover {
 }
 
 @media only screen and (max-width: 901px) {
+  #Landing-Page {
+    box-shadow: inset 0 0 700px 100px black;
+  }
   #wecare img {
     width: 80% !important;
   }
@@ -324,7 +328,7 @@ nav div > span:hover {
 }
 /* WE CARE STYLING */
 
-#wecare {
+/* #wecare {
   width: 100%;
   padding: 3em 0px;
   padding-top: 5em;
@@ -343,13 +347,13 @@ nav div > span:hover {
   color: black;
   text-align: center;
   font-family: "Exo 2", sans-serif;
-}
+} */
 
 /* OUR INTRO STYLING */
 
 #OurIntroduction {
   display: flex;
-  min-height: 100vh;
+  min-height: 90vh;
   align-items: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -415,8 +419,9 @@ nav div > span:hover {
   width: 100%;
   font-family: "Nunito Sans", sans-serif;
   min-height: 100vh;
-  background-color: black;
-  color: white;
+  background-color: #fff8e3;
+  box-shadow: 0px -50px 120px #fff6dc;
+  color: black;
   font-size: 1.15em;
   display: flex;
   align-items: center;

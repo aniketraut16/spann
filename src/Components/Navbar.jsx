@@ -815,7 +815,7 @@ function Navbar() {
             }}
             to="/"
           >
-            Span Suit
+            Span Suite
           </span>
           <span
             style={

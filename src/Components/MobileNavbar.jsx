@@ -843,7 +843,7 @@ function MobileNavbar() {
             handleNavHover(1);
           }}
         >
-          Span Suit
+          Span Suite
         </span>
         <span
           onClick={() => {
