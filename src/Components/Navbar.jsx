@@ -263,9 +263,7 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(1);
-            currentServiceDd === 1 && serviveddDisplay === true
-              ? setserviveddDisplay(false)
-              : setserviveddDisplay(true);
+            setserviveddDisplay(true);
           }}
         >
           Legal Brand Protection
@@ -274,9 +272,7 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(2);
-            currentServiceDd === 2 && serviveddDisplay === true
-              ? setserviveddDisplay(false)
-              : setserviveddDisplay(true);
+            setserviveddDisplay(true);
           }}
         >
           Strategic Consulting
@@ -285,9 +281,7 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(3);
-            currentServiceDd === 3 && serviveddDisplay === true
-              ? setserviveddDisplay(false)
-              : setserviveddDisplay(true);
+            setserviveddDisplay(true);
           }}
         >
           Investigations & Due Diligence
@@ -296,9 +290,7 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(4);
-            currentServiceDd === 4 && serviveddDisplay === true
-              ? setserviveddDisplay(false)
-              : setserviveddDisplay(true);
+            setserviveddDisplay(true);
           }}
         >
           Training
@@ -307,9 +299,7 @@ function Navbar() {
         <span
           onClick={() => {
             handleServiceNavHover(5);
-            currentServiceDd === 5 && serviveddDisplay === true
-              ? setserviveddDisplay(false)
-              : setserviveddDisplay(true);
+            setserviveddDisplay(true);
           }}
         >
           Services for the Legal Industry

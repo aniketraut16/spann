@@ -28,7 +28,11 @@ const TemplateComponent = () => {
         <div className="templatecontent">
           {sectionData.contents.map((element, index) =>
             element.tag === "img" ? (
-              <img key={index} src={element.src} alt={element.alt || ""} />
+              <img
+                key={index}
+                src={process.env.PUBLIC_URL + element.src}
+                alt={element.alt || ""}
+              />
             ) : (
               React.createElement(
                 element.tag,

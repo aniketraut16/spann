@@ -70,11 +70,11 @@
     "contents": [
       {
         "tag": "img",
-        "src": "https://i.ibb.co/FB1ppSX/strategy2.png"
+        "src": "/assets/images/aboutusstrategy2.png"
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/RzfrDc2/strategy1.png"
+        "src": "/assets/images/aboutusstrategy1.png"
       }
     ]
   },
@@ -558,7 +558,7 @@
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/rtg1WbN/partnership6.png"
+        "src": "/assets/images/partnershipaacs.png"
       },
       {
         "tag": "h2",
@@ -566,7 +566,7 @@
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/stJHg28/Screenshot-from-2024-02-11-19-12-16.png"
+        "src": "/assets/images/partnershippsi.png"
       },
       {
         "tag": "h2",
@@ -574,7 +574,7 @@
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/4VD4x5M/partnership5.png"
+        "src": "/assets/images/partnershipreact.png"
       },
       {
         "tag": "h2",
@@ -582,7 +582,7 @@
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/WpJjMLr/partnership4.png"
+        "src": "/assets/images/partnershipacacap.png"
       },
       {
         "tag": "h2",
@@ -590,7 +590,7 @@
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/CzTgQGm/partnership3.png"
+        "src": "/assets/images/partnershipoppi.png"
       },
       {
         "tag": "h2",
@@ -598,7 +598,7 @@
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/mz11LxK/partnership2.png"
+        "src": "/assets/images/partnershipcii.png"
       },
       {
         "tag": "h2",
@@ -606,7 +606,7 @@
       },
       {
         "tag": "img",
-        "src": "https://i.ibb.co/bbLL1PB/partnership1.png"
+        "src": "/assets/images/partnershipinta.png"
       }
     ]
   },
@@ -615,7 +615,7 @@
     "contents": [
       {
         "tag": "img",
-        "src": "https://i.ibb.co/tcd93V3/organisationstructure.png"
+        "src": "/assets/images/organisationstructure.png"
       }
     ]
   }

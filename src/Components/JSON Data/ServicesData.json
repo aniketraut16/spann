@@ -2,7 +2,6 @@
   "leagalbrandprotection": {
     "overview": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   OVERVIEW  ",
-      "img": "https://i.ibb.co/hHD1kWd/Diversion.jpg",
       "content": [
         {
           "tag": "p",
@@ -28,7 +27,6 @@
     },
     "ipregistration": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   IP REGISTRATION & PROSECUTION",
-      "img": "https://i.ibb.co/7kJBTNB/5.png",
       "content": [
         {
           "tag": "p",
@@ -58,7 +56,6 @@
     },
     "ipaudits": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   IP AUDIT",
-      "img": "https://i.ibb.co/YP1m7Ch/1.png",
       "content": [
         {
           "tag": "h2",
@@ -86,11 +83,11 @@
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/nwH8rqq/ip1.png"
+          "src": "/assets/images/servicesip1.png"
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/nwH8rqq/ip2.png"
+          "src": "/assets/images/servicesip2.png"
         },
         {
           "tag": "h2",
@@ -130,13 +127,12 @@
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/WyNfYR2/outcome1.png"
+          "src": "/assets/images/servicesip3.png"
         }
       ]
     },
     "intellectualproperties": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   INTELLECTUAL PROPERTY ",
-      "img": "https://i.ibb.co/Zhw4Kbg/view-3d-gavel-lawyer-s-day-23-2151023423.jpg",
       "content": [
         {
           "tag": "h2",
@@ -364,7 +360,6 @@
     },
     "confidentialinformation": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   CONFiDENTIAL INFORMATION & TRADE SECRETS     ",
-      "img": "https://i.ibb.co/kDgk21R/2.png",
       "content": [
         {
           "tag": "h2",
@@ -594,7 +589,6 @@
 
     "healthcareandregulations": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   HEALTHCARE & REGULATORY LAWS",
-      "img": "https://i.ibb.co/g4fNkCn/3.png",
       "content": [
         {
           "tag": "h2",
@@ -636,7 +630,6 @@
     },
     "mediaentertainmentandsportslaws": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   MEDIA, ENTERTAINMENT & SPORTS LAWS",
-      "img": "https://i.ibb.co/s3d38RG/6.jpg",
       "content": [
         {
           "tag": "p",
@@ -694,7 +687,6 @@
     },
     "digitalanditlaw": {
       "breadCrumb": "SERVICES /   LEGAL BRAND PROTECTION /   DIGITAL AND IT LAWS",
-      "img": "https://i.ibb.co/bFBfms1/7.jpg",
       "content": [
         {
           "tag": "p",
@@ -754,7 +746,6 @@
   "stratagicconsulting": {
     "overview": {
       "breadCrumb": "SERVICES /    STRATEGIC CONSULTING  /   OVERVIEW  ",
-      "img": "https://i.ibb.co/hHD1kWd/Diversion.jpg",
       "content": [
         {
           "tag": "p",
@@ -778,7 +769,6 @@
     },
     "comprehensivelegalandbusinessriskconsultancy": {
       "breadCrumb": "SERVICES /    STRATEGIC CONSULTING  /   COMPREHENSIVE LEGAL & BUSINESS RISK CONSULTING ",
-      "img": "https://i.ibb.co/kmdscm0/Comprehensive-Legal-and-Business-Risk-Consulting.jpg",
       "content": [
         {
           "tag": "p",
@@ -808,7 +798,6 @@
     },
     "riskassesmentandmigrationplan": {
       "breadCrumb": "SERVICES /    STRATEGIC CONSULTING  /   RISK ASSESSMENTS AND MITIGATION PLANS ",
-      "img": "https://i.ibb.co/XY7zw0Q/Risk-Assessments-and-Mitigation-Plans.jpg",
       "content": [
         {
           "tag": "h2",
@@ -939,7 +928,6 @@
     },
     "customizedconsultingservice": {
       "breadCrumb": "SERVICES /    STRATEGIC CONSULTING  /   CUSTOMIZED CONSULTING SERVICES ",
-      "img": "https://i.ibb.co/qk59zQj/Customized-Consulting-Services.jpg",
       "content": [
         {
           "tag": "p",
@@ -969,7 +957,6 @@
     },
     "chainsupplysecurityandintegratityprogram": {
       "breadCrumb": "SERVICES /    STRATEGIC CONSULTING  /   SUPPLY CHAIN SECURITY/ INTEGRITY PROGRAMS  ",
-      "img": "https://i.ibb.co/Trxck8m/Supply-Chain-Security-Integrity-Programs.jpg-",
       "content": [
         {
           "tag": "p",
@@ -1001,7 +988,6 @@
   "investigationandduedilligence": {
     "counterfeit": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT   /   COUNTERFEITS",
-      "img": "https://i.ibb.co/dJqYkv0/Counterfeits.jpg",
       "content": [
         {
           "tag": "h2",
@@ -1109,13 +1095,12 @@
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/bg7ycHN/Screenshot-from-2024-02-06-20-51-36.png"
+          "src": "/assets/images/servicescounterfeit.png"
         }
       ]
     },
     "diversion": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT   /   DIVERSION",
-      "img": "https://i.ibb.co/hHD1kWd/Diversion.jpg",
       "content": [
         {
           "tag": "p",
@@ -1146,7 +1131,6 @@
     },
     "producttampering": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   PRODUCT SECURITY INVESTIGATIONS & ENFORCEMENT   /   PRODUCT TAMPERING",
-      "img": "https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
       "content": [
         {
           "tag": "p",
@@ -1220,7 +1204,6 @@
     },
     "counterpartyduediligence": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   DUE DILIGENCE  /   COUNTER PARTY DUE DILIGENCE",
-      "img": "https://i.ibb.co/hBFG6Zb/Counter-Party-Due-Diligence.jpg",
       "content": [
         {
           "tag": "h2",
@@ -1243,7 +1226,6 @@
     },
     "seniormanagementduediligence": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   DUE DILIGENCE  /   SENIOR MANAGEMENT DUE DILIGENCE",
-      "img": "https://i.ibb.co/LtpVjR1/Senior-Management-Due-Diligence.jpg",
       "content": [
         {
           "tag": "h2",
@@ -1264,7 +1246,6 @@
     },
     "integrityduediligence": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   DUE DILIGENCE  /    INTEGRITY DUE DILIGENCE",
-      "img": "https://i.ibb.co/D4jRW7z/Integrity-Due-Diligence.jpg",
       "content": [
         {
           "tag": "p",
@@ -1276,45 +1257,42 @@
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/rxNDQrm/integrityduedillance.jpg"
+          "src": "/assets/images/servicesintegrityduedillance.jpg"
         }
       ]
     },
     "cyberforensics": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   FORENSIC DUE DILIGENCE   /   CYBER FORENSICS ",
-      "img": "https://i.ibb.co/s5DnZFQ/Cyber-Forensics.jpg",
       "content": [
         {
           "tag": "img",
-          "src": "https://i.ibb.co/G3gdVG6/forensicduedillance3.jpg"
+          "src": "/assets/images/servicesforensicduedillance3.jpg"
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/TbW6fkR/forensicduedillance2.jpg"
+          "src": "/assets/images/servicesforensicduedillance2.png"
         },
         {
           "tag": "p",
-          "src": "SPAN can understand and help mold business strategies involving ESI (Electronically Stored Information) supported by state-of-art labs and a global network of responders, allowing us to perform forensic investigations for virtually any matter and in any environment."
+          "src": "/assets/images/SPAN can understand and help mold business strategies involving ESI (Electronically Stored Information) supported by state-of-art labs and a global network of responders, allowing us to perform forensic investigations for virtually any matter and in any environment."
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/hfdpdyq/forensicduedillance2.jpg"
+          "src": "/assets/images/servicesforensicduedillance1.jpg"
         }
       ]
     },
     "sourceinvestigation": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /    SUPPLY CHAIN INVESTIGATION   /    SOURCE INVESTIGATIONS",
-      "img": "https://i.ibb.co/2czmQfB/Source-Investigations.jpg",
       "content": [
         {
           "tag": "img",
-          "src": "https://i.ibb.co/FBGxLrP/sourceinvestigation.png"
+          "src": "/assets/images/servicessourceinvestigation.png"
         }
       ]
     },
     "facility": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   SUPPLY CHAIN INVESTIGATION   /   THEFT INVESTIGATIONS  /   FACILITY",
-      "img": "https://i.ibb.co/qk59zQj/Customized-Consulting-Services.jpg",
       "content": [
         {
           "tag": "p",
@@ -1340,7 +1318,6 @@
     },
     "intransit": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   SUPPLY CHAIN INVESTIGATION   /   THEFT INVESTIGATIONS  /   IN-TRANSIT",
-      "img": "https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
       "content": [
         {
           "tag": "p",
@@ -1366,7 +1343,6 @@
     },
     "digital": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   SUPPLY CHAIN INVESTIGATION   /   THEFT INVESTIGATIONS  /   DIGITAL",
-      "img": "https://i.ibb.co/s5DnZFQ/Cyber-Forensics.jpg",
       "content": [
         {
           "tag": "p",
@@ -1392,35 +1368,32 @@
     },
     "informationsecurityandsystem": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /  INFORMATION SECURITY AND SYSTEMS ",
-      "img": "https://i.ibb.co/s5DnZFQ/Cyber-Forensics.jpg",
       "content": [
         {
           "tag": "img",
-          "src": "https://i.ibb.co/ZWwhsPL/informationsecurity.jpg"
+          "src": "/assets/images/servicesinformationsecurity.jpg"
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/WcHgZpd/informationsecurity2.jpg"
+          "src": "/assets/images/servicesinformationsecurity2.png"
         }
       ]
     },
     "aml": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /    KYC AND BACKGROUND CHECKS    /   AML",
-      "img": "https://i.ibb.co/qk59zQj/Customized-Consulting-Services.jpg",
       "content": [
         {
           "tag": "img",
-          "src": "https://i.ibb.co/cTsHVvr/aml2.png"
+          "src": "/assets/images/servicesaml1.png"
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/cTsHVvr/aml2.png"
+          "src": "/assets/images/servicesaml2.png"
         }
       ]
     },
     "kyc": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   KYC AND BACKGROUND CHECKS    /   KYC",
-      "img": "https://i.ibb.co/7kJBTNB/5.png",
       "content": [
         {
           "tag": "p",
@@ -1446,11 +1419,10 @@
     },
     "marketresearch": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   MARKET RESEARCH (PRIMARY & SECONDARY)",
-      "img": "https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
       "content": [
         {
           "tag": "img",
-          "src": "https://i.ibb.co/dKT1gBH/marketingsearch3.png"
+          "src": "/assets/images/servicesmarketingsearch.png"
         },
         {
           "tag": "h2",
@@ -1595,7 +1567,6 @@
     },
     "marketintelligence": {
       "breadCrumb": "SERVICES /    INVESTIGATIONS AND DUE DILIGENCE  /   MARKET INTELLIGENCE GATHERING",
-      "img": "https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
       "content": [
         {
           "tag": "p",
@@ -1623,7 +1594,6 @@
   "traning": {
     "mlc": {
       "breadCrumb": "SERVICES /    TRAININGS  /   MLC",
-      "img": "https://i.ibb.co/qk59zQj/Customized-Consulting-Services.jpg",
       "content": [
         {
           "tag": "p",
@@ -1900,13 +1870,12 @@
         },
         {
           "tag": "img",
-          "src": "https://i.ibb.co/SffZy8C/Screenshot-from-2024-02-06-20-48-04.png"
+          "src": "/assets/images/servicesmlc.png"
         }
       ]
     },
     "iprinschool": {
       "breadCrumb": "SERVICES /    TRAININGS  /    IPR IN SCHOOLS ",
-      "img": "https://i.ibb.co/mBPwNJJ/IPR-in-Schools.jpg",
       "content": [
         {
           "tag": "p",
@@ -2260,7 +2229,6 @@
     },
     "softskills": {
       "breadCrumb": "SERVICES /    TRAININGS  /   SOFT SKILLS (VJ)",
-      "img": "https://i.ibb.co/68Tt6wF/Soft-Skills.jpg",
       "content": [
         {
           "tag": "p",
@@ -2288,7 +2256,6 @@
   "serviceforlegalindustries": {
     "tminuse": {
       "breadCrumb": "SERVICES /    SERVICE FOR LEGAL INDUSTIRES   /   TRADEMARK IN USE (PM) INVESTIGATION ",
-      "img": "https://i.ibb.co/PCv2z7k/Product-Tampering.jpg",
       "content": [
         {
           "tag": "p",

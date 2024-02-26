@@ -29,7 +29,10 @@ function Resources() {
           {sectionData.contents.map((element, index) => (
             <React.Fragment key={index}>
               {element.tag === "img" ? (
-                <img src={element.src} alt={element.alt || ""} />
+                <img
+                  src={process.env.PUBLIC_URL + element.src}
+                  alt={element.alt || ""}
+                />
               ) : element.tag === "ul" ? (
                 <ul>
                   {element["list-items"].map((item, i) => (
