@@ -713,29 +713,34 @@ function Navbar() {
         setDropdownContent(<SpanSuitDropdown />);
         setcurrentDd(1);
         setserviveddDisplay(false);
+        setcurrentServiceDd(null);
         break;
       case 2:
         setDropdownContent(<ServicesDropdown />);
         setcurrentDd(2);
         setserviveddDisplay(false);
+        setcurrentServiceDd(null);
 
         break;
       case 3:
         setDropdownContent(<IndustriesServedDropdown />);
         setcurrentDd(3);
         setserviveddDisplay(false);
+        setcurrentServiceDd(null);
 
         break;
       case 4:
         setDropdownContent(<ResourcesToolkitsDropdown />);
         setcurrentDd(4);
         setserviveddDisplay(false);
+        setcurrentServiceDd(null);
 
         break;
       case 5:
         setDropdownContent(<AboutUsDropdown />);
         setcurrentDd(5);
         setserviveddDisplay(false);
+        setcurrentServiceDd(null);
 
         break;
       default:
@@ -904,12 +909,25 @@ function Navbar() {
       </nav>
       <div
         id="dropdown"
-        style={dropdownDisplay ? { top: "10vh" } : { top: "-100vh" }}
+        style={{
+          top: `${dropdownDisplay ? "10vh" : "-100vh"}`,
+          minHeight: `${
+            currentServiceDd === 3
+              ? "80vh"
+              : currentDd === 2
+              ? "50vh"
+              : "fit-content"
+          }`,
+        }}
       >
         {dropdownContent}
         <ul
           className="level2dd"
-          style={serviveddDisplay ? { left: "67%" } : { left: "33%" }}
+          style={
+            serviveddDisplay
+              ? { left: "67%", visibility: "visible" }
+              : { left: "33%", visibility: "hidden" }
+          }
         >
           {servicedropdownContent}
         </ul>

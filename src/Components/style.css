@@ -65,6 +65,7 @@ nav {
   font-family: "Exo 2", sans-serif;
   top: 0%;
   display: flex;
+  box-shadow: 0px 1px 10px black;
   align-items: center;
   z-index: 10;
 }
@@ -141,7 +142,6 @@ nav div > span:hover {
   z-index: 9;
   transition: all 500ms ease-in-out;
   width: 100%;
-  min-height: 53vh;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -160,12 +160,15 @@ nav div > span:hover {
 #dropdown .level2dd {
   display: flex;
   position: absolute;
-  transition: all 500ms ease;
+  transition: left 500ms ease;
   flex-direction: column;
   z-index: 11;
-  font-size: 1.05em;
+  font-size: 14px;
   gap: 2px;
   width: 33%;
+}
+#dropdown .level2dd h3 {
+  font-size: 20px;
 }
 #dropdown .level2dd > * {
   color: white;
@@ -182,12 +185,12 @@ nav div > span:hover {
   color: white;
   width: 100%;
   border-top: 1px solid #2e2e38;
-  padding: 8px 11px;
+  padding: 6px 11px;
   display: flex;
   justify-content: space-between;
   border-left: 7px solid #eb7e2400;
   border-bottom: 1px solid #2e2e38;
-  font-size: 1.1em;
+  font-size: 14px;
   font-weight: bold;
 }
 #dropdown .level1dd > span:hover,
@@ -898,6 +901,7 @@ nav div > span:hover {
   font-size: 0.8em;
   color: #433c48;
 }
+.Contact *,
 .templatecontent *,
 .messagecontent * {
   transition: all 500ms ease;
