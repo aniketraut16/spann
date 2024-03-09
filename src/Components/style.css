@@ -777,6 +777,7 @@ nav div > span:hover {
 
 .Contact * {
   font-family: "Nunito Sans", sans-serif;
+  transition: all 500ms ease;
 }
 .Contact {
   width: 100%;
@@ -897,10 +898,16 @@ nav div > span:hover {
   font-size: 0.8em;
   color: #433c48;
 }
+.templatecontent *,
+.messagecontent * {
+  transition: all 500ms ease;
+  animation: componrntrenser 1s ease;
+}
 .templatecontent {
   display: flex;
   flex-direction: column;
   gap: 7px;
+  overflow: hidden;
   margin: 5% 0px;
   font-family: "Nunito Sans", sans-serif;
   border-radius: 5px;
@@ -910,6 +917,32 @@ nav div > span:hover {
   margin-top: 2em;
   background-color: white;
 }
+.templatecontent table {
+  width: 100%;
+  border: 2px solid #890505;
+}
+.templatecontent tr {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.templatecontent tr th {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 2% 10%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #890505;
+  background-color: #545454;
+  color: white;
+}
+.templatecontent tr td {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 2% 10%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #890505;
+}
 .templatecontent h2 {
   font-size: 1.7em;
   font-weight: bold;
@@ -917,6 +950,17 @@ nav div > span:hover {
 }
 .templatecontent p {
   font-size: 1.3em;
+}
+
+@keyframes componrntrenser {
+  0% {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 901px) {
@@ -944,6 +988,10 @@ nav div > span:hover {
     padding: 1.5em;
     width: 90%;
     margin-top: 1em;
+  }
+  .templatecontent tr th,
+  .templatecontent tr td {
+    font-size: 0.7em;
   }
   .messagecontent {
     display: flex;

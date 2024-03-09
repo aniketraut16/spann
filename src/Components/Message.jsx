@@ -1,12 +1,40 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import d1 from "./Images/director1.png";
 import d2 from "./Images/director2.png";
 
 function Message() {
+  const observedElements = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.transform = "scale(1)";
+            entry.target.style.opacity = "1";
+          } else {
+            entry.target.style.transform = "scale(0.95)";
+            entry.target.style.opacity = "0";
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    observedElements.current.forEach((el) => {
+      observer.observe(el);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   window.scrollTo({
     top: 0,
     behavior: "smooth",
   });
+
   return (
     <>
       <div className="Message">
@@ -16,8 +44,24 @@ function Message() {
         </div>
         <div className="messagecontent">
           <div>
-            <img src={d1} alt="" />
-            <p>
+            <img
+              src={d1}
+              alt=""
+              ref={(el) => {
+                if (el) {
+                  observedElements.current.push(el);
+                }
+              }}
+              style={{ transition: "all 500ms ease" }}
+            />
+            <p
+              ref={(el) => {
+                if (el) {
+                  observedElements.current.push(el);
+                }
+              }}
+              style={{ transition: "all 500ms ease" }}
+            >
               <h2>PANKAJ MONGA</h2>
               Pankaj is an accomplished Lawyer and an Advocate of the Supreme
               Court of India with over 24+ years of experience and an impressive
@@ -33,7 +77,14 @@ function Message() {
             </p>
           </div>
           <div id="colVineetJaisawal">
-            <p>
+            <p
+              ref={(el) => {
+                if (el) {
+                  observedElements.current.push(el);
+                }
+              }}
+              style={{ transition: "all 500ms ease" }}
+            >
               <h2>COL VINEET JAISWAL </h2>
               Colonel Vineet Jaiswal is an experienced Indian Army officer with
               over 23 years of service and a career filled with challenging
@@ -48,7 +99,16 @@ function Message() {
               University of Madras, besides having certified himself in Global
               Supply Chain Management from the IIFT, New Delhi.
             </p>
-            <img src={d2} alt="" />
+            <img
+              src={d2}
+              alt=""
+              ref={(el) => {
+                if (el) {
+                  observedElements.current.push(el);
+                }
+              }}
+              style={{ transition: "all 500ms ease" }}
+            />
           </div>
         </div>
       </div>

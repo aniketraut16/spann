@@ -1,14 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import jsonData from "../JSON Data/industrydata.json";
 import { useParams } from "react-router-dom";
 
 function Industries() {
   const { section } = useParams();
   const sectionData = jsonData[section];
+  const observedElements = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.transform = "scale(1)";
+            entry.target.style.opacity = "1";
+          } else {
+            entry.target.style.transform = "scale(0.95)";
+            entry.target.style.opacity = "0";
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    observedElements.current.forEach((el) => {
+      observer.observe(el);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   if (!sectionData || !sectionData.contents) {
     return <div>Data not found or invalid format</div>;
   }
+
   window.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -30,7 +57,15 @@ function Industries() {
           {sectionData.contents.map((element, index) => (
             <React.Fragment key={index}>
               {element.tag === "img" ? (
-                <img src={element.src} alt={element.alt || ""} />
+                <img
+                  src={element.src}
+                  alt={element.alt || ""}
+                  ref={(el) => {
+                    if (el) {
+                      observedElements.current.push(el);
+                    }
+                  }}
+                />
               ) : element.tag === "ul" ? (
                 <ul>
                   {element["list-items"].map((item, i) => (
@@ -48,6 +83,11 @@ function Industries() {
                   element.tag,
                   {
                     key: index,
+                    ref: (el) => {
+                      if (el) {
+                        observedElements.current.push(el);
+                      }
+                    },
                   },
                   element.content
                 )

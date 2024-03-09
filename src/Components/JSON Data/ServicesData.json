@@ -82,8 +82,34 @@
           "content": "Preparation for an IP Audit:            "
         },
         {
-          "tag": "img",
-          "src": "/assets/images/servicesip1.png"
+          "tag": "table",
+          "content": [
+            ["Responsible/Functions", "Information to be collected"],
+            [
+              "Legal Counsel",
+              "Company's management structure and brands details, Company's business strategy including the business targets and IP policy"
+            ],
+            [
+              "Legal Counsel",
+              "Infringement cases: previous/ongoing cases Copies of all IP-related contracts IP assets: Registered/ unregistered trademarks, copyrights, designs and patents."
+            ],
+            [
+              "Legal Counsel",
+              "Information about the current/potential markets.Information about the competitors: Identification of competitors, their products Information about disclosures in fairs, company presentations, adverts, brochures, etc."
+            ],
+            [
+              "Legal Counsel",
+              "Information about the manufactured products, data sheets, specifications"
+            ],
+            [
+              "Legal Counsel",
+              "Information about the technologies under development and disclosures, R&D reports"
+            ],
+            [
+              "Legal Counsel",
+              "Employment agreements, subcontracting agreements"
+            ]
+          ]
         },
         {
           "tag": "img",

@@ -1,16 +1,45 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 function Contact() {
+  const observedElements = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.transform = "scale(1)";
+          } else {
+            entry.target.style.transform = "scale(0.95)";
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    observedElements.current.forEach((el) => {
+      observer.observe(el);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   window.scrollTo({
     top: 0,
     behavior: "smooth",
   });
+
   return (
     <>
       <div className="Contact">
-        <h1>CONTACT US</h1>
+        <h1 ref={(el) => observedElements.current.push(el)}>CONTACT US</h1>
         <div>
-          <div className="adress">
+          <div
+            className="adress"
+            ref={(el) => observedElements.current.push(el)}
+          >
             <h2>Get in Touch</h2>
             <h3>India</h3>
             <p>
@@ -35,7 +64,7 @@ function Contact() {
             </p>
             <span> +880 1894-697179</span>
           </div>
-          <div className="form">
+          <div className="form" ref={(el) => observedElements.current.push(el)}>
             <div>
               <label htmlFor="">Name</label>
               <input type="text" />
@@ -67,8 +96,8 @@ function Contact() {
             <button>Submit</button>
           </div>
         </div>
-        <h1>Here we are:</h1>
-        <div className="map">
+        <h1 ref={(el) => observedElements.current.push(el)}>Here we are:</h1>
+        <div className="map" ref={(el) => observedElements.current.push(el)}>
           <iframe
             title="ouraddress"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7006.7761096230115!2d77.04062159565707!3d28.588133123578896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b55fbe6ee21%3A0x7c08ef8aa9430a1a!2sSPAN%20Consulting!5e0!3m2!1sen!2sin!4v1707122798541!5m2!1sen!2sin"
