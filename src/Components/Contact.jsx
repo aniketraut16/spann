@@ -65,6 +65,11 @@ function Contact() {
             <span> +880 1894-697179</span>
           </div>
           <div className="form" ref={(el) => observedElements.current.push(el)}>
+            <p>
+              Thank you for your interest in SPAN Consulting Pvt Ltd. Please
+              fill out the form below, and we&#39;ll get back to you as soon as
+              possible.
+            </p>
             <div>
               <label htmlFor="">Name</label>
               <input type="text" />

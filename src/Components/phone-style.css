@@ -30,6 +30,8 @@
 
   #mobNav {
     display: flex;
+    box-shadow: 0px 0.2px 10px black;
+
     position: fixed;
     top: 0;
     background-color: #ffffff;

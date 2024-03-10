@@ -4,7 +4,11 @@
     "contents": [
       {
         "tag": "h2",
-        "content": "1 . Impacts of Counterfeiting: The Need To Protect Your Brand"
+        "content": "Artical 1"
+      },
+      {
+        "tag": "h2",
+        "content": "Impacts of Counterfeiting: The Need To Protect Your Brand"
       },
       {
         "tag": "p",
@@ -28,7 +32,11 @@
       },
       {
         "tag": "h2",
-        "content": " 2 . Anti-piracy & Anti-counterfeiting: How to reduce counterfeit acts in a pandemic"
+        "content": "Artical 2"
+      },
+      {
+        "tag": "h2",
+        "content": "  Anti-piracy & Anti-counterfeiting: How to reduce counterfeit acts in a pandemic"
       },
       {
         "tag": "p",
@@ -62,7 +70,11 @@
         "tag": "p",
         "content": "By prioritizing online brand protection within the organizations, businesses position themselves to mitigate risks and financial impact resulting from stolen web traffic, brand impersonation, and fraud. They are also more effective at preventing damages to customer experience, increasing long-term brand health. With the right strategy in place, companies see significant ROI."
       },
-      { "tag": "h2", "content": " 3) I. Introduction" },
+      {
+        "tag": "h2",
+        "content": "Artical 3"
+      },
+      { "tag": "h2", "content": "I. Introduction" },
       {
         "tag": "p",
         "content": "A. Definition of Product Diversion: Product diversion refers to the unauthorized sale or distribution of a product that is intended for exclusive distribution in a specific market or channel. This can occur when a manufacturer's product is sold outside of its intended distribution network or when a distributor or retailer sells the product to an unauthorized third party."
@@ -148,7 +160,7 @@
       },
       {
         "tag": "h2",
-        "content": "V. Case Studies of Product Diversion in Pharma and Medical Devices Industry "
+        "content": "VI. Case Studies of Product Diversion in Pharma and Medical Devices Industry "
       },
       {
         "tag": "p",
@@ -160,7 +172,11 @@
       },
       {
         "tag": "h2",
-        "content": " 4 . AI in Action: How Artificial Intelligence is Revolutionizing Brand Protection and Anti-Counterfeiting"
+        "content": "Artical 4"
+      },
+      {
+        "tag": "h2",
+        "content": " AI in Action: How Artificial Intelligence is Revolutionizing Brand Protection and Anti-Counterfeiting"
       },
       {
         "tag": "p",
@@ -216,33 +232,30 @@
   "casestudy": {
     "breadCrumb": " RESOURCES AND TOOLKITS / CASE STUDIES ",
     "contents": [
+      { "tag": "h2", "content": "I. Case Studies of Product Diversion" },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "A. Successful Prevention Strategies: The ebook can include case studies of companies that have successfully prevented product diversion through the use of clear"
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "distribution channels, product tracking and monitoring systems, and strong relationships with distributors and retailers."
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "B. Lessons Learned from Product Diversion Incidents: The ebook can also include case studies of companies that have experienced product diversion and the lessons they learned"
+      },
+      {
+        "tag": "h2",
+        "content": "II. Case Studies of Product Diversion in Pharma and Medical Devices Industry "
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "A. Pfizer's Successful Prevention Strategies: Pfizer, a leading pharmaceutical company, has implemented several strategies to prevent product diversion. One of the most successful strategies is the use of unique serialization codes for each product, which allows them to track and monitor the distribution of their products. In addition, Pfizer has established clear distribution channels and built strong relationships with their distributors and retailers to ensure that their products are sold only through authorized channels. B. Medtronic's Lesson Learned from Product Diversion Incident: Medtronic, a medical device company, experienced a product diversion incident when their devices were sold through unauthorized channels. The company learned the importance of implementing product tracking and monitoring systems to prevent similar incidents in the future. They also realized the need to build strong relationships with their distributors and retailers to ensure that their products are sold only through authorized channels."
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "These case studies demonstrate the importance of implementing strategies to prevent product diversion in the pharma and medical devices industry. By implementing product tracking and monitoring systems, establishing clear distribution channels, and building strong relationships with their distributors and retailers, companies can protect their brand and reputation, prevent lost sales and revenue, and ensure that their products are sold only through authorized channels."
       }
     ]
   },
@@ -250,12 +263,29 @@
     "breadCrumb": "RESOURCES AND TOOLKITS / BRAND PROTECTION TOOLKITS ",
     "contents": [
       {
-        "tag": "img",
-        "src": "/assets/images/resourcesbrandprotection1.png"
-      },
-      {
-        "tag": "img",
-        "src": "/assets/images/resourcesbrandprotection2.png"
+        "tag": "ul",
+        "list-items": [
+          "supply chain risk assessment",
+          "brand protection risk assessment",
+          "brand protection toolkit",
+          "external manufacturer risk assessment",
+          "new business readiness risk assessment",
+          "supplier risk assessment,",
+          "product and packaging risk assessment",
+          "technology selection tool,",
+          "the legal expense optimization tool",
+          "legal procurement tool",
+          "market monitoring activity tool",
+          "customs awareness and enforcement tool",
+          "root cause analysis,",
+          "analytical/ correlation engine design",
+          "ROI calculation algorithm",
+          "communications (internal and external stakeholders) templates",
+          "RACI",
+          "external manufacturing / CMO risk assessment tool etc.",
+          "Process mapping",
+          "Brand Protection in a Box"
+        ]
       }
     ]
   }

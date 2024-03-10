@@ -49,31 +49,57 @@ function OverviewOfSpan() {
       <div ref={overviewRef}>
         <h1> OVERVIEW OF SPAN CONSULTING</h1>
         <p>
-          SPAN Consulting is a premier professional services firm providing
-          specialist brand protection, legal, investigations, business risk
-          advisory and strategic consulting services to our esteemed clients in
-          pan South Asia and SEA, having offices in Singapore, India and
-          Bangladesh.{" "}
+          SPAN Consulting is a leading provider of professional services,
+          offering specialized brand protection, legal, investigative, business
+          risk advisory, and strategic consulting services to our valued clients
+          across South Asia and Southeast Asia. With offices in Singapore,
+          India, and Bangladesh, we have established ourselves as a trusted
+          partner in the region.
         </p>
         <p>
-          We are experienced and take pride in conducting and providing a
-          complete range of services covering IP (Trademarks, Copyrights,
-          Patents, and Designs), confidential information & trade secrets,
-          healthcare regulatory laws, media, entertainment & sports laws, and
-          digital & IT laws including but not limited to IP registration and
-          prosecution, audits, product security investigations, and enforcement
-          (PSI&E) of rights through civil, criminal, and administrative measures
-          thru law enforcement and regulatory agencies litigation, comprehensive
-          legal and business risk consulting, assessments and developing risk
-          mitigation plans, customs recordation of IPR, and LEA, Customs,
-          External and Internal stakeholder trainings, supply chain
-          security/integrity programs, risk assessments and investigations,
-          etc., market research (primary and secondary)
+          We boast extensive experience and take great pride in delivering a
+          comprehensive range of services, encompassing intellectual property
+          (IP) matters such as trademarks, copyrights, patents, and designs, as
+          well as confidential information, trade secrets, healthcare regulatory
+          laws, media, entertainment, sports laws, and digital and IT laws. Our
+          offerings include:
+        </p>
+        <p> 1.IP registration and prosecution</p>
+        <p> 2.Audits</p>
+        <p>
+          {" "}
+          3.Product security investigations and enforcement (PSI&E) through
+          civil, criminal, and administrative measures, leveraging law
+          enforcement and regulatory agencies
+        </p>
+        <p> 4.Litigation</p>
+        <p>
+          {" "}
+          5.Legal and business risk consulting, including assessments and the
+          development of risk mitigation plans
+        </p>
+        <p> 6.Customs recordation of intellectual property rights (IPR)</p>
+        <p>
+          {" "}
+          7.Training programs for law enforcement agencies (LEA), customs,
+          external and internal stakeholders
         </p>
         <p>
-          We are highly technology driven and have developed several tools,
-          toolkits, and modules in-house, be it for brand protection, case
-          management, budget management, ROI Calculation, etc.,
+          {" "}
+          8.Supply chain security and integrity programs, risk assessments, and
+          investigations
+        </p>
+        <p> 9.Market research, both primary and secondary</p>
+        <p>
+          Driven by technology, we have developed a suite of proprietary tools,
+          toolkits, and modules in-house, tailored to address various needs such
+          as brand protection, case management, budget management, and ROI
+          calculation. Our Brand Protection: Total Legal & Business Solutions
+          (TLBS) practice is meticulously crafted to address concerns regarding
+          counterfeiting, product diversion, product tampering, and IPR
+          infringement. These solutions are designed and executed to fulfill our
+          clients' primary objectives of ensuring patient/consumer safety,
+          safeguarding reputation and trust, and enhancing revenue streams.
         </p>
       </div>
       <img src={img} alt="" ref={imgRef} />

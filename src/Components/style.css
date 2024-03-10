@@ -210,86 +210,6 @@ nav div > span:hover {
   top: 100%;
 }
 
-@media only screen and (max-width: 901px) {
-  #Landing-Page {
-    box-shadow: inset 0 0 150px 55px black;
-    margin-top: 5vh;
-    padding-left: 7%;
-  }
-  #landing-text {
-    width: 100% !important;
-  }
-  #landing-text h1 {
-    font-size: 0.35em !important;
-    letter-spacing: 1px;
-  }
-  #OurIntroduction {
-    flex-direction: column;
-    padding-top: 2em;
-    padding-bottom: 5em;
-  }
-  .info-tab {
-    width: 90% !important;
-  }
-  .intro-nav {
-    width: 90% !important;
-    padding-left: 0% !important;
-  }
-  #overviewOfSpan {
-    flex-direction: column-reverse;
-  }
-  #overviewOfSpan img {
-    width: 90% !important;
-    margin-left: 0em !important;
-    transition: all 1s ease;
-  }
-  #overviewOfSpan > div {
-    padding: 2em 0px;
-    width: 90% !important;
-    margin-right: 0em !important;
-    transition: all 1s ease;
-  }
-  #IiliteTrade {
-    width: 100% !important;
-    height: fit-content !important;
-  }
-  #IiliteTrade > div {
-    width: 90% !important;
-  }
-  #IiliteTrade > div p {
-    width: 100% !important;
-  }
-  #IiliteTrade > div > div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2em 0px;
-  }
-  #IiliteTrade > div > div div {
-    color: white;
-    width: 100% !important;
-    height: fit-content !important;
-    padding: 1em;
-    margin-bottom: 2em;
-    background-color: rgba(0, 0, 0, 0.71);
-    transition: all 500ms ease;
-    overflow-y: hidden;
-  }
-
-  #HighlightOfService > h1 {
-    margin-top: 2em;
-    margin-bottom: 2em !important;
-    font-size: 2em;
-  }
-  .corausol {
-    height: 25vh !important;
-  }
-  .corausol > div p {
-    font-size: 0.5em !important;
-  }
-}
-
 /* LANDING PAGE  */
 #landing-text {
   width: 75%;
@@ -1072,4 +992,93 @@ nav div > span:hover {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.2em;
   width: 45%;
+}
+
+@media only screen and (max-width: 901px) {
+  #Landing-Page {
+    box-shadow: inset 0 0 150px 55px black;
+    margin-top: 5vh;
+    padding-left: 7%;
+  }
+  #landing-text {
+    width: 100% !important;
+  }
+  #landing-text h1 {
+    font-size: 0.35em !important;
+    letter-spacing: 1px;
+  }
+  #OurIntroduction {
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 5em;
+  }
+  .info-tab {
+    width: 90% !important;
+  }
+  .intro-nav {
+    width: 90% !important;
+    padding-left: 0% !important;
+  }
+  #overviewOfSpan {
+    flex-direction: column-reverse;
+  }
+  #overviewOfSpan img {
+    width: 90% !important;
+    margin-left: 0em !important;
+    transition: all 1s ease;
+  }
+  #overviewOfSpan > div {
+    padding: 2em 0px;
+    width: 90% !important;
+    margin-right: 0em !important;
+    transition: all 1s ease;
+  }
+  #IiliteTrade {
+    width: 100% !important;
+    height: fit-content !important;
+  }
+  #IiliteTrade > div {
+    width: 90% !important;
+  }
+  #IiliteTrade > div p {
+    width: 100% !important;
+  }
+  #IiliteTrade > div > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em 0px;
+  }
+  #IiliteTrade > div > div div {
+    color: white;
+    width: 100% !important;
+    height: fit-content !important;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgba(0, 0, 0, 0.71);
+    transition: all 500ms ease;
+    overflow-y: hidden;
+  }
+
+  #HighlightOfService > h1 {
+    margin-top: 2em;
+    margin-bottom: 2em !important;
+    font-size: 2em;
+  }
+  .corausol {
+    height: 27vh !important;
+    width: 90%;
+  }
+  .corausol > div {
+    justify-content: center !important;
+    align-items: center;
+  }
+  .corausol > div h1 {
+    font-size: 1em;
+    margin: 0%;
+  }
+  .corausol > div p {
+    font-size: 0.6em !important;
+  }
 }

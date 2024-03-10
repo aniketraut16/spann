@@ -4,6 +4,22 @@
     "contents": [
       {
         "tag": "h2",
+        "content": "Vision:"
+      },
+      {
+        "tag": "p",
+        "content": "At SPAN Consulting, our vision is to stand as the pre-eminent authority in Brand Protection Services, pioneering innovation and trust to safeguard our clients' intellectual property, reputation, and revenue. We aspire to set new industry standards, ensuring our clients and their stakeholders' security and confidence."
+      },
+      {
+        "tag": "h2",
+        "content": "Mission:"
+      },
+      {
+        "tag": "p",
+        "content": "Our mission at SPAN Consulting is to forge a united and resilient consortium for Brand Protection Services. We aim to leverage collective strength, industry leadership, and cutting-edge technologies to develop tailored solutions that combat counterfeiting, product diversion and intellectual property infringements. By doing so, we aim to protect the interests of our clients while upholding the highest standards of ethics and professionalism."
+      },
+      {
+        "tag": "h2",
         "content": "SPAN: Strategic Partner for Advanced Navigation  "
       },
       {
@@ -83,11 +99,6 @@
     "contents": [
       {
         "tag": "p",
-        "content": ""
-      },
-
-      {
-        "tag": "p",
         "content": "We offer a comprehensive suite of services to safeguard your intellectual property (IP) and turn it into a powerful business advantage. Our expertise covers"
       },
       {
@@ -149,28 +160,20 @@
     "breadCrumb": "ABOUT US /  LEADERSHIP TEAM  ",
     "contents": [
       {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "tag": "h2",
+        "content": "PANKAJ MONGA"
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "Pankaj is an accomplished Lawyer and an Advocate of the Supreme Court of India with over 24+ years of experience and an impressive track record in the Pharma and healthcare industry. He has successfully led strategic legal and brand protection functions for renowned multinational organisations such as Johnson & Johnson and GlaxoSmithKline pan Asia Pacific and, through his collaborative work with clients, has always ensured the highest standards of patient/consumer safety, trust, and business value by effectively mitigating risks. He has a BA from Andhra University, an LLB from Delhi University and an Executive MBA from IIM Calcutta."
+      },
+      {
+        "tag": "h2",
+        "content": "NUPUR SINGH "
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "Dynamic logistics professional with 15 years of extensive experience in supply chain management and procurement within the Indian Air Force (IAF). Demonstrated expertise in orchestrating complex international supply chains, optimizing procurement processes, and ensuring efficient distribution. Proficient in managing supply chains for different aircraft and weapon systems, exceeding ₹300 crores in value, while collaborating with Western, Russian, and domestic vendors to streamline procurement and achieve cost savings. Skilled in formulating procurement strategies including RFI/RFP, Bid Evaluation, Supply Orders, and Contracts to meet organizational objectives. Established and implemented SOPs for Receipt and Despatch, standardizing processes and disseminating best practices across divisions.  Additionally, provided expertise in project management, HR management, and appraisal systems, contributing to organizational effectiveness. "
       }
     ]
   },
@@ -294,257 +297,319 @@
   "bestpractices": {
     "breadCrumb": "ABOUT US /  BEST PRACTICES ",
     "contents": [
-      { "tag": "p", "content": "Search Engine Advertising " },
       {
-        "tag": "p",
-        "content": "Applicable terms of service or other policies should expressly and clearly prohibit advertisements promoting counterfeit goods by advertisers using search engine advertising services; search advertising services should enforce these terms and policies."
+        "tag": "h2",
+        "content": "#1 INCIDENT REPORTING & MANAGEMENT"
       },
       {
-        "tag": "p",
-        "content": "Search advertising services should have a clear and effective complaint process publicly available to report counterfeit ads. Such process shall specify, at a minimum, the information required to be reported by the trademark owner, which shall not be unduly burdensome. Search advertising services should furnish timely and effective responses to such reports that conform to their stated process requirements."
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "Trademark owners and search advertising services should work collaboratively in an open, consultative exchange to target counterfeit ads."
+        "tag": "ul",
+        "list-items": [
+          "Incident reporting and management serve as our primary defense against counterfeit and diversion incidents globally. Cultivating a culture of incident reporting is crucial for initiating a swift cross-functional response and understanding the severity of the threat. This practice requires immediate reporting of all incidents, analyzing trends, and escalating communications through established processes linked to Quality-based systems. It is imperative to document metrics related to the financial impact of incidents and recovery measures."
+        ]
       },
       {
-        "tag": "p",
-        "content": "•Examples of such collaboration may include trademark owners’ sharing with search advertising services new tactics or trends by counterfeiters targeting the trademark owners’ brands."
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "Determining the most appropriate technique(s) for targeting counterfeit ads may vary depending on the facts, bearing in mind that:"
+        "tag": "ul",
+        "list-items": [
+          "Report all suspected incidents through the QA system.",
+          "Establish local incident response teams.",
+          "Manage and escalate incident responses with urgency."
+        ]
       },
       {
-        "tag": "p",
-        "content": "• The trademark owner has greater insights into– Its own trademarks (particularly those that are not famous or well known);– Common abuses of its marks and products/services;– Identifying counterfeit versions of its products; and– Identifying recidivist counterfeiters of its brand. "
+        "tag": "h2",
+        "content": "#2 AWARENESS & EDUCATION"
       },
       {
-        "tag": "p",
-        "content": "• The search advertising services has greater insights into– The technological issues inherent in any attempt to accurately target and combat problematic categories of abuse, such as counterfeiting, including: "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "Filtering and blocking can sweep too broadly and encompass legitimate results; and "
+        "tag": "ul",
+        "list-items": [
+          "The objective of Education and Awareness programs is to enhance understanding of counterfeit and diverted products among the Company's associates and external partners. Elevating organizational awareness will enhance global effectiveness by empowering all associates to support brand protection efforts. Increasing awareness among external stakeholders will ultimately decrease demand for products purchased from unauthorized sources, thereby reducing counterfeits in the supply chain."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Massive resources are needed to develop and stay current with such technology;– "
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "The technological issues involved in correctly identifying a user of any online service, even when a search advertising service has a contractual relationship with that user;– The enormous volume of users of any given search advertising services;– Business resistance to resource-intensive “fixes” when such “fixes” have not been shown to have the effect of reducing or deterring abuse; and"
+        "tag": "ul",
+        "list-items": [
+          "Incorporate brand protection into orientation for new hires.",
+          "Provide specialized training for all call center, QA, and supply chain personnel.",
+          "Educate external partners about counterfeit concerns and the significance of purchasing from authorized sources."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Identifying recidivist counterfeiters reported by multiple brands. "
+        "tag": "h2",
+        "content": "#3 MARKET MONITORING"
       },
       {
-        "tag": "p",
-        "content": "Search advertising services should take steps on an ongoing basis (through forums such as INTA) to educate trademark owners as to their policies and procedures for dealing with counterfeiting abuse. "
-      },
-      { "tag": "p", "content": "Search Engine Services " },
-      {
-        "tag": "p",
-        "content": "Search engines should provide a timely and effective process for trademark owners to notify them of the illegal sale of counterfeit goods and of any court order that a trademark owner has obtained against a defendant in which the court has adjudicated that the defendant is engaged in the illegal sale of counterfeit goods. Search engines should remove the search results leading to the illegal counterfeiting content from their index and provide a process to respond to such reports of illegal counterfeiting. "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "To the extent that there are legal frameworks applicable to removal of content on search engines and the legal grounds implicate behavior used by counterfeiters (e.g., DMCA and copyright), search engines should provide an efficient process for parties to submit removal requests. "
+        "tag": "ul",
+        "list-items": [
+          "Market Monitoring encompasses programs aimed at identifying counterfeit, tampered, diverted, and trademark-infringed products in the marketplace. The objective of market monitoring is to enhance visibility of all illicit trade, thereby minimizing their adverse impact on patients, consumers, and business outcomes."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Some bad actors, including counterfeiters, use deceptive or “black hat” search optimization tactics in violation of webmaster guidelines to improve their ranking. Search engines should provide a process for parties to notify them about these sites appearing in search results and using Web spam tactics. Search engines should take action in relation to such sites consistent with their Web spam guidelines."
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "Search engines should make available their webmaster guidelines, as well as information about “white hat” search engine optimization, prioritizing search results for the promotion of authentic goods and anticounterfeiting over counterfeit goods. These methods can help trademark owners improve the quality of their websites and make them more relevant to users. Specifically, they can be used to provide users information about the harms of counterfeit versions of a trademark owner’s product and promote the benefits of authentic goods. "
-      },
-      { "tag": "p", "content": "Best Practices for Trading Platforms" },
-      {
-        "tag": "p",
-        "content": "Online trading platforms should strengthen and streamline procedures for identifying and taking more effective action against repeat offenders, as well as tighten repeat offender policies. "
+        "tag": "ul",
+        "list-items": [
+          "Invest in suitable market monitoring tools for early detection and assessment of the problem.",
+          "Implement targeted market monitoring practices based on product risk assessments."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Online trading platforms should employ preventive measures to reduce the sale of counterfeits by anonymous counterfeiters, such as filters and identity verifications and improved customer screening. "
+        "tag": "h2",
+        "content": "#4 COMMERCIAL INSIGHTS"
       },
       {
-        "tag": "p",
-        "content": "Subject to applicable privacy laws, online trading platforms should improve disclosure policies to facilitate access by trademark owners and law enforcement authorities to information about counterfeiters, including seller identities and sales information. "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "Online trading platforms should add search and enforcement application program interfaces (APIs) that allow trademark owners to conduct automatic scanning and retrieval of listings and seller information, thereby greatly improving the efficiency of monitoring and review efforts."
+        "tag": "ul",
+        "list-items": [
+          "Information obtained from proactive analysis of market and sales data offers valuable insights into supply chain activities, aiding in the identification of specific areas affected by counterfeits, illegal diversion, and other forms of illicit trade."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Online trading platforms should implement commercially reasonable, automated “know your customer” measures to verify the identities and addresses of sellers and make sure they are not operating under multiple false accounts. "
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "Online trading platforms should operate an effective notice and takedown program with internal mechanisms to make sure the listings for counterfeits do not come right back up or the counterfeiters find some other way to game the system. "
+        "tag": "ul",
+        "list-items": [
+          "Establish management thresholds in sales and marketing data to facilitate the detection of illicit trade.",
+          "Upon triggering by market monitoring data, conduct shipment/supply analysis to pinpoint sources of violations.",
+          "Conduct national/regional market surveys of distribution channels to assess the market presence of counterfeit or illegally diverted products."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Online trading platforms should accept removals based on a wider range of IP rights, including copyrights and design rights, which have become necessary as counterfeiters shift away from using discernible trademarks in their listings in order to avoid takedown. "
+        "tag": "h2",
+        "content": "#5 DISTRIBUTOR COMPLIANCE"
       },
       {
-        "tag": "p",
-        "content": "Online trading platforms should interface on a regular basis with trademark owners upon request to learn about infringements to a particular trademark and how counterfeiters are getting around current restrictions."
-      },
-      { "tag": "p", "content": "Best Practices for Payment Service Providers" },
-      {
-        "tag": "p",
-        "content": "Payment service providers (PSPs) should have in place policies prohibiting the use of their services for the purchase and sale of goods that are determined to be counterfeit under applicable law. Such policies should include a “chargeback reason code” permitting the payee to receive a refund without returning the goods to the merchant where the goods have been determined to be counterfeit by the trademark owner, a customs agency, a law enforcement agency, or another neutral expert."
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "PSPs and related financial institutions should adopt appropriate due diligence processes and educational initiatives to minimize the offering of online payment processing services to purveyors of counterfeit goods. "
+        "tag": "ul",
+        "list-items": [
+          "Managing distributors and ensuring compliance is a crucial process in ensuring the safety and security of channels through which our products are delivered. Implementing effective distributor management practices for the selection and continuous evaluation of distributors will enhance supply chain control and visibility, thereby safeguarding distribution channels."
+        ]
       },
       {
-        "tag": "p",
-        "content": "PSPs should have procedures for trademark owners to report websites (in accordance with best practices for trademark owners 5(a) through 5(d), set forth below) that use a PSP’s network to process payments for the sale of allegedly counterfeit goods and should make those procedures readily identifiable by rights holders and others online. An example of an efficient reporting procedure includes, but is not limited to, a single email address or online reporting form through which trademark owners can submit allegations of counterfeit sales activity. "
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "PSPs should join initiatives adapted to facilitate cooperation with trademark owners and law enforcement authorities and proper handling of complaints from trademark owners to PSPs regarding online sale of counterfeit goods. "
+        "tag": "ul",
+        "list-items": [
+          "Ensure contracts are in place for all Tier I distributors.",
+          "Incorporate ACF (Anti-Counterfeit Forensics) language in all distribution contracts.",
+          "Conduct audits of all Tier I distributors during the defined period of the agreement."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Upon receipt from the trademark owners of at least best practices for trademark owners 5(a) through 5(d) (set forth below), and after a reasonable period of time for review, PSPs should provide (or may request that others provide, as appropriate) reasonable feedback to the trademark owners with respect to their findings. PSP report procedures should not require trademark owners to conduct test transactions, as PSPs are in the best position to identify merchant payment channels using their own test transaction protocols. "
+        "tag": "h2",
+        "content": "#6 EXTERNAL MANUFACTURING"
       },
       {
-        "tag": "p",
-        "content": "PSPs may reserve the right to allow the website owner/operator to respond to the allegations and/or cure the alleged violation prior to responding to the trademark owner or making a determination on appropriate remedies."
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "If a PSP observes blatant violations of the PSP’s policies and applicable trademark laws through the use of its payment service, the PSP should impose appropriate remedies in accordance with its own internal procedures, including termination of service in appropriate cases. "
+        "tag": "ul",
+        "list-items": [
+          "External manufacturers play a crucial role in maintaining a safe and secure supply chain by supplying genuine products manufactured with our authorization, meeting our standards. However, the inherent risks to supply chain integrity associated with third-party manufacturing, including converters and repackaging operations, must be acknowledged, especially when these entities ship finished goods directly into the marketplace. This practice offers guidance on measures to mitigate some of these risks."
+        ]
       },
       {
-        "tag": "p",
-        "content": "PSPs should have in place policies for deterring counterfeiters for whom services are terminated from using another merchant account, including providing for appropriate action against the merchant permitting use of the other merchant account."
-      },
-      { "tag": "p", "content": "Best Practices for Trademark Owners" },
-      {
-        "tag": "p",
-        "content": "Trademark owners should take steps on an ongoing basis to educate online platforms, other intermediaries, and the public as to their trademarks. "
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "Trademark owners should take steps to actively monitor offers on online marketplace, shopping, and social media platforms, with the aim of identifying counterfeits, and notify the platforms and PSPs if applicable. "
+        "tag": "ul",
+        "list-items": [
+          "Conduct External Manufacturing (EM) Risk Assessment to identify areas for improvement.",
+          "Emphasize operational controls to enhance visibility and mitigate risks.",
+          "Expand the EM audit scope to include practice requirements."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Trademark owners should provide to online platforms and other intermediaries at their request a list of keywords commonly used by sellers for the purpose of offering for sale counterfeits, to assist such platforms and other intermediaries with their voluntary measures for addressing the sale of counterfeits on the Internet. "
+        "tag": "h2",
+        "content": "#7 PRODUCT PROTECTION"
       },
       {
-        "tag": "p",
-        "content": "Before submitting a notice, trademark owners should take measures that are reasonable under the circumstances to verify that the material is not authorized by the trademark owner and preserve dated website documentation of such unauthorized material. "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "In working with platforms and other intermediaries on combating online sales of counterfeits, trademark owners should provide information such as the following: "
+        "tag": "ul",
+        "list-items": [
+          "Product Protection involves a proactive, integrated, and multi-layered approach that utilizes processes and enabling technologies to safeguard products and packaging, thereby securing the supply chain from illicit diversion and counterfeiting. The objective of product protection is to maintain the integrity of our products to ensure that customers receive genuine Company goods."
+        ]
       },
       {
-        "tag": "p",
-        "content": "a. Identification of the material alleged to be illegal; "
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "b. Information identifying where the alleged illegal material is located; "
+        "tag": "ul",
+        "list-items": [
+          "Conduct Product Risk Assessments on all new products using a Brand Protection/Legal-endorsed approach.",
+          "Coordinate product protection programs with market monitoring programs.",
+          "Selectively invest in serialization and track & trace to enhance visibility and control of the supply chain."
+        ]
       },
       {
-        "tag": "p",
-        "content": "c. Proof of ownership of a relevant trademark or other IP right, as applicable, in one or more applicable jurisdictions; and "
+        "tag": "h2",
+        "content": "#8 PRODUCT RETURNS AND DESTRUCTION"
       },
       {
-        "tag": "p",
-        "content": "d. A statement made under penalty of perjury that the notifier is the trademark owner or is authorized to act on the trademark owner’s behalf and a good faith belief that the use of the material in the manner complained of is not authorized by the trademark owner."
-      },
-      { "tag": "p", "content": "Best Practices for Social Media Sites" },
-      {
-        "tag": "p",
-        "content": "Applicable terms of service, content, and other guidelines should expressly and clearly prohibit counterfeiting activities by users of social media sites. Social media sites should actively enforce these terms and guidelines by warning that, if reported, an infringing account can be closed and that repeated reports of infringement can lead to the user’s being banned from the site indefinitely. "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "Social media sites should have a clear and effective process publicly available to deal with the sale and offering of counterfeit products. Such process shall specify, at a minimum, the information required to be reported by the trademark owner or user, which shall not be unduly burdensome; when, to whom, and how such information is to be reported; and the process by which and time frame within which the social media site or its agent shall act upon such reports. Social media sites should conform to their stated process requirements."
+        "tag": "ul",
+        "list-items": [
+          "Review the company's returned goods policies that offer credit for unused products. In some cases, returned goods are redressed and returned to the marketplace. By applying safe and secure measures to the returns process, detection of counterfeit products is enhanced, and the potential for diversion is reduced. Different companies have instituted policies and procedures to certify that damaged and unusable products are destroyed or appropriately disposed. The Product Destruction Practice specifies additional steps to prevent fraudulent reselling of product destined for destruction."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Social media sites should be more active in educating and raising the user’s consciousness to the risks of buying and supporting the sale of counterfeit goods on their sites."
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "Social media companies should collaborate with anticounterfeiting organizations and consider placing anticounterfeiting campaigns on their sites to raise the user’s consciousness to the risks and consequences of buying counterfeit goods."
-      },
-      { "tag": "p", "content": "Best Practices for Registrars and Registries" },
-      {
-        "tag": "p",
-        "content": "Registrars and registries should adopt, publish, and enforce IPR policies and effect appropriate due diligence to address and minimize misuse of their services, which they will clearly communicate and indicate on their sites and include in the contracts and terms of service that they conclude with their customers. "
-      },
-      {
-        "tag": "p",
-        "content": "Registrars and registries should, furthermore, consistently enforce the terms of service with their customers. "
+        "tag": "ul",
+        "list-items": [
+          "Create highly detailed, unambiguous contract terms with trading partners, returns processors, and destruction facility.",
+          "Ensure all returned product is authentic or in the original, unopened package.",
+          "Ensure a thorough reconciliation process from receipt to disposition and/or destruction.",
+          "Establish procedures ensuring compliance with regional, regulatory, and environmental agencies."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Registrars and registries should facilitate and support legal actions and investigations into the sale of counterfeit goods and commit themselves, upon request, to disclose and provide details of the owner and/or operator of a website showing or displaying counterfeit goods, which information should include the identity and contact details of alleged infringer and their user names, in accordance with applicable laws. "
+        "tag": "h2",
+        "content": "#9 TRANSPORTATION SECURITY"
       },
       {
-        "tag": "p",
-        "content": "Registrars and registries should have in place reasonable policies and procedures for strengthening and/or tightening procedures for identifying and taking more effective action against repeat offenders, such as the consistent application of termination services, and should improve disclosure policies to facilitate access by brand owners and law enforcement authorities to information about counterfeiters, including repeat offender identities and sales information. "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "Registries should consider the addition and implementation of search and enforcement application program interfaces (APIs), which allow brand owners to conduct automatic scanning and retrieval of listings, thereby greatly improving the efficiency of monitoring and review efforts. "
-      },
-      { "tag": "p", "content": "Best Practices for Logistics Companies" },
-      {
-        "tag": "p",
-        "content": "Logistics companies should procure comprehensive and detailed identity and contact information for consignors and consignees before providing logistics support."
+        "tag": "ul",
+        "list-items": [
+          "Transportation Security applies best practices to all modes of transportation for cost-effective and secure management during the selection of a transportation provider as well as during ongoing operations. The deployment of these guidelines will help ensure control, visibility, and integrity of loads or products while in transit."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Logistics companies should have simple procedures in conformity with the applicable laws of the respective jurisdiction for the sharing of information with enforcement agencies and trademark owners investigating counterfeiting activities. "
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "Logistics companies should have in place mechanisms for blacklisting consignors/ consignees found to be involved in counterfeiting activities. "
+        "tag": "ul",
+        "list-items": [
+          "Utilize a risk-based approach to determine the levels of security to transport Company products.",
+          "Facilitate customized, cost-effective solutions to enhance the security conditions in transportation."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Logistics companies should implement effective routines of conducting random inspections to"
+        "tag": "h2",
+        "content": "#10 FACILITY SECURITY"
       },
       {
-        "tag": "p",
-        "content": "Check the authenticity of the goods sought to be transported; "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "Verify the authenticity of the contact and location details provided by consignors and consignees; and "
+        "tag": "ul",
+        "list-items": [
+          "This practice provides guidance for manufacturing facilities, warehouses, and storage locations to implement cost-effective security management procedures. These procedures are utilized during provider selection and operational processes to ensure control, visibility, and integrity of products during manufacturing or storage."
+        ]
       },
       {
-        "tag": "p",
-        "content": "Confirm whether the nature of goods actually being transported matches the description of goods (as declared) by the consignor. "
+        "tag": "h3",
+        "content": "High Impact Activities"
       },
       {
-        "tag": "p",
-        "content": "5)  Logistics companies should have easily accessible contact points for trademark owners and enforcement agencies to contact. "
+        "tag": "ul",
+        "list-items": [
+          "Utilize a risk-based approach to determine the levels of security required to store Company products.",
+          "Facilitate cost-effective solutions to enhance security conditions in manufacturing and storage facilities."
+        ]
       },
       {
-        "tag": "p",
-        "content": "6) Logistics companies should cooperate with trademark owners on matters such as: a. Training logistics employees in the identification of counterfeit goods and trade channels; and"
+        "tag": "h2",
+        "content": "#11 INVESTIGATIONS, LEGAL & ENFORCEMENT STRATEGY"
       },
       {
-        "tag": "p",
-        "content": "b. Establishing reward schemes in cases of suo moto alerts and information by the logistics companies. "
+        "tag": "h3",
+        "content": "Description"
       },
       {
-        "tag": "p",
-        "content": "7) Logistics companies should require consignors to mention the brand or trademark on the packaging and invoices in the case of branded goods."
+        "tag": "ul",
+        "list-items": [
+          "This practice provides guidance for conducting investigations and developing high-impact legal enforcement strategies that leave a lasting impact. Effective communication is an essential element of any legal strategy."
+        ]
+      },
+      {
+        "tag": "h3",
+        "content": "High Impact Activities"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Management and Enforcement of IPR/Trademark Rights: Inform about the importance of a company's intellectual property. Identify strategies to register and manage intellectual property globally, including registrations of IPR in the EU, China, India, UAE.",
+          "Enforcement Strategy and Execution Plan: Evaluate all applicable laws for brand protection, including but not limited to IPR laws. Develop an enforcement strategy (mix of civil, criminal, and administrative) to meet legal and business goals and objectives."
+        ]
+      },
+      {
+        "tag": "h2",
+        "content": "#12 MEASURE IMPACT AND SPEND"
+      },
+      {
+        "tag": "h3",
+        "content": "Description"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "This practice provides guidance on measuring the impact of Brand Protection spend and role. The primary principle is that whatever gets measured, gets done."
+        ]
+      },
+      {
+        "tag": "h3",
+        "content": "High Impact Activities"
+      },
+      {
+        "tag": "ul",
+        "list-items": [
+          "Define Metrics to measure success.",
+          "Brand Protection Financial Recovery.",
+          "Brand-Protection Risk Avoidance.",
+          "ROI Calculation.",
+          "Build Brand Protection ROI Calculator.",
+          "KPI Development.",
+          "Identifying relevant internal stakeholders, defining roles and responsibilities, engaging, conducting training to reinforce ways of working, delivering relevant information to stakeholders, and conducting periodic reviews.",
+          "Each activity leads to outcomes, and those outcomes lead to impact. Ultimately, the activities are designed to minimize the risk of adverse incidents and legal/regulatory liability."
+        ]
       }
     ]
   },

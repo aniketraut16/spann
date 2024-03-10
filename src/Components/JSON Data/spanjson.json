@@ -3,33 +3,12 @@
     "breadCrumb": "SPAN SUIT  /  SYSTEM PROCESSES AND TOOLS",
     "contents": [
       {
-        "tag": "h2",
-        "content": "SYSTEM, PROCESSES & TOOLS"
+        "tag": "img",
+        "src": "/assets/images/spansuit1.png"
       },
       {
-        "tag": "ul",
-        "list-items": [
-          "supply chain risk assessment",
-          "brand protection risk assessment",
-          "brand protection toolkit",
-          "external manufacturer risk assessment",
-          "new business readiness risk assessment",
-          "supplier risk assessment,",
-          "product and packaging risk assessment",
-          "technology selection tool,",
-          "the legal expense optimization tool",
-          "legal procurement tool",
-          "market monitoring activity tool",
-          "customs awareness and enforcement tool",
-          "root cause analysis,",
-          "analytical/ correlation engine design",
-          "ROI calculation algorithm",
-          "communications (internal and external stakeholders) templates",
-          "RACI",
-          "external manufacturing / CMO risk assessment tool etc.",
-          "Process mapping",
-          "Brand Protection in a Box"
-        ]
+        "tag": "img",
+        "src": "/assets/images/spansuit2.png"
       }
     ]
   },

@@ -54,20 +54,30 @@ const TemplateComponent = () => {
           </h1>
         </div>
         <div className="templatecontent">
-          {sectionData.contents.map((element, index) =>
-            element.tag === "img" ? (
-              <img
-                key={index}
-                src={process.env.PUBLIC_URL + element.src}
-                alt={element.alt || ""}
-                ref={(el) => {
-                  if (el) {
-                    observedElements.current.push(el);
-                  }
-                }}
-              />
-            ) : (
-              React.createElement(
+          {sectionData.contents.map((element, index) => {
+            if (element.tag === "img") {
+              return (
+                <img
+                  key={index}
+                  src={process.env.PUBLIC_URL + element.src}
+                  alt={element.alt || ""}
+                  ref={(el) => {
+                    if (el) {
+                      observedElements.current.push(el);
+                    }
+                  }}
+                />
+              );
+            } else if (element.tag === "ul" || element.tag === "ol") {
+              return (
+                <element.tag key={index}>
+                  {element["list-items"].map((item, itemIndex) => (
+                    <li key={itemIndex}>{item}</li>
+                  ))}
+                </element.tag>
+              );
+            } else {
+              return React.createElement(
                 element.tag,
                 {
                   key: index,
@@ -78,9 +88,9 @@ const TemplateComponent = () => {
                   },
                 },
                 element.content
-              )
-            )
-          )}
+              );
+            }
+          })}
         </div>
       </div>
     </>

@@ -233,6 +233,16 @@ function MobileNavbar() {
           >
             Product Tampering{" "}
           </Link>
+          <Link
+            onClick={() => {
+              setisBurgerActive(!isBurgerActive);
+
+              setisLevel2Active(false);
+            }}
+            to="/services/investigationandduedilligence/leadgeneration"
+          >
+            Lead Generation{" "}
+          </Link>
           {/* <li>Due Diligence</li> */}
           <Link
             onClick={() => {

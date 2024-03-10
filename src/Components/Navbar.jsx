@@ -490,6 +490,14 @@ function Navbar() {
         >
           Product Tampering{" "}
         </Link>
+        <Link
+          onClick={() => {
+            setdropdownDisplay(false);
+          }}
+          to="/services/investigationandduedilligence/leadgeneration"
+        >
+          Lead Generation{" "}
+        </Link>
         {/* <li>Due Diligence</li> */}
         <Link
           onClick={() => {
