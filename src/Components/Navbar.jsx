@@ -38,6 +38,7 @@ function Navbar() {
           to="/spansuit/systemprocessandtools"
         >
           Systems, Processes and Tools
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -46,6 +47,7 @@ function Navbar() {
           to="/spansuit/mobileappview"
         >
           Mobile APP
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -54,6 +56,7 @@ function Navbar() {
           to="/spansuit/brandprotection"
         >
           Brand Protection
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
       </ul>
     );
@@ -69,6 +72,7 @@ function Navbar() {
         >
           {" "}
           Overview of Industries
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -78,6 +82,7 @@ function Navbar() {
         >
           {" "}
           Success Stories/ Case Studies /Testimonials
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
       </ul>
     );
@@ -93,6 +98,7 @@ function Navbar() {
         >
           {" "}
           Blog/Articles/ Videos
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -102,6 +108,7 @@ function Navbar() {
         >
           {" "}
           Whitepapers
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -111,6 +118,7 @@ function Navbar() {
         >
           {" "}
           Case Studies
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -120,6 +128,7 @@ function Navbar() {
         >
           {" "}
           Brand Protection Toolkits{" "}
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
       </ul>
     );
@@ -135,6 +144,7 @@ function Navbar() {
         >
           {" "}
           History
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -144,6 +154,7 @@ function Navbar() {
         >
           {" "}
           Directors message
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -153,6 +164,7 @@ function Navbar() {
         >
           {" "}
           Mission, Vision and Values
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -162,6 +174,7 @@ function Navbar() {
         >
           {" "}
           Value Creation
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -171,6 +184,7 @@ function Navbar() {
         >
           {" "}
           Funding Model
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
 
         <Link
@@ -180,6 +194,7 @@ function Navbar() {
           to="/aboutus/strategy"
         >
           Strategy
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
 
         <Link
@@ -190,6 +205,7 @@ function Navbar() {
         >
           {" "}
           Capability
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -198,7 +214,7 @@ function Navbar() {
           to="/aboutus/bestpractices"
         >
           {" "}
-          Best Practices{" "}
+          Best Practices <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -208,6 +224,7 @@ function Navbar() {
         >
           {" "}
           Leadership Team
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -217,6 +234,7 @@ function Navbar() {
         >
           {" "}
           Organisation Structure{" "}
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -226,6 +244,7 @@ function Navbar() {
         >
           {" "}
           Roles and Responsibilities{" "}
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
         <Link
           onClick={() => {
@@ -235,8 +254,9 @@ function Navbar() {
         >
           {" "}
           Governance
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
-        <Link
+        {/* <Link
           onClick={() => {
             setdropdownDisplay(false);
           }}
@@ -244,7 +264,8 @@ function Navbar() {
         >
           {" "}
           Partnerships{" "}
-        </Link>
+           <i className="fa-solid fa-arrow-right-long"></i>
+        </Link> */}
         <Link
           onClick={() => {
             setdropdownDisplay(false);
@@ -253,6 +274,7 @@ function Navbar() {
         >
           {" "}
           Offices
+          <i className="fa-solid fa-arrow-right-long"></i>
         </Link>
       </ul>
     );
@@ -818,7 +840,7 @@ function Navbar() {
             }}
             to="/"
           >
-            Span Suite
+            SPAN Suite
           </span>
           <span
             style={

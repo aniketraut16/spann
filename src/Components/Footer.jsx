@@ -12,11 +12,6 @@ function Footer() {
             <span id="footer-consultancy">CONSULTING</span>
           </span>
           <p>
-            SPAN Focuses on meticulous audits to strategic tax planning and
-            insightful consulting, we pave the way for your financial success
-            with precision and expertise.
-          </p>
-          <p>
             <h3>India:</h3>
             <span>
               {" "}
@@ -29,6 +24,22 @@ function Footer() {
             <span>
               {" "}
               46 Kim Yam Road, #01-06 The Herencia, SINGAPORE - 239351
+            </span>
+          </p>
+          <p>
+            <h3>India - 2:</h3>
+            <span>
+              {" "}
+              902, Embassy Centre, Jamnalal Bajaj Road, Nariman Point,Mumbai
+              400021, INDIA
+            </span>
+          </p>
+          <p>
+            <h3>Bangladesh</h3>
+            <span>
+              {" "}
+              DARUS SALAM ARCADE (3rd Floor) 14, Purana Paltan, Dhaka -1000,
+              BANGLADESH{" "}
             </span>
           </p>
         </div>
@@ -82,13 +93,13 @@ function Footer() {
             Roles and Responsibilities{" "}
           </Link>
           <Link to="/aboutus/governance"> Governance (Advisory Board)</Link>
-          <Link to="/aboutus/partnerships"> Partnerships </Link>
+          {/* <Link to="/aboutus/partnerships"> Partnerships </Link> */}
           <Link to="/aboutus/offices">
             {" "}
             Offices (Singapore, India, Bangladesh)
           </Link>
         </div>
-        <h4>Span Suits</h4>
+        <h4>SPAN Suite</h4>
         <div>
           <Link to="/spansuit/systemprocessandtools">
             Systems, Processes and Tools

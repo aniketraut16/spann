@@ -734,7 +734,7 @@ function MobileNavbar() {
           {" "}
           Governance
         </Link>
-        <Link
+        {/* <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
 
@@ -744,7 +744,7 @@ function MobileNavbar() {
         >
           {" "}
           Partnerships{" "}
-        </Link>
+        </Link> */}
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
@@ -853,7 +853,7 @@ function MobileNavbar() {
             handleNavHover(1);
           }}
         >
-          Span Suite
+          SPAN Suite
         </span>
         <span
           onClick={() => {
