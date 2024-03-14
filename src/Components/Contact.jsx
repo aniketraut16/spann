@@ -65,11 +65,6 @@ function Contact() {
             <span> +880 1894-697179</span>
           </div>
           <div className="form" ref={(el) => observedElements.current.push(el)}>
-            <p>
-              Thank you for your interest in SPAN Consulting Pvt Ltd. Please
-              fill out the form below, and we&#39;ll get back to you as soon as
-              possible.
-            </p>
             <div>
               <label htmlFor="">Name</label>
               <input type="text" />
@@ -79,24 +74,60 @@ function Contact() {
               <input type="email" />
             </div>
             <div>
-              <label htmlFor="">Contact</label>
+              <label htmlFor="">Phone No</label>
               <input type="number" />
             </div>
-            <div>
-              <label htmlFor="">Country</label>
-              <input type="text" />
-            </div>
-            <div>
-              <label htmlFor="">State</label>
-              <input type="text" />
-            </div>
-            <div>
-              <label htmlFor="">City</label>
-              <input type="text" />
-            </div>
+
             <div id="message">
+              <label htmlFor="subject">Subject:</label>
+              <input type="text" id="subject" />
               <label htmlFor="">Message</label>
               <textarea name="" cols="30" rows="10"></textarea>
+              <label>Preferred Method of Contact:</label>
+              <div>
+                <input
+                  type="radio"
+                  name="preferedmethodofcontact"
+                  id="is-prefered-method-email"
+                />
+                <label htmlFor="is-prefered-method-email">Email</label>
+                <input
+                  type="radio"
+                  name="preferedmethodofcontact"
+                  id="is-prefered-method-phone"
+                />
+                <label htmlFor="is-prefered-method-phone">Phone</label>
+              </div>
+              <label htmlFor="howdidyouhearaboutus">
+                How did you hear about us?
+              </label>
+              <textarea
+                name=""
+                cols="30"
+                rows="10"
+                id="howdidyouhearaboutus"
+              ></textarea>
+              <label>
+                Would you like to receive updates and newsletters from us?
+              </label>
+              <div>
+                <input
+                  type="radio"
+                  name="wanttoreceivenewsletter"
+                  id="wanttoreceivenewsletter-yes"
+                />
+                <label htmlFor="wanttoreceivenewsletter-yes">Yes</label>
+                <input
+                  type="radio"
+                  name="wanttoreceivenewsletter"
+                  id="wanttoreceivenewsletterno"
+                />
+                <label htmlFor="wanttoreceivenewsletterno">No</label>
+              </div>
+              <p>
+                By submitting this form, you agree to our Privacy Policy and
+                Terms of Service.
+              </p>
             </div>
             <button>Submit</button>
           </div>

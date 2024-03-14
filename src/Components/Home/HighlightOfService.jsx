@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../Images/Grey Two Side Person Friday Meme (1) (1).png";
-import img2 from "../Images/Grey Two Side Person Friday Meme (2) (1).png";
-import img3 from "../Images/Grey Two Side Person Friday Meme (3) (1).png";
-import img4 from "../Images/Grey Two Side Person Friday Meme.png";
+import img1 from "../Images/investigation.jpg";
+import img2 from "../Images/legal.jpg";
+import img3 from "../Images/consulting.jpg";
+import img4 from "../Images/training.jpg";
 function HighlightOfService() {
   const [counter, setcounter] = useState(0);
   const nextFunc = () => {

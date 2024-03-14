@@ -87,6 +87,32 @@ function Navbar() {
       </ul>
     );
   };
+  const ContactUsDropdown = () => {
+    return (
+      <ul className="level1dd">
+        <Link
+          onClick={() => {
+            setdropdownDisplay(false);
+          }}
+          to="/contactus"
+        >
+          {" "}
+          Contact Form
+          <i className="fa-solid fa-arrow-right-long"></i>
+        </Link>
+        <Link
+          onClick={() => {
+            setdropdownDisplay(false);
+          }}
+          to="/inquiry"
+        >
+          {" "}
+          Inquiry/Consultation Request
+          <i className="fa-solid fa-arrow-right-long"></i>
+        </Link>
+      </ul>
+    );
+  };
   const ResourcesToolkitsDropdown = () => {
     return (
       <ul className="level1dd">
@@ -773,6 +799,13 @@ function Navbar() {
         setcurrentServiceDd(null);
 
         break;
+      case 6:
+        setDropdownContent(<ContactUsDropdown />);
+        setcurrentDd(6);
+        setserviveddDisplay(false);
+        setcurrentServiceDd(null);
+
+        break;
       default:
         setDropdownContent(null);
     }
@@ -910,15 +943,23 @@ function Navbar() {
           >
             About Us
           </span>
-          <Link
-            style={isScrolled ? { color: "#da0e29" } : { color: "black" }}
+          <span
+            style={
+              currentDd === 5 && dropdownDisplay === true
+                ? { borderBottomColor: "#eb7c24" }
+                : {}
+            }
             onClick={() => {
-              setdropdownDisplay(false);
+              handleNavHover(6);
+              setdropdownDisplay(true);
+              currentDd === 6 && dropdownDisplay === true
+                ? setdropdownDisplay(false)
+                : setdropdownDisplay(true);
             }}
-            to="/contactus"
+            to="/"
           >
             Contact Us
-          </Link>
+          </span>
         </div>
         <div id="other-links">
           <Link

@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import CookiePolicy from "./Components/CokieePolicy";
 import LandingPage from "./Components/Home/LandingPage";
 import Contact from "./Components/Contact";
+import Enquiry from "./Components/Enquiry";
 import "./Components/style.css";
 import "./Components/phone-style.css";
 
@@ -54,6 +55,7 @@ function App() {
         <Route path="/about/directorsmessage" element={<Message />} />
         <Route path="/spansuit/:section" element={<SpanSuit />} />
         <Route path="/contactus" element={<Contact />} />
+        <Route path="/inquiry" element={<Enquiry />} />
         <Route path="/aboutus/:section" element={<AboutUsTemplate />} />
         <Route path="/traning/:section" element={<TraningTemplate />} />
         <Route path="/resources/:section" element={<Resources />} />

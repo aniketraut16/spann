@@ -520,6 +520,34 @@ function MobileNavbar() {
       </>
     );
   };
+  const ContactUsDropdown = () => {
+    return (
+      <>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+
+            setisLevel2Active(false);
+          }}
+          to="/contactus"
+        >
+          {" "}
+          Contact Form
+        </Link>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+
+            setisLevel2Active(false);
+          }}
+          to="/inquiry"
+        >
+          {" "}
+          Inquiry/Consultation Request
+        </Link>
+      </>
+    );
+  };
   const IndustriesServedDropdown = () => {
     return (
       <>
@@ -787,6 +815,9 @@ function MobileNavbar() {
       case 5:
         setDropdownContent(<AboutUsDropdown />);
         setisLevel2Active(true);
+      case 6:
+        setDropdownContent(<ContactUsDropdown />);
+        setisLevel2Active(true);
 
         break;
       default:
@@ -887,14 +918,15 @@ function MobileNavbar() {
         >
           About Us
         </span>
-        <Link
+        <span
           onClick={() => {
-            setisBurgerActive(!isBurgerActive);
+            setisLevel2Active(true);
+            handleNavHover(6);
           }}
-          to="/contactus"
         >
           Contact Us
-        </Link>
+        </span>
+
         <Link
           onClick={() => {
             setisBurgerActive(!isBurgerActive);
