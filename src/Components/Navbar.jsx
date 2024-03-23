@@ -892,6 +892,15 @@ function Navbar() {
           >
             Services
           </span>
+          <Link
+            style={isScrolled ? { color: "#da0e29" } : { color: "black" }}
+            onClick={() => {
+              setdropdownDisplay(false);
+            }}
+            to="/partnership"
+          >
+            Partnership
+          </Link>
           <span
             style={
               currentDd === 3 && dropdownDisplay === true

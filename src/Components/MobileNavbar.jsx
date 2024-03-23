@@ -894,6 +894,14 @@ function MobileNavbar() {
         >
           Services
         </span>
+        <Link
+          onClick={() => {
+            setisBurgerActive(!isBurgerActive);
+          }}
+          to="/partnership"
+        >
+          Partnership{" "}
+        </Link>
         <span
           onClick={() => {
             setisLevel2Active(true);

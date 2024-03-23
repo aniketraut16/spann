@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../Images/investigation.jpg";
-import img2 from "../Images/legal.jpg";
-import img3 from "../Images/consulting.jpg";
-import img4 from "../Images/training.jpg";
+import img1 from "../Images/investigation.png";
+import img2 from "../Images/legal.png";
+import img3 from "../Images/consulting.png";
+import img4 from "../Images/training.png";
 function HighlightOfService() {
   const [counter, setcounter] = useState(0);
   const nextFunc = () => {

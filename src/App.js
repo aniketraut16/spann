@@ -8,36 +8,38 @@ import Contact from "./Components/Contact";
 import Enquiry from "./Components/Enquiry";
 import "./Components/style.css";
 import "./Components/phone-style.css";
-
+import Disclamer from "./Components/Disclamer";
 import ServiceTemplate from "./Components/Templates/ServiceTemplate";
 import AboutUsTemplate from "./Components/Templates/AboutUsTemplate";
 import SpanSuit from "./Components/Templates/SpanTemplate";
 import Industries from "./Components/Templates/Industries";
 import Resources from "./Components/Templates/Resources";
 import TraningTemplate from "./Components/Templates/Traning";
-
 import Message from "./Components/Message";
 import MobileNavbar from "./Components/MobileNavbar";
+import Partnership from "./Components/Partnership";
 
 function App() {
+  const [showDisclaimer, setShowDisclaimer] = useState(true);
   const [showCookiePolicy, setShowCookiePolicy] = useState(false);
 
   useEffect(() => {
-    const hasAcceptedCookiePolicy = localStorage.getItem(
-      "cookiePolicyAccepted"
-    );
-
-    // If the user has not accepted the cookie policy yet, show the popup
-    if (!hasAcceptedCookiePolicy) {
-      const timeoutId = setTimeout(() => {
+    if (showDisclaimer) {
+      // If the disclaimer is shown, set a timeout to hide it after 5 seconds
+      const disclaimerTimeout = setTimeout(() => {
+        setShowDisclaimer(false);
         setShowCookiePolicy(true);
-      }, 4000);
+      }, 5000);
 
-      return () => {
-        clearTimeout(timeoutId);
-      };
+      // Clear timeout if component unmounts
+      return () => clearTimeout(disclaimerTimeout);
     }
-  }, []);
+  }, [showDisclaimer]);
+
+  const acceptDisclaimer = () => {
+    setShowDisclaimer(false);
+    setShowCookiePolicy(true);
+  };
 
   const acceptCookiePolicy = () => {
     // Set the flag in local storage to indicate that the user has accepted the cookie policy
@@ -47,11 +49,13 @@ function App() {
 
   return (
     <Router>
+      <Disclamer />
       {showCookiePolicy && <CookiePolicy onAccept={acceptCookiePolicy} />}
       <Navbar />
       <MobileNavbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/partnership" element={<Partnership />} />
         <Route path="/about/directorsmessage" element={<Message />} />
         <Route path="/spansuit/:section" element={<SpanSuit />} />
         <Route path="/contactus" element={<Contact />} />
