@@ -564,28 +564,41 @@
     "breadCrumb": "ABOUT US /  HISTORY ",
     "contents": [
       {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "tag": "h1",
+        "content": "Welcome to SPAN Consulting: Safeguarding Your Assets with Integrity "
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "At SPAN Consulting, we are dedicated to safeguarding the assets of our esteemed clients across Pan South Asia and Southeast Asia. As a premier professional services firm, we specialize in providing specialist brand protection, legal, investigations, business risk advisory, and strategic consulting services. With offices strategically located in Singapore, India, and Bangladesh, we are well-positioned to serve our clients' needs efficiently and effectively. "
+      },
+      { "tag": "h2", "content": "Our Specialization " },
+      {
+        "tag": "p",
+        "content": "At SPAN Consulting, we specialize in Brand Protection, focusing on combating Anti-Counterfeiting, Diversion, Product Tampering, and any Intellectual Property (IP) Infringement. We understand the critical importance of protecting your assets – be it products, processes, or people – and we are committed to relentlessly safeguarding them against threats and risks. "
+      },
+      { "tag": "h2", "content": "Our Values " },
+      {
+        "tag": "p",
+        "content": "We uphold a set of core values inspired by a dedication to integrity, innovation, and partnership. Our commitment to integrity and professionalism is unwavering; we conduct our affairs with the utmost ethical standards, ensuring transparency and fairness. Innovation and excellence guide our approach, leveraging the latest legal strategies and technologies to protect our clients' intellectual property and brands. We believe in the power of collaboration and view our relationship with clients as a partnership, striving to achieve common goals through a shared vision."
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "Client-centric solutions are at the heart of our practice. We tailor our legal advice to meet the unique needs and objectives of each client, providing strategic, proactive guidance. Resilience and adaptability are key; we are prepared to navigate the complexities of brand protection with flexibility and strength. As leaders in intellectual property law, we advocate for stronger protections and reforms, raising awareness and setting new standards in the field. Our global perspective informs our approach, recognizing the importance of cross-border protections and promoting responsible business practices worldwide. "
       },
+      { "tag": "h2", "content": "Our Founder " },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "SPAN Consulting was founded by Pankaj Monga, an Indian national with over 25 years of experience in the legal sector. Pankaj has a distinguished career, having held senior positions such as Senior Counsel with GlaxoSmithKline Pte. Ltd. in Singapore and Regional Director of Brand Protection Asia Pacific for J&J. Throughout his career, Pankaj has been instrumental in developing and leading global anti-counterfeiting missions and strategic objectives in the Asia Pacific region. His passion for consumer and patient safety, coupled with his extensive experience, inspired him to establish SPAN Consulting. "
       },
+      { "tag": "h2", "content": "Our Commitment " },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "At SPAN Consulting, we are committed to delivering excellence in every aspect of our service delivery. We partner with our clients to understand their unique challenges and objectives, and we leverage our expertise and resources to provide tailored solutions that drive tangible results. Our team of experienced professionals brings a wealth of knowledge and skills to every project, ensuring that we deliver value-added services that exceed our clients' expectations. "
       },
+      { "tag": "h2", "content": "Contact Us " },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "Ready to safeguard your assets with integrity? Contact SPAN Consulting today to learn more about how we can assist you in protecting your brand, mitigating risks, and achieving your strategic objectives. We look forward to partnering with you on your journey to success."
       }
     ]
   },

@@ -4,27 +4,86 @@
     "contents": [
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "According to the OECD/EUIPO 2021 report, which rates nations using the GTRIC-e score (which measures the propensity to export), perfume and cosmetics in India have the highest propensity for counterfeiting/illegal goods. Notably, things such as toys, games, apparel, leather goods, handbags, and footwear have low counterfeiting rates. Furthermore, investigations conducted by the European Union Intellectual Property Office (EUIPO) and the OECD show that China and India (which account for 78% and 11% of global seized value, respectively) are important hubs and primary sources of counterfeit 113 perfumes and cosmetics."
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd1.png"
+      },
+      { "tag": "h2", "content": "Illicit Market in Key Industries" },
+      {
+        "tag": "p",
+        "content": "Illicit marketplaces in five important industries are estimated to be worth ₹2,60,094 crores in 2019-20. The FMCG business, which includes household and personal items as well as packaged foods, accounts for around 3/4 of the overall unlawful value of commodities. The illicit market percentage (as a percentage of total product consumption) varies significantly, ranging from 7.56 percent (for mobile phones) to 34.25 percent (for FMCG - household and personal goods), with a median value of 20.04 percent."
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd2.png"
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "Illicit goods in these five important industries cause an estimated 15.96 lakh legitimate loss of employment. Due to the scale of the illicit market, the FMCG business, which includes household and personal items and packaged foods, accounts for approximately 68.5 percent of job loss. In 2019-20, illicit goods in these five important industries are anticipated to cost the government ₹ 58,521 crores in tax losses. Two heavily regulated and taxed businesses, tobacco products and alcoholic beverages, account for 49 percent of tax losses."
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "The illicit market for these businesses has a substantial economic impact due to the backward links between these industries and other sectors of the economy, which results in a multiplier effect."
+      },
+      { "tag": "h2", "content": "Mobile Phones Market:" },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd3.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd4.png"
+      },
+      { "tag": "h2", "content": "FMCG - Household and Personal Goods:" },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd5.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd6.png"
+      },
+      { "tag": "h2", "content": "FMCG - Packaged Food:" },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd7.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd8.png"
+      },
+      { "tag": "h2", "content": "Tobacco Industry" },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd9.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd10.png"
+      },
+      { "tag": "h2", "content": "Alcoholic Beverages:" },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd11.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd12.png"
+      },
+      { "tag": "h2", "content": "Pharmaceutical Industry:" },
+      {
+        "tag": "p",
+        "content": "Pharmaceuticals are prone to counterfeiting due to the industry's high intellectual property intensity and demand. This is supported by the available data on customs seizures from 2014 to 2016, the 2019 OECD/EUIPO report says that medicines were the tenth most counterfeited product category out of 97 recorded."
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overviewofInd13.png"
       },
       {
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      },
-      {
-        "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "content": "Over the period 2014-2016, seized counterfeits included medicaments for various kinds of diseases, including malaria, HIV/AIDS and cancer. A more detailed review of the customs data shows that counterfeit antibiotics, lifestyle drugs and painkillers were the most targeted by counterfeiters. Other types of counterfeit pharmaceuticals often seized by customs authorities worldwide include those targeting treatment for malaria, diabetes, epilepsy, heart diseases, allergy, blood pressure, cancer, and stomach ulcers ailments as well as local anaesthetics."
       }
     ]
   },

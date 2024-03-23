@@ -64,32 +64,6 @@ function OverviewOfSpan() {
           laws, media, entertainment, sports laws, and digital and IT laws. Our
           offerings include:
         </p>
-        <p> 1.IP registration and prosecution</p>
-        <p> 2.Audits</p>
-        <p>
-          {" "}
-          3.Product security investigations and enforcement (PSI&E) through
-          civil, criminal, and administrative measures, leveraging law
-          enforcement and regulatory agencies
-        </p>
-        <p> 4.Litigation</p>
-        <p>
-          {" "}
-          5.Legal and business risk consulting, including assessments and the
-          development of risk mitigation plans
-        </p>
-        <p> 6.Customs recordation of intellectual property rights (IPR)</p>
-        <p>
-          {" "}
-          7.Training programs for law enforcement agencies (LEA), customs,
-          external and internal stakeholders
-        </p>
-        <p>
-          {" "}
-          8.Supply chain security and integrity programs, risk assessments, and
-          investigations
-        </p>
-        <p> 9.Market research, both primary and secondary</p>
         <p>
           Driven by technology, we have developed a suite of proprietary tools,
           toolkits, and modules in-house, tailored to address various needs such

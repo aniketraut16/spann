@@ -41,7 +41,7 @@ function Contact() {
             ref={(el) => observedElements.current.push(el)}
           >
             <h2>Get in Touch</h2>
-            <h3>India</h3>
+            <h3>India - 1</h3>
             <p>
               Office No. 516, Dwarka City Centre, Sector 12, Dwarka, New Delhi
               110075, INDIA

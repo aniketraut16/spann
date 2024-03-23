@@ -42,73 +42,60 @@ function Message() {
           <h2>{"ABOUTUS > DIRECTORS MESSAGE"}</h2>
           <h1>{"DIRECTORS MESSAGE"}</h1>
         </div>
-        <div className="messagecontent">
-          <div>
-            <img
-              src={d1}
-              alt=""
-              ref={(el) => {
-                if (el) {
-                  observedElements.current.push(el);
-                }
-              }}
-              style={{ transition: "all 500ms ease" }}
-            />
-            <p
-              ref={(el) => {
-                if (el) {
-                  observedElements.current.push(el);
-                }
-              }}
-              style={{ transition: "all 500ms ease" }}
-            >
-              <h2>PANKAJ MONGA</h2>
-              Pankaj is an accomplished Lawyer and an Advocate of the Supreme
-              Court of India with over 24+ years of experience and an impressive
-              track record in the Pharma and healthcare industry. He has
-              successfully led strategic legal and brand protection functions
-              for renowned multinational organisations such as Johnson & Johnson
-              and GlaxoSmithKline pan Asia Pacific and, through his
-              collaborative work with clients, has always ensured the highest
-              standards of patient/consumer safety, trust, and business value by
-              effectively mitigating risks. He has a BA from Andhra University,
-              an LLB from Delhi University and an Executive MBA from IIM
-              Calcutta.
+      </div>
+      <div id="DirectorsMessage">
+        <div className="onedirector">
+          <img src={d1} alt="" />
+          <div className="drinfo">
+            <span>
+              <h1>Pankaj Monga</h1>
+              <p>Founder & Director | SPAN CONSULTING</p>
+            </span>
+            <bold>Dear Esteemed Visitors,</bold>
+
+            <p>
+              Welcome to our firm's digital gateway. As the Founder and
+              Director, I am deeply honoured to share with you the essence of
+              our commitment and purpose. My journey in the legal and brand
+              protection sector spans over 25 years, enriched by pivotal
+              experiences with leading organizations such as GlaxoSmithKline
+              Pte. Ltd. and J&J. These experiences have deeply ingrained in me
+              the importance of protecting not just tangible assets but the
+              well-being of individuals at large.
             </p>
-          </div>
-          <div id="colVineetJaisawal">
-            <p
-              ref={(el) => {
-                if (el) {
-                  observedElements.current.push(el);
-                }
-              }}
-              style={{ transition: "all 500ms ease" }}
-            >
-              <h2>COL VINEET JAISWAL </h2>
-              Colonel Vineet Jaiswal is an experienced Indian Army officer with
-              over 23 years of service and a career filled with challenging
-              roles. He has served in difficult areas both in India and abroad
-              under the UN Peacekeeping Force. With an exemplary career in
-              leadership and operations, the officer is now focused in his
-              second innings towards risk assessment, management and mitigation.
-              With his academic bent of mind, he heads the corporate training
-              vertical of the company utilising his vast experience in training
-              a professional army towards this. He has an MBA degree from
-              SPJIMR, Mumbai and a Master's degree in Strategic Studies from the
-              University of Madras, besides having certified himself in Global
-              Supply Chain Management from the IIFT, New Delhi.
+            <p>
+              Motivated by a relentless passion for consumer and patient safety,
+              I was driven to establish our firm with a clear mission: to secure
+              our clients' assets with unwavering integrity and dedication. We
+              are specialists in addressing threats like Anti-Counterfeiting,
+              Diversion, Product Tampering, and Intellectual Property
+              Infringement. Our team, comprised of seasoned professionals, is
+              dedicated to delivering service excellence, ensuring that we meet
+              the specific needs of our clients with precision and care.
             </p>
-            <img
-              src={d2}
-              alt=""
-              ref={(el) => {
-                if (el) {
-                  observedElements.current.push(el);
-                }
-              }}
-              style={{ transition: "all 500ms ease" }}
-            />
+            <p>
+              The foundation of our firm is built on core values of honesty,
+              humility, accountability, and nimble wit. These values guide our
+              operations, ensuring we serve with the highest degree of
+              integrity, transparency, and professionalism. Our ability to
+              swiftly adapt to the dynamic market landscape allows us to offer
+              tailored solutions that effectively address our clients’ unique
+              challenges.
+            </p>
+            <p>
+              I warmly invite you to explore our website further to learn about
+              our comprehensive services, our foundational values, and our
+              dedication to excellence. Whether you seek to protect your brand,
+              mitigate risks, or achieve strategic objectives, we are here to
+              partner with you, every step of the way.
+            </p>
+            <p>
+              Thank you for considering our firm for your brand protection
+              needs. Together, we can safeguard your assets and ensure a secure
+              and prosperous future.
+            </p>
+            <p>Warm regards,</p>
+            <p>Pankaj Monga Founder & Director</p>
           </div>
         </div>
       </div>

@@ -815,6 +815,7 @@ function MobileNavbar() {
       case 5:
         setDropdownContent(<AboutUsDropdown />);
         setisLevel2Active(true);
+        break;
       case 6:
         setDropdownContent(<ContactUsDropdown />);
         setisLevel2Active(true);

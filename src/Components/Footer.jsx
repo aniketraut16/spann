@@ -12,18 +12,11 @@ function Footer() {
             <span id="footer-consultancy">CONSULTING</span>
           </span>
           <p>
-            <h3>India:</h3>
+            <h3>India - 1:</h3>
             <span>
               {" "}
               Office No. 516, Dwarka City Centre, Sector 12, Dwarka,New Delhi
               110075, INDIA
-            </span>
-          </p>
-          <p>
-            <h3>Singapore:</h3>
-            <span>
-              {" "}
-              46 Kim Yam Road, #01-06 The Herencia, SINGAPORE - 239351
             </span>
           </p>
           <p>
@@ -32,6 +25,13 @@ function Footer() {
               {" "}
               902, Embassy Centre, Jamnalal Bajaj Road, Nariman Point,Mumbai
               400021, INDIA
+            </span>
+          </p>
+          <p>
+            <h3>Singapore:</h3>
+            <span>
+              {" "}
+              46 Kim Yam Road, #01-06 The Herencia, SINGAPORE - 239351
             </span>
           </p>
           <p>
