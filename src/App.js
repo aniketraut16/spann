@@ -23,33 +23,26 @@ function App() {
   const [showDisclaimer, setShowDisclaimer] = useState(true);
   const [showCookiePolicy, setShowCookiePolicy] = useState(false);
 
-  useEffect(() => {
-    if (showDisclaimer) {
-      // If the disclaimer is shown, set a timeout to hide it after 5 seconds
-      const disclaimerTimeout = setTimeout(() => {
-        setShowDisclaimer(false);
-        setShowCookiePolicy(true);
-      }, 5000);
-
-      // Clear timeout if component unmounts
-      return () => clearTimeout(disclaimerTimeout);
-    }
-  }, [showDisclaimer]);
-
-  const acceptDisclaimer = () => {
-    setShowDisclaimer(false);
-    setShowCookiePolicy(true);
-  };
-
   const acceptCookiePolicy = () => {
     // Set the flag in local storage to indicate that the user has accepted the cookie policy
     localStorage.setItem("cookiePolicyAccepted", "true");
     setShowCookiePolicy(false);
   };
 
+  useEffect(() => {
+    if (!showDisclaimer) {
+      setTimeout(() => {
+        setShowCookiePolicy(true);
+      }, 5000); // 5000 milliseconds = 5 seconds
+    }
+  }, [showDisclaimer]);
+
   return (
     <Router>
-      <Disclamer />
+      <Disclamer
+        showDisclaimer={showDisclaimer}
+        setShowDisclaimer={setShowDisclaimer}
+      />
       {showCookiePolicy && <CookiePolicy onAccept={acceptCookiePolicy} />}
       <Navbar />
       <MobileNavbar />

@@ -1,8 +1,12 @@
 import React from "react";
 
-function Disclamer() {
+function Disclamer(props) {
+  const { showDisclaimer, setShowDisclaimer } = props;
   return (
-    <div className="modal">
+    <div
+      style={{ display: `${showDisclaimer ? "flex" : "none"}` }}
+      className="disclamercontainer"
+    >
       <article className="modal-container">
         <header className="modal-container-header">
           <span className="modal-container-title">
@@ -103,8 +107,13 @@ function Disclamer() {
           </p>
         </section>
         <footer className="modal-container-footer">
-          <button className="button is-ghost">Decline</button>
-          <button className="button is-primary">Accept</button>
+          <button
+            className="button is-primary"
+            onClick={() => setShowDisclaimer(false)}
+          >
+            {" "}
+            Accept
+          </button>
         </footer>
       </article>
     </div>
