@@ -901,7 +901,7 @@ function MobileNavbar() {
           }}
           to="/partnership"
         >
-          Partnership{" "}
+          Partners{" "}
         </Link>
         <span
           onClick={() => {

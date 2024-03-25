@@ -21,7 +21,7 @@ function Partnership() {
   return (
     <div id="Partnership">
       <div className="templatebrd">
-        <h1>PARTNERSHIPS</h1>
+        <h1>PARTNERS</h1>
       </div>
       <div className="partnershipcardsdiv">
         {data["partnerships"].contents.map((imgs, index) =>

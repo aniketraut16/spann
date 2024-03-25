@@ -899,7 +899,7 @@ function Navbar() {
             }}
             to="/partnership"
           >
-            Partnership
+            Partners
           </Link>
           <span
             style={
@@ -954,7 +954,7 @@ function Navbar() {
           </span>
           <span
             style={
-              currentDd === 5 && dropdownDisplay === true
+              currentDd === 6 && dropdownDisplay === true
                 ? { borderBottomColor: "#eb7c24" }
                 : {}
             }

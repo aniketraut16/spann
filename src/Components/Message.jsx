@@ -95,7 +95,8 @@ function Message() {
               and prosperous future.
             </p>
             <p>Warm regards,</p>
-            <p>Pankaj Monga Founder & Director</p>
+            <p style={{ fontWeight: "bold" }}>Pankaj Monga</p>
+            <p>Founder & Director</p>
           </div>
         </div>
       </div>
