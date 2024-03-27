@@ -1,0 +1,45 @@
+.SignIn {
+  margin-top: 10vh;
+  height: 90vh;
+  padding: 2em 0px;
+  background-image: url("./Images/loginbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SignIn > div label {
+  margin-top: 10px;
+}
+.SignIn > div input {
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 2px solid orange;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.passwordcontainer i {
+  position: absolute;
+  right: 3%;
+  font-size: 1.3em;
+  top: 50%;
+  transform: translateX(-50%);
+}
+.passwordcontainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.SignIn > div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.752);
+  padding: 2em;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: 10%;
+}

@@ -980,7 +980,7 @@ function Navbar() {
           </Link>
           <Link
             style={isScrolled ? { color: "#da0e29" } : { color: "black" }}
-            to="/"
+            to="/signin"
           >
             <i className="fa-solid fa-user"></i>
             <p> Login </p>

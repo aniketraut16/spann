@@ -18,6 +18,8 @@ import TraningTemplate from "./Components/Templates/Traning";
 import Message from "./Components/Message";
 import MobileNavbar from "./Components/MobileNavbar";
 import Partnership from "./Components/Partnership";
+import SignIn from "./Components/DashBoards/SignIn";
+import Login from "./Components/DashBoards/Login";
 
 function App() {
   const [showDisclaimer, setShowDisclaimer] = useState(true);
@@ -61,6 +63,8 @@ function App() {
           path="/services/:section/:subsection"
           element={<ServiceTemplate />}
         />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </Router>
